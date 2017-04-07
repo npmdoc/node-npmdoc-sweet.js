@@ -1,0 +1,178 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/mozilla/sweet.js#readme"
+
+    >sweet.js (v2.2.1)</a>
+</h1>
+<h4>Hygienic Macros for JavaScript</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.sweet.js">module sweet.js</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.sweet.js.compile">
+            function <span class="apidocSignatureSpan">sweet.js.</span>compile
+            <span class="apidocSignatureSpan">(source)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.sweet.js.expand">
+            function <span class="apidocSignatureSpan">sweet.js.</span>expand
+            <span class="apidocSignatureSpan">(source)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.sweet.js.parse">
+            function <span class="apidocSignatureSpan">sweet.js.</span>parse
+            <span class="apidocSignatureSpan">(source, options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.sweet.js" id="apidoc.module.sweet.js">module sweet.js</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.sweet.js.compile" id="apidoc.element.sweet.js.compile">
+        function <span class="apidocSignatureSpan">sweet.js.</span>compile
+        <span class="apidocSignatureSpan">(source)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function compile(source) {
+  let options = arguments.length &#x3c;= 1 || arguments[1] === undefined ? {} : arguments[1];
+
+  let ast = parse(source, options, options.includeImports);
+  let gen = (0, _shiftCodegen2.default)(ast, new _shiftCodegen.FormattedCodeGen());
+  return options.transform &#x26;&#x26; !options.noBabel ? options.transform(gen, {
+    babelrc: true,
+    filename: options.filename
+  }) : { code: gen };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.sweet.js.expand" id="apidoc.element.sweet.js.expand">
+        function <span class="apidocSignatureSpan">sweet.js.</span>expand
+        <span class="apidocSignatureSpan">(source)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function expand(source) {
+  let options = arguments.length &#x3c;= 1 || arguments[1] === undefined ? {} : arguments[1];
+
+  let bindings = new _bindingMap2.default();
+  let modules = new _modules.Modules({
+    bindings: bindings,
+    cwd: options.cwd || process.cwd(),
+    filename: options.filename,
+    transform: options.transform || _babelCore.transform || function (c) {
+      return { code: c };
+    },
+    moduleResolver: options.moduleResolver || _nodeModuleResolver2.default,
+    moduleLoader: options.moduleLoader || _nodeModuleLoader2.default
+  });
+  let compiledMod = modules.compileEntrypoint(source, options.filename, options.enforcePragma);
+  let nativeImports = compiledMod.importEntries.filter(imp =&#x3e; !modules.has(imp.moduleSpecifier.val()));
+  return new _terms2.default(&#x22;Module&#x22;, {
+    directives: (0, _immutable.List)(),
+    items: nativeImports.concat(compiledMod.body).concat(compiledMod.exportEntries.interpose(new _terms2.default(&#x27;EmptyStatement
+&#x27;, {})))
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.sweet.js.parse" id="apidoc.element.sweet.js.parse">
+        function <span class="apidocSignatureSpan">sweet.js.</span>parse
+        <span class="apidocSignatureSpan">(source, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function parse(source, options) {
+  let includeImports = arguments.length &#x3c;= 2 || arguments[2] === undefined ? true : arguments[2];
+
+  return (0, _shiftReducer2.default)(new _parseReducer2.default({ phase: 0 }), expand(source, options).gen(includeImports));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>

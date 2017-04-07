@@ -1,0 +1,2027 @@
+<svg height="32382" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="32382" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26"></tspan>
+<tspan x="10" y="42">&gt; npmdoc-sweet.js@0.0.1 test /home/travis/build/npmdoc/node-npmdoc-sweet.js</tspan>
+<tspan x="10" y="58">&gt; (set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)</tspan>
+<tspan x="10" y="74"></tspan>
+<tspan x="10" y="90"></tspan>
+<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-04-07T13:20:38Z - npm-testing /home/travis/build/npmdoc/node-npmdoc-\</tspan>
+<tspan x="10" y="122">sweet.js</tspan>
+<tspan x="10" y="138"></tspan>
+<tspan x="10" y="154"></tspan>
+<tspan x="10" y="170">covering $ /home/travis/.nvm/versions/node/v6.10.2/bin/node /home/travis/build/npmdoc/node-npmdo\</tspan>
+<tspan x="10" y="186">c-sweet.js/test.js</tspan>
+<tspan x="10" y="202">merging file:///home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/build/test-report.json to test\</tspan>
+<tspan x="10" y="218">-report</tspan>
+<tspan x="10" y="234">&gt; server listening on http-port 50086</tspan>
+<tspan x="10" y="250">{</tspan>
+<tspan x="10" y="266">  "type": "Module",</tspan>
+<tspan x="10" y="282">  "loc": null,</tspan>
+<tspan x="10" y="298">  "directives": [],</tspan>
+<tspan x="10" y="314">  "items": [</tspan>
+<tspan x="10" y="330">    {</tspan>
+<tspan x="10" y="346">      "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="362">      "loc": null,</tspan>
+<tspan x="10" y="378">      "expression": {</tspan>
+<tspan x="10" y="394">        "type": "CallExpression",</tspan>
+<tspan x="10" y="410">        "loc": null,</tspan>
+<tspan x="10" y="426">        "callee": {</tspan>
+<tspan x="10" y="442">          "type": "FunctionExpression",</tspan>
+<tspan x="10" y="458">          "loc": null,</tspan>
+<tspan x="10" y="474">          "isGenerator": false,</tspan>
+<tspan x="10" y="490">          "name": null,</tspan>
+<tspan x="10" y="506">          "params": {</tspan>
+<tspan x="10" y="522">            "type": "FormalParameters",</tspan>
+<tspan x="10" y="538">            "loc": null,</tspan>
+<tspan x="10" y="554">            "items": [],</tspan>
+<tspan x="10" y="570">            "rest": null</tspan>
+<tspan x="10" y="586">          },</tspan>
+<tspan x="10" y="602">          "body": {</tspan>
+<tspan x="10" y="618">            "type": "FunctionBody",</tspan>
+<tspan x="10" y="634">            "loc": null,</tspan>
+<tspan x="10" y="650">            "directives": [],</tspan>
+<tspan x="10" y="666">            "statements": [</tspan>
+<tspan x="10" y="682">              {</tspan>
+<tspan x="10" y="698">                "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="714">                "loc": null,</tspan>
+<tspan x="10" y="730">                "expression": {</tspan>
+<tspan x="10" y="746">                  "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="762">                  "loc": null,</tspan>
+<tspan x="10" y="778">                  "value": "use strict"</tspan>
+<tspan x="10" y="794">                }</tspan>
+<tspan x="10" y="810">              },</tspan>
+<tspan x="10" y="826">              {</tspan>
+<tspan x="10" y="842">                "type": "VariableDeclarationStatement",</tspan>
+<tspan x="10" y="858">                "loc": null,</tspan>
+<tspan x="10" y="874">                "declaration": {</tspan>
+<tspan x="10" y="890">                  "type": "VariableDeclaration",</tspan>
+<tspan x="10" y="906">                  "loc": null,</tspan>
+<tspan x="10" y="922">                  "kind": "var",</tspan>
+<tspan x="10" y="938">                  "declarators": [</tspan>
+<tspan x="10" y="954">                    {</tspan>
+<tspan x="10" y="970">                      "type": "VariableDeclarator",</tspan>
+<tspan x="10" y="986">                      "loc": null,</tspan>
+<tspan x="10" y="1002">                      "binding": {</tspan>
+<tspan x="10" y="1018">                        "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="1034">                        "loc": null,</tspan>
+<tspan x="10" y="1050">                        "name": "local_13"</tspan>
+<tspan x="10" y="1066">                      },</tspan>
+<tspan x="10" y="1082">                      "init": null</tspan>
+<tspan x="10" y="1098">                    }</tspan>
+<tspan x="10" y="1114">                  ]</tspan>
+<tspan x="10" y="1130">                }</tspan>
+<tspan x="10" y="1146">              },</tspan>
+<tspan x="10" y="1162">              {</tspan>
+<tspan x="10" y="1178">                "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="1194">                "loc": null,</tspan>
+<tspan x="10" y="1210">                "expression": {</tspan>
+<tspan x="10" y="1226">                  "type": "CallExpression",</tspan>
+<tspan x="10" y="1242">                  "loc": null,</tspan>
+<tspan x="10" y="1258">                  "callee": {</tspan>
+<tspan x="10" y="1274">                    "type": "FunctionExpression",</tspan>
+<tspan x="10" y="1290">                    "loc": null,</tspan>
+<tspan x="10" y="1306">                    "isGenerator": false,</tspan>
+<tspan x="10" y="1322">                    "name": null,</tspan>
+<tspan x="10" y="1338">                    "params": {</tspan>
+<tspan x="10" y="1354">                      "type": "FormalParameters",</tspan>
+<tspan x="10" y="1370">                      "loc": null,</tspan>
+<tspan x="10" y="1386">                      "items": [],</tspan>
+<tspan x="10" y="1402">                      "rest": null</tspan>
+<tspan x="10" y="1418">                    },</tspan>
+<tspan x="10" y="1434">                    "body": {</tspan>
+<tspan x="10" y="1450">                      "type": "FunctionBody",</tspan>
+<tspan x="10" y="1466">                      "loc": null,</tspan>
+<tspan x="10" y="1482">                      "directives": [],</tspan>
+<tspan x="10" y="1498">                      "statements": [</tspan>
+<tspan x="10" y="1514">                        {</tspan>
+<tspan x="10" y="1530">                          "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="1546">                          "loc": null,</tspan>
+<tspan x="10" y="1562">                          "expression": {</tspan>
+<tspan x="10" y="1578">                            "type": "AssignmentExpression",</tspan>
+<tspan x="10" y="1594">                            "loc": null,</tspan>
+<tspan x="10" y="1610">                            "binding": {</tspan>
+<tspan x="10" y="1626">                              "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="1642">                              "loc": null,</tspan>
+<tspan x="10" y="1658">                              "name": "local_13"</tspan>
+<tspan x="10" y="1674">                            },</tspan>
+<tspan x="10" y="1690">                            "expression": {</tspan>
+<tspan x="10" y="1706">                              "type": "ObjectExpression",</tspan>
+<tspan x="10" y="1722">                              "loc": null,</tspan>
+<tspan x="10" y="1738">                              "properties": []</tspan>
+<tspan x="10" y="1754">                            }</tspan>
+<tspan x="10" y="1770">                          }</tspan>
+<tspan x="10" y="1786">                        },</tspan>
+<tspan x="10" y="1802">                        {</tspan>
+<tspan x="10" y="1818">                          "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="1834">                          "loc": null,</tspan>
+<tspan x="10" y="1850">                          "expression": {</tspan>
+<tspan x="10" y="1866">                            "type": "AssignmentExpression",</tspan>
+<tspan x="10" y="1882">                            "loc": null,</tspan>
+<tspan x="10" y="1898">                            "binding": {</tspan>
+<tspan x="10" y="1914">                              "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="1930">                              "loc": null,</tspan>
+<tspan x="10" y="1946">                              "object": {</tspan>
+<tspan x="10" y="1962">                                "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="1978">                                "loc": null,</tspan>
+<tspan x="10" y="1994">                                "name": "local_13"</tspan>
+<tspan x="10" y="2010">                              },</tspan>
+<tspan x="10" y="2026">                              "property": "modeJs"</tspan>
+<tspan x="10" y="2042">                            },</tspan>
+<tspan x="10" y="2058">                            "expression": {</tspan>
+<tspan x="10" y="2074">                              "type": "CallExpression",</tspan>
+<tspan x="10" y="2090">                              "loc": null,</tspan>
+<tspan x="10" y="2106">                              "callee": {</tspan>
+<tspan x="10" y="2122">                                "type": "FunctionExpression",</tspan>
+<tspan x="10" y="2138">                                "loc": null,</tspan>
+<tspan x="10" y="2154">                                "isGenerator": false,</tspan>
+<tspan x="10" y="2170">                                "name": null,</tspan>
+<tspan x="10" y="2186">                                "params": {</tspan>
+<tspan x="10" y="2202">                                  "type": "FormalParameters",</tspan>
+<tspan x="10" y="2218">                                  "loc": null,</tspan>
+<tspan x="10" y="2234">                                  "items": [],</tspan>
+<tspan x="10" y="2250">                                  "rest": null</tspan>
+<tspan x="10" y="2266">                                },</tspan>
+<tspan x="10" y="2282">                                "body": {</tspan>
+<tspan x="10" y="2298">                                  "type": "FunctionBody",</tspan>
+<tspan x="10" y="2314">                                  "loc": null,</tspan>
+<tspan x="10" y="2330">                                  "directives": [],</tspan>
+<tspan x="10" y="2346">                                  "statements": [</tspan>
+<tspan x="10" y="2362">                                    {</tspan>
+<tspan x="10" y="2378">                                      "type": "TryCatchStatement",</tspan>
+<tspan x="10" y="2394">                                      "loc": null,</tspan>
+<tspan x="10" y="2410">                                      "body": {</tspan>
+<tspan x="10" y="2426">                                        "type": "Block",</tspan>
+<tspan x="10" y="2442">                                        "loc": null,</tspan>
+<tspan x="10" y="2458">                                        "statements": [</tspan>
+<tspan x="10" y="2474">                                          {</tspan>
+<tspan x="10" y="2490">                                            "type": "ReturnStatement",</tspan>
+<tspan x="10" y="2506">                                            "loc": null,</tspan>
+<tspan x="10" y="2522">                                            "expression": {</tspan>
+<tspan x="10" y="2538">                                              "type": "BinaryExpression",</tspan>
+<tspan x="10" y="2554">                                              "loc": null,</tspan>
+<tspan x="10" y="2570">                                              "left": {</tspan>
+<tspan x="10" y="2586">                                                "type": "BinaryExpression",</tspan>
+<tspan x="10" y="2602">                                                "loc": null,</tspan>
+<tspan x="10" y="2618">                                                "left": {</tspan>
+<tspan x="10" y="2634">                                                  "type": "BinaryExpression",</tspan>
+<tspan x="10" y="2650">                                                  "loc": null,</tspan>
+<tspan x="10" y="2666">                                                  "left": {</tspan>
+<tspan x="10" y="2682">                                                    "type": "BinaryExpression",</tspan>
+<tspan x="10" y="2698">                                                    "loc": null,</tspan>
+<tspan x="10" y="2714">                                                    "left": {</tspan>
+<tspan x="10" y="2730">                                                      "type": "UnaryExpression",</tspan>
+<tspan x="10" y="2746">                                                      "loc": null,</tspan>
+<tspan x="10" y="2762">                                                      "operator": "typeof",</tspan>
+<tspan x="10" y="2778">                                                      "operand": {</tspan>
+<tspan x="10" y="2794">                                                        "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="2810">                                                        "loc": null,</tspan>
+<tspan x="10" y="2826">                                                        "object": {</tspan>
+<tspan x="10" y="2842">                                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="2858">                                                          "loc": null,</tspan>
+<tspan x="10" y="2874">                                                          "name": "navigator"</tspan>
+<tspan x="10" y="2890">                                                        },</tspan>
+<tspan x="10" y="2906">                                                        "property": "userAgent"</tspan>
+<tspan x="10" y="2922">                                                      }</tspan>
+<tspan x="10" y="2938">                                                    },</tspan>
+<tspan x="10" y="2954">                                                    "operator": "===",</tspan>
+<tspan x="10" y="2970">                                                    "right": {</tspan>
+<tspan x="10" y="2986">                                                      "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="3002">                                                      "loc": null,</tspan>
+<tspan x="10" y="3018">                                                      "value": "string"</tspan>
+<tspan x="10" y="3034">                                                    }</tspan>
+<tspan x="10" y="3050">                                                  },</tspan>
+<tspan x="10" y="3066">                                                  "operator": "&amp;&amp;",</tspan>
+<tspan x="10" y="3082">                                                  "right": {</tspan>
+<tspan x="10" y="3098">                                                    "type": "BinaryExpression",</tspan>
+<tspan x="10" y="3114">                                                    "loc": null,</tspan>
+<tspan x="10" y="3130">                                                    "left": {</tspan>
+<tspan x="10" y="3146">                                                      "type": "UnaryExpression",</tspan>
+<tspan x="10" y="3162">                                                      "loc": null,</tspan>
+<tspan x="10" y="3178">                                                      "operator": "typeof",</tspan>
+<tspan x="10" y="3194">                                                      "operand": {</tspan>
+<tspan x="10" y="3210">                                                        "type": "CallExpression",</tspan>
+<tspan x="10" y="3226">                                                        "loc": null,</tspan>
+<tspan x="10" y="3242">                                                        "callee": {</tspan>
+<tspan x="10" y="3258">                                                          "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="3274">                                                          "loc": null,</tspan>
+<tspan x="10" y="3290">                                                          "object": {</tspan>
+<tspan x="10" y="3306">                                                            "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="3322">                                                            "loc": null,</tspan>
+<tspan x="10" y="3338">                                                            "name": "document"</tspan>
+<tspan x="10" y="3354">                                                          },</tspan>
+<tspan x="10" y="3370">                                                          "property": "querySelector"</tspan>
+<tspan x="10" y="3386">                                                        },</tspan>
+<tspan x="10" y="3402">                                                        "arguments": [</tspan>
+<tspan x="10" y="3418">                                                          {</tspan>
+<tspan x="10" y="3434">                                                            "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="3450">                                                            "loc": null,</tspan>
+<tspan x="10" y="3466">                                                            "value": "body"</tspan>
+<tspan x="10" y="3482">                                                          }</tspan>
+<tspan x="10" y="3498">                                                        ]</tspan>
+<tspan x="10" y="3514">                                                      }</tspan>
+<tspan x="10" y="3530">                                                    },</tspan>
+<tspan x="10" y="3546">                                                    "operator": "===",</tspan>
+<tspan x="10" y="3562">                                                    "right": {</tspan>
+<tspan x="10" y="3578">                                                      "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="3594">                                                      "loc": null,</tspan>
+<tspan x="10" y="3610">                                                      "value": "object"</tspan>
+<tspan x="10" y="3626">                                                    }</tspan>
+<tspan x="10" y="3642">                                                  }</tspan>
+<tspan x="10" y="3658">                                                },</tspan>
+<tspan x="10" y="3674">                                                "operator": "&amp;&amp;",</tspan>
+<tspan x="10" y="3690">                                                "right": {</tspan>
+<tspan x="10" y="3706">                                                  "type": "BinaryExpression",</tspan>
+<tspan x="10" y="3722">                                                  "loc": null,</tspan>
+<tspan x="10" y="3738">                                                  "left": {</tspan>
+<tspan x="10" y="3754">                                                    "type": "UnaryExpression",</tspan>
+<tspan x="10" y="3770">                                                    "loc": null,</tspan>
+<tspan x="10" y="3786">                                                    "operator": "typeof",</tspan>
+<tspan x="10" y="3802">                                                    "operand": {</tspan>
+<tspan x="10" y="3818">                                                      "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="3834">                                                      "loc": null,</tspan>
+<tspan x="10" y="3850">                                                      "object": {</tspan>
+<tspan x="10" y="3866">                                                        "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="3882">                                                        "loc": null,</tspan>
+<tspan x="10" y="3898">                                                        "object": {</tspan>
+<tspan x="10" y="3914">                                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="3930">                                                          "loc": null,</tspan>
+<tspan x="10" y="3946">                                                          "name": "XMLHttpRequest"</tspan>
+<tspan x="10" y="3962">                                                        },</tspan>
+<tspan x="10" y="3978">                                                        "property": "prototype"</tspan>
+<tspan x="10" y="3994">                                                      },</tspan>
+<tspan x="10" y="4010">                                                      "property": "open"</tspan>
+<tspan x="10" y="4026">                                                    }</tspan>
+<tspan x="10" y="4042">                                                  },</tspan>
+<tspan x="10" y="4058">                                                  "operator": "===",</tspan>
+<tspan x="10" y="4074">                                                  "right": {</tspan>
+<tspan x="10" y="4090">                                                    "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="4106">                                                    "loc": null,</tspan>
+<tspan x="10" y="4122">                                                    "value": "function"</tspan>
+<tspan x="10" y="4138">                                                  }</tspan>
+<tspan x="10" y="4154">                                                }</tspan>
+<tspan x="10" y="4170">                                              },</tspan>
+<tspan x="10" y="4186">                                              "operator": "&amp;&amp;",</tspan>
+<tspan x="10" y="4202">                                              "right": {</tspan>
+<tspan x="10" y="4218">                                                "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="4234">                                                "loc": null,</tspan>
+<tspan x="10" y="4250">                                                "value": "browser"</tspan>
+<tspan x="10" y="4266">                                              }</tspan>
+<tspan x="10" y="4282">                                            }</tspan>
+<tspan x="10" y="4298">                                          }</tspan>
+<tspan x="10" y="4314">                                        ]</tspan>
+<tspan x="10" y="4330">                                      },</tspan>
+<tspan x="10" y="4346">                                      "catchClause": {</tspan>
+<tspan x="10" y="4362">                                        "type": "CatchClause",</tspan>
+<tspan x="10" y="4378">                                        "loc": null,</tspan>
+<tspan x="10" y="4394">                                        "binding": {</tspan>
+<tspan x="10" y="4410">                                          "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="4426">                                          "loc": null,</tspan>
+<tspan x="10" y="4442">                                          "name": "errorCaughtBrowser"</tspan>
+<tspan x="10" y="4458">                                        },</tspan>
+<tspan x="10" y="4474">                                        "body": {</tspan>
+<tspan x="10" y="4490">                                          "type": "Block",</tspan>
+<tspan x="10" y="4506">                                          "loc": null,</tspan>
+<tspan x="10" y="4522">                                          "statements": [</tspan>
+<tspan x="10" y="4538">                                            {</tspan>
+<tspan x="10" y="4554">                                              "type": "ReturnStatement",</tspan>
+<tspan x="10" y="4570">                                              "loc": null,</tspan>
+<tspan x="10" y="4586">                                              "expression": {</tspan>
+<tspan x="10" y="4602">                                                "type": "BinaryExpression",</tspan>
+<tspan x="10" y="4618">                                                "loc": null,</tspan>
+<tspan x="10" y="4634">                                                "left": {</tspan>
+<tspan x="10" y="4650">                                                  "type": "BinaryExpression",</tspan>
+<tspan x="10" y="4666">                                                  "loc": null,</tspan>
+<tspan x="10" y="4682">                                                  "left": {</tspan>
+<tspan x="10" y="4698">                                                    "type": "BinaryExpression",</tspan>
+<tspan x="10" y="4714">                                                    "loc": null,</tspan>
+<tspan x="10" y="4730">                                                    "left": {</tspan>
+<tspan x="10" y="4746">                                                      "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="4762">                                                      "loc": null,</tspan>
+<tspan x="10" y="4778">                                                      "object": {</tspan>
+<tspan x="10" y="4794">                                                        "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="4810">                                                        "loc": null,</tspan>
+<tspan x="10" y="4826">                                                        "name": "module"</tspan>
+<tspan x="10" y="4842">                                                      },</tspan>
+<tspan x="10" y="4858">                                                      "property": "exports"</tspan>
+<tspan x="10" y="4874">                                                    },</tspan>
+<tspan x="10" y="4890">                                                    "operator": "&amp;&amp;",</tspan>
+<tspan x="10" y="4906">                                                    "right": {</tspan>
+<tspan x="10" y="4922">                                                      "type": "BinaryExpression",</tspan>
+<tspan x="10" y="4938">                                                      "loc": null,</tspan>
+<tspan x="10" y="4954">                                                      "left": {</tspan>
+<tspan x="10" y="4970">                                                        "type": "UnaryExpression",</tspan>
+<tspan x="10" y="4986">                                                        "loc": null,</tspan>
+<tspan x="10" y="5002">                                                        "operator": "typeof",</tspan>
+<tspan x="10" y="5018">                                                        "operand": {</tspan>
+<tspan x="10" y="5034">                                                          "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="5050">                                                          "loc": null,</tspan>
+<tspan x="10" y="5066">                                                          "object": {</tspan>
+<tspan x="10" y="5082">                                                            "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="5098">                                                            "loc": null,</tspan>
+<tspan x="10" y="5114">                                                            "object": {</tspan>
+<tspan x="10" y="5130">                                                              "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="5146">                                                              "loc": null,</tspan>
+<tspan x="10" y="5162">                                                              "name": "process"</tspan>
+<tspan x="10" y="5178">                                                            },</tspan>
+<tspan x="10" y="5194">                                                            "property": "versions"</tspan>
+<tspan x="10" y="5210">                                                          },</tspan>
+<tspan x="10" y="5226">                                                          "property": "node"</tspan>
+<tspan x="10" y="5242">                                                        }</tspan>
+<tspan x="10" y="5258">                                                      },</tspan>
+<tspan x="10" y="5274">                                                      "operator": "===",</tspan>
+<tspan x="10" y="5290">                                                      "right": {</tspan>
+<tspan x="10" y="5306">                                                        "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="5322">                                                        "loc": null,</tspan>
+<tspan x="10" y="5338">                                                        "value": "string"</tspan>
+<tspan x="10" y="5354">                                                      }</tspan>
+<tspan x="10" y="5370">                                                    }</tspan>
+<tspan x="10" y="5386">                                                  },</tspan>
+<tspan x="10" y="5402">                                                  "operator": "&amp;&amp;",</tspan>
+<tspan x="10" y="5418">                                                  "right": {</tspan>
+<tspan x="10" y="5434">                                                    "type": "BinaryExpression",</tspan>
+<tspan x="10" y="5450">                                                    "loc": null,</tspan>
+<tspan x="10" y="5466">                                                    "left": {</tspan>
+<tspan x="10" y="5482">                                                      "type": "UnaryExpression",</tspan>
+<tspan x="10" y="5498">                                                      "loc": null,</tspan>
+<tspan x="10" y="5514">                                                      "operator": "typeof",</tspan>
+<tspan x="10" y="5530">                                                      "operand": {</tspan>
+<tspan x="10" y="5546">                                                        "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="5562">                                                        "loc": null,</tspan>
+<tspan x="10" y="5578">                                                        "object": {</tspan>
+<tspan x="10" y="5594">                                                          "type": "CallExpression",</tspan>
+<tspan x="10" y="5610">                                                          "loc": null,</tspan>
+<tspan x="10" y="5626">                                                          "callee": {</tspan>
+<tspan x="10" y="5642">                                                            "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="5658">                                                            "loc": null,</tspan>
+<tspan x="10" y="5674">                                                            "name": "require"</tspan>
+<tspan x="10" y="5690">                                                          },</tspan>
+<tspan x="10" y="5706">                                                          "arguments": [</tspan>
+<tspan x="10" y="5722">                                                            {</tspan>
+<tspan x="10" y="5738">                                                              "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="5754">                                                              "loc": null,</tspan>
+<tspan x="10" y="5770">                                                              "value": "http"</tspan>
+<tspan x="10" y="5786">                                                            }</tspan>
+<tspan x="10" y="5802">                                                          ]</tspan>
+<tspan x="10" y="5818">                                                        },</tspan>
+<tspan x="10" y="5834">                                                        "property": "createServer"</tspan>
+<tspan x="10" y="5850">                                                      }</tspan>
+<tspan x="10" y="5866">                                                    },</tspan>
+<tspan x="10" y="5882">                                                    "operator": "===",</tspan>
+<tspan x="10" y="5898">                                                    "right": {</tspan>
+<tspan x="10" y="5914">                                                      "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="5930">                                                      "loc": null,</tspan>
+<tspan x="10" y="5946">                                                      "value": "function"</tspan>
+<tspan x="10" y="5962">                                                    }</tspan>
+<tspan x="10" y="5978">                                                  }</tspan>
+<tspan x="10" y="5994">                                                },</tspan>
+<tspan x="10" y="6010">                                                "operator": "&amp;&amp;",</tspan>
+<tspan x="10" y="6026">                                                "right": {</tspan>
+<tspan x="10" y="6042">                                                  "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="6058">                                                  "loc": null,</tspan>
+<tspan x="10" y="6074">                                                  "value": "node"</tspan>
+<tspan x="10" y="6090">                                                }</tspan>
+<tspan x="10" y="6106">                                              }</tspan>
+<tspan x="10" y="6122">                                            }</tspan>
+<tspan x="10" y="6138">                                          ]</tspan>
+<tspan x="10" y="6154">                                        }</tspan>
+<tspan x="10" y="6170">                                      }</tspan>
+<tspan x="10" y="6186">                                    }</tspan>
+<tspan x="10" y="6202">                                  ]</tspan>
+<tspan x="10" y="6218">                                }</tspan>
+<tspan x="10" y="6234">                              },</tspan>
+<tspan x="10" y="6250">                              "arguments": []</tspan>
+<tspan x="10" y="6266">                            }</tspan>
+<tspan x="10" y="6282">                          }</tspan>
+<tspan x="10" y="6298">                        },</tspan>
+<tspan x="10" y="6314">                        {</tspan>
+<tspan x="10" y="6330">                          "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="6346">                          "loc": null,</tspan>
+<tspan x="10" y="6362">                          "expression": {</tspan>
+<tspan x="10" y="6378">                            "type": "AssignmentExpression",</tspan>
+<tspan x="10" y="6394">                            "loc": null,</tspan>
+<tspan x="10" y="6410">                            "binding": {</tspan>
+<tspan x="10" y="6426">                              "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="6442">                              "loc": null,</tspan>
+<tspan x="10" y="6458">                              "object": {</tspan>
+<tspan x="10" y="6474">                                "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="6490">                                "loc": null,</tspan>
+<tspan x="10" y="6506">                                "name": "local_13"</tspan>
+<tspan x="10" y="6522">                              },</tspan>
+<tspan x="10" y="6538">                              "property": "global"</tspan>
+<tspan x="10" y="6554">                            },</tspan>
+<tspan x="10" y="6570">                            "expression": {</tspan>
+<tspan x="10" y="6586">                              "type": "ConditionalExpression",</tspan>
+<tspan x="10" y="6602">                              "loc": null,</tspan>
+<tspan x="10" y="6618">                              "test": {</tspan>
+<tspan x="10" y="6634">                                "type": "BinaryExpression",</tspan>
+<tspan x="10" y="6650">                                "loc": null,</tspan>
+<tspan x="10" y="6666">                                "left": {</tspan>
+<tspan x="10" y="6682">                                  "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="6698">                                  "loc": null,</tspan>
+<tspan x="10" y="6714">                                  "object": {</tspan>
+<tspan x="10" y="6730">                                    "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="6746">                                    "loc": null,</tspan>
+<tspan x="10" y="6762">                                    "name": "local_13"</tspan>
+<tspan x="10" y="6778">                                  },</tspan>
+<tspan x="10" y="6794">                                  "property": "modeJs"</tspan>
+<tspan x="10" y="6810">                                },</tspan>
+<tspan x="10" y="6826">                                "operator": "===",</tspan>
+<tspan x="10" y="6842">                                "right": {</tspan>
+<tspan x="10" y="6858">                                  "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="6874">                                  "loc": null,</tspan>
+<tspan x="10" y="6890">                                  "value": "browser"</tspan>
+<tspan x="10" y="6906">                                }</tspan>
+<tspan x="10" y="6922">                              },</tspan>
+<tspan x="10" y="6938">                              "consequent": {</tspan>
+<tspan x="10" y="6954">                                "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="6970">                                "loc": null,</tspan>
+<tspan x="10" y="6986">                                "name": "window"</tspan>
+<tspan x="10" y="7002">                              },</tspan>
+<tspan x="10" y="7018">                              "alternate": {</tspan>
+<tspan x="10" y="7034">                                "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="7050">                                "loc": null,</tspan>
+<tspan x="10" y="7066">                                "name": "global"</tspan>
+<tspan x="10" y="7082">                              }</tspan>
+<tspan x="10" y="7098">                            }</tspan>
+<tspan x="10" y="7114">                          }</tspan>
+<tspan x="10" y="7130">                        },</tspan>
+<tspan x="10" y="7146">                        {</tspan>
+<tspan x="10" y="7162">                          "type": "SwitchStatement",</tspan>
+<tspan x="10" y="7178">                          "loc": null,</tspan>
+<tspan x="10" y="7194">                          "discriminant": {</tspan>
+<tspan x="10" y="7210">                            "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="7226">                            "loc": null,</tspan>
+<tspan x="10" y="7242">                            "object": {</tspan>
+<tspan x="10" y="7258">                              "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="7274">                              "loc": null,</tspan>
+<tspan x="10" y="7290">                              "name": "local_13"</tspan>
+<tspan x="10" y="7306">                            },</tspan>
+<tspan x="10" y="7322">                            "property": "modeJs"</tspan>
+<tspan x="10" y="7338">                          },</tspan>
+<tspan x="10" y="7354">                          "cases": [</tspan>
+<tspan x="10" y="7370">                            {</tspan>
+<tspan x="10" y="7386">                              "type": "SwitchCase",</tspan>
+<tspan x="10" y="7402">                              "loc": null,</tspan>
+<tspan x="10" y="7418">                              "test": {</tspan>
+<tspan x="10" y="7434">                                "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="7450">                                "loc": null,</tspan>
+<tspan x="10" y="7466">                                "value": "browser"</tspan>
+<tspan x="10" y="7482">                              },</tspan>
+<tspan x="10" y="7498">                              "consequent": [</tspan>
+<tspan x="10" y="7514">                                {</tspan>
+<tspan x="10" y="7530">                                  "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="7546">                                  "loc": null,</tspan>
+<tspan x="10" y="7562">                                  "expression": {</tspan>
+<tspan x="10" y="7578">                                    "type": "AssignmentExpression",</tspan>
+<tspan x="10" y="7594">                                    "loc": null,</tspan>
+<tspan x="10" y="7610">                                    "binding": {</tspan>
+<tspan x="10" y="7626">                                      "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="7642">                                      "loc": null,</tspan>
+<tspan x="10" y="7658">                                      "name": "local_13"</tspan>
+<tspan x="10" y="7674">                                    },</tspan>
+<tspan x="10" y="7690">                                    "expression": {</tspan>
+<tspan x="10" y="7706">                                      "type": "CallExpression",</tspan>
+<tspan x="10" y="7722">                                      "loc": null,</tspan>
+<tspan x="10" y="7738">                                      "callee": {</tspan>
+<tspan x="10" y="7754">                                        "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="7770">                                        "loc": null,</tspan>
+<tspan x="10" y="7786">                                        "object": {</tspan>
+<tspan x="10" y="7802">                                          "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="7818">                                          "loc": null,</tspan>
+<tspan x="10" y="7834">                                          "object": {</tspan>
+<tspan x="10" y="7850">                                            "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="7866">                                            "loc": null,</tspan>
+<tspan x="10" y="7882">                                            "object": {</tspan>
+<tspan x="10" y="7898">                                              "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="7914">                                              "loc": null,</tspan>
+<tspan x="10" y="7930">                                              "name": "local_13"</tspan>
+<tspan x="10" y="7946">                                            },</tspan>
+<tspan x="10" y="7962">                                            "property": "global"</tspan>
+<tspan x="10" y="7978">                                          },</tspan>
+<tspan x="10" y="7994">                                          "property": "utility2"</tspan>
+<tspan x="10" y="8010">                                        },</tspan>
+<tspan x="10" y="8026">                                        "property": "objectSetDefault"</tspan>
+<tspan x="10" y="8042">                                      },</tspan>
+<tspan x="10" y="8058">                                      "arguments": [</tspan>
+<tspan x="10" y="8074">                                        {</tspan>
+<tspan x="10" y="8090">                                          "type": "BinaryExpression",</tspan>
+<tspan x="10" y="8106">                                          "loc": null,</tspan>
+<tspan x="10" y="8122">                                          "left": {</tspan>
+<tspan x="10" y="8138">                                            "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="8154">                                            "loc": null,</tspan>
+<tspan x="10" y="8170">                                            "object": {</tspan>
+<tspan x="10" y="8186">                                              "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="8202">                                              "loc": null,</tspan>
+<tspan x="10" y="8218">                                              "object": {</tspan>
+<tspan x="10" y="8234">                                                "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="8250">                                                "loc": null,</tspan>
+<tspan x="10" y="8266">                                                "name": "local_13"</tspan>
+<tspan x="10" y="8282">                                              },</tspan>
+<tspan x="10" y="8298">                                              "property": "global"</tspan>
+<tspan x="10" y="8314">                                            },</tspan>
+<tspan x="10" y="8330">                                            "property": "utility2_rollup"</tspan>
+<tspan x="10" y="8346">                                          },</tspan>
+<tspan x="10" y="8362">                                          "operator": "||",</tspan>
+<tspan x="10" y="8378">                                          "right": {</tspan>
+<tspan x="10" y="8394">                                            "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="8410">                                            "loc": null,</tspan>
+<tspan x="10" y="8426">                                            "object": {</tspan>
+<tspan x="10" y="8442">                                              "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="8458">                                              "loc": null,</tspan>
+<tspan x="10" y="8474">                                              "object": {</tspan>
+<tspan x="10" y="8490">                                                "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="8506">                                                "loc": null,</tspan>
+<tspan x="10" y="8522">                                                "name": "local_13"</tspan>
+<tspan x="10" y="8538">                                              },</tspan>
+<tspan x="10" y="8554">                                              "property": "global"</tspan>
+<tspan x="10" y="8570">                                            },</tspan>
+<tspan x="10" y="8586">                                            "property": "local"</tspan>
+<tspan x="10" y="8602">                                          }</tspan>
+<tspan x="10" y="8618">                                        },</tspan>
+<tspan x="10" y="8634">                                        {</tspan>
+<tspan x="10" y="8650">                                          "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="8666">                                          "loc": null,</tspan>
+<tspan x="10" y="8682">                                          "object": {</tspan>
+<tspan x="10" y="8698">                                            "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="8714">                                            "loc": null,</tspan>
+<tspan x="10" y="8730">                                            "object": {</tspan>
+<tspan x="10" y="8746">                                              "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="8762">                                              "loc": null,</tspan>
+<tspan x="10" y="8778">                                              "name": "local_13"</tspan>
+<tspan x="10" y="8794">                                            },</tspan>
+<tspan x="10" y="8810">                                            "property": "global"</tspan>
+<tspan x="10" y="8826">                                          },</tspan>
+<tspan x="10" y="8842">                                          "property": "utility2"</tspan>
+<tspan x="10" y="8858">                                        }</tspan>
+<tspan x="10" y="8874">                                      ]</tspan>
+<tspan x="10" y="8890">                                    }</tspan>
+<tspan x="10" y="8906">                                  }</tspan>
+<tspan x="10" y="8922">                                },</tspan>
+<tspan x="10" y="8938">                                {</tspan>
+<tspan x="10" y="8954">                                  "type": "BreakStatement",</tspan>
+<tspan x="10" y="8970">                                  "loc": null,</tspan>
+<tspan x="10" y="8986">                                  "label": null</tspan>
+<tspan x="10" y="9002">                                }</tspan>
+<tspan x="10" y="9018">                              ]</tspan>
+<tspan x="10" y="9034">                            },</tspan>
+<tspan x="10" y="9050">                            {</tspan>
+<tspan x="10" y="9066">                              "type": "SwitchCase",</tspan>
+<tspan x="10" y="9082">                              "loc": null,</tspan>
+<tspan x="10" y="9098">                              "test": {</tspan>
+<tspan x="10" y="9114">                                "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="9130">                                "loc": null,</tspan>
+<tspan x="10" y="9146">                                "value": "node"</tspan>
+<tspan x="10" y="9162">                              },</tspan>
+<tspan x="10" y="9178">                              "consequent": [</tspan>
+<tspan x="10" y="9194">                                {</tspan>
+<tspan x="10" y="9210">                                  "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="9226">                                  "loc": null,</tspan>
+<tspan x="10" y="9242">                                  "expression": {</tspan>
+<tspan x="10" y="9258">                                    "type": "AssignmentExpression",</tspan>
+<tspan x="10" y="9274">                                    "loc": null,</tspan>
+<tspan x="10" y="9290">                                    "binding": {</tspan>
+<tspan x="10" y="9306">                                      "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="9322">                                      "loc": null,</tspan>
+<tspan x="10" y="9338">                                      "name": "local_13"</tspan>
+<tspan x="10" y="9354">                                    },</tspan>
+<tspan x="10" y="9370">                                    "expression": {</tspan>
+<tspan x="10" y="9386">                                      "type": "CallExpression",</tspan>
+<tspan x="10" y="9402">                                      "loc": null,</tspan>
+<tspan x="10" y="9418">                                      "callee": {</tspan>
+<tspan x="10" y="9434">                                        "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="9450">                                        "loc": null,</tspan>
+<tspan x="10" y="9466">                                        "object": {</tspan>
+<tspan x="10" y="9482">                                          "type": "BinaryExpression",</tspan>
+<tspan x="10" y="9498">                                          "loc": null,</tspan>
+<tspan x="10" y="9514">                                          "left": {</tspan>
+<tspan x="10" y="9530">                                            "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="9546">                                            "loc": null,</tspan>
+<tspan x="10" y="9562">                                            "object": {</tspan>
+<tspan x="10" y="9578">                                              "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="9594">                                              "loc": null,</tspan>
+<tspan x="10" y="9610">                                              "object": {</tspan>
+<tspan x="10" y="9626">                                                "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="9642">                                                "loc": null,</tspan>
+<tspan x="10" y="9658">                                                "name": "local_13"</tspan>
+<tspan x="10" y="9674">                                              },</tspan>
+<tspan x="10" y="9690">                                              "property": "global"</tspan>
+<tspan x="10" y="9706">                                            },</tspan>
+<tspan x="10" y="9722">                                            "property": "utility2_rollup"</tspan>
+<tspan x="10" y="9738">                                          },</tspan>
+<tspan x="10" y="9754">                                          "operator": "||",</tspan>
+<tspan x="10" y="9770">                                          "right": {</tspan>
+<tspan x="10" y="9786">                                            "type": "CallExpression",</tspan>
+<tspan x="10" y="9802">                                            "loc": null,</tspan>
+<tspan x="10" y="9818">                                            "callee": {</tspan>
+<tspan x="10" y="9834">                                              "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="9850">                                              "loc": null,</tspan>
+<tspan x="10" y="9866">                                              "name": "require"</tspan>
+<tspan x="10" y="9882">                                            },</tspan>
+<tspan x="10" y="9898">                                            "arguments": [</tspan>
+<tspan x="10" y="9914">                                              {</tspan>
+<tspan x="10" y="9930">                                                "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="9946">                                                "loc": null,</tspan>
+<tspan x="10" y="9962">                                                "value": "utility2"</tspan>
+<tspan x="10" y="9978">                                              }</tspan>
+<tspan x="10" y="9994">                                            ]</tspan>
+<tspan x="10" y="10010">                                          }</tspan>
+<tspan x="10" y="10026">                                        },</tspan>
+<tspan x="10" y="10042">                                        "property": "requireExampleJsFromReadme"</tspan>
+<tspan x="10" y="10058">                                      },</tspan>
+<tspan x="10" y="10074">                                      "arguments": []</tspan>
+<tspan x="10" y="10090">                                    }</tspan>
+<tspan x="10" y="10106">                                  }</tspan>
+<tspan x="10" y="10122">                                },</tspan>
+<tspan x="10" y="10138">                                {</tspan>
+<tspan x="10" y="10154">                                  "type": "BreakStatement",</tspan>
+<tspan x="10" y="10170">                                  "loc": null,</tspan>
+<tspan x="10" y="10186">                                  "label": null</tspan>
+<tspan x="10" y="10202">                                }</tspan>
+<tspan x="10" y="10218">                              ]</tspan>
+<tspan x="10" y="10234">                            }</tspan>
+<tspan x="10" y="10250">                          ]</tspan>
+<tspan x="10" y="10266">                        },</tspan>
+<tspan x="10" y="10282">                        {</tspan>
+<tspan x="10" y="10298">                          "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="10314">                          "loc": null,</tspan>
+<tspan x="10" y="10330">                          "expression": {</tspan>
+<tspan x="10" y="10346">                            "type": "AssignmentExpression",</tspan>
+<tspan x="10" y="10362">                            "loc": null,</tspan>
+<tspan x="10" y="10378">                            "binding": {</tspan>
+<tspan x="10" y="10394">                              "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="10410">                              "loc": null,</tspan>
+<tspan x="10" y="10426">                              "object": {</tspan>
+<tspan x="10" y="10442">                                "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="10458">                                "loc": null,</tspan>
+<tspan x="10" y="10474">                                "object": {</tspan>
+<tspan x="10" y="10490">                                  "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="10506">                                  "loc": null,</tspan>
+<tspan x="10" y="10522">                                  "name": "local_13"</tspan>
+<tspan x="10" y="10538">                                },</tspan>
+<tspan x="10" y="10554">                                "property": "global"</tspan>
+<tspan x="10" y="10570">                              },</tspan>
+<tspan x="10" y="10586">                              "property": "local"</tspan>
+<tspan x="10" y="10602">                            },</tspan>
+<tspan x="10" y="10618">                            "expression": {</tspan>
+<tspan x="10" y="10634">                              "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="10650">                              "loc": null,</tspan>
+<tspan x="10" y="10666">                              "name": "local_13"</tspan>
+<tspan x="10" y="10682">                            }</tspan>
+<tspan x="10" y="10698">                          }</tspan>
+<tspan x="10" y="10714">                        }</tspan>
+<tspan x="10" y="10730">                      ]</tspan>
+<tspan x="10" y="10746">                    }</tspan>
+<tspan x="10" y="10762">                  },</tspan>
+<tspan x="10" y="10778">                  "arguments": []</tspan>
+<tspan x="10" y="10794">                }</tspan>
+<tspan x="10" y="10810">              },</tspan>
+<tspan x="10" y="10826">              {</tspan>
+<tspan x="10" y="10842">                "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="10858">                "loc": null,</tspan>
+<tspan x="10" y="10874">                "expression": {</tspan>
+<tspan x="10" y="10890">                  "type": "CallExpression",</tspan>
+<tspan x="10" y="10906">                  "loc": null,</tspan>
+<tspan x="10" y="10922">                  "callee": {</tspan>
+<tspan x="10" y="10938">                    "type": "FunctionExpression",</tspan>
+<tspan x="10" y="10954">                    "loc": null,</tspan>
+<tspan x="10" y="10970">                    "isGenerator": false,</tspan>
+<tspan x="10" y="10986">                    "name": null,</tspan>
+<tspan x="10" y="11002">                    "params": {</tspan>
+<tspan x="10" y="11018">                      "type": "FormalParameters",</tspan>
+<tspan x="10" y="11034">                      "loc": null,</tspan>
+<tspan x="10" y="11050">                      "items": [],</tspan>
+<tspan x="10" y="11066">                      "rest": null</tspan>
+<tspan x="10" y="11082">                    },</tspan>
+<tspan x="10" y="11098">                    "body": {</tspan>
+<tspan x="10" y="11114">                      "type": "FunctionBody",</tspan>
+<tspan x="10" y="11130">                      "loc": null,</tspan>
+<tspan x="10" y="11146">                      "directives": [],</tspan>
+<tspan x="10" y="11162">                      "statements": [</tspan>
+<tspan x="10" y="11178">                        {</tspan>
+<tspan x="10" y="11194">                          "type": "ReturnStatement",</tspan>
+<tspan x="10" y="11210">                          "loc": null,</tspan>
+<tspan x="10" y="11226">                          "expression": null</tspan>
+<tspan x="10" y="11242">                        }</tspan>
+<tspan x="10" y="11258">                      ]</tspan>
+<tspan x="10" y="11274">                    }</tspan>
+<tspan x="10" y="11290">                  },</tspan>
+<tspan x="10" y="11306">                  "arguments": []</tspan>
+<tspan x="10" y="11322">                }</tspan>
+<tspan x="10" y="11338">              },</tspan>
+<tspan x="10" y="11354">              {</tspan>
+<tspan x="10" y="11370">                "type": "SwitchStatement",</tspan>
+<tspan x="10" y="11386">                "loc": null,</tspan>
+<tspan x="10" y="11402">                "discriminant": {</tspan>
+<tspan x="10" y="11418">                  "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="11434">                  "loc": null,</tspan>
+<tspan x="10" y="11450">                  "object": {</tspan>
+<tspan x="10" y="11466">                    "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="11482">                    "loc": null,</tspan>
+<tspan x="10" y="11498">                    "name": "local_13"</tspan>
+<tspan x="10" y="11514">                  },</tspan>
+<tspan x="10" y="11530">                  "property": "modeJs"</tspan>
+<tspan x="10" y="11546">                },</tspan>
+<tspan x="10" y="11562">                "cases": [</tspan>
+<tspan x="10" y="11578">                  {</tspan>
+<tspan x="10" y="11594">                    "type": "SwitchCase",</tspan>
+<tspan x="10" y="11610">                    "loc": null,</tspan>
+<tspan x="10" y="11626">                    "test": {</tspan>
+<tspan x="10" y="11642">                      "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="11658">                      "loc": null,</tspan>
+<tspan x="10" y="11674">                      "value": "browser"</tspan>
+<tspan x="10" y="11690">                    },</tspan>
+<tspan x="10" y="11706">                    "consequent": [</tspan>
+<tspan x="10" y="11722">                      {</tspan>
+<tspan x="10" y="11738">                        "type": "BreakStatement",</tspan>
+<tspan x="10" y="11754">                        "loc": null,</tspan>
+<tspan x="10" y="11770">                        "label": null</tspan>
+<tspan x="10" y="11786">                      }</tspan>
+<tspan x="10" y="11802">                    ]</tspan>
+<tspan x="10" y="11818">                  },</tspan>
+<tspan x="10" y="11834">                  {</tspan>
+<tspan x="10" y="11850">                    "type": "SwitchCase",</tspan>
+<tspan x="10" y="11866">                    "loc": null,</tspan>
+<tspan x="10" y="11882">                    "test": {</tspan>
+<tspan x="10" y="11898">                      "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="11914">                      "loc": null,</tspan>
+<tspan x="10" y="11930">                      "value": "node"</tspan>
+<tspan x="10" y="11946">                    },</tspan>
+<tspan x="10" y="11962">                    "consequent": [</tspan>
+<tspan x="10" y="11978">                      {</tspan>
+<tspan x="10" y="11994">                        "type": "BreakStatement",</tspan>
+<tspan x="10" y="12010">                        "loc": null,</tspan>
+<tspan x="10" y="12026">                        "label": null</tspan>
+<tspan x="10" y="12042">                      }</tspan>
+<tspan x="10" y="12058">                    ]</tspan>
+<tspan x="10" y="12074">                  }</tspan>
+<tspan x="10" y="12090">                ]</tspan>
+<tspan x="10" y="12106">              },</tspan>
+<tspan x="10" y="12122">              {</tspan>
+<tspan x="10" y="12138">                "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="12154">                "loc": null,</tspan>
+<tspan x="10" y="12170">                "expression": {</tspan>
+<tspan x="10" y="12186">                  "type": "CallExpression",</tspan>
+<tspan x="10" y="12202">                  "loc": null,</tspan>
+<tspan x="10" y="12218">                  "callee": {</tspan>
+<tspan x="10" y="12234">                    "type": "FunctionExpression",</tspan>
+<tspan x="10" y="12250">                    "loc": null,</tspan>
+<tspan x="10" y="12266">                    "isGenerator": false,</tspan>
+<tspan x="10" y="12282">                    "name": null,</tspan>
+<tspan x="10" y="12298">                    "params": {</tspan>
+<tspan x="10" y="12314">                      "type": "FormalParameters",</tspan>
+<tspan x="10" y="12330">                      "loc": null,</tspan>
+<tspan x="10" y="12346">                      "items": [],</tspan>
+<tspan x="10" y="12362">                      "rest": null</tspan>
+<tspan x="10" y="12378">                    },</tspan>
+<tspan x="10" y="12394">                    "body": {</tspan>
+<tspan x="10" y="12410">                      "type": "FunctionBody",</tspan>
+<tspan x="10" y="12426">                      "loc": null,</tspan>
+<tspan x="10" y="12442">                      "directives": [],</tspan>
+<tspan x="10" y="12458">                      "statements": [</tspan>
+<tspan x="10" y="12474">                        {</tspan>
+<tspan x="10" y="12490">                          "type": "ReturnStatement",</tspan>
+<tspan x="10" y="12506">                          "loc": null,</tspan>
+<tspan x="10" y="12522">                          "expression": null</tspan>
+<tspan x="10" y="12538">                        }</tspan>
+<tspan x="10" y="12554">                      ]</tspan>
+<tspan x="10" y="12570">                    }</tspan>
+<tspan x="10" y="12586">                  },</tspan>
+<tspan x="10" y="12602">                  "arguments": []</tspan>
+<tspan x="10" y="12618">                }</tspan>
+<tspan x="10" y="12634">              },</tspan>
+<tspan x="10" y="12650">              {</tspan>
+<tspan x="10" y="12666">                "type": "SwitchStatement",</tspan>
+<tspan x="10" y="12682">                "loc": null,</tspan>
+<tspan x="10" y="12698">                "discriminant": {</tspan>
+<tspan x="10" y="12714">                  "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="12730">                  "loc": null,</tspan>
+<tspan x="10" y="12746">                  "object": {</tspan>
+<tspan x="10" y="12762">                    "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="12778">                    "loc": null,</tspan>
+<tspan x="10" y="12794">                    "name": "local_13"</tspan>
+<tspan x="10" y="12810">                  },</tspan>
+<tspan x="10" y="12826">                  "property": "modeJs"</tspan>
+<tspan x="10" y="12842">                },</tspan>
+<tspan x="10" y="12858">                "cases": [</tspan>
+<tspan x="10" y="12874">                  {</tspan>
+<tspan x="10" y="12890">                    "type": "SwitchCase",</tspan>
+<tspan x="10" y="12906">                    "loc": null,</tspan>
+<tspan x="10" y="12922">                    "test": {</tspan>
+<tspan x="10" y="12938">                      "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="12954">                      "loc": null,</tspan>
+<tspan x="10" y="12970">                      "value": "browser"</tspan>
+<tspan x="10" y="12986">                    },</tspan>
+<tspan x="10" y="13002">                    "consequent": [</tspan>
+<tspan x="10" y="13018">                      {</tspan>
+<tspan x="10" y="13034">                        "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="13050">                        "loc": null,</tspan>
+<tspan x="10" y="13066">                        "expression": {</tspan>
+<tspan x="10" y="13082">                          "type": "CallExpression",</tspan>
+<tspan x="10" y="13098">                          "loc": null,</tspan>
+<tspan x="10" y="13114">                          "callee": {</tspan>
+<tspan x="10" y="13130">                            "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="13146">                            "loc": null,</tspan>
+<tspan x="10" y="13162">                            "object": {</tspan>
+<tspan x="10" y="13178">                              "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="13194">                              "loc": null,</tspan>
+<tspan x="10" y="13210">                              "name": "local_13"</tspan>
+<tspan x="10" y="13226">                            },</tspan>
+<tspan x="10" y="13242">                            "property": "nop"</tspan>
+<tspan x="10" y="13258">                          },</tspan>
+<tspan x="10" y="13274">                          "arguments": [</tspan>
+<tspan x="10" y="13290">                            {</tspan>
+<tspan x="10" y="13306">                              "type": "BinaryExpression",</tspan>
+<tspan x="10" y="13322">                              "loc": null,</tspan>
+<tspan x="10" y="13338">                              "left": {</tspan>
+<tspan x="10" y="13354">                                "type": "BinaryExpression",</tspan>
+<tspan x="10" y="13370">                                "loc": null,</tspan>
+<tspan x="10" y="13386">                                "left": {</tspan>
+<tspan x="10" y="13402">                                  "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="13418">                                  "loc": null,</tspan>
+<tspan x="10" y="13434">                                  "object": {</tspan>
+<tspan x="10" y="13450">                                    "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="13466">                                    "loc": null,</tspan>
+<tspan x="10" y="13482">                                    "name": "local_13"</tspan>
+<tspan x="10" y="13498">                                  },</tspan>
+<tspan x="10" y="13514">                                  "property": "modeTest"</tspan>
+<tspan x="10" y="13530">                                },</tspan>
+<tspan x="10" y="13546">                                "operator": "&amp;&amp;",</tspan>
+<tspan x="10" y="13562">                                "right": {</tspan>
+<tspan x="10" y="13578">                                  "type": "CallExpression",</tspan>
+<tspan x="10" y="13594">                                  "loc": null,</tspan>
+<tspan x="10" y="13610">                                  "callee": {</tspan>
+<tspan x="10" y="13626">                                    "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="13642">                                    "loc": null,</tspan>
+<tspan x="10" y="13658">                                    "object": {</tspan>
+<tspan x="10" y="13674">                                      "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="13690">                                      "loc": null,</tspan>
+<tspan x="10" y="13706">                                      "name": "document"</tspan>
+<tspan x="10" y="13722">                                    },</tspan>
+<tspan x="10" y="13738">                                    "property": "querySelector"</tspan>
+<tspan x="10" y="13754">                                  },</tspan>
+<tspan x="10" y="13770">                                  "arguments": [</tspan>
+<tspan x="10" y="13786">                                    {</tspan>
+<tspan x="10" y="13802">                                      "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="13818">                                      "loc": null,</tspan>
+<tspan x="10" y="13834">                                      "value": "#testRunButton1"</tspan>
+<tspan x="10" y="13850">                                    }</tspan>
+<tspan x="10" y="13866">                                  ]</tspan>
+<tspan x="10" y="13882">                                }</tspan>
+<tspan x="10" y="13898">                              },</tspan>
+<tspan x="10" y="13914">                              "operator": "&amp;&amp;",</tspan>
+<tspan x="10" y="13930">                              "right": {</tspan>
+<tspan x="10" y="13946">                                "type": "CallExpression",</tspan>
+<tspan x="10" y="13962">                                "loc": null,</tspan>
+<tspan x="10" y="13978">                                "callee": {</tspan>
+<tspan x="10" y="13994">                                  "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="14010">                                  "loc": null,</tspan>
+<tspan x="10" y="14026">                                  "object": {</tspan>
+<tspan x="10" y="14042">                                    "type": "CallExpression",</tspan>
+<tspan x="10" y="14058">                                    "loc": null,</tspan>
+<tspan x="10" y="14074">                                    "callee": {</tspan>
+<tspan x="10" y="14090">                                      "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="14106">                                      "loc": null,</tspan>
+<tspan x="10" y="14122">                                      "object": {</tspan>
+<tspan x="10" y="14138">                                        "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="14154">                                        "loc": null,</tspan>
+<tspan x="10" y="14170">                                        "name": "document"</tspan>
+<tspan x="10" y="14186">                                      },</tspan>
+<tspan x="10" y="14202">                                      "property": "querySelector"</tspan>
+<tspan x="10" y="14218">                                    },</tspan>
+<tspan x="10" y="14234">                                    "arguments": [</tspan>
+<tspan x="10" y="14250">                                      {</tspan>
+<tspan x="10" y="14266">                                        "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="14282">                                        "loc": null,</tspan>
+<tspan x="10" y="14298">                                        "value": "#testRunButton1"</tspan>
+<tspan x="10" y="14314">                                      }</tspan>
+<tspan x="10" y="14330">                                    ]</tspan>
+<tspan x="10" y="14346">                                  },</tspan>
+<tspan x="10" y="14362">                                  "property": "click"</tspan>
+<tspan x="10" y="14378">                                },</tspan>
+<tspan x="10" y="14394">                                "arguments": []</tspan>
+<tspan x="10" y="14410">                              }</tspan>
+<tspan x="10" y="14426">                            }</tspan>
+<tspan x="10" y="14442">                          ]</tspan>
+<tspan x="10" y="14458">                        }</tspan>
+<tspan x="10" y="14474">                      },</tspan>
+<tspan x="10" y="14490">                      {</tspan>
+<tspan x="10" y="14506">                        "type": "BreakStatement",</tspan>
+<tspan x="10" y="14522">                        "loc": null,</tspan>
+<tspan x="10" y="14538">                        "label": null</tspan>
+<tspan x="10" y="14554">                      }</tspan>
+<tspan x="10" y="14570">                    ]</tspan>
+<tspan x="10" y="14586">                  },</tspan>
+<tspan x="10" y="14602">                  {</tspan>
+<tspan x="10" y="14618">                    "type": "SwitchCase",</tspan>
+<tspan x="10" y="14634">                    "loc": null,</tspan>
+<tspan x="10" y="14650">                    "test": {</tspan>
+<tspan x="10" y="14666">                      "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="14682">                      "loc": null,</tspan>
+<tspan x="10" y="14698">                      "value": "node"</tspan>
+<tspan x="10" y="14714">                    },</tspan>
+<tspan x="10" y="14730">                    "consequent": [</tspan>
+<tspan x="10" y="14746">                      {</tspan>
+<tspan x="10" y="14762">                        "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="14778">                        "loc": null,</tspan>
+<tspan x="10" y="14794">                        "expression": {</tspan>
+<tspan x="10" y="14810">                          "type": "AssignmentExpression",</tspan>
+<tspan x="10" y="14826">                          "loc": null,</tspan>
+<tspan x="10" y="14842">                          "binding": {</tspan>
+<tspan x="10" y="14858">                            "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="14874">                            "loc": null,</tspan>
+<tspan x="10" y="14890">                            "object": {</tspan>
+<tspan x="10" y="14906">                              "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="14922">                              "loc": null,</tspan>
+<tspan x="10" y="14938">                              "name": "local_13"</tspan>
+<tspan x="10" y="14954">                            },</tspan>
+<tspan x="10" y="14970">                            "property": "testCase_buildApidoc_default"</tspan>
+<tspan x="10" y="14986">                          },</tspan>
+<tspan x="10" y="15002">                          "expression": {</tspan>
+<tspan x="10" y="15018">                            "type": "BinaryExpression",</tspan>
+<tspan x="10" y="15034">                            "loc": null,</tspan>
+<tspan x="10" y="15050">                            "left": {</tspan>
+<tspan x="10" y="15066">                              "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="15082">                              "loc": null,</tspan>
+<tspan x="10" y="15098">                              "object": {</tspan>
+<tspan x="10" y="15114">                                "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="15130">                                "loc": null,</tspan>
+<tspan x="10" y="15146">                                "name": "local_13"</tspan>
+<tspan x="10" y="15162">                              },</tspan>
+<tspan x="10" y="15178">                              "property": "testCase_buildApidoc_default"</tspan>
+<tspan x="10" y="15194">                            },</tspan>
+<tspan x="10" y="15210">                            "operator": "||",</tspan>
+<tspan x="10" y="15226">                            "right": {</tspan>
+<tspan x="10" y="15242">                              "type": "FunctionExpression",</tspan>
+<tspan x="10" y="15258">                              "loc": null,</tspan>
+<tspan x="10" y="15274">                              "isGenerator": false,</tspan>
+<tspan x="10" y="15290">                              "name": null,</tspan>
+<tspan x="10" y="15306">                              "params": {</tspan>
+<tspan x="10" y="15322">                                "type": "FormalParameters",</tspan>
+<tspan x="10" y="15338">                                "loc": null,</tspan>
+<tspan x="10" y="15354">                                "items": [</tspan>
+<tspan x="10" y="15370">                                  {</tspan>
+<tspan x="10" y="15386">                                    "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="15402">                                    "loc": null,</tspan>
+<tspan x="10" y="15418">                                    "name": "options_14"</tspan>
+<tspan x="10" y="15434">                                  },</tspan>
+<tspan x="10" y="15450">                                  {</tspan>
+<tspan x="10" y="15466">                                    "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="15482">                                    "loc": null,</tspan>
+<tspan x="10" y="15498">                                    "name": "onError_15"</tspan>
+<tspan x="10" y="15514">                                  }</tspan>
+<tspan x="10" y="15530">                                ],</tspan>
+<tspan x="10" y="15546">                                "rest": null</tspan>
+<tspan x="10" y="15562">                              },</tspan>
+<tspan x="10" y="15578">                              "body": {</tspan>
+<tspan x="10" y="15594">                                "type": "FunctionBody",</tspan>
+<tspan x="10" y="15610">                                "loc": null,</tspan>
+<tspan x="10" y="15626">                                "directives": [],</tspan>
+<tspan x="10" y="15642">                                "statements": [</tspan>
+<tspan x="10" y="15658">                                  {</tspan>
+<tspan x="10" y="15674">                                    "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="15690">                                    "loc": null,</tspan>
+<tspan x="10" y="15706">                                    "expression": {</tspan>
+<tspan x="10" y="15722">                                      "type": "AssignmentExpression",</tspan>
+<tspan x="10" y="15738">                                      "loc": null,</tspan>
+<tspan x="10" y="15754">                                      "binding": {</tspan>
+<tspan x="10" y="15770">                                        "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="15786">                                        "loc": null,</tspan>
+<tspan x="10" y="15802">                                        "name": "options_14"</tspan>
+<tspan x="10" y="15818">                                      },</tspan>
+<tspan x="10" y="15834">                                      "expression": {</tspan>
+<tspan x="10" y="15850">                                        "type": "ObjectExpression",</tspan>
+<tspan x="10" y="15866">                                        "loc": null,</tspan>
+<tspan x="10" y="15882">                                        "properties": [</tspan>
+<tspan x="10" y="15898">                                          {</tspan>
+<tspan x="10" y="15914">                                            "type": "DataProperty",</tspan>
+<tspan x="10" y="15930">                                            "loc": null,</tspan>
+<tspan x="10" y="15946">                                            "name": {</tspan>
+<tspan x="10" y="15962">                                              "type": "StaticPropertyName",</tspan>
+<tspan x="10" y="15978">                                              "loc": null,</tspan>
+<tspan x="10" y="15994">                                              "value": "modulePathList"</tspan>
+<tspan x="10" y="16010">                                            },</tspan>
+<tspan x="10" y="16026">                                            "expression": {</tspan>
+<tspan x="10" y="16042">                                              "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="16058">                                              "loc": null,</tspan>
+<tspan x="10" y="16074">                                              "object": {</tspan>
+<tspan x="10" y="16090">                                                "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="16106">                                                "loc": null,</tspan>
+<tspan x="10" y="16122">                                                "name": "module"</tspan>
+<tspan x="10" y="16138">                                              },</tspan>
+<tspan x="10" y="16154">                                              "property": "paths"</tspan>
+<tspan x="10" y="16170">                                            }</tspan>
+<tspan x="10" y="16186">                                          }</tspan>
+<tspan x="10" y="16202">                                        ]</tspan>
+<tspan x="10" y="16218">                                      }</tspan>
+<tspan x="10" y="16234">                                    }</tspan>
+<tspan x="10" y="16250">                                  },</tspan>
+<tspan x="10" y="16266">                                  {</tspan>
+<tspan x="10" y="16282">                                    "type": "IfStatement",</tspan>
+<tspan x="10" y="16298">                                    "loc": null,</tspan>
+<tspan x="10" y="16314">                                    "test": {</tspan>
+<tspan x="10" y="16330">                                      "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="16346">                                      "loc": null,</tspan>
+<tspan x="10" y="16362">                                      "object": {</tspan>
+<tspan x="10" y="16378">                                        "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="16394">                                        "loc": null,</tspan>
+<tspan x="10" y="16410">                                        "object": {</tspan>
+<tspan x="10" y="16426">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="16442">                                          "loc": null,</tspan>
+<tspan x="10" y="16458">                                          "name": "local_13"</tspan>
+<tspan x="10" y="16474">                                        },</tspan>
+<tspan x="10" y="16490">                                        "property": "env"</tspan>
+<tspan x="10" y="16506">                                      },</tspan>
+<tspan x="10" y="16522">                                      "property": "npm_package_buildNpmdoc"</tspan>
+<tspan x="10" y="16538">                                    },</tspan>
+<tspan x="10" y="16554">                                    "consequent": {</tspan>
+<tspan x="10" y="16570">                                      "type": "BlockStatement",</tspan>
+<tspan x="10" y="16586">                                      "loc": null,</tspan>
+<tspan x="10" y="16602">                                      "block": {</tspan>
+<tspan x="10" y="16618">                                        "type": "Block",</tspan>
+<tspan x="10" y="16634">                                        "loc": null,</tspan>
+<tspan x="10" y="16650">                                        "statements": [</tspan>
+<tspan x="10" y="16666">                                          {</tspan>
+<tspan x="10" y="16682">                                            "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="16698">                                            "loc": null,</tspan>
+<tspan x="10" y="16714">                                            "expression": {</tspan>
+<tspan x="10" y="16730">                                              "type": "CallExpression",</tspan>
+<tspan x="10" y="16746">                                              "loc": null,</tspan>
+<tspan x="10" y="16762">                                              "callee": {</tspan>
+<tspan x="10" y="16778">                                                "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="16794">                                                "loc": null,</tspan>
+<tspan x="10" y="16810">                                                "object": {</tspan>
+<tspan x="10" y="16826">                                                  "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="16842">                                                  "loc": null,</tspan>
+<tspan x="10" y="16858">                                                  "name": "local_13"</tspan>
+<tspan x="10" y="16874">                                                },</tspan>
+<tspan x="10" y="16890">                                                "property": "buildNpmdoc"</tspan>
+<tspan x="10" y="16906">                                              },</tspan>
+<tspan x="10" y="16922">                                              "arguments": [</tspan>
+<tspan x="10" y="16938">                                                {</tspan>
+<tspan x="10" y="16954">                                                  "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="16970">                                                  "loc": null,</tspan>
+<tspan x="10" y="16986">                                                  "name": "options_14"</tspan>
+<tspan x="10" y="17002">                                                },</tspan>
+<tspan x="10" y="17018">                                                {</tspan>
+<tspan x="10" y="17034">                                                  "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="17050">                                                  "loc": null,</tspan>
+<tspan x="10" y="17066">                                                  "name": "onError_15"</tspan>
+<tspan x="10" y="17082">                                                }</tspan>
+<tspan x="10" y="17098">                                              ]</tspan>
+<tspan x="10" y="17114">                                            }</tspan>
+<tspan x="10" y="17130">                                          },</tspan>
+<tspan x="10" y="17146">                                          {</tspan>
+<tspan x="10" y="17162">                                            "type": "ReturnStatement",</tspan>
+<tspan x="10" y="17178">                                            "loc": null,</tspan>
+<tspan x="10" y="17194">                                            "expression": null</tspan>
+<tspan x="10" y="17210">                                          }</tspan>
+<tspan x="10" y="17226">                                        ]</tspan>
+<tspan x="10" y="17242">                                      }</tspan>
+<tspan x="10" y="17258">                                    },</tspan>
+<tspan x="10" y="17274">                                    "alternate": null</tspan>
+<tspan x="10" y="17290">                                  },</tspan>
+<tspan x="10" y="17306">                                  {</tspan>
+<tspan x="10" y="17322">                                    "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="17338">                                    "loc": null,</tspan>
+<tspan x="10" y="17354">                                    "expression": {</tspan>
+<tspan x="10" y="17370">                                      "type": "CallExpression",</tspan>
+<tspan x="10" y="17386">                                      "loc": null,</tspan>
+<tspan x="10" y="17402">                                      "callee": {</tspan>
+<tspan x="10" y="17418">                                        "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="17434">                                        "loc": null,</tspan>
+<tspan x="10" y="17450">                                        "object": {</tspan>
+<tspan x="10" y="17466">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="17482">                                          "loc": null,</tspan>
+<tspan x="10" y="17498">                                          "name": "local_13"</tspan>
+<tspan x="10" y="17514">                                        },</tspan>
+<tspan x="10" y="17530">                                        "property": "buildApidoc"</tspan>
+<tspan x="10" y="17546">                                      },</tspan>
+<tspan x="10" y="17562">                                      "arguments": [</tspan>
+<tspan x="10" y="17578">                                        {</tspan>
+<tspan x="10" y="17594">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="17610">                                          "loc": null,</tspan>
+<tspan x="10" y="17626">                                          "name": "options_14"</tspan>
+<tspan x="10" y="17642">                                        },</tspan>
+<tspan x="10" y="17658">                                        {</tspan>
+<tspan x="10" y="17674">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="17690">                                          "loc": null,</tspan>
+<tspan x="10" y="17706">                                          "name": "onError_15"</tspan>
+<tspan x="10" y="17722">                                        }</tspan>
+<tspan x="10" y="17738">                                      ]</tspan>
+<tspan x="10" y="17754">                                    }</tspan>
+<tspan x="10" y="17770">                                  }</tspan>
+<tspan x="10" y="17786">                                ]</tspan>
+<tspan x="10" y="17802">                              }</tspan>
+<tspan x="10" y="17818">                            }</tspan>
+<tspan x="10" y="17834">                          }</tspan>
+<tspan x="10" y="17850">                        }</tspan>
+<tspan x="10" y="17866">                      },</tspan>
+<tspan x="10" y="17882">                      {</tspan>
+<tspan x="10" y="17898">                        "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="17914">                        "loc": null,</tspan>
+<tspan x="10" y="17930">                        "expression": {</tspan>
+<tspan x="10" y="17946">                          "type": "AssignmentExpression",</tspan>
+<tspan x="10" y="17962">                          "loc": null,</tspan>
+<tspan x="10" y="17978">                          "binding": {</tspan>
+<tspan x="10" y="17994">                            "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="18010">                            "loc": null,</tspan>
+<tspan x="10" y="18026">                            "object": {</tspan>
+<tspan x="10" y="18042">                              "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="18058">                              "loc": null,</tspan>
+<tspan x="10" y="18074">                              "name": "local_13"</tspan>
+<tspan x="10" y="18090">                            },</tspan>
+<tspan x="10" y="18106">                            "property": "testCase_buildApp_default"</tspan>
+<tspan x="10" y="18122">                          },</tspan>
+<tspan x="10" y="18138">                          "expression": {</tspan>
+<tspan x="10" y="18154">                            "type": "BinaryExpression",</tspan>
+<tspan x="10" y="18170">                            "loc": null,</tspan>
+<tspan x="10" y="18186">                            "left": {</tspan>
+<tspan x="10" y="18202">                              "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="18218">                              "loc": null,</tspan>
+<tspan x="10" y="18234">                              "object": {</tspan>
+<tspan x="10" y="18250">                                "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="18266">                                "loc": null,</tspan>
+<tspan x="10" y="18282">                                "name": "local_13"</tspan>
+<tspan x="10" y="18298">                              },</tspan>
+<tspan x="10" y="18314">                              "property": "testCase_buildApp_default"</tspan>
+<tspan x="10" y="18330">                            },</tspan>
+<tspan x="10" y="18346">                            "operator": "||",</tspan>
+<tspan x="10" y="18362">                            "right": {</tspan>
+<tspan x="10" y="18378">                              "type": "FunctionExpression",</tspan>
+<tspan x="10" y="18394">                              "loc": null,</tspan>
+<tspan x="10" y="18410">                              "isGenerator": false,</tspan>
+<tspan x="10" y="18426">                              "name": null,</tspan>
+<tspan x="10" y="18442">                              "params": {</tspan>
+<tspan x="10" y="18458">                                "type": "FormalParameters",</tspan>
+<tspan x="10" y="18474">                                "loc": null,</tspan>
+<tspan x="10" y="18490">                                "items": [</tspan>
+<tspan x="10" y="18506">                                  {</tspan>
+<tspan x="10" y="18522">                                    "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="18538">                                    "loc": null,</tspan>
+<tspan x="10" y="18554">                                    "name": "options_16"</tspan>
+<tspan x="10" y="18570">                                  },</tspan>
+<tspan x="10" y="18586">                                  {</tspan>
+<tspan x="10" y="18602">                                    "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="18618">                                    "loc": null,</tspan>
+<tspan x="10" y="18634">                                    "name": "onError_17"</tspan>
+<tspan x="10" y="18650">                                  }</tspan>
+<tspan x="10" y="18666">                                ],</tspan>
+<tspan x="10" y="18682">                                "rest": null</tspan>
+<tspan x="10" y="18698">                              },</tspan>
+<tspan x="10" y="18714">                              "body": {</tspan>
+<tspan x="10" y="18730">                                "type": "FunctionBody",</tspan>
+<tspan x="10" y="18746">                                "loc": null,</tspan>
+<tspan x="10" y="18762">                                "directives": [],</tspan>
+<tspan x="10" y="18778">                                "statements": [</tspan>
+<tspan x="10" y="18794">                                  {</tspan>
+<tspan x="10" y="18810">                                    "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="18826">                                    "loc": null,</tspan>
+<tspan x="10" y="18842">                                    "expression": {</tspan>
+<tspan x="10" y="18858">                                      "type": "CallExpression",</tspan>
+<tspan x="10" y="18874">                                      "loc": null,</tspan>
+<tspan x="10" y="18890">                                      "callee": {</tspan>
+<tspan x="10" y="18906">                                        "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="18922">                                        "loc": null,</tspan>
+<tspan x="10" y="18938">                                        "object": {</tspan>
+<tspan x="10" y="18954">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="18970">                                          "loc": null,</tspan>
+<tspan x="10" y="18986">                                          "name": "local_13"</tspan>
+<tspan x="10" y="19002">                                        },</tspan>
+<tspan x="10" y="19018">                                        "property": "testCase_buildReadme_default"</tspan>
+<tspan x="10" y="19034">                                      },</tspan>
+<tspan x="10" y="19050">                                      "arguments": [</tspan>
+<tspan x="10" y="19066">                                        {</tspan>
+<tspan x="10" y="19082">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="19098">                                          "loc": null,</tspan>
+<tspan x="10" y="19114">                                          "name": "options_16"</tspan>
+<tspan x="10" y="19130">                                        },</tspan>
+<tspan x="10" y="19146">                                        {</tspan>
+<tspan x="10" y="19162">                                          "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="19178">                                          "loc": null,</tspan>
+<tspan x="10" y="19194">                                          "object": {</tspan>
+<tspan x="10" y="19210">                                            "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="19226">                                            "loc": null,</tspan>
+<tspan x="10" y="19242">                                            "name": "local_13"</tspan>
+<tspan x="10" y="19258">                                          },</tspan>
+<tspan x="10" y="19274">                                          "property": "onErrorThrow"</tspan>
+<tspan x="10" y="19290">                                        }</tspan>
+<tspan x="10" y="19306">                                      ]</tspan>
+<tspan x="10" y="19322">                                    }</tspan>
+<tspan x="10" y="19338">                                  },</tspan>
+<tspan x="10" y="19354">                                  {</tspan>
+<tspan x="10" y="19370">                                    "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="19386">                                    "loc": null,</tspan>
+<tspan x="10" y="19402">                                    "expression": {</tspan>
+<tspan x="10" y="19418">                                      "type": "CallExpression",</tspan>
+<tspan x="10" y="19434">                                      "loc": null,</tspan>
+<tspan x="10" y="19450">                                      "callee": {</tspan>
+<tspan x="10" y="19466">                                        "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="19482">                                        "loc": null,</tspan>
+<tspan x="10" y="19498">                                        "object": {</tspan>
+<tspan x="10" y="19514">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="19530">                                          "loc": null,</tspan>
+<tspan x="10" y="19546">                                          "name": "local_13"</tspan>
+<tspan x="10" y="19562">                                        },</tspan>
+<tspan x="10" y="19578">                                        "property": "testCase_buildLib_default"</tspan>
+<tspan x="10" y="19594">                                      },</tspan>
+<tspan x="10" y="19610">                                      "arguments": [</tspan>
+<tspan x="10" y="19626">                                        {</tspan>
+<tspan x="10" y="19642">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="19658">                                          "loc": null,</tspan>
+<tspan x="10" y="19674">                                          "name": "options_16"</tspan>
+<tspan x="10" y="19690">                                        },</tspan>
+<tspan x="10" y="19706">                                        {</tspan>
+<tspan x="10" y="19722">                                          "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="19738">                                          "loc": null,</tspan>
+<tspan x="10" y="19754">                                          "object": {</tspan>
+<tspan x="10" y="19770">                                            "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="19786">                                            "loc": null,</tspan>
+<tspan x="10" y="19802">                                            "name": "local_13"</tspan>
+<tspan x="10" y="19818">                                          },</tspan>
+<tspan x="10" y="19834">                                          "property": "onErrorThrow"</tspan>
+<tspan x="10" y="19850">                                        }</tspan>
+<tspan x="10" y="19866">                                      ]</tspan>
+<tspan x="10" y="19882">                                    }</tspan>
+<tspan x="10" y="19898">                                  },</tspan>
+<tspan x="10" y="19914">                                  {</tspan>
+<tspan x="10" y="19930">                                    "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="19946">                                    "loc": null,</tspan>
+<tspan x="10" y="19962">                                    "expression": {</tspan>
+<tspan x="10" y="19978">                                      "type": "CallExpression",</tspan>
+<tspan x="10" y="19994">                                      "loc": null,</tspan>
+<tspan x="10" y="20010">                                      "callee": {</tspan>
+<tspan x="10" y="20026">                                        "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="20042">                                        "loc": null,</tspan>
+<tspan x="10" y="20058">                                        "object": {</tspan>
+<tspan x="10" y="20074">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="20090">                                          "loc": null,</tspan>
+<tspan x="10" y="20106">                                          "name": "local_13"</tspan>
+<tspan x="10" y="20122">                                        },</tspan>
+<tspan x="10" y="20138">                                        "property": "testCase_buildTest_default"</tspan>
+<tspan x="10" y="20154">                                      },</tspan>
+<tspan x="10" y="20170">                                      "arguments": [</tspan>
+<tspan x="10" y="20186">                                        {</tspan>
+<tspan x="10" y="20202">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="20218">                                          "loc": null,</tspan>
+<tspan x="10" y="20234">                                          "name": "options_16"</tspan>
+<tspan x="10" y="20250">                                        },</tspan>
+<tspan x="10" y="20266">                                        {</tspan>
+<tspan x="10" y="20282">                                          "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="20298">                                          "loc": null,</tspan>
+<tspan x="10" y="20314">                                          "object": {</tspan>
+<tspan x="10" y="20330">                                            "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="20346">                                            "loc": null,</tspan>
+<tspan x="10" y="20362">                                            "name": "local_13"</tspan>
+<tspan x="10" y="20378">                                          },</tspan>
+<tspan x="10" y="20394">                                          "property": "onErrorThrow"</tspan>
+<tspan x="10" y="20410">                                        }</tspan>
+<tspan x="10" y="20426">                                      ]</tspan>
+<tspan x="10" y="20442">                                    }</tspan>
+<tspan x="10" y="20458">                                  },</tspan>
+<tspan x="10" y="20474">                                  {</tspan>
+<tspan x="10" y="20490">                                    "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="20506">                                    "loc": null,</tspan>
+<tspan x="10" y="20522">                                    "expression": {</tspan>
+<tspan x="10" y="20538">                                      "type": "AssignmentExpression",</tspan>
+<tspan x="10" y="20554">                                      "loc": null,</tspan>
+<tspan x="10" y="20570">                                      "binding": {</tspan>
+<tspan x="10" y="20586">                                        "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="20602">                                        "loc": null,</tspan>
+<tspan x="10" y="20618">                                        "name": "options_16"</tspan>
+<tspan x="10" y="20634">                                      },</tspan>
+<tspan x="10" y="20650">                                      "expression": {</tspan>
+<tspan x="10" y="20666">                                        "type": "ArrayExpression",</tspan>
+<tspan x="10" y="20682">                                        "loc": null,</tspan>
+<tspan x="10" y="20698">                                        "elements": []</tspan>
+<tspan x="10" y="20714">                                      }</tspan>
+<tspan x="10" y="20730">                                    }</tspan>
+<tspan x="10" y="20746">                                  },</tspan>
+<tspan x="10" y="20762">                                  {</tspan>
+<tspan x="10" y="20778">                                    "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="20794">                                    "loc": null,</tspan>
+<tspan x="10" y="20810">                                    "expression": {</tspan>
+<tspan x="10" y="20826">                                      "type": "CallExpression",</tspan>
+<tspan x="10" y="20842">                                      "loc": null,</tspan>
+<tspan x="10" y="20858">                                      "callee": {</tspan>
+<tspan x="10" y="20874">                                        "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="20890">                                        "loc": null,</tspan>
+<tspan x="10" y="20906">                                        "object": {</tspan>
+<tspan x="10" y="20922">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="20938">                                          "loc": null,</tspan>
+<tspan x="10" y="20954">                                          "name": "local_13"</tspan>
+<tspan x="10" y="20970">                                        },</tspan>
+<tspan x="10" y="20986">                                        "property": "buildApp"</tspan>
+<tspan x="10" y="21002">                                      },</tspan>
+<tspan x="10" y="21018">                                      "arguments": [</tspan>
+<tspan x="10" y="21034">              created apidoc file:///home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/build/api\</tspan>
+<tspan x="10" y="21050">doc.html</tspan>
+<tspan x="10" y="21066"></tspan>
+<tspan x="10" y="21082"></tspan>
+<tspan x="10" y="21098">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/ele\</tspan>
+<tspan x="10" y="21114">ctron.15b4892e9dd0.23f52309833f7.html</tspan>
+<tspan x="10" y="21130"></tspan>
+<tspan x="10" y="21146">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="21162">[node test-case 1 of 6 passed] - testCase_buildLib_default</tspan>
+<tspan x="10" y="21178">[node test-case 2 of 6 passed] - testCase_buildReadme_default</tspan>
+<tspan x="10" y="21194">[node test-case 3 of 6 passed] - testCase_buildTest_default</tspan>
+<tspan x="10" y="21210"></tspan>
+<tspan x="10" y="21226">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/ele\</tspan>
+<tspan x="10" y="21242">ctron.15b4892eaa60.76526e932b12a.html</tspan>
+<tspan x="10" y="21258"></tspan>
+<tspan x="10" y="21274">                          {</tspan>
+<tspan x="10" y="21290">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="21306">                                          "loc": null,</tspan>
+<tspan x="10" y="21322">                                          "name": "options_16"</tspan>
+<tspan x="10" y="21338">                                        },</tspan>
+<tspan x="10" y="21354">                                        {</tspan>
+<tspan x="10" y="21370">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="21386">                                          "loc": null,</tspan>
+<tspan x="10" y="21402">                                          "name": "onError_17"</tspan>
+<tspan x="10" y="21418">                                        }</tspan>
+<tspan x="10" y="21434">                                      ]</tspan>
+<tspan x="10" y="21450">                                    }</tspan>
+<tspan x="10" y="21466">                                  }</tspan>
+<tspan x="10" y="21482">                                ]</tspan>
+<tspan x="10" y="21498">                              }</tspan>
+<tspan x="10" y="21514">                            }</tspan>
+<tspan x="10" y="21530">                          }</tspan>
+<tspan x="10" y="21546">                        }</tspan>
+<tspan x="10" y="21562">                      },</tspan>
+<tspan x="10" y="21578">                      {</tspan>
+<tspan x="10" y="21594">                        "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="21610">                        "loc": null,</tspan>
+<tspan x="10" y="21626">                        "expression": {</tspan>
+<tspan x="10" y="21642">                          "type": "AssignmentExpression",</tspan>
+<tspan x="10" y="21658">                          "loc": null,</tspan>
+<tspan x="10" y="21674">                          "binding": {</tspan>
+<tspan x="10" y="21690">                            "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="21706">                            "loc": null,</tspan>
+<tspan x="10" y="21722">                            "object": {</tspan>
+<tspan x="10" y="21738">                              "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="21754">                              "loc": null,</tspan>
+<tspan x="10" y="21770">                              "name": "local_13"</tspan>
+<tspan x="10" y="21786">                            },</tspan>
+<tspan x="10" y="21802">                            "property": "testCase_buildLib_default"</tspan>
+<tspan x="10" y="21818">                          },</tspan>
+<tspan x="10" y="21834">                          "expression": {</tspan>
+<tspan x="10" y="21850">                            "type": "BinaryExpression",</tspan>
+<tspan x="10" y="21866">                            "loc": null,</tspan>
+<tspan x="10" y="21882">                            "left": {</tspan>
+<tspan x="10" y="21898">                              "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="21914">                              "loc": null,</tspan>
+<tspan x="10" y="21930">                              "object": {</tspan>
+<tspan x="10" y="21946">                                "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="21962">                                "loc": null,</tspan>
+<tspan x="10" y="21978">                                "name": "local_13"</tspan>
+<tspan x="10" y="21994">                              },</tspan>
+<tspan x="10" y="22010">                              "property": "testCase_buildLib_default"</tspan>
+<tspan x="10" y="22026">                            },</tspan>
+<tspan x="10" y="22042">                            "operator": "||",</tspan>
+<tspan x="10" y="22058">                            "right": {</tspan>
+<tspan x="10" y="22074">                              "type": "FunctionExpression",</tspan>
+<tspan x="10" y="22090">                              "loc": null,</tspan>
+<tspan x="10" y="22106">                              "isGenerator": false,</tspan>
+<tspan x="10" y="22122">                              "name": null,</tspan>
+<tspan x="10" y="22138">                              "params": {</tspan>
+<tspan x="10" y="22154">                                "type": "FormalParameters",</tspan>
+<tspan x="10" y="22170">                                "loc": null,</tspan>
+<tspan x="10" y="22186">                                "items": [</tspan>
+<tspan x="10" y="22202">                                  {</tspan>
+<tspan x="10" y="22218">                                    "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="22234">                                    "loc": null,</tspan>
+<tspan x="10" y="22250">                                    "name": "options_18"</tspan>
+<tspan x="10" y="22266">                                  },</tspan>
+<tspan x="10" y="22282">                                  {</tspan>
+<tspan x="10" y="22298">                                    "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="22314">                                    "loc": null,</tspan>
+<tspan x="10" y="22330">                                    "name": "onError_19"</tspan>
+<tspan x="10" y="22346">                                  }</tspan>
+<tspan x="10" y="22362">                                ],</tspan>
+<tspan x="10" y="22378">                                "rest": null</tspan>
+<tspan x="10" y="22394">                              },</tspan>
+<tspan x="10" y="22410">                              "body": {</tspan>
+<tspan x="10" y="22426">                                "type": "FunctionBody",</tspan>
+<tspan x="10" y="22442">                                "loc": null,</tspan>
+<tspan x="10" y="22458">                                "directives": [],</tspan>
+<tspan x="10" y="22474">                                "statements": [</tspan>
+<tspan x="10" y="22490">                                  {</tspan>
+<tspan x="10" y="22506">                                    "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="22522">                                    "loc": null,</tspan>
+<tspan x="10" y="22538">                                    "expression": {</tspan>
+<tspan x="10" y="22554">                                      "type": "AssignmentExpression",</tspan>
+<tspan x="10" y="22570">                                      "loc": null,</tspan>
+<tspan x="10" y="22586">                                      "binding": {</tspan>
+<tspan x="10" y="22602">                                        "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="22618">                                        "loc": null,</tspan>
+<tspan x="10" y="22634">                                        "name": "options_18"</tspan>
+<tspan x="10" y="22650">                                      },</tspan>
+<tspan x="10" y="22666">                                      "expression": {</tspan>
+<tspan x="10" y="22682">                                        "type": "ObjectExpression",</tspan>
+<tspan x="10" y="22698">                                        "loc": null,</tspan>
+<tspan x="10" y="22714">                                        "properties": []</tspan>
+<tspan x="10" y="22730">                                      }</tspan>
+<tspan x="10" y="22746">                                    }</tspan>
+<tspan x="10" y="22762">                                  },</tspan>
+<tspan x="10" y="22778">                                  {</tspan>
+<tspan x="10" y="22794">                                    "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="22810">                                    "loc": null,</tspan>
+<tspan x="10" y="22826">                                    "expression": {</tspan>
+<tspan x="10" y="22842">                                      "type": "CallExpression",</tspan>
+<tspan x="10" y="22858">                                      "loc": null,</tspan>
+<tspan x="10" y="22874">                                      "callee": {</tspan>
+<tspan x="10" y="22890">                                        "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="22906">                                        "loc": null,</tspan>
+<tspan x="10" y="22922">                                        "object": {</tspan>
+<tspan x="10" y="22938">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="22954">                                          "loc": null,</tspan>
+<tspan x="10" y="22970">                                          "name": "local_13"</tspan>
+<tspan x="10" y="22986">                                        },</tspan>
+<tspan x="10" y="23002">                                        "property": "buildLib"</tspan>
+<tspan x="10" y="23018">                                      },</tspan>
+<tspan x="10" y="23034">                                      "arguments": [</tspan>
+<tspan x="10" y="23050">                                        {</tspan>
+<tspan x="10" y="23066">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="23082">                                          "loc": null,</tspan>
+<tspan x="10" y="23098">                                          "name": "options_18"</tspan>
+<tspan x="10" y="23114">                                        },</tspan>
+<tspan x="10" y="23130">                                        {</tspan>
+<tspan x="10" y="23146">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="23162">                                          "loc": null,</tspan>
+<tspan x="10" y="23178">                                          "name": "onError_19"</tspan>
+<tspan x="10" y="23194">                                        }</tspan>
+<tspan x="10" y="23210">                                      ]</tspan>
+<tspan x="10" y="23226">                                    }</tspan>
+<tspan x="10" y="23242">                                  }</tspan>
+<tspan x="10" y="23258">                                ]</tspan>
+<tspan x="10" y="23274">                              }</tspan>
+<tspan x="10" y="23290">                            }</tspan>
+<tspan x="10" y="23306">                          }</tspan>
+<tspan x="10" y="23322">                        }</tspan>
+<tspan x="10" y="23338">                      },</tspan>
+<tspan x="10" y="23354">                      {</tspan>
+<tspan x="10" y="23370">                        "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="23386">                        "loc": null,</tspan>
+<tspan x="10" y="23402">                        "expression": {</tspan>
+<tspan x="10" y="23418">                          "type": "AssignmentExpression",</tspan>
+<tspan x="10" y="23434">                          "loc": null,</tspan>
+<tspan x="10" y="23450">                          "binding": {</tspan>
+<tspan x="10" y="23466">                            "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="23482">                            "loc": null,</tspan>
+<tspan x="10" y="23498">                            "object": {</tspan>
+<tspan x="10" y="23514">                              "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="23530">                              "loc": null,</tspan>
+<tspan x="10" y="23546">                              "name": "local_13"</tspan>
+<tspan x="10" y="23562">                            },</tspan>
+<tspan x="10" y="23578">                            "property": "testCase_buildReadme_default"</tspan>
+<tspan x="10" y="23594">                          },</tspan>
+<tspan x="10" y="23610">                          "expression": {</tspan>
+<tspan x="10" y="23626">                            "type": "BinaryExpression",</tspan>
+<tspan x="10" y="23642">                            "loc": null,</tspan>
+<tspan x="10" y="23658">                            "left": {</tspan>
+<tspan x="10" y="23674">                              "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="23690">                              "loc": null,</tspan>
+<tspan x="10" y="23706">                              "object": {</tspan>
+<tspan x="10" y="23722">                                "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="23738">                                "loc": null,</tspan>
+<tspan x="10" y="23754">                                "name": "local_13"</tspan>
+<tspan x="10" y="23770">                              },</tspan>
+<tspan x="10" y="23786">                              "property": "testCase_buildReadme_default"</tspan>
+<tspan x="10" y="23802">                            },</tspan>
+<tspan x="10" y="23818">                            "operator": "||",</tspan>
+<tspan x="10" y="23834">                            "right": {</tspan>
+<tspan x="10" y="23850">                              "type": "FunctionExpression",</tspan>
+<tspan x="10" y="23866">                              "loc": null,</tspan>
+<tspan x="10" y="23882">                              "isGenerator": false,</tspan>
+<tspan x="10" y="23898">                              "name": null,</tspan>
+<tspan x="10" y="23914">                              "params": {</tspan>
+<tspan x="10" y="23930">                                "type": "FormalParameters",</tspan>
+<tspan x="10" y="23946">                                "loc": null,</tspan>
+<tspan x="10" y="23962">                                "items": [</tspan>
+<tspan x="10" y="23978">                                  {</tspan>
+<tspan x="10" y="23994">                                    "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="24010">                                    "loc": null,</tspan>
+<tspan x="10" y="24026">                                    "name": "options_20"</tspan>
+<tspan x="10" y="24042">                                  },</tspan>
+<tspan x="10" y="24058">                                  {</tspan>
+<tspan x="10" y="24074">                                    "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="24090">                                    "loc": null,</tspan>
+<tspan x="10" y="24106">                                    "name": "onError_21"</tspan>
+<tspan x="10" y="24122">                                  }</tspan>
+<tspan x="10" y="24138">                                ],</tspan>
+<tspan x="10" y="24154">                                "rest": null</tspan>
+<tspan x="10" y="24170">                              },</tspan>
+<tspan x="10" y="24186">                              "body": {</tspan>
+<tspan x="10" y="24202">                                "type": "FunctionBody",</tspan>
+<tspan x="10" y="24218">                                "loc": null,</tspan>
+<tspan x="10" y="24234">                                "directives": [],</tspan>
+<tspan x="10" y="24250">                                "statements": [</tspan>
+<tspan x="10" y="24266">                                  {</tspan>
+<tspan x="10" y="24282">                                    "type": "IfStatement",</tspan>
+<tspan x="10" y="24298">                                    "loc": null,</tspan>
+<tspan x="10" y="24314">                                    "test": {</tspan>
+<tspan x="10" y="24330">                                      "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="24346">                                      "loc": null,</tspan>
+<tspan x="10" y="24362">                                      "object": {</tspan>
+<tspan x="10" y="24378">                                        "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="24394">                                        "loc": null,</tspan>
+<tspan x="10" y="24410">                                        "object": {</tspan>
+<tspan x="10" y="24426">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="24442">                                          "loc": null,</tspan>
+<tspan x="10" y="24458">                                          "name": "local_13"</tspan>
+<tspan x="10" y="24474">                                        },</tspan>
+<tspan x="10" y="24490">                                        "property": "env"</tspan>
+<tspan x="10" y="24506">                                      },</tspan>
+<tspan x="10" y="24522">                                      "property": "npm_package_buildNpmdoc"</tspan>
+<tspan x="10" y="24538">                                    },</tspan>
+<tspan x="10" y="24554">                                    "consequent": {</tspan>
+<tspan x="10" y="24570">                                      "type": "BlockStatement",</tspan>
+<tspan x="10" y="24586">                                      "loc": null,</tspan>
+<tspan x="10" y="24602">                                      "block": {</tspan>
+<tspan x="10" y="24618">                                        "type": "Block",</tspan>
+<tspan x="10" y="24634">                                        "loc": null,</tspan>
+<tspan x="10" y="24650">                                        "statements": [</tspan>
+<tspan x="10" y="24666">                                          {</tspan>
+<tspan x="10" y="24682">                                            "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="24698">                                            "loc": null,</tspan>
+<tspan x="10" y="24714">                                            "expression": {</tspan>
+<tspan x="10" y="24730">                                              "type": "CallExpression",</tspan>
+<tspan x="10" y="24746">                                              "loc": null,</tspan>
+<tspan x="10" y="24762">                                              "callee": {</tspan>
+<tspan x="10" y="24778">                                                "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="24794">                                                "loc": null,</tspan>
+<tspan x="10" y="24810">                                                "name": "onError_21"</tspan>
+<tspan x="10" y="24826">                                              },</tspan>
+<tspan x="10" y="24842">                                              "arguments": []</tspan>
+<tspan x="10" y="24858">                                            }</tspan>
+<tspan x="10" y="24874">                                          },</tspan>
+<tspan x="10" y="24890">                                          {</tspan>
+<tspan x="10" y="24906">                                            "type": "ReturnStatement",</tspan>
+<tspan x="10" y="24922">                                            "loc": null,</tspan>
+<tspan x="10" y="24938">                                            "expression": null</tspan>
+<tspan x="10" y="24954">                                          }</tspan>
+<tspan x="10" y="24970">                                        ]</tspan>
+<tspan x="10" y="24986">                                      }</tspan>
+<tspan x="10" y="25002">                                    },</tspan>
+<tspan x="10" y="25018">                                    "alternate": null</tspan>
+<tspan x="10" y="25034">                                  },</tspan>
+<tspan x="10" y="25050">                                  {</tspan>
+<tspan x="10" y="25066">                                    "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="25082">                                    "loc": null,</tspan>
+<tspan x="10" y="25098">                                    "expression": {</tspan>
+<tspan x="10" y="25114">                                      "type": "AssignmentExpression",</tspan>
+<tspan x="10" y="25130">                                      "loc": null,</tspan>
+<tspan x="10" y="25146">                                      "binding": {</tspan>
+<tspan x="10" y="25162">                                        "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="25178">                                        "loc": null,</tspan>
+<tspan x="10" y="25194">                                        "name": "options_20"</tspan>
+<tspan x="10" y="25210">                                      },</tspan>
+<tspan x="10" y="25226">                                      "expression": {</tspan>
+<tspan x="10" y="25242">                                        "type": "ObjectExpression",</tspan>
+<tspan x="10" y="25258">                                        "loc": null,</tspan>
+<tspan x="10" y="25274">                                        "properties": []</tspan>
+<tspan x="10" y="25290">                                      }</tspan>
+<tspan x="10" y="25306">                                    }</tspan>
+<tspan x="10" y="25322">                                  },</tspan>
+<tspan x="10" y="25338">                                  {</tspan>
+<tspan x="10" y="25354">                                    "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="25370">                                    "loc": null,</tspan>
+<tspan x="10" y="25386">                                    "expression": {</tspan>
+<tspan x="10" y="25402">                                      "type": "CallExpression",</tspan>
+<tspan x="10" y="25418">                                      "loc": null,</tspan>
+<tspan x="10" y="25434">                                      "callee": {</tspan>
+<tspan x="10" y="25450">                                        "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="25466">                                        "loc": null,</tspan>
+<tspan x="10" y="25482">                                        "object": {</tspan>
+<tspan x="10" y="25498">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="25514">                                          "loc": null,</tspan>
+<tspan x="10" y="25530">                                          "name": "local_13"</tspan>
+<tspan x="10" y="25546">                                        },</tspan>
+<tspan x="10" y="25562">                                        "property": "buildReadme"</tspan>
+<tspan x="10" y="25578">                                      },</tspan>
+<tspan x="10" y="25594">                                      "arguments": [</tspan>
+<tspan x="10" y="25610">                                        {</tspan>
+<tspan x="10" y="25626">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="25642">                                          "loc": null,</tspan>
+<tspan x="10" y="25658">                                          "name": "options_20"</tspan>
+<tspan x="10" y="25674">                                        },</tspan>
+<tspan x="10" y="25690">                                        {</tspan>
+<tspan x="10" y="25706">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="25722">                                          "loc": null,</tspan>
+<tspan x="10" y="25738">                                          "name": "onError_21"</tspan>
+<tspan x="10" y="25754">                                        }</tspan>
+<tspan x="10" y="25770">                                      ]</tspan>
+<tspan x="10" y="25786">                                    }</tspan>
+<tspan x="10" y="25802">                                  }</tspan>
+<tspan x="10" y="25818">                                ]</tspan>
+<tspan x="10" y="25834">                              }</tspan>
+<tspan x="10" y="25850">                            }</tspan>
+<tspan x="10" y="25866">                          }</tspan>
+<tspan x="10" y="25882">                        }</tspan>
+<tspan x="10" y="25898">                      },</tspan>
+<tspan x="10" y="25914">                      {</tspan>
+<tspan x="10" y="25930">                        "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="25946">                        "loc": null,</tspan>
+<tspan x="10" y="25962">                        "expression": {</tspan>
+<tspan x="10" y="25978">                          "type": "AssignmentExpression",</tspan>
+<tspan x="10" y="25994">                          "loc": null,</tspan>
+<tspan x="10" y="26010">                          "binding": {</tspan>
+<tspan x="10" y="26026">                            "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="26042">                            "loc": null,</tspan>
+<tspan x="10" y="26058">                            "object": {</tspan>
+<tspan x="10" y="26074">                              "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="26090">                              "loc": null,</tspan>
+<tspan x="10" y="26106">                              "name": "local_13"</tspan>
+<tspan x="10" y="26122">                            },</tspan>
+<tspan x="10" y="26138">                            "property": "testCase_buildTest_default"</tspan>
+<tspan x="10" y="26154">                          },</tspan>
+<tspan x="10" y="26170">                          "expression": {</tspan>
+<tspan x="10" y="26186">                            "type": "BinaryExpression",</tspan>
+<tspan x="10" y="26202">                            "loc": null,</tspan>
+<tspan x="10" y="26218">                            "left": {</tspan>
+<tspan x="10" y="26234">                              "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="26250">                              "loc": null,</tspan>
+<tspan x="10" y="26266">                              "object": {</tspan>
+<tspan x="10" y="26282">                                "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="26298">                                "loc": null,</tspan>
+<tspan x="10" y="26314">                                "name": "local_13"</tspan>
+<tspan x="10" y="26330">                              },</tspan>
+<tspan x="10" y="26346">                              "property": "testCase_buildTest_default"</tspan>
+<tspan x="10" y="26362">                            },</tspan>
+<tspan x="10" y="26378">                            "operator": "||",</tspan>
+<tspan x="10" y="26394">                            "right": {</tspan>
+<tspan x="10" y="26410">                              "type": "FunctionExpression",</tspan>
+<tspan x="10" y="26426">                              "loc": null,</tspan>
+<tspan x="10" y="26442">                              "isGenerator": false,</tspan>
+<tspan x="10" y="26458">                              "name": null,</tspan>
+<tspan x="10" y="26474">                              "params": {</tspan>
+<tspan x="10" y="26490">                                "type": "FormalParameters",</tspan>
+<tspan x="10" y="26506">                                "loc": null,</tspan>
+<tspan x="10" y="26522">                                "items": [</tspan>
+<tspan x="10" y="26538">                                  {</tspan>
+<tspan x="10" y="26554">                                    "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="26570">                                    "loc": null,</tspan>
+<tspan x="10" y="26586">                                    "name": "options_22"</tspan>
+<tspan x="10" y="26602">                                  },</tspan>
+<tspan x="10" y="26618">                                  {</tspan>
+<tspan x="10" y="26634">                                    "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="26650">                                    "loc": null,</tspan>
+<tspan x="10" y="26666">                                    "name": "onError_23"</tspan>
+<tspan x="10" y="26682">                                  }</tspan>
+<tspan x="10" y="26698">                                ],</tspan>
+<tspan x="10" y="26714">                                "rest": null</tspan>
+<tspan x="10" y="26730">                              },</tspan>
+<tspan x="10" y="26746">                              "body": {</tspan>
+<tspan x="10" y="26762">                                "type": "FunctionBody",</tspan>
+<tspan x="10" y="26778">                                "loc": null,</tspan>
+<tspan x="10" y="26794">                                "directives": [],</tspan>
+<tspan x="10" y="26810">                                "statements": [</tspan>
+<tspan x="10" y="26826">                                  {</tspan>
+<tspan x="10" y="26842">                                    "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="26858">                                    "loc": null,</tspan>
+<tspan x="10" y="26874">                                    "expression": {</tspan>
+<tspan x="10" y="26890">                                      "type": "AssignmentExpression",</tspan>
+<tspan x="10" y="26906">                                      "loc": null,</tspan>
+<tspan x="10" y="26922">                                      "binding": {</tspan>
+<tspan x="10" y="26938">                                        "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="26954">                                        "loc": null,</tspan>
+<tspan x="10" y="26970">                                        "name": "options_22"</tspan>
+<tspan x="10" y="26986">                                      },</tspan>
+<tspan x="10" y="27002">                                      "expression": {</tspan>
+<tspan x="10" y="27018">                                        "type": "ObjectExpression",</tspan>
+<tspan x="10" y="27034">                                        "loc": null,</tspan>
+<tspan x="10" y="27050">                                        "properties": []</tspan>
+<tspan x="10" y="27066">                                      }</tspan>
+<tspan x="10" y="27082">                                    }</tspan>
+<tspan x="10" y="27098">                                  },</tspan>
+<tspan x="10" y="27114">                                  {</tspan>
+<tspan x="10" y="27130">                                    "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="27146">                                    "loc": null,</tspan>
+<tspan x="10" y="27162">                                    "expression": {</tspan>
+<tspan x="10" y="27178">                                      "type": "CallExpression",</tspan>
+<tspan x="10" y="27194">                                      "loc": null,</tspan>
+<tspan x="10" y="27210">                                      "callee": {</tspan>
+<tspan x="10" y="27226">                                        "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="27242">                                        "loc": null,</tspan>
+<tspan x="10" y="27258">                                        "object": {</tspan>
+<tspan x="10" y="27274">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="27290">                                          "loc": null,</tspan>
+<tspan x="10" y="27306">                                          "name": "local_13"</tspan>
+<tspan x="10" y="27322">                                        },</tspan>
+<tspan x="10" y="27338">                                        "property": "buildTest"</tspan>
+<tspan x="10" y="27354">                                      },</tspan>
+<tspan x="10" y="27370">                                      "arguments": [</tspan>
+<tspan x="10" y="27386">                                        {</tspan>
+<tspan x="10" y="27402">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="27418">                                          "loc": null,</tspan>
+<tspan x="10" y="27434">                                          "name": "options_22"</tspan>
+<tspan x="10" y="27450">                                        },</tspan>
+<tspan x="10" y="27466">                                        {</tspan>
+<tspan x="10" y="27482">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="27498">                                          "loc": null,</tspan>
+<tspan x="10" y="27514">                                          "name": "onError_23"</tspan>
+<tspan x="10" y="27530">                                        }</tspan>
+<tspan x="10" y="27546">                                      ]</tspan>
+<tspan x="10" y="27562">                                    }</tspan>
+<tspan x="10" y="27578">                                  }</tspan>
+<tspan x="10" y="27594">                                ]</tspan>
+<tspan x="10" y="27610">                              }</tspan>
+<tspan x="10" y="27626">                            }</tspan>
+<tspan x="10" y="27642">                          }</tspan>
+<tspan x="10" y="27658">                        }</tspan>
+<tspan x="10" y="27674">                      },</tspan>
+<tspan x="10" y="27690">                      {</tspan>
+<tspan x="10" y="27706">                        "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="27722">                        "loc": null,</tspan>
+<tspan x="10" y="27738">                        "expression": {</tspan>
+<tspan x="10" y="27754">                          "type": "AssignmentExpression",</tspan>
+<tspan x="10" y="27770">                          "loc": null,</tspan>
+<tspan x="10" y="27786">                          "binding": {</tspan>
+<tspan x="10" y="27802">                            "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="27818">                            "loc": null,</tspan>
+<tspan x="10" y="27834">                            "object": {</tspan>
+<tspan x="10" y="27850">                              "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="27866">                              "loc": null,</tspan>
+<tspan x="10" y="27882">                              "name": "local_13"</tspan>
+<tspan x="10" y="27898">                            },</tspan>
+<tspan x="10" y="27914">                            "property": "testCase_webpage_default"</tspan>
+<tspan x="10" y="27930">                          },</tspan>
+<tspan x="10" y="27946">                          "expression": {</tspan>
+<tspan x="10" y="27962">                            "type": "BinaryExpression",</tspan>
+<tspan x="10" y="27978">                            "loc": null,</tspan>
+<tspan x="10" y="27994">                            "left": {</tspan>
+<tspan x="10" y="28010">                              "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="28026">                              "loc": null,</tspan>
+<tspan x="10" y="28042">                              "object": {</tspan>
+<tspan x="10" y="28058">                                "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="28074">                                "loc": null,</tspan>
+<tspan x="10" y="28090">                                "name": "local_13"</tspan>
+<tspan x="10" y="28106">                              },</tspan>
+<tspan x="10" y="28122">                              "property": "testCase_webpage_default"</tspan>
+<tspan x="10" y="28138">                            },</tspan>
+<tspan x="10" y="28154">                            "operator": "||",</tspan>
+<tspan x="10" y="28170">                            "right": {</tspan>
+<tspan x="10" y="28186">                              "type": "FunctionExpression",</tspan>
+<tspan x="10" y="28202">                              "loc": null,</tspan>
+<tspan x="10" y="28218">                              "isGenerator": false,</tspan>
+<tspan x="10" y="28234">                              "name": null,</tspan>
+<tspan x="10" y="28250">                              "params": {</tspan>
+<tspan x="10" y="28266">                                "type": "FormalParameters",</tspan>
+<tspan x="10" y="28282">                                "loc": null,</tspan>
+<tspan x="10" y="28298">                                "items": [</tspan>
+<tspan x="10" y="28314">                                  {</tspan>
+<tspan x="10" y="28330">                                    "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="28346">                                    "loc": null,</tspan>
+<tspan x="10" y="28362">                                    "name": "options_24"</tspan>
+<tspan x="10" y="28378">                                  },</tspan>
+<tspan x="10" y="28394">                                  {</tspan>
+<tspan x="10" y="28410">                                    "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="28426">                                    "loc": null,</tspan>
+<tspan x="10" y="28442">                                    "name": "onError_25"</tspan>
+<tspan x="10" y="28458">                                  }</tspan>
+<tspan x="10" y="28474">                                ],</tspan>
+<tspan x="10" y="28490">                                "rest": null</tspan>
+<tspan x="10" y="28506">                              },</tspan>
+<tspan x="10" y="28522">                              "body": {</tspan>
+<tspan x="10" y="28538">                                "type": "FunctionBody",</tspan>
+<tspan x="10" y="28554">                                "loc": null,</tspan>
+<tspan x="10" y="28570">                                "directives": [],</tspan>
+<tspan x="10" y="28586">                                "statements": [</tspan>
+<tspan x="10" y="28602">                                  {</tspan>
+<tspan x="10" y="28618">                                    "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="28634">                                    "loc": null,</tspan>
+<tspan x="10" y="28650">                                    "expression": {</tspan>
+<tspan x="10" y="28666">                                      "type": "AssignmentExpression",</tspan>
+<tspan x="10" y="28682">                                      "loc": null,</tspan>
+<tspan x="10" y="28698">                                      "binding": {</tspan>
+<tspan x="10" y="28714">                                        "type": "BindingIdentifier",</tspan>
+<tspan x="10" y="28730">                                        "loc": null,</tspan>
+<tspan x="10" y="28746">                                        "name": "options_24"</tspan>
+<tspan x="10" y="28762">                                      },</tspan>
+<tspan x="10" y="28778">                                      "expression": {</tspan>
+<tspan x="10" y="28794">                                        "type": "ObjectExpression",</tspan>
+<tspan x="10" y="28810">                                        "loc": null,</tspan>
+<tspan x="10" y="28826">                                        "properties": [</tspan>
+<tspan x="10" y="28842">                                          {</tspan>
+<tspan x="10" y="28858">                                            "type": "DataProperty",</tspan>
+<tspan x="10" y="28874">                                            "loc": null,</tspan>
+<tspan x="10" y="28890">                                            "name": {</tspan>
+<tspan x="10" y="28906">                                              "type": "StaticPropertyName",</tspan>
+<tspan x="10" y="28922">                                              "loc": null,</tspan>
+<tspan x="10" y="28938">                                              "value": "modeCoverageMerge"</tspan>
+<tspan x="10" y="28954">                                            },</tspan>
+<tspan x="10" y="28970">                                            "expression": {</tspan>
+<tspan x="10" y="28986">                                              "type": "LiteralBooleanExpression",</tspan>
+<tspan x="10" y="29002">                                              "loc": null,</tspan>
+<tspan x="10" y="29018">                                              "value": true</tspan>
+<tspan x="10" y="29034">                                            }</tspan>
+<tspan x="10" y="29050">                                          },</tspan>
+<tspan x="10" y="29066">                                          {</tspan>
+<tspan x="10" y="29082">                                            "type": "DataProperty",</tspan>
+<tspan x="10" y="29098">                                            "loc": null,</tspan>
+<tspan x="10" y="29114">                                            "name": {</tspan>
+<tspan x="10" y="29130">                                              "type": "StaticPropertyName",</tspan>
+<tspan x="10" y="29146">                                              "loc": null,</tspan>
+<tspan x="10" y="29162">                                              "value": "url"</tspan>
+<tspan x="10" y="29178">                                            },</tspan>
+<tspan x="10" y="29194">                                            "expression": {</tspan>
+<tspan x="10" y="29210">                                              "type": "BinaryExpression",</tspan>
+<tspan x="10" y="29226">                                              "loc": null,</tspan>
+<tspan x="10" y="29242">                                              "left": {</tspan>
+<tspan x="10" y="29258">                                                "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="29274">                                                "loc": null,</tspan>
+<tspan x="10" y="29290">                                                "object": {</tspan>
+<tspan x="10" y="29306">                                                  "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="29322">                                                  "loc": null,</tspan>
+<tspan x="10" y="29338">                                                  "name": "local_13"</tspan>
+<tspan x="10" y="29354">                                                },</tspan>
+<tspan x="10" y="29370">                                                "property": "serverLocalHost"</tspan>
+<tspan x="10" y="29386">                                              },</tspan>
+<tspan x="10" y="29402">                                              "operator": "+",</tspan>
+<tspan x="10" y="29418">                                              "right": {</tspan>
+<tspan x="10" y="29434">                                                "type": "LiteralStringExpression",</tspan>
+<tspan x="10" y="29450">                                                "loc": null,</tspan>
+<tspan x="10" y="29466">                                                "value": "?modeTest=1"</tspan>
+<tspan x="10" y="29482">                                              }</tspan>
+<tspan x="10" y="29498">                                            }</tspan>
+<tspan x="10" y="29514">                                          }</tspan>
+<tspan x="10" y="29530">                                        ]</tspan>
+<tspan x="10" y="29546">                                      }</tspan>
+<tspan x="10" y="29562">                                    }</tspan>
+<tspan x="10" y="29578">                                  },</tspan>
+<tspan x="10" y="29594">                                  {</tspan>
+<tspan x="10" y="29610">                                    "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="29626">                                    "loc": null,</tspan>
+<tspan x="10" y="29642">                                    "expression": {</tspan>
+<tspan x="10" y="29658">                                      "type": "CallExpression",</tspan>
+<tspan x="10" y="29674">                                      "loc": null,</tspan>
+<tspan x="10" y="29690">                                      "callee": {</tspan>
+<tspan x="10" y="29706">                                        "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="29722">                                        "loc": null,</tspan>
+<tspan x="10" y="29738">                                        "object": {</tspan>
+<tspan x="10" y="29754">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="29770">                                          "loc": null,</tspan>
+<tspan x="10" y="29786">                                          "name": "local_13"</tspan>
+<tspan x="10" y="29802">                                        },</tspan>
+<tspan x="10" y="29818">                                        "property": "browserTest"</tspan>
+<tspan x="10" y="29834">                                      },</tspan>
+<tspan x="10" y="29850">                                      "arguments": [</tspan>
+<tspan x="10" y="29866">                                        {</tspan>
+<tspan x="10" y="29882">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="29898">                                          "loc": null,</tspan>
+<tspan x="10" y="29914">                                          "name": "options_24"</tspan>
+<tspan x="10" y="29930">                                        },</tspan>
+<tspan x="10" y="29946">                                        {</tspan>
+<tspan x="10" y="29962">                                          "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="29978">                                          "loc": null,</tspan>
+<tspan x="10" y="29994">                                          "name": "onError_25"</tspan>
+<tspan x="10" y="30010">                                        }</tspan>
+<tspan x="10" y="30026">                                      ]</tspan>
+<tspan x="10" y="30042">                                    }</tspan>
+<tspan x="10" y="30058">                                  }</tspan>
+<tspan x="10" y="30074">                                ]</tspan>
+<tspan x="10" y="30090">                              }</tspan>
+<tspan x="10" y="30106">                            }</tspan>
+<tspan x="10" y="30122">                          }</tspan>
+<tspan x="10" y="30138">                        }</tspan>
+<tspan x="10" y="30154">                      },</tspan>
+<tspan x="10" y="30170">                      {</tspan>
+<tspan x="10" y="30186">                        "type": "ExpressionStatement",</tspan>
+<tspan x="10" y="30202">                        "loc": null,</tspan>
+<tspan x="10" y="30218">                        "expression": {</tspan>
+<tspan x="10" y="30234">                          "type": "CallExpression",</tspan>
+<tspan x="10" y="30250">                          "loc": null,</tspan>
+<tspan x="10" y="30266">                          "callee": {</tspan>
+<tspan x="10" y="30282">                            "type": "StaticMemberExpression",</tspan>
+<tspan x="10" y="30298">                            "loc": null,</tspan>
+<tspan x="10" y="30314">                            "object": {</tspan>
+<tspan x="10" y="30330">                              "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="30346">                              "loc": null,</tspan>
+<tspan x="10" y="30362">                              "name": "local_13"</tspan>
+<tspan x="10" y="30378">                            },</tspan>
+<tspan x="10" y="30394">                            "property": "testRunServer"</tspan>
+<tspan x="10" y="30410">                          },</tspan>
+<tspan x="10" y="30426">                          "arguments": [</tspan>
+<tspan x="10" y="30442">                            {</tspan>
+<tspan x="10" y="30458">                              "type": "IdentifierExpression",</tspan>
+<tspan x="10" y="30474">                              "loc": null,</tspan>
+<tspan x="10" y="30490">                              "name": "local_13"</tspan>
+<tspan x="10" y="30506">                            }</tspan>
+<tspan x="10" y="30522">                          ]</tspan>
+<tspan x="10" y="30538">                        }</tspan>
+<tspan x="10" y="30554">                      },</tspan>
+<tspan x="10" y="30570">                      {</tspan>
+<tspan x="10" y="30586">                        "type": "BreakStatement",</tspan>
+<tspan x="10" y="30602">                        "loc": null,</tspan>
+<tspan x="10" y="30618">                        "label": null</tspan>
+<tspan x="10" y="30634">                      }</tspan>
+<tspan x="10" y="30650">                    ]</tspan>
+<tspan x="10" y="30666">                  }</tspan>
+<tspan x="10" y="30682">                ]</tspan>
+<tspan x="10" y="30698">              }</tspan>
+<tspan x="10" y="30714">            ]</tspan>
+<tspan x="10" y="30730">          }</tspan>
+<tspan x="10" y="30746">        },</tspan>
+<tspan x="10" y="30762">        "arguments": []</tspan>
+<tspan x="10" y="30778">      }</tspan>
+<tspan x="10" y="30794">    }</tspan>
+<tspan x="10" y="30810">  ]</tspan>
+<tspan x="10" y="30826">}</tspan>
+<tspan x="10" y="30842">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="30858">merging file:///home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/build/test-report.json to test\</tspan>
+<tspan x="10" y="30874">-report</tspan>
+<tspan x="10" y="30890">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="30906">[4915:0407/132040:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="30922">[4915:0407/132040:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="30938">[4956:0407/132040:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="30954">in process gpu-process. </tspan>
+<tspan x="10" y="30970">&gt; server listening on http-port 37573</tspan>
+<tspan x="10" y="30986">[4915:0407/132040:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="31002"></tspan>
+<tspan x="10" y="31018">browserTest - opened url /home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="31034"></tspan>
+<tspan x="10" y="31050">merging file:///home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/build/test-report.json to test\</tspan>
+<tspan x="10" y="31066">-report</tspan>
+<tspan x="10" y="31082">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="31098">[4931:0407/132040:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="31114">[4931:0407/132040:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="31130">[5000:0407/132040:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="31146">in process gpu-process. </tspan>
+<tspan x="10" y="31162">[4931:0407/132040:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="31178"></tspan>
+<tspan x="10" y="31194">browserTest - opened url http://127.0.0.1:50086?modeTest=1</tspan>
+<tspan x="10" y="31210"></tspan>
+<tspan x="10" y="31226">[4931:0407/132042:INFO:CONSOLE(250)] "----------|-----------|-----------|-----------|-----------\</tspan>
+<tspan x="10" y="31242">|</tspan>
+<tspan x="10" y="31258">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="31274">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="31290">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="31306">All files |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="31322">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="31338">", source: file:///home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/electron.15b4892eaa60.76526\</tspan>
+<tspan x="10" y="31354">e932b12a.html (250)</tspan>
+<tspan x="10" y="31370">[4931:0407/132042:INFO:CONSOLE(250)] "created coverage file:///tmp/build/coverage.html/index.htm\</tspan>
+<tspan x="10" y="31386">l", source: file:///home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/electron.15b4892eaa60.7652\</tspan>
+<tspan x="10" y="31402">6e932b12a.html (250)</tspan>
+<tspan x="10" y="31418">[node test-case 4 of 6 passed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="31434"></tspan>
+<tspan x="10" y="31450">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/bu\</tspan>
+<tspan x="10" y="31466">ild/screenCapture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-sweet.js_2Ftmp\</tspan>
+<tspan x="10" y="31482">_2Fbuild_2Fapidoc.html.png</tspan>
+<tspan x="10" y="31498"></tspan>
+<tspan x="10" y="31514">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/bu\</tspan>
+<tspan x="10" y="31530">ild/screenCapture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-sweet.js_2Ftmp\</tspan>
+<tspan x="10" y="31546">_2Fbuild_2Fapidoc.html.html</tspan>
+<tspan x="10" y="31562"></tspan>
+<tspan x="10" y="31578">browserTest - exit-code 0 - /home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="31594"></tspan>
+<tspan x="10" y="31610">[node test-case 5 of 6 passed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="31626"></tspan>
+<tspan x="10" y="31642">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/bu\</tspan>
+<tspan x="10" y="31658">ild/screenCapture.npmTest.browser..png</tspan>
+<tspan x="10" y="31674"></tspan>
+<tspan x="10" y="31690">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/bu\</tspan>
+<tspan x="10" y="31706">ild/screenCapture.npmTest.browser..html</tspan>
+<tspan x="10" y="31722"></tspan>
+<tspan x="10" y="31738">browserTest - exit-code 0 - http://127.0.0.1:50086?modeTest=1</tspan>
+<tspan x="10" y="31754"></tspan>
+<tspan x="10" y="31770"></tspan>
+<tspan x="10" y="31786">browserTest - merged coverage from /home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/coverage.n\</tspan>
+<tspan x="10" y="31802">pmTest.browser.%2F.json</tspan>
+<tspan x="10" y="31818"></tspan>
+<tspan x="10" y="31834"></tspan>
+<tspan x="10" y="31850">browserTest - merging test-report from /home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/test-r\</tspan>
+<tspan x="10" y="31866">eport.npmTest.browser.%2F.json</tspan>
+<tspan x="10" y="31882"></tspan>
+<tspan x="10" y="31898">[node test-case 6 of 6 passed] - testCase_webpage_default</tspan>
+<tspan x="10" y="31914">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="31930">File                         |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="31946">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="31962">   node-npmdoc-sweet.js/     |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="31978">      example.js             |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="31994">      lib.npmdoc_sweet.js.js |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="32010">      test.js                |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="32026">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="32042">All files                    |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="32058">-----------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="32074"></tspan>
+<tspan x="10" y="32090">created coverage file:///home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/build/coverage.html/i\</tspan>
+<tspan x="10" y="32106">ndex.html</tspan>
+<tspan x="10" y="32122">merging file:///home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/build/test-report.json to test\</tspan>
+<tspan x="10" y="32138">-report</tspan>
+<tspan x="10" y="32154"></tspan>
+<tspan x="10" y="32170">-------------------------------------------------------</tspan>
+<tspan x="10" y="32186">| test-report - buildNpmdoc - node - linux v6.10.2 - 2017-04-07T13:20:17.242Z</tspan>
+<tspan x="10" y="32202">|   37528 ms            0 failed        6 passed      |</tspan>
+<tspan x="10" y="32218">-------------------------------------------------------</tspan>
+<tspan x="10" y="32234"></tspan>
+<tspan x="10" y="32250">created test-report file:///home/travis/build/npmdoc/node-npmdoc-sweet.js/tmp/build/test-report.\</tspan>
+<tspan x="10" y="32266">html</tspan>
+<tspan x="10" y="32282"></tspan>
+<tspan x="10" y="32298"></tspan>
+<tspan x="10" y="32314">npmTest - 0 failed tests</tspan>
+<tspan x="10" y="32330"></tspan>
+<tspan x="10" y="32346"></tspan>
+<tspan x="10" y="32362">[MODE_BUILD=npmTest] - 2017-04-07T13:20:57Z - EXIT_CODE - 0</tspan>
+</text>
+</svg>

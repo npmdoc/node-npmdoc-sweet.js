@@ -1,0 +1,884 @@
+<svg height="14094" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="14094" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">  0.  2017-04-07 13:21:18 +0000 20032256 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-07 13:21:18 +0000       12 bytes  CNAME</tspan>
+<tspan x="10" y="58">  2.  2017-04-07 13:21:18 +0000     3203 bytes  CONTRIBUTING.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-07 13:21:18 +0000     1231 bytes  LICENSE.BSD</tspan>
+<tspan x="10" y="90">  4.  2017-04-07 13:21:18 +0000     1513 bytes  README.md</tspan>
+<tspan x="10" y="106">  5.  2017-04-07 13:21:18 +0000       26 bytes  _config.yml</tspan>
+<tspan x="10" y="122">  6.  2017-04-07 13:21:18 +0000     3383 bytes  _layouts/default.html</tspan>
+<tspan x="10" y="138">  7.  2017-04-07 13:21:18 +0000       12 bytes  _site/CNAME</tspan>
+<tspan x="10" y="154">  8.  2017-04-07 13:21:18 +0000       49 bytes  _site/Gemfile</tspan>
+<tspan x="10" y="170">  9.  2017-04-07 13:21:18 +0000     1083 bytes  _site/Gemfile.lock</tspan>
+<tspan x="10" y="186"> 10.  2017-04-07 13:21:18 +0000     1231 bytes  _site/LICENSE.BSD</tspan>
+<tspan x="10" y="202"> 11.  2017-04-07 13:21:18 +0000     1026 bytes  _site/README.md</tspan>
+<tspan x="10" y="218"> 12.  2017-04-07 13:21:18 +0000     1315 bytes  _site/bin/sjs</tspan>
+<tspan x="10" y="234"> 13.  2017-04-07 13:21:18 +0000       49 bytes  _site/browser/break.txt</tspan>
+<tspan x="10" y="250"> 14.  2017-04-07 13:21:18 +0000     7422 bytes  _site/browser/codemirror.css</tspan>
+<tspan x="10" y="266"> 15.  2017-04-07 13:21:18 +0000     2923 bytes  _site/browser/debug.html</tspan>
+<tspan x="10" y="282"> 16.  2017-04-07 13:21:18 +0000     7087 bytes  _site/browser/editor.html</tspan>
+<tspan x="10" y="298"> 17.  2017-04-07 13:21:18 +0000     4193 bytes  _site/browser/mode/javascript/index.html</tspan>
+<tspan x="10" y="314"> 18.  2017-04-07 13:21:18 +0000    26146 bytes  _site/browser/mode/javascript/javascript.js</tspan>
+<tspan x="10" y="330"> 19.  2017-04-07 13:21:18 +0000     2150 bytes  _site/browser/mode/javascript/json-ld.html</tspan>
+<tspan x="10" y="346"> 20.  2017-04-07 13:21:18 +0000     1547 bytes  _site/browser/mode/javascript/typescript.html</tspan>
+<tspan x="10" y="362"> 21.  2017-04-07 13:21:18 +0000   320588 bytes  _site/browser/scripts/codemirror.js</tspan>
+<tspan x="10" y="378"> 22.  2017-04-07 13:21:18 +0000    31859 bytes  _site/browser/scripts/editor.js</tspan>
+<tspan x="10" y="394"> 23.  2017-04-07 13:21:18 +0000    12842 bytes  _site/browser/scripts/emacs.js</tspan>
+<tspan x="10" y="410"> 24.  2017-04-07 13:21:18 +0000   242142 bytes  _site/browser/scripts/jquery.js</tspan>
+<tspan x="10" y="426"> 25.  2017-04-07 13:21:18 +0000     3670 bytes  _site/browser/scripts/main.js</tspan>
+<tspan x="10" y="442"> 26.  2017-04-07 13:21:18 +0000    14423 bytes  _site/browser/scripts/require.js</tspan>
+<tspan x="10" y="458"> 27.  2017-04-07 13:21:18 +0000     8468 bytes  _site/browser/scripts/rx.dom.compat.min.js</tspan>
+<tspan x="10" y="474"> 28.  2017-04-07 13:21:18 +0000     5649 bytes  _site/browser/scripts/rx.jquery.min.js</tspan>
+<tspan x="10" y="490"> 29.  2017-04-07 13:21:18 +0000   198950 bytes  _site/browser/scripts/rx.lite.js</tspan>
+<tspan x="10" y="506"> 30.  2017-04-07 13:21:18 +0000    61933 bytes  _site/browser/scripts/source-map.js</tspan>
+<tspan x="10" y="522"> 31.  2017-04-07 13:21:18 +0000  1753945 bytes  _site/browser/scripts/sweet.js</tspan>
+<tspan x="10" y="538"> 32.  2017-04-07 13:21:18 +0000     1683 bytes  _site/browser/scripts/sweeten.js</tspan>
+<tspan x="10" y="554"> 33.  2017-04-07 13:21:18 +0000    15464 bytes  _site/browser/scripts/text.js</tspan>
+<tspan x="10" y="570"> 34.  2017-04-07 13:21:18 +0000    45489 bytes  _site/browser/scripts/underscore.js</tspan>
+<tspan x="10" y="586"> 35.  2017-04-07 13:21:18 +0000   136832 bytes  _site/browser/scripts/vim.js</tspan>
+<tspan x="10" y="602"> 36.  2017-04-07 13:21:18 +0000    29119 bytes  _site/browser/solarized.css</tspan>
+<tspan x="10" y="618"> 37.  2017-04-07 13:21:18 +0000     3655 bytes  _site/browser/sourcemap.html</tspan>
+<tspan x="10" y="634"> 38.  2017-04-07 13:21:18 +0000      171 bytes  _site/browser/sourcemap_test.html</tspan>
+<tspan x="10" y="650"> 39.  2017-04-07 13:21:18 +0000      238 bytes  _site/browser/test_out.js</tspan>
+<tspan x="10" y="666"> 40.  2017-04-07 13:21:18 +0000     9242 bytes  _site/build/src/apply-scope-in-params-reducer.js</tspan>
+<tspan x="10" y="682"> 41.  2017-04-07 13:21:18 +0000     6743 bytes  _site/build/src/binding-map.js</tspan>
+<tspan x="10" y="698"> 42.  2017-04-07 13:21:18 +0000   241104 bytes  _site/build/src/enforester.js</tspan>
+<tspan x="10" y="714"> 43.  2017-04-07 13:21:18 +0000     6404 bytes  _site/build/src/env.js</tspan>
+<tspan x="10" y="730"> 44.  2017-04-07 13:21:18 +0000     2427 bytes  _site/build/src/errors.js</tspan>
+<tspan x="10" y="746"> 45.  2017-04-07 13:21:18 +0000     3701 bytes  _site/build/src/expander.js</tspan>
+<tspan x="10" y="762"> 46.  2017-04-07 13:21:18 +0000    12776 bytes  _site/build/src/load-syntax.js</tspan>
+<tspan x="10" y="778"> 47.  2017-04-07 13:21:18 +0000    18644 bytes  _site/build/src/macro-context.js</tspan>
+<tspan x="10" y="794"> 48.  2017-04-07 13:21:18 +0000     4218 bytes  _site/build/src/map-syntax-reducer.js</tspan>
+<tspan x="10" y="810"> 49.  2017-04-07 13:21:18 +0000    10087 bytes  _site/build/src/modules.js</tspan>
+<tspan x="10" y="826"> 50.  2017-04-07 13:21:18 +0000      976 bytes  _site/build/src/node-module-loader.js</tspan>
+<tspan x="10" y="842"> 51.  2017-04-07 13:21:18 +0000     1039 bytes  _site/build/src/node-module-resolver.js</tspan>
+<tspan x="10" y="858"> 52.  2017-04-07 13:21:18 +0000     6380 bytes  _site/build/src/operators.js</tspan>
+<tspan x="10" y="874"> 53.  2017-04-07 13:21:18 +0000    18557 bytes  _site/build/src/parse-reducer.js</tspan>
+<tspan x="10" y="890"> 54.  2017-04-07 13:21:18 +0000     1435 bytes  _site/build/src/scope.js</tspan>
+<tspan x="10" y="906"> 55.  2017-04-07 13:21:18 +0000    15101 bytes  _site/build/src/serializer.js</tspan>
+<tspan x="10" y="922"> 56.  2017-04-07 13:21:18 +0000    52001 bytes  _site/build/src/shift-reader.js</tspan>
+<tspan x="10" y="938"> 57.  2017-04-07 13:21:18 +0000     6858 bytes  _site/build/src/sweet.js</tspan>
+<tspan x="10" y="954"> 58.  2017-04-07 13:21:18 +0000     2789 bytes  _site/build/src/symbol.js</tspan>
+<tspan x="10" y="970"> 59.  2017-04-07 13:21:18 +0000    35968 bytes  _site/build/src/syntax.js</tspan>
+<tspan x="10" y="986"> 60.  2017-04-07 13:21:18 +0000    10247 bytes  _site/build/src/template-processor.js</tspan>
+<tspan x="10" y="1002"> 61.  2017-04-07 13:21:18 +0000    67057 bytes  _site/build/src/term-expander.js</tspan>
+<tspan x="10" y="1018"> 62.  2017-04-07 13:21:18 +0000    58916 bytes  _site/build/src/terms.js</tspan>
+<tspan x="10" y="1034"> 63.  2017-04-07 13:21:18 +0000    27184 bytes  _site/build/src/token-expander.js</tspan>
+<tspan x="10" y="1050"> 64.  2017-04-07 13:21:18 +0000     4974 bytes  _site/build/src/transforms.js</tspan>
+<tspan x="10" y="1066"> 65.  2017-04-07 13:21:18 +0000     2799 bytes  _site/build/src/utils.js</tspan>
+<tspan x="10" y="1082"> 66.  2017-04-07 13:21:18 +0000     1962 bytes  _site/build/sweet/apply-scope-in-params-reducer.\</tspan>
+<tspan x="10" y="1098">js</tspan>
+<tspan x="10" y="1114"> 67.  2017-04-07 13:21:18 +0000     1346 bytes  _site/build/sweet/binding-map.js</tspan>
+<tspan x="10" y="1130"> 68.  2017-04-07 13:21:18 +0000    62710 bytes  _site/build/sweet/enforester.js</tspan>
+<tspan x="10" y="1146"> 69.  2017-04-07 13:21:18 +0000     1558 bytes  _site/build/sweet/env.js</tspan>
+<tspan x="10" y="1162"> 70.  2017-04-07 13:21:18 +0000      540 bytes  _site/build/sweet/errors.js</tspan>
+<tspan x="10" y="1178"> 71.  2017-04-07 13:21:18 +0000      571 bytes  _site/build/sweet/expander.js</tspan>
+<tspan x="10" y="1194"> 72.  2017-04-07 13:21:18 +0000     3218 bytes  _site/build/sweet/load-syntax.js</tspan>
+<tspan x="10" y="1210"> 73.  2017-04-07 13:21:18 +0000     4406 bytes  _site/build/sweet/macro-context.js</tspan>
+<tspan x="10" y="1226"> 74.  2017-04-07 13:21:18 +0000      516 bytes  _site/build/sweet/map-syntax-reducer.js</tspan>
+<tspan x="10" y="1242"> 75.  2017-04-07 13:21:18 +0000     2255 bytes  _site/build/sweet/modules.js</tspan>
+<tspan x="10" y="1258"> 76.  2017-04-07 13:21:18 +0000      180 bytes  _site/build/sweet/node-module-loader.js</tspan>
+<tspan x="10" y="1274"> 77.  2017-04-07 13:21:18 +0000      145 bytes  _site/build/sweet/node-module-resolver.js</tspan>
+<tspan x="10" y="1290"> 78.  2017-04-07 13:21:18 +0000     1514 bytes  _site/build/sweet/operators.js</tspan>
+<tspan x="10" y="1306"> 79.  2017-04-07 13:21:18 +0000     4324 bytes  _site/build/sweet/parse-reducer.js</tspan>
+<tspan x="10" y="1322"> 80.  2017-04-07 13:21:18 +0000      292 bytes  _site/build/sweet/scope.js</tspan>
+<tspan x="10" y="1338"> 81.  2017-04-07 13:21:18 +0000     3543 bytes  _site/build/sweet/serializer.js</tspan>
+<tspan x="10" y="1354"> 82.  2017-04-07 13:21:18 +0000    12238 bytes  _site/build/sweet/shift-reader.js</tspan>
+<tspan x="10" y="1370"> 83.  2017-04-07 13:21:18 +0000     1601 bytes  _site/build/sweet/sweet.js</tspan>
+<tspan x="10" y="1386"> 84.  2017-04-07 13:21:18 +0000      662 bytes  _site/build/sweet/symbol.js</tspan>
+<tspan x="10" y="1402"> 85.  2017-04-07 13:21:18 +0000     8222 bytes  _site/build/sweet/syntax.js</tspan>
+<tspan x="10" y="1418"> 86.  2017-04-07 13:21:18 +0000     2430 bytes  _site/build/sweet/template-processor.js</tspan>
+<tspan x="10" y="1434"> 87.  2017-04-07 13:21:18 +0000    16448 bytes  _site/build/sweet/term-expander.js</tspan>
+<tspan x="10" y="1450"> 88.  2017-04-07 13:21:18 +0000    13047 bytes  _site/build/sweet/terms.js</tspan>
+<tspan x="10" y="1466"> 89.  2017-04-07 13:21:18 +0000     6943 bytes  _site/build/sweet/token-expander.js</tspan>
+<tspan x="10" y="1482"> 90.  2017-04-07 13:21:18 +0000      847 bytes  _site/build/sweet/transforms.js</tspan>
+<tspan x="10" y="1498"> 91.  2017-04-07 13:21:18 +0000      375 bytes  _site/build/sweet/utils.js</tspan>
+<tspan x="10" y="1514"> 92.  2017-04-07 13:21:18 +0000     9721 bytes  _site/build/test/assertions.js</tspan>
+<tspan x="10" y="1530"> 93.  2017-04-07 13:21:18 +0000     1075 bytes  _site/build/test/declaration/class-declaration.j\</tspan>
+<tspan x="10" y="1546">s</tspan>
+<tspan x="10" y="1562"> 94.  2017-04-07 13:21:18 +0000    11063 bytes  _site/build/test/declaration/function-declaratio\</tspan>
+<tspan x="10" y="1578">n.js</tspan>
+<tspan x="10" y="1594"> 95.  2017-04-07 13:21:18 +0000     5275 bytes  _site/build/test/declaration/generator-declarati\</tspan>
+<tspan x="10" y="1610">on.js</tspan>
+<tspan x="10" y="1626"> 96.  2017-04-07 13:21:18 +0000     2486 bytes  _site/build/test/declaration/lexical-declaration\</tspan>
+<tspan x="10" y="1642">s.js</tspan>
+<tspan x="10" y="1658"> 97.  2017-04-07 13:21:18 +0000     2446 bytes  _site/build/test/expressions/array-expression.js</tspan>
+<tspan x="10" y="1674"> 98.  2017-04-07 13:21:18 +0000    12155 bytes  _site/build/test/expressions/arrow-expression.js</tspan>
+<tspan x="10" y="1690"> 99.  2017-04-07 13:21:18 +0000     7056 bytes  _site/build/test/expressions/assignment-expressi\</tspan>
+<tspan x="10" y="1706">on.js</tspan>
+<tspan x="10" y="1722">100.  2017-04-07 13:21:18 +0000    13909 bytes  _site/build/test/expressions/binary-expression.j\</tspan>
+<tspan x="10" y="1738">s</tspan>
+<tspan x="10" y="1754">101.  2017-04-07 13:21:18 +0000     3828 bytes  _site/build/test/expressions/call-expression.js</tspan>
+<tspan x="10" y="1770">102.  2017-04-07 13:21:18 +0000    10501 bytes  _site/build/test/expressions/class-expression.js</tspan>
+<tspan x="10" y="1786">103.  2017-04-07 13:21:18 +0000     2868 bytes  _site/build/test/expressions/computed-member-exp\</tspan>
+<tspan x="10" y="1802">ression.js</tspan>
+<tspan x="10" y="1818">104.  2017-04-07 13:21:18 +0000     2121 bytes  _site/build/test/expressions/conditional-express\</tspan>
+<tspan x="10" y="1834">ion.js</tspan>
+<tspan x="10" y="1850">105.  2017-04-07 13:21:18 +0000     9341 bytes  _site/build/test/expressions/function-expression\</tspan>
+<tspan x="10" y="1866">.js</tspan>
+<tspan x="10" y="1882">106.  2017-04-07 13:21:18 +0000     2603 bytes  _site/build/test/expressions/grouped-expressions\</tspan>
+<tspan x="10" y="1898">.js</tspan>
+<tspan x="10" y="1914">107.  2017-04-07 13:21:18 +0000     4154 bytes  _site/build/test/expressions/identifier-expressi\</tspan>
+<tspan x="10" y="1930">on.js</tspan>
+<tspan x="10" y="1946">108.  2017-04-07 13:21:18 +0000     3776 bytes  _site/build/test/expressions/new-expression.js</tspan>
+<tspan x="10" y="1962">109.  2017-04-07 13:21:18 +0000     6012 bytes  _site/build/test/expressions/new-target-expressi\</tspan>
+<tspan x="10" y="1978">on.js</tspan>
+<tspan x="10" y="1994">110.  2017-04-07 13:21:18 +0000    17997 bytes  _site/build/test/expressions/object-expression.j\</tspan>
+<tspan x="10" y="2010">s</tspan>
+<tspan x="10" y="2026">111.  2017-04-07 13:21:18 +0000     2064 bytes  _site/build/test/expressions/static-member-expre\</tspan>
+<tspan x="10" y="2042">ssion.js</tspan>
+<tspan x="10" y="2058">112.  2017-04-07 13:21:18 +0000    16258 bytes  _site/build/test/expressions/super.js</tspan>
+<tspan x="10" y="2074">113.  2017-04-07 13:21:18 +0000     4602 bytes  _site/build/test/expressions/template-expression\</tspan>
+<tspan x="10" y="2090">.js</tspan>
+<tspan x="10" y="2106">114.  2017-04-07 13:21:18 +0000      836 bytes  _site/build/test/expressions/this-expression.js</tspan>
+<tspan x="10" y="2122">115.  2017-04-07 13:21:18 +0000     2110 bytes  _site/build/test/expressions/unary-expression.js</tspan>
+<tspan x="10" y="2138">116.  2017-04-07 13:21:18 +0000     2162 bytes  _site/build/test/expressions/update-expression.j\</tspan>
+<tspan x="10" y="2154">s</tspan>
+<tspan x="10" y="2170">117.  2017-04-07 13:21:18 +0000     3355 bytes  _site/build/test/expressions/yield-expression.js</tspan>
+<tspan x="10" y="2186">118.  2017-04-07 13:21:18 +0000     2302 bytes  _site/build/test/expressions/yield-generator-exp\</tspan>
+<tspan x="10" y="2202">ression.js</tspan>
+<tspan x="10" y="2218">119.  2017-04-07 13:21:18 +0000     1720 bytes  _site/build/test/miscellaneous/comments.js</tspan>
+<tspan x="10" y="2234">120.  2017-04-07 13:21:18 +0000     4348 bytes  _site/build/test/miscellaneous/grouping.js</tspan>
+<tspan x="10" y="2250">121.  2017-04-07 13:21:18 +0000    10142 bytes  _site/build/test/miscellaneous/incompatibilities\</tspan>
+<tspan x="10" y="2266">.js</tspan>
+<tspan x="10" y="2282">122.  2017-04-07 13:21:18 +0000    22257 bytes  _site/build/test/miscellaneous/interactions.js</tspan>
+<tspan x="10" y="2298">123.  2017-04-07 13:21:18 +0000    10274 bytes  _site/build/test/miscellaneous/whitespace.js</tspan>
+<tspan x="10" y="2314">124.  2017-04-07 13:21:18 +0000     9912 bytes  _site/build/test/modules/export.js</tspan>
+<tspan x="10" y="2330">125.  2017-04-07 13:21:18 +0000     6391 bytes  _site/build/test/modules/import.js</tspan>
+<tspan x="10" y="2346">126.  2017-04-07 13:21:18 +0000     1916 bytes  _site/build/test/property-definition/generator-m\</tspan>
+<tspan x="10" y="2362">ethod.js</tspan>
+<tspan x="10" y="2378">127.  2017-04-07 13:21:18 +0000     8090 bytes  _site/build/test/property-definition/property-na\</tspan>
+<tspan x="10" y="2394">me.js</tspan>
+<tspan x="10" y="2410">128.  2017-04-07 13:21:18 +0000     1764 bytes  _site/build/test/statements/block-statement.js</tspan>
+<tspan x="10" y="2426">129.  2017-04-07 13:21:18 +0000     2488 bytes  _site/build/test/statements/break-statement.js</tspan>
+<tspan x="10" y="2442">130.  2017-04-07 13:21:18 +0000     7580 bytes  _site/build/test/statements/continue-statement.j\</tspan>
+<tspan x="10" y="2458">s</tspan>
+<tspan x="10" y="2474">131.  2017-04-07 13:21:18 +0000      907 bytes  _site/build/test/statements/debugger-statement.j\</tspan>
+<tspan x="10" y="2490">s</tspan>
+<tspan x="10" y="2506">132.  2017-04-07 13:21:18 +0000     2607 bytes  _site/build/test/statements/do-while-statement.j\</tspan>
+<tspan x="10" y="2522">s</tspan>
+<tspan x="10" y="2538">133.  2017-04-07 13:21:18 +0000      832 bytes  _site/build/test/statements/empty-statement.js</tspan>
+<tspan x="10" y="2554">134.  2017-04-07 13:21:18 +0000     1726 bytes  _site/build/test/statements/expression-statement\</tspan>
+<tspan x="10" y="2570">.js</tspan>
+<tspan x="10" y="2586">135.  2017-04-07 13:21:18 +0000     4653 bytes  _site/build/test/statements/for-in-statement.js</tspan>
+<tspan x="10" y="2602">136.  2017-04-07 13:21:18 +0000     3867 bytes  _site/build/test/statements/for-of-statement.js</tspan>
+<tspan x="10" y="2618">137.  2017-04-07 13:21:18 +0000     7944 bytes  _site/build/test/statements/for-statement.js</tspan>
+<tspan x="10" y="2634">138.  2017-04-07 13:21:18 +0000     3490 bytes  _site/build/test/statements/if-statement.js</tspan>
+<tspan x="10" y="2650">139.  2017-04-07 13:21:18 +0000     1851 bytes  _site/build/test/statements/labeled-statement.js</tspan>
+<tspan x="10" y="2666">140.  2017-04-07 13:21:18 +0000     3061 bytes  _site/build/test/statements/return-statement.js</tspan>
+<tspan x="10" y="2682">141.  2017-04-07 13:21:18 +0000     2595 bytes  _site/build/test/statements/switch-statement.js</tspan>
+<tspan x="10" y="2698">142.  2017-04-07 13:21:18 +0000     2915 bytes  _site/build/test/statements/switch-with-default-\</tspan>
+<tspan x="10" y="2714">statement.js</tspan>
+<tspan x="10" y="2730">143.  2017-04-07 13:21:18 +0000     1404 bytes  _site/build/test/statements/throw-statement.js</tspan>
+<tspan x="10" y="2746">144.  2017-04-07 13:21:18 +0000     4264 bytes  _site/build/test/statements/try-catch-statement.\</tspan>
+<tspan x="10" y="2762">js</tspan>
+<tspan x="10" y="2778">145.  2017-04-07 13:21:18 +0000     2895 bytes  _site/build/test/statements/try-finally-statemen\</tspan>
+<tspan x="10" y="2794">t.js</tspan>
+<tspan x="10" y="2810">146.  2017-04-07 13:21:18 +0000    12389 bytes  _site/build/test/statements/variable-declaration\</tspan>
+<tspan x="10" y="2826">-statement.js</tspan>
+<tspan x="10" y="2842">147.  2017-04-07 13:21:18 +0000     2385 bytes  _site/build/test/statements/while-statement.js</tspan>
+<tspan x="10" y="2858">148.  2017-04-07 13:21:18 +0000     1835 bytes  _site/build/test/statements/with-statement.js</tspan>
+<tspan x="10" y="2874">149.  2017-04-07 13:21:18 +0000     1110 bytes  _site/build/test/test_enforest.js</tspan>
+<tspan x="10" y="2890">150.  2017-04-07 13:21:18 +0000    13596 bytes  _site/build/test/test_expression_parsing.js</tspan>
+<tspan x="10" y="2906">151.  2017-04-07 13:21:18 +0000     1150 bytes  _site/build/test/test_hygiene.js</tspan>
+<tspan x="10" y="2922">152.  2017-04-07 13:21:18 +0000     3075 bytes  _site/build/test/test_macro_context.js</tspan>
+<tspan x="10" y="2938">153.  2017-04-07 13:21:18 +0000     4661 bytes  _site/build/test/test_macro_expansion.js</tspan>
+<tspan x="10" y="2954">154.  2017-04-07 13:21:18 +0000     5794 bytes  _site/build/test/test_modules.js</tspan>
+<tspan x="10" y="2970">155.  2017-04-07 13:21:18 +0000    18587 bytes  _site/build/test/test_reader.js</tspan>
+<tspan x="10" y="2986">156.  2017-04-07 13:21:18 +0000     7582 bytes  _site/build/test/test_statement_parsing.js</tspan>
+<tspan x="10" y="3002">157.  2017-04-07 13:21:18 +0000      869 bytes  _site/build/test/test_symbols.js</tspan>
+<tspan x="10" y="3018">158.  2017-04-07 13:21:18 +0000     5386 bytes  _site/build/test/test_syntax.js</tspan>
+<tspan x="10" y="3034">159.  2017-04-07 13:21:18 +0000      723 bytes  _site/debug.js</tspan>
+<tspan x="10" y="3050">160.  2017-04-07 13:21:18 +0000     9242 bytes  _site/dist/apply-scope-in-params-reducer.js</tspan>
+<tspan x="10" y="3066">161.  2017-04-07 13:21:18 +0000     4136 bytes  _site/dist/apply-scope-in-params-reducer.js.map</tspan>
+<tspan x="10" y="3082">162.  2017-04-07 13:21:18 +0000     6743 bytes  _site/dist/binding-map.js</tspan>
+<tspan x="10" y="3098">163.  2017-04-07 13:21:18 +0000     3221 bytes  _site/dist/binding-map.js.map</tspan>
+<tspan x="10" y="3114">164.  2017-04-07 13:21:18 +0000   241104 bytes  _site/dist/enforester.js</tspan>
+<tspan x="10" y="3130">165.  2017-04-07 13:21:18 +0000   120515 bytes  _site/dist/enforester.js.map</tspan>
+<tspan x="10" y="3146">166.  2017-04-07 13:21:18 +0000     6404 bytes  _site/dist/env.js</tspan>
+<tspan x="10" y="3162">167.  2017-04-07 13:21:18 +0000     2955 bytes  _site/dist/env.js.map</tspan>
+<tspan x="10" y="3178">168.  2017-04-07 13:21:18 +0000     2427 bytes  _site/dist/errors.js</tspan>
+<tspan x="10" y="3194">169.  2017-04-07 13:21:18 +0000     1229 bytes  _site/dist/errors.js.map</tspan>
+<tspan x="10" y="3210">170.  2017-04-07 13:21:18 +0000     3701 bytes  _site/dist/expander.js</tspan>
+<tspan x="10" y="3226">171.  2017-04-07 13:21:18 +0000     1113 bytes  _site/dist/expander.js.map</tspan>
+<tspan x="10" y="3242">172.  2017-04-07 13:21:18 +0000    12776 bytes  _site/dist/load-syntax.js</tspan>
+<tspan x="10" y="3258">173.  2017-04-07 13:21:18 +0000     6759 bytes  _site/dist/load-syntax.js.map</tspan>
+<tspan x="10" y="3274">174.  2017-04-07 13:21:18 +0000    18644 bytes  _site/dist/macro-context.js</tspan>
+<tspan x="10" y="3290">175.  2017-04-07 13:21:18 +0000     8067 bytes  _site/dist/macro-context.js.map</tspan>
+<tspan x="10" y="3306">176.  2017-04-07 13:21:18 +0000     4218 bytes  _site/dist/map-syntax-reducer.js</tspan>
+<tspan x="10" y="3322">177.  2017-04-07 13:21:18 +0000     1098 bytes  _site/dist/map-syntax-reducer.js.map</tspan>
+<tspan x="10" y="3338">178.  2017-04-07 13:21:18 +0000    10087 bytes  _site/dist/modules.js</tspan>
+<tspan x="10" y="3354">179.  2017-04-07 13:21:18 +0000     4573 bytes  _site/dist/modules.js.map</tspan>
+<tspan x="10" y="3370">180.  2017-04-07 13:21:18 +0000      976 bytes  _site/dist/node-module-loader.js</tspan>
+<tspan x="10" y="3386">181.  2017-04-07 13:21:18 +0000      498 bytes  _site/dist/node-module-loader.js.map</tspan>
+<tspan x="10" y="3402">182.  2017-04-07 13:21:18 +0000     1039 bytes  _site/dist/node-module-resolver.js</tspan>
+<tspan x="10" y="3418">183.  2017-04-07 13:21:18 +0000      436 bytes  _site/dist/node-module-resolver.js.map</tspan>
+<tspan x="10" y="3434">184.  2017-04-07 13:21:18 +0000     6380 bytes  _site/dist/operators.js</tspan>
+<tspan x="10" y="3450">185.  2017-04-07 13:21:18 +0000     3523 bytes  _site/dist/operators.js.map</tspan>
+<tspan x="10" y="3466">186.  2017-04-07 13:21:18 +0000    18557 bytes  _site/dist/parse-reducer.js</tspan>
+<tspan x="10" y="3482">187.  2017-04-07 13:21:18 +0000     7671 bytes  _site/dist/parse-reducer.js.map</tspan>
+<tspan x="10" y="3498">188.  2017-04-07 13:21:18 +0000     1435 bytes  _site/dist/scope.js</tspan>
+<tspan x="10" y="3514">189.  2017-04-07 13:21:18 +0000      643 bytes  _site/dist/scope.js.map</tspan>
+<tspan x="10" y="3530">190.  2017-04-07 13:21:18 +0000    15101 bytes  _site/dist/serializer.js</tspan>
+<tspan x="10" y="3546">191.  2017-04-07 13:21:18 +0000     7598 bytes  _site/dist/serializer.js.map</tspan>
+<tspan x="10" y="3562">192.  2017-04-07 13:21:18 +0000    52001 bytes  _site/dist/shift-reader.js</tspan>
+<tspan x="10" y="3578">193.  2017-04-07 13:21:18 +0000    27080 bytes  _site/dist/shift-reader.js.map</tspan>
+<tspan x="10" y="3594">194.  2017-04-07 13:21:18 +0000     6858 bytes  _site/dist/sweet.js</tspan>
+<tspan x="10" y="3610">195.  2017-04-07 13:21:18 +0000     2797 bytes  _site/dist/sweet.js.map</tspan>
+<tspan x="10" y="3626">196.  2017-04-07 13:21:18 +0000     5609 bytes  _site/dist/sweet.umd.js.map</tspan>
+<tspan x="10" y="3642">197.  2017-04-07 13:21:18 +0000     2789 bytes  _site/dist/symbol.js</tspan>
+<tspan x="10" y="3658">198.  2017-04-07 13:21:18 +0000     1390 bytes  _site/dist/symbol.js.map</tspan>
+<tspan x="10" y="3674">199.  2017-04-07 13:21:18 +0000    35968 bytes  _site/dist/syntax.js</tspan>
+<tspan x="10" y="3690">200.  2017-04-07 13:21:18 +0000    17390 bytes  _site/dist/syntax.js.map</tspan>
+<tspan x="10" y="3706">201.  2017-04-07 13:21:18 +0000    10247 bytes  _site/dist/template-processor.js</tspan>
+<tspan x="10" y="3722">202.  2017-04-07 13:21:18 +0000     5173 bytes  _site/dist/template-processor.js.map</tspan>
+<tspan x="10" y="3738">203.  2017-04-07 13:21:18 +0000    67057 bytes  _site/dist/term-expander.js</tspan>
+<tspan x="10" y="3754">204.  2017-04-07 13:21:18 +0000    31267 bytes  _site/dist/term-expander.js.map</tspan>
+<tspan x="10" y="3770">205.  2017-04-07 13:21:18 +0000    58916 bytes  _site/dist/terms.js</tspan>
+<tspan x="10" y="3786">206.  2017-04-07 13:21:18 +0000     3343 bytes  _site/dist/terms.js.map</tspan>
+<tspan x="10" y="3802">207.  2017-04-07 13:21:18 +0000    27184 bytes  _site/dist/token-expander.js</tspan>
+<tspan x="10" y="3818">208.  2017-04-07 13:21:18 +0000    13903 bytes  _site/dist/token-expander.js.map</tspan>
+<tspan x="10" y="3834">209.  2017-04-07 13:21:18 +0000     4974 bytes  _site/dist/transforms.js</tspan>
+<tspan x="10" y="3850">210.  2017-04-07 13:21:18 +0000     1360 bytes  _site/dist/transforms.js.map</tspan>
+<tspan x="10" y="3866">211.  2017-04-07 13:21:18 +0000     2799 bytes  _site/dist/utils.js</tspan>
+<tspan x="10" y="3882">212.  2017-04-07 13:21:18 +0000      826 bytes  _site/dist/utils.js.map</tspan>
+<tspan x="10" y="3898">213.  2017-04-07 13:21:18 +0000     2199 bytes  _site/doc/1.0/documentation.html</tspan>
+<tspan x="10" y="3914">214.  2017-04-07 13:21:18 +0000    48969 bytes  _site/doc/1.0/highlight/CHANGES.md</tspan>
+<tspan x="10" y="3930">215.  2017-04-07 13:21:18 +0000     1498 bytes  _site/doc/1.0/highlight/LICENSE</tspan>
+<tspan x="10" y="3946">216.  2017-04-07 13:21:18 +0000     4513 bytes  _site/doc/1.0/highlight/README.md</tspan>
+<tspan x="10" y="3962">217.  2017-04-07 13:21:18 +0000     5525 bytes  _site/doc/1.0/highlight/README.ru.md</tspan>
+<tspan x="10" y="3978">218.  2017-04-07 13:21:18 +0000    15608 bytes  _site/doc/1.0/highlight/highlight.min.js</tspan>
+<tspan x="10" y="3994">219.  2017-04-07 13:21:18 +0000     1276 bytes  _site/doc/1.0/highlight/styles/agate.css</tspan>
+<tspan x="10" y="4010">220.  2017-04-07 13:21:18 +0000      774 bytes  _site/doc/1.0/highlight/styles/androidstudio.css</tspan>
+<tspan x="10" y="4026">221.  2017-04-07 13:21:18 +0000     1054 bytes  _site/doc/1.0/highlight/styles/arduino-light.css</tspan>
+<tspan x="10" y="4042">222.  2017-04-07 13:21:18 +0000      852 bytes  _site/doc/1.0/highlight/styles/arta.css</tspan>
+<tspan x="10" y="4058">223.  2017-04-07 13:21:18 +0000      591 bytes  _site/doc/1.0/highlight/styles/ascetic.css</tspan>
+<tspan x="10" y="4074">224.  2017-04-07 13:21:18 +0000     1274 bytes  _site/doc/1.0/highlight/styles/atelier-cave-dark\</tspan>
+<tspan x="10" y="4090">.css</tspan>
+<tspan x="10" y="4106">225.  2017-04-07 13:21:18 +0000     1299 bytes  _site/doc/1.0/highlight/styles/atelier-cave-ligh\</tspan>
+<tspan x="10" y="4122">t.css</tspan>
+<tspan x="10" y="4138">226.  2017-04-07 13:21:18 +0000     1094 bytes  _site/doc/1.0/highlight/styles/atelier-dune-dark\</tspan>
+<tspan x="10" y="4154">.css</tspan>
+<tspan x="10" y="4170">227.  2017-04-07 13:21:18 +0000     1095 bytes  _site/doc/1.0/highlight/styles/atelier-dune-ligh\</tspan>
+<tspan x="10" y="4186">t.css</tspan>
+<tspan x="10" y="4202">228.  2017-04-07 13:21:18 +0000     1310 bytes  _site/doc/1.0/highlight/styles/atelier-estuary-d\</tspan>
+<tspan x="10" y="4218">ark.css</tspan>
+<tspan x="10" y="4234">229.  2017-04-07 13:21:18 +0000     1311 bytes  _site/doc/1.0/highlight/styles/atelier-estuary-l\</tspan>
+<tspan x="10" y="4250">ight.css</tspan>
+<tspan x="10" y="4266">230.  2017-04-07 13:21:18 +0000     1110 bytes  _site/doc/1.0/highlight/styles/atelier-forest-da\</tspan>
+<tspan x="10" y="4282">rk.css</tspan>
+<tspan x="10" y="4298">231.  2017-04-07 13:21:18 +0000     1111 bytes  _site/doc/1.0/highlight/styles/atelier-forest-li\</tspan>
+<tspan x="10" y="4314">ght.css</tspan>
+<tspan x="10" y="4330">232.  2017-04-07 13:21:18 +0000     1102 bytes  _site/doc/1.0/highlight/styles/atelier-heath-dar\</tspan>
+<tspan x="10" y="4346">k.css</tspan>
+<tspan x="10" y="4362">233.  2017-04-07 13:21:18 +0000     1103 bytes  _site/doc/1.0/highlight/styles/atelier-heath-lig\</tspan>
+<tspan x="10" y="4378">ht.css</tspan>
+<tspan x="10" y="4394">234.  2017-04-07 13:21:18 +0000     1126 bytes  _site/doc/1.0/highlight/styles/atelier-lakeside-\</tspan>
+<tspan x="10" y="4410">dark.css</tspan>
+<tspan x="10" y="4426">235.  2017-04-07 13:21:18 +0000     1127 bytes  _site/doc/1.0/highlight/styles/atelier-lakeside-\</tspan>
+<tspan x="10" y="4442">light.css</tspan>
+<tspan x="10" y="4458">236.  2017-04-07 13:21:18 +0000     1310 bytes  _site/doc/1.0/highlight/styles/atelier-plateau-d\</tspan>
+<tspan x="10" y="4474">ark.css</tspan>
+<tspan x="10" y="4490">237.  2017-04-07 13:21:18 +0000     1311 bytes  _site/doc/1.0/highlight/styles/atelier-plateau-l\</tspan>
+<tspan x="10" y="4506">ight.css</tspan>
+<tspan x="10" y="4522">238.  2017-04-07 13:21:18 +0000     1310 bytes  _site/doc/1.0/highlight/styles/atelier-savanna-d\</tspan>
+<tspan x="10" y="4538">ark.css</tspan>
+<tspan x="10" y="4554">239.  2017-04-07 13:21:18 +0000     1311 bytes  _site/doc/1.0/highlight/styles/atelier-savanna-l\</tspan>
+<tspan x="10" y="4570">ight.css</tspan>
+<tspan x="10" y="4586">240.  2017-04-07 13:21:18 +0000     1118 bytes  _site/doc/1.0/highlight/styles/atelier-seaside-d\</tspan>
+<tspan x="10" y="4602">ark.css</tspan>
+<tspan x="10" y="4618">241.  2017-04-07 13:21:18 +0000     1119 bytes  _site/doc/1.0/highlight/styles/atelier-seaside-l\</tspan>
+<tspan x="10" y="4634">ight.css</tspan>
+<tspan x="10" y="4650">242.  2017-04-07 13:21:18 +0000     1150 bytes  _site/doc/1.0/highlight/styles/atelier-sulphurpo\</tspan>
+<tspan x="10" y="4666">ol-dark.css</tspan>
+<tspan x="10" y="4682">243.  2017-04-07 13:21:18 +0000     1151 bytes  _site/doc/1.0/highlight/styles/atelier-sulphurpo\</tspan>
+<tspan x="10" y="4698">ol-light.css</tspan>
+<tspan x="10" y="4714">244.  2017-04-07 13:21:18 +0000      842 bytes  _site/doc/1.0/highlight/styles/brown-paper.css</tspan>
+<tspan x="10" y="4730">245.  2017-04-07 13:21:18 +0000    18198 bytes  _site/doc/1.0/highlight/styles/brown-papersq.png</tspan>
+<tspan x="10" y="4746">246.  2017-04-07 13:21:18 +0000      842 bytes  _site/doc/1.0/highlight/styles/codepen-embed.css</tspan>
+<tspan x="10" y="4762">247.  2017-04-07 13:21:18 +0000      884 bytes  _site/doc/1.0/highlight/styles/color-brewer.css</tspan>
+<tspan x="10" y="4778">248.  2017-04-07 13:21:18 +0000      794 bytes  _site/doc/1.0/highlight/styles/dark.css</tspan>
+<tspan x="10" y="4794">249.  2017-04-07 13:21:18 +0000      890 bytes  _site/doc/1.0/highlight/styles/darkula.css</tspan>
+<tspan x="10" y="4810">250.  2017-04-07 13:21:18 +0000     1159 bytes  _site/doc/1.0/highlight/styles/default.css</tspan>
+<tspan x="10" y="4826">251.  2017-04-07 13:21:18 +0000     1141 bytes  _site/doc/1.0/highlight/styles/docco.css</tspan>
+<tspan x="10" y="4842">252.  2017-04-07 13:21:18 +0000     1016 bytes  _site/doc/1.0/highlight/styles/dracula.css</tspan>
+<tspan x="10" y="4858">253.  2017-04-07 13:21:18 +0000      849 bytes  _site/doc/1.0/highlight/styles/far.css</tspan>
+<tspan x="10" y="4874">254.  2017-04-07 13:21:18 +0000     1086 bytes  _site/doc/1.0/highlight/styles/foundation.css</tspan>
+<tspan x="10" y="4890">255.  2017-04-07 13:21:18 +0000      919 bytes  _site/doc/1.0/highlight/styles/github-gist.css</tspan>
+<tspan x="10" y="4906">256.  2017-04-07 13:21:18 +0000     1148 bytes  _site/doc/1.0/highlight/styles/github.min.css</tspan>
+<tspan x="10" y="4922">257.  2017-04-07 13:21:18 +0000     1053 bytes  _site/doc/1.0/highlight/styles/googlecode.css</tspan>
+<tspan x="10" y="4938">258.  2017-04-07 13:21:18 +0000     1966 bytes  _site/doc/1.0/highlight/styles/grayscale.css</tspan>
+<tspan x="10" y="4954">259.  2017-04-07 13:21:18 +0000     1441 bytes  _site/doc/1.0/highlight/styles/gruvbox-dark.css</tspan>
+<tspan x="10" y="4970">260.  2017-04-07 13:21:18 +0000     1442 bytes  _site/doc/1.0/highlight/styles/gruvbox-light.css</tspan>
+<tspan x="10" y="4986">261.  2017-04-07 13:21:18 +0000     1059 bytes  _site/doc/1.0/highlight/styles/hopscotch.css</tspan>
+<tspan x="10" y="5002">262.  2017-04-07 13:21:18 +0000     1342 bytes  _site/doc/1.0/highlight/styles/hybrid.css</tspan>
+<tspan x="10" y="5018">263.  2017-04-07 13:21:18 +0000     1173 bytes  _site/doc/1.0/highlight/styles/idea.css</tspan>
+<tspan x="10" y="5034">264.  2017-04-07 13:21:18 +0000      871 bytes  _site/doc/1.0/highlight/styles/ir-black.css</tspan>
+<tspan x="10" y="5050">265.  2017-04-07 13:21:18 +0000     1067 bytes  _site/doc/1.0/highlight/styles/kimbie.dark.css</tspan>
+<tspan x="10" y="5066">266.  2017-04-07 13:21:18 +0000     1068 bytes  _site/doc/1.0/highlight/styles/kimbie.light.css</tspan>
+<tspan x="10" y="5082">267.  2017-04-07 13:21:18 +0000      891 bytes  _site/doc/1.0/highlight/styles/magula.css</tspan>
+<tspan x="10" y="5098">268.  2017-04-07 13:21:18 +0000      749 bytes  _site/doc/1.0/highlight/styles/mono-blue.css</tspan>
+<tspan x="10" y="5114">269.  2017-04-07 13:21:18 +0000     1026 bytes  _site/doc/1.0/highlight/styles/monokai-sublime.c\</tspan>
+<tspan x="10" y="5130">ss</tspan>
+<tspan x="10" y="5146">270.  2017-04-07 13:21:18 +0000      938 bytes  _site/doc/1.0/highlight/styles/monokai.css</tspan>
+<tspan x="10" y="5162">271.  2017-04-07 13:21:18 +0000     1079 bytes  _site/doc/1.0/highlight/styles/obsidian.css</tspan>
+<tspan x="10" y="5178">272.  2017-04-07 13:21:18 +0000     1014 bytes  _site/doc/1.0/highlight/styles/paraiso-dark.css</tspan>
+<tspan x="10" y="5194">273.  2017-04-07 13:21:18 +0000     1015 bytes  _site/doc/1.0/highlight/styles/paraiso-light.css</tspan>
+<tspan x="10" y="5210">274.  2017-04-07 13:21:18 +0000     1124 bytes  _site/doc/1.0/highlight/styles/pojoaque.css</tspan>
+<tspan x="10" y="5226">275.  2017-04-07 13:21:18 +0000     1186 bytes  _site/doc/1.0/highlight/styles/pojoaque.jpg</tspan>
+<tspan x="10" y="5242">276.  2017-04-07 13:21:18 +0000      977 bytes  _site/doc/1.0/highlight/styles/qtcreator_dark.cs\</tspan>
+<tspan x="10" y="5258">s</tspan>
+<tspan x="10" y="5274">277.  2017-04-07 13:21:18 +0000      978 bytes  _site/doc/1.0/highlight/styles/qtcreator_light.c\</tspan>
+<tspan x="10" y="5290">ss</tspan>
+<tspan x="10" y="5306">278.  2017-04-07 13:21:18 +0000     1211 bytes  _site/doc/1.0/highlight/styles/railscasts.css</tspan>
+<tspan x="10" y="5322">279.  2017-04-07 13:21:18 +0000      983 bytes  _site/doc/1.0/highlight/styles/rainbow.css</tspan>
+<tspan x="10" y="5338">280.  2017-04-07 13:21:18 +0000      999 bytes  _site/doc/1.0/highlight/styles/school-book.css</tspan>
+<tspan x="10" y="5354">281.  2017-04-07 13:21:18 +0000      486 bytes  _site/doc/1.0/highlight/styles/school-book.png</tspan>
+<tspan x="10" y="5370">282.  2017-04-07 13:21:18 +0000     1145 bytes  _site/doc/1.0/highlight/styles/solarized-dark.cs\</tspan>
+<tspan x="10" y="5386">s</tspan>
+<tspan x="10" y="5402">283.  2017-04-07 13:21:18 +0000     1145 bytes  _site/doc/1.0/highlight/styles/solarized-light.c\</tspan>
+<tspan x="10" y="5418">ss</tspan>
+<tspan x="10" y="5434">284.  2017-04-07 13:21:18 +0000     1183 bytes  _site/doc/1.0/highlight/styles/sunburst.css</tspan>
+<tspan x="10" y="5450">285.  2017-04-07 13:21:18 +0000     1152 bytes  _site/doc/1.0/highlight/styles/tomorrow-night-bl\</tspan>
+<tspan x="10" y="5466">ue.css</tspan>
+<tspan x="10" y="5482">286.  2017-04-07 13:21:18 +0000     1082 bytes  _site/doc/1.0/highlight/styles/tomorrow-night-br\</tspan>
+<tspan x="10" y="5498">ight.css</tspan>
+<tspan x="10" y="5514">287.  2017-04-07 13:21:18 +0000     1086 bytes  _site/doc/1.0/highlight/styles/tomorrow-night-ei\</tspan>
+<tspan x="10" y="5530">ghties.css</tspan>
+<tspan x="10" y="5546">288.  2017-04-07 13:21:18 +0000     1149 bytes  _site/doc/1.0/highlight/styles/tomorrow-night.cs\</tspan>
+<tspan x="10" y="5562">s</tspan>
+<tspan x="10" y="5578">289.  2017-04-07 13:21:18 +0000      978 bytes  _site/doc/1.0/highlight/styles/tomorrow.css</tspan>
+<tspan x="10" y="5594">290.  2017-04-07 13:21:18 +0000      837 bytes  _site/doc/1.0/highlight/styles/vs.css</tspan>
+<tspan x="10" y="5610">291.  2017-04-07 13:21:18 +0000     1071 bytes  _site/doc/1.0/highlight/styles/xcode.css</tspan>
+<tspan x="10" y="5626">292.  2017-04-07 13:21:18 +0000      947 bytes  _site/doc/1.0/highlight/styles/zenburn.css</tspan>
+<tspan x="10" y="5642">293.  2017-04-07 13:21:18 +0000     4168 bytes  _site/doc/1.0/reference.adoc</tspan>
+<tspan x="10" y="5658">294.  2017-04-07 13:21:18 +0000    11321 bytes  _site/doc/1.0/reference.html</tspan>
+<tspan x="10" y="5674">295.  2017-04-07 13:21:18 +0000    34371 bytes  _site/doc/1.0/stylesheets/asciidoctor.css</tspan>
+<tspan x="10" y="5690">296.  2017-04-07 13:21:18 +0000    34149 bytes  _site/doc/1.0/stylesheets/foundation.css</tspan>
+<tspan x="10" y="5706">297.  2017-04-07 13:21:18 +0000    35022 bytes  _site/doc/1.0/stylesheets/golo.css</tspan>
+<tspan x="10" y="5722">298.  2017-04-07 13:21:18 +0000     1419 bytes  _site/doc/1.0/stylesheets/prism.css</tspan>
+<tspan x="10" y="5738">299.  2017-04-07 13:21:18 +0000    34802 bytes  _site/doc/1.0/stylesheets/rocket-panda.css</tspan>
+<tspan x="10" y="5754">300.  2017-04-07 13:21:18 +0000    10230 bytes  _site/doc/1.0/tutorial.adoc</tspan>
+<tspan x="10" y="5770">301.  2017-04-07 13:21:18 +0000    18181 bytes  _site/doc/1.0/tutorial.html</tspan>
+<tspan x="10" y="5786">302.  2017-04-07 13:21:18 +0000     4099 bytes  _site/doc/dls2014/brackets.tex</tspan>
+<tspan x="10" y="5802">303.  2017-04-07 13:21:18 +0000     1617 bytes  _site/doc/dls2014/definitions.tex</tspan>
+<tspan x="10" y="5818">304.  2017-04-07 13:21:18 +0000    38664 bytes  _site/doc/dls2014/sigplanconf.cls</tspan>
+<tspan x="10" y="5834">305.  2017-04-07 13:21:18 +0000    24964 bytes  _site/doc/dls2014/sweet.js.bib</tspan>
+<tspan x="10" y="5850">306.  2017-04-07 13:21:18 +0000   591400 bytes  _site/doc/dls2014/sweetjs-appendix.pdf</tspan>
+<tspan x="10" y="5866">307.  2017-04-07 13:21:18 +0000   577385 bytes  _site/doc/dls2014/sweetjs.pdf</tspan>
+<tspan x="10" y="5882">308.  2017-04-07 13:21:18 +0000    81809 bytes  _site/doc/dls2014/sweetjs.tex</tspan>
+<tspan x="10" y="5898">309.  2017-04-07 13:21:18 +0000   308946 bytes  _site/doc/dls2014/sweetjs_browser.png</tspan>
+<tspan x="10" y="5914">310.  2017-04-07 13:21:18 +0000     1723 bytes  _site/doc/main/style/main.css</tspan>
+<tspan x="10" y="5930">311.  2017-04-07 13:21:18 +0000     1419 bytes  _site/doc/main/style/prism.css</tspan>
+<tspan x="10" y="5946">312.  2017-04-07 13:21:18 +0000     5018 bytes  _site/doc/main/style/prism.js</tspan>
+<tspan x="10" y="5962">313.  2017-04-07 13:21:18 +0000     2620 bytes  _site/doc/main/style/sweetprism.css</tspan>
+<tspan x="10" y="5978">314.  2017-04-07 13:21:18 +0000    64597 bytes  _site/doc/main/sweet.html</tspan>
+<tspan x="10" y="5994">315.  2017-04-07 13:21:18 +0000    41294 bytes  _site/doc/main/sweet.md</tspan>
+<tspan x="10" y="6010">316.  2017-04-07 13:21:18 +0000     4099 bytes  _site/doc/paper/brackets.tex</tspan>
+<tspan x="10" y="6026">317.  2017-04-07 13:21:18 +0000     1617 bytes  _site/doc/paper/definitions.tex</tspan>
+<tspan x="10" y="6042">318.  2017-04-07 13:21:18 +0000    38664 bytes  _site/doc/paper/sigplanconf.cls</tspan>
+<tspan x="10" y="6058">319.  2017-04-07 13:21:18 +0000     4099 bytes  _site/doc/paper/submitted/brackets.tex</tspan>
+<tspan x="10" y="6074">320.  2017-04-07 13:21:18 +0000     1617 bytes  _site/doc/paper/submitted/definitions.tex</tspan>
+<tspan x="10" y="6090">321.  2017-04-07 13:21:18 +0000    38664 bytes  _site/doc/paper/submitted/sigplanconf.cls</tspan>
+<tspan x="10" y="6106">322.  2017-04-07 13:21:18 +0000    10351 bytes  _site/doc/paper/submitted/sweetjs.bib</tspan>
+<tspan x="10" y="6122">323.  2017-04-07 13:21:18 +0000   587245 bytes  _site/doc/paper/submitted/sweetjs.pdf</tspan>
+<tspan x="10" y="6138">324.  2017-04-07 13:21:18 +0000    75447 bytes  _site/doc/paper/submitted/sweetjs.tex</tspan>
+<tspan x="10" y="6154">325.  2017-04-07 13:21:18 +0000    24960 bytes  _site/doc/paper/sweet.js.bib</tspan>
+<tspan x="10" y="6170">326.  2017-04-07 13:21:18 +0000   594224 bytes  _site/doc/paper/sweetjs-appendix.pdf</tspan>
+<tspan x="10" y="6186">327.  2017-04-07 13:21:18 +0000    10351 bytes  _site/doc/paper/sweetjs.bib</tspan>
+<tspan x="10" y="6202">328.  2017-04-07 13:21:18 +0000   576411 bytes  _site/doc/paper/sweetjs.pdf</tspan>
+<tspan x="10" y="6218">329.  2017-04-07 13:21:18 +0000    80759 bytes  _site/doc/paper/sweetjs.tex</tspan>
+<tspan x="10" y="6234">330.  2017-04-07 13:21:18 +0000   308946 bytes  _site/doc/paper/sweetjs_browser.png</tspan>
+<tspan x="10" y="6250">331.  2017-04-07 13:21:18 +0000     1649 bytes  _site/editor/addon/runmode.js</tspan>
+<tspan x="10" y="6266">332.  2017-04-07 13:21:18 +0000     5920 bytes  _site/editor/codemirror.css</tspan>
+<tspan x="10" y="6282">333.  2017-04-07 13:21:18 +0000   177835 bytes  _site/editor/codemirror.js</tspan>
+<tspan x="10" y="6298">334.  2017-04-07 13:21:18 +0000    14424 bytes  _site/editor/mode/javascript/javascript.js</tspan>
+<tspan x="10" y="6314">335.  2017-04-07 13:21:18 +0000     1649 bytes  _site/editor/mode/runmode.js</tspan>
+<tspan x="10" y="6330">336.  2017-04-07 13:21:18 +0000     2620 bytes  _site/editor/theme/sweetprism.css</tspan>
+<tspan x="10" y="6346">337.  2017-04-07 13:21:18 +0000     4313 bytes  _site/index.html</tspan>
+<tspan x="10" y="6362">338.  2017-04-07 13:21:18 +0000     4269 bytes  _site/mozilla-tab.png</tspan>
+<tspan x="10" y="6378">339.  2017-04-07 13:21:18 +0000     2567 bytes  _site/package.json</tspan>
+<tspan x="10" y="6394">340.  2017-04-07 13:21:18 +0000      189 bytes  _site/printAst.js</tspan>
+<tspan x="10" y="6410">341.  2017-04-07 13:21:18 +0000     1419 bytes  _site/prism.css</tspan>
+<tspan x="10" y="6426">342.  2017-04-07 13:21:18 +0000     5018 bytes  _site/prism.js</tspan>
+<tspan x="10" y="6442">343.  2017-04-07 13:21:18 +0000     2134 bytes  _site/src/apply-scope-in-params-reducer.js</tspan>
+<tspan x="10" y="6458">344.  2017-04-07 13:21:18 +0000     1601 bytes  _site/src/binding-map.js</tspan>
+<tspan x="10" y="6474">345.  2017-04-07 13:21:18 +0000    62501 bytes  _site/src/enforester.js</tspan>
+<tspan x="10" y="6490">346.  2017-04-07 13:21:18 +0000     1574 bytes  _site/src/env.js</tspan>
+<tspan x="10" y="6506">347.  2017-04-07 13:21:18 +0000      473 bytes  _site/src/errors.js</tspan>
+<tspan x="10" y="6522">348.  2017-04-07 13:21:18 +0000      552 bytes  _site/src/expander.js</tspan>
+<tspan x="10" y="6538">349.  2017-04-07 13:21:18 +0000     4016 bytes  _site/src/load-syntax.js</tspan>
+<tspan x="10" y="6554">350.  2017-04-07 13:21:18 +0000     4119 bytes  _site/src/macro-context.js</tspan>
+<tspan x="10" y="6570">351.  2017-04-07 13:21:18 +0000      499 bytes  _site/src/map-syntax-reducer.js</tspan>
+<tspan x="10" y="6586">352.  2017-04-07 13:21:18 +0000     2572 bytes  _site/src/modules.js</tspan>
+<tspan x="10" y="6602">353.  2017-04-07 13:21:18 +0000      175 bytes  _site/src/node-module-loader.js</tspan>
+<tspan x="10" y="6618">354.  2017-04-07 13:21:18 +0000      132 bytes  _site/src/node-module-resolver.js</tspan>
+<tspan x="10" y="6634">355.  2017-04-07 13:21:18 +0000     1536 bytes  _site/src/operators.js</tspan>
+<tspan x="10" y="6650">356.  2017-04-07 13:21:18 +0000     4161 bytes  _site/src/parse-reducer.js</tspan>
+<tspan x="10" y="6666">357.  2017-04-07 13:21:18 +0000      270 bytes  _site/src/scope.js</tspan>
+<tspan x="10" y="6682">358.  2017-04-07 13:21:18 +0000     3913 bytes  _site/src/serializer.js</tspan>
+<tspan x="10" y="6698">359.  2017-04-07 13:21:18 +0000    13435 bytes  _site/src/shift-reader.js</tspan>
+<tspan x="10" y="6714">360.  2017-04-07 13:21:18 +0000     1515 bytes  _site/src/sweet.js</tspan>
+<tspan x="10" y="6730">361.  2017-04-07 13:21:18 +0000      563 bytes  _site/src/symbol.js</tspan>
+<tspan x="10" y="6746">362.  2017-04-07 13:21:18 +0000     8685 bytes  _site/src/syntax.js</tspan>
+<tspan x="10" y="6762">363.  2017-04-07 13:21:18 +0000     2436 bytes  _site/src/template-processor.js</tspan>
+<tspan x="10" y="6778">364.  2017-04-07 13:21:18 +0000    16160 bytes  _site/src/term-expander.js</tspan>
+<tspan x="10" y="6794">365.  2017-04-07 13:21:18 +0000    13352 bytes  _site/src/terms.js</tspan>
+<tspan x="10" y="6810">366.  2017-04-07 13:21:18 +0000     7695 bytes  _site/src/token-expander.js</tspan>
+<tspan x="10" y="6826">367.  2017-04-07 13:21:18 +0000      851 bytes  _site/src/transforms.js</tspan>
+<tspan x="10" y="6842">368.  2017-04-07 13:21:18 +0000      331 bytes  _site/src/utils.js</tspan>
+<tspan x="10" y="6858">369.  2017-04-07 13:21:18 +0000    33634 bytes  _site/sweetjs.png</tspan>
+<tspan x="10" y="6874">370.  2017-04-07 13:21:18 +0000       43 bytes  _site/test.js</tspan>
+<tspan x="10" y="6890">371.  2017-04-07 13:21:18 +0000     1985 bytes  _site/test/assertions.js</tspan>
+<tspan x="10" y="6906">372.  2017-04-07 13:21:18 +0000     1075 bytes  _site/test/declaration/class-declaration.js</tspan>
+<tspan x="10" y="6922">373.  2017-04-07 13:21:18 +0000    11063 bytes  _site/test/declaration/function-declaration.js</tspan>
+<tspan x="10" y="6938">374.  2017-04-07 13:21:18 +0000     5275 bytes  _site/test/declaration/generator-declaration.js</tspan>
+<tspan x="10" y="6954">375.  2017-04-07 13:21:18 +0000     2486 bytes  _site/test/declaration/lexical-declarations.js</tspan>
+<tspan x="10" y="6970">376.  2017-04-07 13:21:18 +0000     8702 bytes  _site/test/destructuring/assignment/array-bindin\</tspan>
+<tspan x="10" y="6986">g.js</tspan>
+<tspan x="10" y="7002">377.  2017-04-07 13:21:18 +0000    13606 bytes  _site/test/destructuring/assignment/object-bindi\</tspan>
+<tspan x="10" y="7018">ng.js</tspan>
+<tspan x="10" y="7034">378.  2017-04-07 13:21:18 +0000     6240 bytes  _site/test/destructuring/binding-pattern/array-b\</tspan>
+<tspan x="10" y="7050">inding.js</tspan>
+<tspan x="10" y="7066">379.  2017-04-07 13:21:18 +0000     1026 bytes  _site/test/destructuring/binding-pattern/binding\</tspan>
+<tspan x="10" y="7082">-identifier.js</tspan>
+<tspan x="10" y="7098">380.  2017-04-07 13:21:18 +0000     8965 bytes  _site/test/destructuring/binding-pattern/object-\</tspan>
+<tspan x="10" y="7114">binding.js</tspan>
+<tspan x="10" y="7130">381.  2017-04-07 13:21:18 +0000     2446 bytes  _site/test/expressions/array-expression.js</tspan>
+<tspan x="10" y="7146">382.  2017-04-07 13:21:18 +0000    12155 bytes  _site/test/expressions/arrow-expression.js</tspan>
+<tspan x="10" y="7162">383.  2017-04-07 13:21:18 +0000     7056 bytes  _site/test/expressions/assignment-expression.js</tspan>
+<tspan x="10" y="7178">384.  2017-04-07 13:21:18 +0000    13909 bytes  _site/test/expressions/binary-expression.js</tspan>
+<tspan x="10" y="7194">385.  2017-04-07 13:21:18 +0000     3828 bytes  _site/test/expressions/call-expression.js</tspan>
+<tspan x="10" y="7210">386.  2017-04-07 13:21:18 +0000    10501 bytes  _site/test/expressions/class-expression.js</tspan>
+<tspan x="10" y="7226">387.  2017-04-07 13:21:18 +0000     2868 bytes  _site/test/expressions/computed-member-expressio\</tspan>
+<tspan x="10" y="7242">n.js</tspan>
+<tspan x="10" y="7258">388.  2017-04-07 13:21:18 +0000     2121 bytes  _site/test/expressions/conditional-expression.js</tspan>
+<tspan x="10" y="7274">389.  2017-04-07 13:21:18 +0000     9341 bytes  _site/test/expressions/function-expression.js</tspan>
+<tspan x="10" y="7290">390.  2017-04-07 13:21:18 +0000     2603 bytes  _site/test/expressions/grouped-expressions.js</tspan>
+<tspan x="10" y="7306">391.  2017-04-07 13:21:18 +0000     4154 bytes  _site/test/expressions/identifier-expression.js</tspan>
+<tspan x="10" y="7322">392.  2017-04-07 13:21:18 +0000      861 bytes  _site/test/expressions/literals/literal-infinity\</tspan>
+<tspan x="10" y="7338">-expression.js</tspan>
+<tspan x="10" y="7354">393.  2017-04-07 13:21:18 +0000      979 bytes  _site/test/expressions/literals/literal-null-exp\</tspan>
+<tspan x="10" y="7370">ression.js</tspan>
+<tspan x="10" y="7386">394.  2017-04-07 13:21:18 +0000     5513 bytes  _site/test/expressions/literals/literal-numeric-\</tspan>
+<tspan x="10" y="7402">expression.js</tspan>
+<tspan x="10" y="7418">395.  2017-04-07 13:21:18 +0000     4696 bytes  _site/test/expressions/literals/literal-regexp-e\</tspan>
+<tspan x="10" y="7434">xpression.js</tspan>
+<tspan x="10" y="7450">396.  2017-04-07 13:21:18 +0000     5043 bytes  _site/test/expressions/literals/literal-string-e\</tspan>
+<tspan x="10" y="7466">xpression.js</tspan>
+<tspan x="10" y="7482">397.  2017-04-07 13:21:18 +0000     3776 bytes  _site/test/expressions/new-expression.js</tspan>
+<tspan x="10" y="7498">398.  2017-04-07 13:21:18 +0000     6012 bytes  _site/test/expressions/new-target-expression.js</tspan>
+<tspan x="10" y="7514">399.  2017-04-07 13:21:18 +0000    17997 bytes  _site/test/expressions/object-expression.js</tspan>
+<tspan x="10" y="7530">400.  2017-04-07 13:21:18 +0000     2064 bytes  _site/test/expressions/static-member-expression.\</tspan>
+<tspan x="10" y="7546">js</tspan>
+<tspan x="10" y="7562">401.  2017-04-07 13:21:18 +0000    16258 bytes  _site/test/expressions/super.js</tspan>
+<tspan x="10" y="7578">402.  2017-04-07 13:21:18 +0000     4602 bytes  _site/test/expressions/template-expression.js</tspan>
+<tspan x="10" y="7594">403.  2017-04-07 13:21:18 +0000      836 bytes  _site/test/expressions/this-expression.js</tspan>
+<tspan x="10" y="7610">404.  2017-04-07 13:21:18 +0000     2110 bytes  _site/test/expressions/unary-expression.js</tspan>
+<tspan x="10" y="7626">405.  2017-04-07 13:21:18 +0000     2162 bytes  _site/test/expressions/update-expression.js</tspan>
+<tspan x="10" y="7642">406.  2017-04-07 13:21:18 +0000     3355 bytes  _site/test/expressions/yield-expression.js</tspan>
+<tspan x="10" y="7658">407.  2017-04-07 13:21:18 +0000     2302 bytes  _site/test/expressions/yield-generator-expressio\</tspan>
+<tspan x="10" y="7674">n.js</tspan>
+<tspan x="10" y="7690">408.  2017-04-07 13:21:18 +0000     1720 bytes  _site/test/miscellaneous/comments.js</tspan>
+<tspan x="10" y="7706">409.  2017-04-07 13:21:18 +0000     4348 bytes  _site/test/miscellaneous/grouping.js</tspan>
+<tspan x="10" y="7722">410.  2017-04-07 13:21:18 +0000    10142 bytes  _site/test/miscellaneous/incompatibilities.js</tspan>
+<tspan x="10" y="7738">411.  2017-04-07 13:21:18 +0000    22257 bytes  _site/test/miscellaneous/interactions.js</tspan>
+<tspan x="10" y="7754">412.  2017-04-07 13:21:18 +0000    10274 bytes  _site/test/miscellaneous/whitespace.js</tspan>
+<tspan x="10" y="7770">413.  2017-04-07 13:21:18 +0000     9912 bytes  _site/test/modules/export.js</tspan>
+<tspan x="10" y="7786">414.  2017-04-07 13:21:18 +0000     6391 bytes  _site/test/modules/import.js</tspan>
+<tspan x="10" y="7802">415.  2017-04-07 13:21:18 +0000     1916 bytes  _site/test/property-definition/generator-method.\</tspan>
+<tspan x="10" y="7818">js</tspan>
+<tspan x="10" y="7834">416.  2017-04-07 13:21:18 +0000     8090 bytes  _site/test/property-definition/property-name.js</tspan>
+<tspan x="10" y="7850">417.  2017-04-07 13:21:18 +0000     1764 bytes  _site/test/statements/block-statement.js</tspan>
+<tspan x="10" y="7866">418.  2017-04-07 13:21:18 +0000     2488 bytes  _site/test/statements/break-statement.js</tspan>
+<tspan x="10" y="7882">419.  2017-04-07 13:21:18 +0000     7580 bytes  _site/test/statements/continue-statement.js</tspan>
+<tspan x="10" y="7898">420.  2017-04-07 13:21:18 +0000      907 bytes  _site/test/statements/debugger-statement.js</tspan>
+<tspan x="10" y="7914">421.  2017-04-07 13:21:18 +0000     2607 bytes  _site/test/statements/do-while-statement.js</tspan>
+<tspan x="10" y="7930">422.  2017-04-07 13:21:18 +0000      832 bytes  _site/test/statements/empty-statement.js</tspan>
+<tspan x="10" y="7946">423.  2017-04-07 13:21:18 +0000     1726 bytes  _site/test/statements/expression-statement.js</tspan>
+<tspan x="10" y="7962">424.  2017-04-07 13:21:18 +0000     4653 bytes  _site/test/statements/for-in-statement.js</tspan>
+<tspan x="10" y="7978">425.  2017-04-07 13:21:18 +0000     3867 bytes  _site/test/statements/for-of-statement.js</tspan>
+<tspan x="10" y="7994">426.  2017-04-07 13:21:18 +0000     7944 bytes  _site/test/statements/for-statement.js</tspan>
+<tspan x="10" y="8010">427.  2017-04-07 13:21:18 +0000     3490 bytes  _site/test/statements/if-statement.js</tspan>
+<tspan x="10" y="8026">428.  2017-04-07 13:21:18 +0000     1851 bytes  _site/test/statements/labeled-statement.js</tspan>
+<tspan x="10" y="8042">429.  2017-04-07 13:21:18 +0000     3061 bytes  _site/test/statements/return-statement.js</tspan>
+<tspan x="10" y="8058">430.  2017-04-07 13:21:18 +0000     2595 bytes  _site/test/statements/switch-statement.js</tspan>
+<tspan x="10" y="8074">431.  2017-04-07 13:21:18 +0000     2915 bytes  _site/test/statements/switch-with-default-statem\</tspan>
+<tspan x="10" y="8090">ent.js</tspan>
+<tspan x="10" y="8106">432.  2017-04-07 13:21:18 +0000     1404 bytes  _site/test/statements/throw-statement.js</tspan>
+<tspan x="10" y="8122">433.  2017-04-07 13:21:18 +0000     4264 bytes  _site/test/statements/try-catch-statement.js</tspan>
+<tspan x="10" y="8138">434.  2017-04-07 13:21:18 +0000     2895 bytes  _site/test/statements/try-finally-statement.js</tspan>
+<tspan x="10" y="8154">435.  2017-04-07 13:21:18 +0000    12389 bytes  _site/test/statements/variable-declaration-state\</tspan>
+<tspan x="10" y="8170">ment.js</tspan>
+<tspan x="10" y="8186">436.  2017-04-07 13:21:18 +0000     2385 bytes  _site/test/statements/while-statement.js</tspan>
+<tspan x="10" y="8202">437.  2017-04-07 13:21:18 +0000     1835 bytes  _site/test/statements/with-statement.js</tspan>
+<tspan x="10" y="8218">438.  2017-04-07 13:21:18 +0000     1110 bytes  _site/test/test_enforest.js</tspan>
+<tspan x="10" y="8234">439.  2017-04-07 13:21:18 +0000    13596 bytes  _site/test/test_expression_parsing.js</tspan>
+<tspan x="10" y="8250">440.  2017-04-07 13:21:18 +0000     1150 bytes  _site/test/test_hygiene.js</tspan>
+<tspan x="10" y="8266">441.  2017-04-07 13:21:18 +0000     3075 bytes  _site/test/test_macro_context.js</tspan>
+<tspan x="10" y="8282">442.  2017-04-07 13:21:18 +0000     4661 bytes  _site/test/test_macro_expansion.js</tspan>
+<tspan x="10" y="8298">443.  2017-04-07 13:21:18 +0000     5794 bytes  _site/test/test_modules.js</tspan>
+<tspan x="10" y="8314">444.  2017-04-07 13:21:18 +0000    18587 bytes  _site/test/test_reader.js</tspan>
+<tspan x="10" y="8330">445.  2017-04-07 13:21:18 +0000     7582 bytes  _site/test/test_statement_parsing.js</tspan>
+<tspan x="10" y="8346">446.  2017-04-07 13:21:18 +0000      869 bytes  _site/test/test_symbols.js</tspan>
+<tspan x="10" y="8362">447.  2017-04-07 13:21:18 +0000     5386 bytes  _site/test/test_syntax.js</tspan>
+<tspan x="10" y="8378">448.  2017-04-07 13:21:18 +0000     1244 bytes  bin/sjs</tspan>
+<tspan x="10" y="8394">449.  2017-04-07 13:21:18 +0000       49 bytes  browser/break.txt</tspan>
+<tspan x="10" y="8410">450.  2017-04-07 13:21:18 +0000     7422 bytes  browser/codemirror.css</tspan>
+<tspan x="10" y="8426">451.  2017-04-07 13:21:18 +0000     2923 bytes  browser/debug.html</tspan>
+<tspan x="10" y="8442">452.  2017-04-07 13:21:18 +0000     7087 bytes  browser/editor.html</tspan>
+<tspan x="10" y="8458">453.  2017-04-07 13:21:18 +0000     4193 bytes  browser/mode/javascript/index.html</tspan>
+<tspan x="10" y="8474">454.  2017-04-07 13:21:18 +0000    26146 bytes  browser/mode/javascript/javascript.js</tspan>
+<tspan x="10" y="8490">455.  2017-04-07 13:21:18 +0000     2150 bytes  browser/mode/javascript/json-ld.html</tspan>
+<tspan x="10" y="8506">456.  2017-04-07 13:21:18 +0000     1547 bytes  browser/mode/javascript/typescript.html</tspan>
+<tspan x="10" y="8522">457.  2017-04-07 13:21:18 +0000   320588 bytes  browser/scripts/codemirror.js</tspan>
+<tspan x="10" y="8538">458.  2017-04-07 13:21:18 +0000    31859 bytes  browser/scripts/editor.js</tspan>
+<tspan x="10" y="8554">459.  2017-04-07 13:21:18 +0000    12842 bytes  browser/scripts/emacs.js</tspan>
+<tspan x="10" y="8570">460.  2017-04-07 13:21:18 +0000   242142 bytes  browser/scripts/jquery.js</tspan>
+<tspan x="10" y="8586">461.  2017-04-07 13:21:18 +0000     3670 bytes  browser/scripts/main.js</tspan>
+<tspan x="10" y="8602">462.  2017-04-07 13:21:18 +0000    14423 bytes  browser/scripts/require.js</tspan>
+<tspan x="10" y="8618">463.  2017-04-07 13:21:18 +0000     8468 bytes  browser/scripts/rx.dom.compat.min.js</tspan>
+<tspan x="10" y="8634">464.  2017-04-07 13:21:18 +0000     5649 bytes  browser/scripts/rx.jquery.min.js</tspan>
+<tspan x="10" y="8650">465.  2017-04-07 13:21:18 +0000   198950 bytes  browser/scripts/rx.lite.js</tspan>
+<tspan x="10" y="8666">466.  2017-04-07 13:21:18 +0000    61933 bytes  browser/scripts/source-map.js</tspan>
+<tspan x="10" y="8682">467.  2017-04-07 13:21:18 +0000  2139793 bytes  browser/scripts/sweet.js</tspan>
+<tspan x="10" y="8698">468.  2017-04-07 13:21:18 +0000     1683 bytes  browser/scripts/sweeten.js</tspan>
+<tspan x="10" y="8714">469.  2017-04-07 13:21:18 +0000    15464 bytes  browser/scripts/text.js</tspan>
+<tspan x="10" y="8730">470.  2017-04-07 13:21:18 +0000    45489 bytes  browser/scripts/underscore.js</tspan>
+<tspan x="10" y="8746">471.  2017-04-07 13:21:18 +0000   136832 bytes  browser/scripts/vim.js</tspan>
+<tspan x="10" y="8762">472.  2017-04-07 13:21:18 +0000    29119 bytes  browser/solarized.css</tspan>
+<tspan x="10" y="8778">473.  2017-04-07 13:21:18 +0000     3655 bytes  browser/sourcemap.html</tspan>
+<tspan x="10" y="8794">474.  2017-04-07 13:21:18 +0000      171 bytes  browser/sourcemap_test.html</tspan>
+<tspan x="10" y="8810">475.  2017-04-07 13:21:18 +0000      238 bytes  browser/test_out.js</tspan>
+<tspan x="10" y="8826">476.  2017-04-07 13:21:18 +0000      772 bytes  debug.js</tspan>
+<tspan x="10" y="8842">477.  2017-04-07 13:21:18 +0000     8075 bytes  dist/apply-scope-in-params-reducer.js</tspan>
+<tspan x="10" y="8858">478.  2017-04-07 13:21:18 +0000     4136 bytes  dist/apply-scope-in-params-reducer.js.map</tspan>
+<tspan x="10" y="8874">479.  2017-04-07 13:21:18 +0000     1844 bytes  dist/ast-dispatcher.js</tspan>
+<tspan x="10" y="8890">480.  2017-04-07 13:21:18 +0000     7896 bytes  dist/binding-map.js</tspan>
+<tspan x="10" y="8906">481.  2017-04-07 13:21:18 +0000     3221 bytes  dist/binding-map.js.map</tspan>
+<tspan x="10" y="8922">482.  2017-04-07 13:21:18 +0000     3521 bytes  dist/compiler.js</tspan>
+<tspan x="10" y="8938">483.  2017-04-07 13:21:18 +0000   233934 bytes  dist/enforester.js</tspan>
+<tspan x="10" y="8954">484.  2017-04-07 13:21:18 +0000   120515 bytes  dist/enforester.js.map</tspan>
+<tspan x="10" y="8970">485.  2017-04-07 13:21:18 +0000     5318 bytes  dist/env.js</tspan>
+<tspan x="10" y="8986">486.  2017-04-07 13:21:18 +0000     2955 bytes  dist/env.js.map</tspan>
+<tspan x="10" y="9002">487.  2017-04-07 13:21:18 +0000     2392 bytes  dist/errors.js</tspan>
+<tspan x="10" y="9018">488.  2017-04-07 13:21:18 +0000     1229 bytes  dist/errors.js.map</tspan>
+<tspan x="10" y="9034">489.  2017-04-07 13:21:18 +0000     3685 bytes  dist/expander.js</tspan>
+<tspan x="10" y="9050">490.  2017-04-07 13:21:18 +0000     1113 bytes  dist/expander.js.map</tspan>
+<tspan x="10" y="9066">491.  2017-04-07 13:21:18 +0000     6792 bytes  dist/hygiene-utils.js</tspan>
+<tspan x="10" y="9082">492.  2017-04-07 13:21:18 +0000     1515 bytes  dist/list-collector.js</tspan>
+<tspan x="10" y="9098">493.  2017-04-07 13:21:18 +0000    16458 bytes  dist/load-syntax.js</tspan>
+<tspan x="10" y="9114">494.  2017-04-07 13:21:18 +0000     6759 bytes  dist/load-syntax.js.map</tspan>
+<tspan x="10" y="9130">495.  2017-04-07 13:21:18 +0000    32515 bytes  dist/macro-context.js</tspan>
+<tspan x="10" y="9146">496.  2017-04-07 13:21:18 +0000     8067 bytes  dist/macro-context.js.map</tspan>
+<tspan x="10" y="9162">497.  2017-04-07 13:21:18 +0000     2211 bytes  dist/map-syntax-reducer.js</tspan>
+<tspan x="10" y="9178">498.  2017-04-07 13:21:18 +0000     1098 bytes  dist/map-syntax-reducer.js.map</tspan>
+<tspan x="10" y="9194">499.  2017-04-07 13:21:18 +0000    31113 bytes  dist/modules.js</tspan>
+<tspan x="10" y="9210">500.  2017-04-07 13:21:18 +0000     4573 bytes  dist/modules.js.map</tspan>
+<tspan x="10" y="9226">501.  2017-04-07 13:21:18 +0000      940 bytes  dist/node-module-loader.js</tspan>
+<tspan x="10" y="9242">502.  2017-04-07 13:21:18 +0000      498 bytes  dist/node-module-loader.js.map</tspan>
+<tspan x="10" y="9258">503.  2017-04-07 13:21:18 +0000      999 bytes  dist/node-module-resolver.js</tspan>
+<tspan x="10" y="9274">504.  2017-04-07 13:21:18 +0000      436 bytes  dist/node-module-resolver.js.map</tspan>
+<tspan x="10" y="9290">505.  2017-04-07 13:21:18 +0000     6815 bytes  dist/operators.js</tspan>
+<tspan x="10" y="9306">506.  2017-04-07 13:21:18 +0000     3523 bytes  dist/operators.js.map</tspan>
+<tspan x="10" y="9322">507.  2017-04-07 13:21:18 +0000    15959 bytes  dist/parse-reducer.js</tspan>
+<tspan x="10" y="9338">508.  2017-04-07 13:21:18 +0000     7671 bytes  dist/parse-reducer.js.map</tspan>
+<tspan x="10" y="9354">509.  2017-04-07 13:21:18 +0000     1267 bytes  dist/scope.js</tspan>
+<tspan x="10" y="9370">510.  2017-04-07 13:21:18 +0000      643 bytes  dist/scope.js.map</tspan>
+<tspan x="10" y="9386">511.  2017-04-07 13:21:18 +0000    17457 bytes  dist/serializer.js</tspan>
+<tspan x="10" y="9402">512.  2017-04-07 13:21:18 +0000     7598 bytes  dist/serializer.js.map</tspan>
+<tspan x="10" y="9418">513.  2017-04-07 13:21:18 +0000    50170 bytes  dist/shift-reader.js</tspan>
+<tspan x="10" y="9434">514.  2017-04-07 13:21:18 +0000    27080 bytes  dist/shift-reader.js.map</tspan>
+<tspan x="10" y="9450">515.  2017-04-07 13:21:18 +0000     1979 bytes  dist/store.js</tspan>
+<tspan x="10" y="9466">516.  2017-04-07 13:21:18 +0000     5072 bytes  dist/sweet-loader.js</tspan>
+<tspan x="10" y="9482">517.  2017-04-07 13:21:18 +0000     7668 bytes  dist/sweet.js</tspan>
+<tspan x="10" y="9498">518.  2017-04-07 13:21:18 +0000     2797 bytes  dist/sweet.js.map</tspan>
+<tspan x="10" y="9514">519.  2017-04-07 13:21:18 +0000     5609 bytes  dist/sweet.umd.js.map</tspan>
+<tspan x="10" y="9530">520.  2017-04-07 13:21:18 +0000     2498 bytes  dist/symbol.js</tspan>
+<tspan x="10" y="9546">521.  2017-04-07 13:21:18 +0000     1390 bytes  dist/symbol.js.map</tspan>
+<tspan x="10" y="9562">522.  2017-04-07 13:21:18 +0000    55632 bytes  dist/syntax.js</tspan>
+<tspan x="10" y="9578">523.  2017-04-07 13:21:18 +0000    17390 bytes  dist/syntax.js.map</tspan>
+<tspan x="10" y="9594">524.  2017-04-07 13:21:18 +0000    11520 bytes  dist/template-processor.js</tspan>
+<tspan x="10" y="9610">525.  2017-04-07 13:21:18 +0000     5173 bytes  dist/template-processor.js.map</tspan>
+<tspan x="10" y="9626">526.  2017-04-07 13:21:18 +0000    61252 bytes  dist/term-expander.js</tspan>
+<tspan x="10" y="9642">527.  2017-04-07 13:21:18 +0000    31267 bytes  dist/term-expander.js.map</tspan>
+<tspan x="10" y="9658">528.  2017-04-07 13:21:18 +0000    73533 bytes  dist/term-spec.js</tspan>
+<tspan x="10" y="9674">529.  2017-04-07 13:21:18 +0000    46903 bytes  dist/terms.js</tspan>
+<tspan x="10" y="9690">530.  2017-04-07 13:21:18 +0000     3343 bytes  dist/terms.js.map</tspan>
+<tspan x="10" y="9706">531.  2017-04-07 13:21:18 +0000    30949 bytes  dist/token-expander.js</tspan>
+<tspan x="10" y="9722">532.  2017-04-07 13:21:18 +0000    13903 bytes  dist/token-expander.js.map</tspan>
+<tspan x="10" y="9738">533.  2017-04-07 13:21:18 +0000     4409 bytes  dist/transforms.js</tspan>
+<tspan x="10" y="9754">534.  2017-04-07 13:21:18 +0000     1360 bytes  dist/transforms.js.map</tspan>
+<tspan x="10" y="9770">535.  2017-04-07 13:21:18 +0000      184 bytes  dist/types.js</tspan>
+<tspan x="10" y="9786">536.  2017-04-07 13:21:18 +0000     1526 bytes  dist/utils.js</tspan>
+<tspan x="10" y="9802">537.  2017-04-07 13:21:18 +0000      826 bytes  dist/utils.js.map</tspan>
+<tspan x="10" y="9818">538.  2017-04-07 13:21:18 +0000     2199 bytes  doc/1.0/documentation.html</tspan>
+<tspan x="10" y="9834">539.  2017-04-07 13:21:18 +0000    48969 bytes  doc/1.0/highlight/CHANGES.md</tspan>
+<tspan x="10" y="9850">540.  2017-04-07 13:21:18 +0000     1498 bytes  doc/1.0/highlight/LICENSE</tspan>
+<tspan x="10" y="9866">541.  2017-04-07 13:21:18 +0000     4513 bytes  doc/1.0/highlight/README.md</tspan>
+<tspan x="10" y="9882">542.  2017-04-07 13:21:18 +0000     5525 bytes  doc/1.0/highlight/README.ru.md</tspan>
+<tspan x="10" y="9898">543.  2017-04-07 13:21:18 +0000    15608 bytes  doc/1.0/highlight/highlight.min.js</tspan>
+<tspan x="10" y="9914">544.  2017-04-07 13:21:18 +0000     1276 bytes  doc/1.0/highlight/styles/agate.css</tspan>
+<tspan x="10" y="9930">545.  2017-04-07 13:21:18 +0000      774 bytes  doc/1.0/highlight/styles/androidstudio.css</tspan>
+<tspan x="10" y="9946">546.  2017-04-07 13:21:18 +0000     1054 bytes  doc/1.0/highlight/styles/arduino-light.css</tspan>
+<tspan x="10" y="9962">547.  2017-04-07 13:21:18 +0000      852 bytes  doc/1.0/highlight/styles/arta.css</tspan>
+<tspan x="10" y="9978">548.  2017-04-07 13:21:18 +0000      591 bytes  doc/1.0/highlight/styles/ascetic.css</tspan>
+<tspan x="10" y="9994">549.  2017-04-07 13:21:18 +0000     1274 bytes  doc/1.0/highlight/styles/atelier-cave-dark.css</tspan>
+<tspan x="10" y="10010">550.  2017-04-07 13:21:18 +0000     1299 bytes  doc/1.0/highlight/styles/atelier-cave-light.css</tspan>
+<tspan x="10" y="10026">551.  2017-04-07 13:21:18 +0000     1094 bytes  doc/1.0/highlight/styles/atelier-dune-dark.css</tspan>
+<tspan x="10" y="10042">552.  2017-04-07 13:21:18 +0000     1095 bytes  doc/1.0/highlight/styles/atelier-dune-light.css</tspan>
+<tspan x="10" y="10058">553.  2017-04-07 13:21:18 +0000     1310 bytes  doc/1.0/highlight/styles/atelier-estuary-dark.cs\</tspan>
+<tspan x="10" y="10074">s</tspan>
+<tspan x="10" y="10090">554.  2017-04-07 13:21:18 +0000     1311 bytes  doc/1.0/highlight/styles/atelier-estuary-light.c\</tspan>
+<tspan x="10" y="10106">ss</tspan>
+<tspan x="10" y="10122">555.  2017-04-07 13:21:18 +0000     1110 bytes  doc/1.0/highlight/styles/atelier-forest-dark.css</tspan>
+<tspan x="10" y="10138">556.  2017-04-07 13:21:18 +0000     1111 bytes  doc/1.0/highlight/styles/atelier-forest-light.cs\</tspan>
+<tspan x="10" y="10154">s</tspan>
+<tspan x="10" y="10170">557.  2017-04-07 13:21:18 +0000     1102 bytes  doc/1.0/highlight/styles/atelier-heath-dark.css</tspan>
+<tspan x="10" y="10186">558.  2017-04-07 13:21:18 +0000     1103 bytes  doc/1.0/highlight/styles/atelier-heath-light.css</tspan>
+<tspan x="10" y="10202">559.  2017-04-07 13:21:18 +0000     1126 bytes  doc/1.0/highlight/styles/atelier-lakeside-dark.c\</tspan>
+<tspan x="10" y="10218">ss</tspan>
+<tspan x="10" y="10234">560.  2017-04-07 13:21:18 +0000     1127 bytes  doc/1.0/highlight/styles/atelier-lakeside-light.\</tspan>
+<tspan x="10" y="10250">css</tspan>
+<tspan x="10" y="10266">561.  2017-04-07 13:21:18 +0000     1310 bytes  doc/1.0/highlight/styles/atelier-plateau-dark.cs\</tspan>
+<tspan x="10" y="10282">s</tspan>
+<tspan x="10" y="10298">562.  2017-04-07 13:21:18 +0000     1311 bytes  doc/1.0/highlight/styles/atelier-plateau-light.c\</tspan>
+<tspan x="10" y="10314">ss</tspan>
+<tspan x="10" y="10330">563.  2017-04-07 13:21:18 +0000     1310 bytes  doc/1.0/highlight/styles/atelier-savanna-dark.cs\</tspan>
+<tspan x="10" y="10346">s</tspan>
+<tspan x="10" y="10362">564.  2017-04-07 13:21:18 +0000     1311 bytes  doc/1.0/highlight/styles/atelier-savanna-light.c\</tspan>
+<tspan x="10" y="10378">ss</tspan>
+<tspan x="10" y="10394">565.  2017-04-07 13:21:18 +0000     1118 bytes  doc/1.0/highlight/styles/atelier-seaside-dark.cs\</tspan>
+<tspan x="10" y="10410">s</tspan>
+<tspan x="10" y="10426">566.  2017-04-07 13:21:18 +0000     1119 bytes  doc/1.0/highlight/styles/atelier-seaside-light.c\</tspan>
+<tspan x="10" y="10442">ss</tspan>
+<tspan x="10" y="10458">567.  2017-04-07 13:21:18 +0000     1150 bytes  doc/1.0/highlight/styles/atelier-sulphurpool-dar\</tspan>
+<tspan x="10" y="10474">k.css</tspan>
+<tspan x="10" y="10490">568.  2017-04-07 13:21:18 +0000     1151 bytes  doc/1.0/highlight/styles/atelier-sulphurpool-lig\</tspan>
+<tspan x="10" y="10506">ht.css</tspan>
+<tspan x="10" y="10522">569.  2017-04-07 13:21:18 +0000      842 bytes  doc/1.0/highlight/styles/brown-paper.css</tspan>
+<tspan x="10" y="10538">570.  2017-04-07 13:21:18 +0000    18198 bytes  doc/1.0/highlight/styles/brown-papersq.png</tspan>
+<tspan x="10" y="10554">571.  2017-04-07 13:21:18 +0000      842 bytes  doc/1.0/highlight/styles/codepen-embed.css</tspan>
+<tspan x="10" y="10570">572.  2017-04-07 13:21:18 +0000      884 bytes  doc/1.0/highlight/styles/color-brewer.css</tspan>
+<tspan x="10" y="10586">573.  2017-04-07 13:21:18 +0000      794 bytes  doc/1.0/highlight/styles/dark.css</tspan>
+<tspan x="10" y="10602">574.  2017-04-07 13:21:18 +0000      890 bytes  doc/1.0/highlight/styles/darkula.css</tspan>
+<tspan x="10" y="10618">575.  2017-04-07 13:21:18 +0000     1159 bytes  doc/1.0/highlight/styles/default.css</tspan>
+<tspan x="10" y="10634">576.  2017-04-07 13:21:18 +0000     1141 bytes  doc/1.0/highlight/styles/docco.css</tspan>
+<tspan x="10" y="10650">577.  2017-04-07 13:21:18 +0000     1016 bytes  doc/1.0/highlight/styles/dracula.css</tspan>
+<tspan x="10" y="10666">578.  2017-04-07 13:21:18 +0000      849 bytes  doc/1.0/highlight/styles/far.css</tspan>
+<tspan x="10" y="10682">579.  2017-04-07 13:21:18 +0000     1086 bytes  doc/1.0/highlight/styles/foundation.css</tspan>
+<tspan x="10" y="10698">580.  2017-04-07 13:21:18 +0000      919 bytes  doc/1.0/highlight/styles/github-gist.css</tspan>
+<tspan x="10" y="10714">581.  2017-04-07 13:21:18 +0000     1148 bytes  doc/1.0/highlight/styles/github.min.css</tspan>
+<tspan x="10" y="10730">582.  2017-04-07 13:21:18 +0000     1053 bytes  doc/1.0/highlight/styles/googlecode.css</tspan>
+<tspan x="10" y="10746">583.  2017-04-07 13:21:18 +0000     1966 bytes  doc/1.0/highlight/styles/grayscale.css</tspan>
+<tspan x="10" y="10762">584.  2017-04-07 13:21:18 +0000     1441 bytes  doc/1.0/highlight/styles/gruvbox-dark.css</tspan>
+<tspan x="10" y="10778">585.  2017-04-07 13:21:18 +0000     1442 bytes  doc/1.0/highlight/styles/gruvbox-light.css</tspan>
+<tspan x="10" y="10794">586.  2017-04-07 13:21:18 +0000     1059 bytes  doc/1.0/highlight/styles/hopscotch.css</tspan>
+<tspan x="10" y="10810">587.  2017-04-07 13:21:18 +0000     1342 bytes  doc/1.0/highlight/styles/hybrid.css</tspan>
+<tspan x="10" y="10826">588.  2017-04-07 13:21:18 +0000     1173 bytes  doc/1.0/highlight/styles/idea.css</tspan>
+<tspan x="10" y="10842">589.  2017-04-07 13:21:18 +0000      871 bytes  doc/1.0/highlight/styles/ir-black.css</tspan>
+<tspan x="10" y="10858">590.  2017-04-07 13:21:18 +0000     1067 bytes  doc/1.0/highlight/styles/kimbie.dark.css</tspan>
+<tspan x="10" y="10874">591.  2017-04-07 13:21:18 +0000     1068 bytes  doc/1.0/highlight/styles/kimbie.light.css</tspan>
+<tspan x="10" y="10890">592.  2017-04-07 13:21:18 +0000      891 bytes  doc/1.0/highlight/styles/magula.css</tspan>
+<tspan x="10" y="10906">593.  2017-04-07 13:21:18 +0000      749 bytes  doc/1.0/highlight/styles/mono-blue.css</tspan>
+<tspan x="10" y="10922">594.  2017-04-07 13:21:18 +0000     1026 bytes  doc/1.0/highlight/styles/monokai-sublime.css</tspan>
+<tspan x="10" y="10938">595.  2017-04-07 13:21:18 +0000      938 bytes  doc/1.0/highlight/styles/monokai.css</tspan>
+<tspan x="10" y="10954">596.  2017-04-07 13:21:18 +0000     1079 bytes  doc/1.0/highlight/styles/obsidian.css</tspan>
+<tspan x="10" y="10970">597.  2017-04-07 13:21:18 +0000     1014 bytes  doc/1.0/highlight/styles/paraiso-dark.css</tspan>
+<tspan x="10" y="10986">598.  2017-04-07 13:21:18 +0000     1015 bytes  doc/1.0/highlight/styles/paraiso-light.css</tspan>
+<tspan x="10" y="11002">599.  2017-04-07 13:21:18 +0000     1124 bytes  doc/1.0/highlight/styles/pojoaque.css</tspan>
+<tspan x="10" y="11018">600.  2017-04-07 13:21:18 +0000     1186 bytes  doc/1.0/highlight/styles/pojoaque.jpg</tspan>
+<tspan x="10" y="11034">601.  2017-04-07 13:21:18 +0000      977 bytes  doc/1.0/highlight/styles/qtcreator_dark.css</tspan>
+<tspan x="10" y="11050">602.  2017-04-07 13:21:18 +0000      978 bytes  doc/1.0/highlight/styles/qtcreator_light.css</tspan>
+<tspan x="10" y="11066">603.  2017-04-07 13:21:18 +0000     1211 bytes  doc/1.0/highlight/styles/railscasts.css</tspan>
+<tspan x="10" y="11082">604.  2017-04-07 13:21:18 +0000      983 bytes  doc/1.0/highlight/styles/rainbow.css</tspan>
+<tspan x="10" y="11098">605.  2017-04-07 13:21:18 +0000      999 bytes  doc/1.0/highlight/styles/school-book.css</tspan>
+<tspan x="10" y="11114">606.  2017-04-07 13:21:18 +0000      486 bytes  doc/1.0/highlight/styles/school-book.png</tspan>
+<tspan x="10" y="11130">607.  2017-04-07 13:21:18 +0000     1145 bytes  doc/1.0/highlight/styles/solarized-dark.css</tspan>
+<tspan x="10" y="11146">608.  2017-04-07 13:21:18 +0000     1145 bytes  doc/1.0/highlight/styles/solarized-light.css</tspan>
+<tspan x="10" y="11162">609.  2017-04-07 13:21:18 +0000     1183 bytes  doc/1.0/highlight/styles/sunburst.css</tspan>
+<tspan x="10" y="11178">610.  2017-04-07 13:21:18 +0000     1152 bytes  doc/1.0/highlight/styles/tomorrow-night-blue.css</tspan>
+<tspan x="10" y="11194">611.  2017-04-07 13:21:18 +0000     1082 bytes  doc/1.0/highlight/styles/tomorrow-night-bright.c\</tspan>
+<tspan x="10" y="11210">ss</tspan>
+<tspan x="10" y="11226">612.  2017-04-07 13:21:18 +0000     1086 bytes  doc/1.0/highlight/styles/tomorrow-night-eighties\</tspan>
+<tspan x="10" y="11242">.css</tspan>
+<tspan x="10" y="11258">613.  2017-04-07 13:21:18 +0000     1149 bytes  doc/1.0/highlight/styles/tomorrow-night.css</tspan>
+<tspan x="10" y="11274">614.  2017-04-07 13:21:18 +0000      978 bytes  doc/1.0/highlight/styles/tomorrow.css</tspan>
+<tspan x="10" y="11290">615.  2017-04-07 13:21:18 +0000      837 bytes  doc/1.0/highlight/styles/vs.css</tspan>
+<tspan x="10" y="11306">616.  2017-04-07 13:21:18 +0000     1071 bytes  doc/1.0/highlight/styles/xcode.css</tspan>
+<tspan x="10" y="11322">617.  2017-04-07 13:21:18 +0000      947 bytes  doc/1.0/highlight/styles/zenburn.css</tspan>
+<tspan x="10" y="11338">618.  2017-04-07 13:21:18 +0000    13181 bytes  doc/1.0/reference.adoc</tspan>
+<tspan x="10" y="11354">619.  2017-04-07 13:21:18 +0000    30288 bytes  doc/1.0/reference.html</tspan>
+<tspan x="10" y="11370">620.  2017-04-07 13:21:18 +0000    34371 bytes  doc/1.0/stylesheets/asciidoctor.css</tspan>
+<tspan x="10" y="11386">621.  2017-04-07 13:21:18 +0000    34149 bytes  doc/1.0/stylesheets/foundation.css</tspan>
+<tspan x="10" y="11402">622.  2017-04-07 13:21:18 +0000    35022 bytes  doc/1.0/stylesheets/golo.css</tspan>
+<tspan x="10" y="11418">623.  2017-04-07 13:21:18 +0000     1419 bytes  doc/1.0/stylesheets/prism.css</tspan>
+<tspan x="10" y="11434">624.  2017-04-07 13:21:18 +0000    34802 bytes  doc/1.0/stylesheets/rocket-panda.css</tspan>
+<tspan x="10" y="11450">625.  2017-04-07 13:21:18 +0000    12246 bytes  doc/1.0/tutorial.adoc</tspan>
+<tspan x="10" y="11466">626.  2017-04-07 13:21:18 +0000    21758 bytes  doc/1.0/tutorial.html</tspan>
+<tspan x="10" y="11482">627.  2017-04-07 13:21:18 +0000     4099 bytes  doc/dls2014/brackets.tex</tspan>
+<tspan x="10" y="11498">628.  2017-04-07 13:21:18 +0000     1617 bytes  doc/dls2014/definitions.tex</tspan>
+<tspan x="10" y="11514">629.  2017-04-07 13:21:18 +0000    38664 bytes  doc/dls2014/sigplanconf.cls</tspan>
+<tspan x="10" y="11530">630.  2017-04-07 13:21:18 +0000    24964 bytes  doc/dls2014/sweet.js.bib</tspan>
+<tspan x="10" y="11546">631.  2017-04-07 13:21:18 +0000   591400 bytes  doc/dls2014/sweetjs-appendix.pdf</tspan>
+<tspan x="10" y="11562">632.  2017-04-07 13:21:18 +0000   577385 bytes  doc/dls2014/sweetjs.pdf</tspan>
+<tspan x="10" y="11578">633.  2017-04-07 13:21:18 +0000    81809 bytes  doc/dls2014/sweetjs.tex</tspan>
+<tspan x="10" y="11594">634.  2017-04-07 13:21:18 +0000   308946 bytes  doc/dls2014/sweetjs_browser.png</tspan>
+<tspan x="10" y="11610">635.  2017-04-07 13:21:18 +0000     1723 bytes  doc/main/style/main.css</tspan>
+<tspan x="10" y="11626">636.  2017-04-07 13:21:18 +0000     1419 bytes  doc/main/style/prism.css</tspan>
+<tspan x="10" y="11642">637.  2017-04-07 13:21:18 +0000     5018 bytes  doc/main/style/prism.js</tspan>
+<tspan x="10" y="11658">638.  2017-04-07 13:21:18 +0000     2620 bytes  doc/main/style/sweetprism.css</tspan>
+<tspan x="10" y="11674">639.  2017-04-07 13:21:18 +0000    64742 bytes  doc/main/sweet.html</tspan>
+<tspan x="10" y="11690">640.  2017-04-07 13:21:18 +0000    41294 bytes  doc/main/sweet.md</tspan>
+<tspan x="10" y="11706">641.  2017-04-07 13:21:18 +0000     4099 bytes  doc/paper/brackets.tex</tspan>
+<tspan x="10" y="11722">642.  2017-04-07 13:21:18 +0000     1617 bytes  doc/paper/definitions.tex</tspan>
+<tspan x="10" y="11738">643.  2017-04-07 13:21:18 +0000    38664 bytes  doc/paper/sigplanconf.cls</tspan>
+<tspan x="10" y="11754">644.  2017-04-07 13:21:18 +0000     4099 bytes  doc/paper/submitted/brackets.tex</tspan>
+<tspan x="10" y="11770">645.  2017-04-07 13:21:18 +0000     1617 bytes  doc/paper/submitted/definitions.tex</tspan>
+<tspan x="10" y="11786">646.  2017-04-07 13:21:18 +0000    38664 bytes  doc/paper/submitted/sigplanconf.cls</tspan>
+<tspan x="10" y="11802">647.  2017-04-07 13:21:18 +0000    10351 bytes  doc/paper/submitted/sweetjs.bib</tspan>
+<tspan x="10" y="11818">648.  2017-04-07 13:21:18 +0000   587245 bytes  doc/paper/submitted/sweetjs.pdf</tspan>
+<tspan x="10" y="11834">649.  2017-04-07 13:21:18 +0000    75447 bytes  doc/paper/submitted/sweetjs.tex</tspan>
+<tspan x="10" y="11850">650.  2017-04-07 13:21:18 +0000    24960 bytes  doc/paper/sweet.js.bib</tspan>
+<tspan x="10" y="11866">651.  2017-04-07 13:21:18 +0000   594224 bytes  doc/paper/sweetjs-appendix.pdf</tspan>
+<tspan x="10" y="11882">652.  2017-04-07 13:21:18 +0000    10351 bytes  doc/paper/sweetjs.bib</tspan>
+<tspan x="10" y="11898">653.  2017-04-07 13:21:18 +0000   576411 bytes  doc/paper/sweetjs.pdf</tspan>
+<tspan x="10" y="11914">654.  2017-04-07 13:21:18 +0000    80759 bytes  doc/paper/sweetjs.tex</tspan>
+<tspan x="10" y="11930">655.  2017-04-07 13:21:18 +0000   308946 bytes  doc/paper/sweetjs_browser.png</tspan>
+<tspan x="10" y="11946">656.  2017-04-07 13:21:18 +0000     1649 bytes  editor/addon/runmode.js</tspan>
+<tspan x="10" y="11962">657.  2017-04-07 13:21:18 +0000     5920 bytes  editor/codemirror.css</tspan>
+<tspan x="10" y="11978">658.  2017-04-07 13:21:18 +0000   177835 bytes  editor/codemirror.js</tspan>
+<tspan x="10" y="11994">659.  2017-04-07 13:21:18 +0000    14424 bytes  editor/mode/javascript/javascript.js</tspan>
+<tspan x="10" y="12010">660.  2017-04-07 13:21:18 +0000     1649 bytes  editor/mode/runmode.js</tspan>
+<tspan x="10" y="12026">661.  2017-04-07 13:21:18 +0000     2620 bytes  editor/theme/sweetprism.css</tspan>
+<tspan x="10" y="12042">662.  2017-04-07 13:21:18 +0000      850 bytes  index.md</tspan>
+<tspan x="10" y="12058">663.  2017-04-07 13:21:18 +0000       74 bytes  lang/sweet.js</tspan>
+<tspan x="10" y="12074">664.  2017-04-07 13:21:18 +0000      105 bytes  mod.js</tspan>
+<tspan x="10" y="12090">665.  2017-04-07 13:21:18 +0000     4269 bytes  mozilla-tab.png</tspan>
+<tspan x="10" y="12106">666.  2017-04-07 13:21:18 +0000     4694 bytes  package.json</tspan>
+<tspan x="10" y="12122">667.  2017-04-07 13:21:18 +0000      495 bytes  printAst.js</tspan>
+<tspan x="10" y="12138">668.  2017-04-07 13:21:18 +0000     1419 bytes  prism.css</tspan>
+<tspan x="10" y="12154">669.  2017-04-07 13:21:18 +0000     5018 bytes  prism.js</tspan>
+<tspan x="10" y="12170">670.  2017-04-07 13:21:18 +0000     2158 bytes  src/apply-scope-in-params-reducer.js</tspan>
+<tspan x="10" y="12186">671.  2017-04-07 13:21:18 +0000      418 bytes  src/ast-dispatcher.js</tspan>
+<tspan x="10" y="12202">672.  2017-04-07 13:21:18 +0000     2021 bytes  src/binding-map.js</tspan>
+<tspan x="10" y="12218">673.  2017-04-07 13:21:18 +0000      737 bytes  src/compiler.js</tspan>
+<tspan x="10" y="12234">674.  2017-04-07 13:21:18 +0000    64926 bytes  src/enforester.js</tspan>
+<tspan x="10" y="12250">675.  2017-04-07 13:21:18 +0000     1574 bytes  src/env.js</tspan>
+<tspan x="10" y="12266">676.  2017-04-07 13:21:18 +0000      518 bytes  src/errors.js</tspan>
+<tspan x="10" y="12282">677.  2017-04-07 13:21:18 +0000     2017 bytes  src/hygiene-utils.js</tspan>
+<tspan x="10" y="12298">678.  2017-04-07 13:21:18 +0000      297 bytes  src/list-collector.js</tspan>
+<tspan x="10" y="12314">679.  2017-04-07 13:21:18 +0000     4128 bytes  src/load-syntax.js</tspan>
+<tspan x="10" y="12330">680.  2017-04-07 13:21:18 +0000     8738 bytes  src/macro-context.js</tspan>
+<tspan x="10" y="12346">681.  2017-04-07 13:21:18 +0000      485 bytes  src/map-syntax-reducer.js</tspan>
+<tspan x="10" y="12362">682.  2017-04-07 13:21:18 +0000     8478 bytes  src/modules.js</tspan>
+<tspan x="10" y="12378">683.  2017-04-07 13:21:18 +0000      165 bytes  src/node-module-loader.js</tspan>
+<tspan x="10" y="12394">684.  2017-04-07 13:21:18 +0000      132 bytes  src/node-module-resolver.js</tspan>
+<tspan x="10" y="12410">685.  2017-04-07 13:21:18 +0000     1566 bytes  src/operators.js</tspan>
+<tspan x="10" y="12426">686.  2017-04-07 13:21:18 +0000     4279 bytes  src/parse-reducer.js</tspan>
+<tspan x="10" y="12442">687.  2017-04-07 13:21:18 +0000      218 bytes  src/scope.js</tspan>
+<tspan x="10" y="12458">688.  2017-04-07 13:21:18 +0000     4420 bytes  src/serializer.js</tspan>
+<tspan x="10" y="12474">689.  2017-04-07 13:21:18 +0000    13635 bytes  src/shift-reader.js</tspan>
+<tspan x="10" y="12490">690.  2017-04-07 13:21:18 +0000      386 bytes  src/store.js</tspan>
+<tspan x="10" y="12506">691.  2017-04-07 13:21:18 +0000     2049 bytes  src/sweet.js</tspan>
+<tspan x="10" y="12522">692.  2017-04-07 13:21:18 +0000      563 bytes  src/symbol.js</tspan>
+<tspan x="10" y="12538">693.  2017-04-07 13:21:18 +0000    14969 bytes  src/syntax.js</tspan>
+<tspan x="10" y="12554">694.  2017-04-07 13:21:18 +0000     2828 bytes  src/template-processor.js</tspan>
+<tspan x="10" y="12570">695.  2017-04-07 13:21:18 +0000    16453 bytes  src/term-expander.js</tspan>
+<tspan x="10" y="12586">696.  2017-04-07 13:21:18 +0000    11704 bytes  src/terms.js</tspan>
+<tspan x="10" y="12602">697.  2017-04-07 13:21:18 +0000     8673 bytes  src/token-expander.js</tspan>
+<tspan x="10" y="12618">698.  2017-04-07 13:21:18 +0000      851 bytes  src/transforms.js</tspan>
+<tspan x="10" y="12634">699.  2017-04-07 13:21:18 +0000      331 bytes  src/utils.js</tspan>
+<tspan x="10" y="12650">700.  2017-04-07 13:21:18 +0000    33634 bytes  sweetjs.png</tspan>
+<tspan x="10" y="12666">701.  2017-04-07 13:21:18 +0000      286 bytes  test.js</tspan>
+<tspan x="10" y="12682">702.  2017-04-07 13:21:18 +0000     2211 bytes  test/assertions.js</tspan>
+<tspan x="10" y="12698">703.  2017-04-07 13:21:18 +0000     1075 bytes  test/declaration/class-declaration.js</tspan>
+<tspan x="10" y="12714">704.  2017-04-07 13:21:18 +0000    11192 bytes  test/declaration/function-declaration.js</tspan>
+<tspan x="10" y="12730">705.  2017-04-07 13:21:18 +0000     5408 bytes  test/declaration/generator-declaration.js</tspan>
+<tspan x="10" y="12746">706.  2017-04-07 13:21:18 +0000     2486 bytes  test/declaration/lexical-declarations.js</tspan>
+<tspan x="10" y="12762">707.  2017-04-07 13:21:18 +0000     8702 bytes  test/destructuring/assignment/array-binding.js</tspan>
+<tspan x="10" y="12778">708.  2017-04-07 13:21:18 +0000    13606 bytes  test/destructuring/assignment/object-binding.js</tspan>
+<tspan x="10" y="12794">709.  2017-04-07 13:21:18 +0000     6240 bytes  test/destructuring/binding-pattern/array-binding\</tspan>
+<tspan x="10" y="12810">.js</tspan>
+<tspan x="10" y="12826">710.  2017-04-07 13:21:18 +0000     1026 bytes  test/destructuring/binding-pattern/binding-ident\</tspan>
+<tspan x="10" y="12842">ifier.js</tspan>
+<tspan x="10" y="12858">711.  2017-04-07 13:21:18 +0000     8965 bytes  test/destructuring/binding-pattern/object-bindin\</tspan>
+<tspan x="10" y="12874">g.js</tspan>
+<tspan x="10" y="12890">712.  2017-04-07 13:21:18 +0000     2446 bytes  test/expressions/array-expression.js</tspan>
+<tspan x="10" y="12906">713.  2017-04-07 13:21:18 +0000    12155 bytes  test/expressions/arrow-expression.js</tspan>
+<tspan x="10" y="12922">714.  2017-04-07 13:21:18 +0000     7056 bytes  test/expressions/assignment-expression.js</tspan>
+<tspan x="10" y="12938">715.  2017-04-07 13:21:18 +0000    13909 bytes  test/expressions/binary-expression.js</tspan>
+<tspan x="10" y="12954">716.  2017-04-07 13:21:18 +0000     3828 bytes  test/expressions/call-expression.js</tspan>
+<tspan x="10" y="12970">717.  2017-04-07 13:21:18 +0000    10501 bytes  test/expressions/class-expression.js</tspan>
+<tspan x="10" y="12986">718.  2017-04-07 13:21:18 +0000     2868 bytes  test/expressions/computed-member-expression.js</tspan>
+<tspan x="10" y="13002">719.  2017-04-07 13:21:18 +0000     2121 bytes  test/expressions/conditional-expression.js</tspan>
+<tspan x="10" y="13018">720.  2017-04-07 13:21:18 +0000     9341 bytes  test/expressions/function-expression.js</tspan>
+<tspan x="10" y="13034">721.  2017-04-07 13:21:18 +0000     2603 bytes  test/expressions/grouped-expressions.js</tspan>
+<tspan x="10" y="13050">722.  2017-04-07 13:21:18 +0000     4154 bytes  test/expressions/identifier-expression.js</tspan>
+<tspan x="10" y="13066">723.  2017-04-07 13:21:18 +0000      861 bytes  test/expressions/literals/literal-infinity-expre\</tspan>
+<tspan x="10" y="13082">ssion.js</tspan>
+<tspan x="10" y="13098">724.  2017-04-07 13:21:18 +0000      979 bytes  test/expressions/literals/literal-null-expressio\</tspan>
+<tspan x="10" y="13114">n.js</tspan>
+<tspan x="10" y="13130">725.  2017-04-07 13:21:18 +0000     5513 bytes  test/expressions/literals/literal-numeric-expres\</tspan>
+<tspan x="10" y="13146">sion.js</tspan>
+<tspan x="10" y="13162">726.  2017-04-07 13:21:18 +0000     4696 bytes  test/expressions/literals/literal-regexp-express\</tspan>
+<tspan x="10" y="13178">ion.js</tspan>
+<tspan x="10" y="13194">727.  2017-04-07 13:21:18 +0000     5043 bytes  test/expressions/literals/literal-string-express\</tspan>
+<tspan x="10" y="13210">ion.js</tspan>
+<tspan x="10" y="13226">728.  2017-04-07 13:21:18 +0000     6937 bytes  test/expressions/new-expression.js</tspan>
+<tspan x="10" y="13242">729.  2017-04-07 13:21:18 +0000     6012 bytes  test/expressions/new-target-expression.js</tspan>
+<tspan x="10" y="13258">730.  2017-04-07 13:21:18 +0000    17997 bytes  test/expressions/object-expression.js</tspan>
+<tspan x="10" y="13274">731.  2017-04-07 13:21:18 +0000     2064 bytes  test/expressions/static-member-expression.js</tspan>
+<tspan x="10" y="13290">732.  2017-04-07 13:21:18 +0000    16258 bytes  test/expressions/super.js</tspan>
+<tspan x="10" y="13306">733.  2017-04-07 13:21:18 +0000     4429 bytes  test/expressions/template-expression.js</tspan>
+<tspan x="10" y="13322">734.  2017-04-07 13:21:18 +0000      836 bytes  test/expressions/this-expression.js</tspan>
+<tspan x="10" y="13338">735.  2017-04-07 13:21:18 +0000     2110 bytes  test/expressions/unary-expression.js</tspan>
+<tspan x="10" y="13354">736.  2017-04-07 13:21:18 +0000     2162 bytes  test/expressions/update-expression.js</tspan>
+<tspan x="10" y="13370">737.  2017-04-07 13:21:18 +0000     3355 bytes  test/expressions/yield-expression.js</tspan>
+<tspan x="10" y="13386">738.  2017-04-07 13:21:18 +0000     2302 bytes  test/expressions/yield-generator-expression.js</tspan>
+<tspan x="10" y="13402">739.  2017-04-07 13:21:18 +0000     1720 bytes  test/miscellaneous/comments.js</tspan>
+<tspan x="10" y="13418">740.  2017-04-07 13:21:18 +0000     4348 bytes  test/miscellaneous/grouping.js</tspan>
+<tspan x="10" y="13434">741.  2017-04-07 13:21:18 +0000    10142 bytes  test/miscellaneous/incompatibilities.js</tspan>
+<tspan x="10" y="13450">742.  2017-04-07 13:21:18 +0000    22257 bytes  test/miscellaneous/interactions.js</tspan>
+<tspan x="10" y="13466">743.  2017-04-07 13:21:18 +0000    10274 bytes  test/miscellaneous/whitespace.js</tspan>
+<tspan x="10" y="13482">744.  2017-04-07 13:21:18 +0000    10226 bytes  test/modules/export.js</tspan>
+<tspan x="10" y="13498">745.  2017-04-07 13:21:18 +0000     6391 bytes  test/modules/import.js</tspan>
+<tspan x="10" y="13514">746.  2017-04-07 13:21:18 +0000     1916 bytes  test/property-definition/generator-method.js</tspan>
+<tspan x="10" y="13530">747.  2017-04-07 13:21:18 +0000     8090 bytes  test/property-definition/property-name.js</tspan>
+<tspan x="10" y="13546">748.  2017-04-07 13:21:18 +0000     1764 bytes  test/statements/block-statement.js</tspan>
+<tspan x="10" y="13562">749.  2017-04-07 13:21:18 +0000     2488 bytes  test/statements/break-statement.js</tspan>
+<tspan x="10" y="13578">750.  2017-04-07 13:21:18 +0000     7580 bytes  test/statements/continue-statement.js</tspan>
+<tspan x="10" y="13594">751.  2017-04-07 13:21:18 +0000      907 bytes  test/statements/debugger-statement.js</tspan>
+<tspan x="10" y="13610">752.  2017-04-07 13:21:18 +0000     2607 bytes  test/statements/do-while-statement.js</tspan>
+<tspan x="10" y="13626">753.  2017-04-07 13:21:18 +0000      832 bytes  test/statements/empty-statement.js</tspan>
+<tspan x="10" y="13642">754.  2017-04-07 13:21:18 +0000     1726 bytes  test/statements/expression-statement.js</tspan>
+<tspan x="10" y="13658">755.  2017-04-07 13:21:18 +0000     4653 bytes  test/statements/for-in-statement.js</tspan>
+<tspan x="10" y="13674">756.  2017-04-07 13:21:18 +0000     3867 bytes  test/statements/for-of-statement.js</tspan>
+<tspan x="10" y="13690">757.  2017-04-07 13:21:18 +0000     7944 bytes  test/statements/for-statement.js</tspan>
+<tspan x="10" y="13706">758.  2017-04-07 13:21:18 +0000     3490 bytes  test/statements/if-statement.js</tspan>
+<tspan x="10" y="13722">759.  2017-04-07 13:21:18 +0000     1851 bytes  test/statements/labeled-statement.js</tspan>
+<tspan x="10" y="13738">760.  2017-04-07 13:21:18 +0000     3061 bytes  test/statements/return-statement.js</tspan>
+<tspan x="10" y="13754">761.  2017-04-07 13:21:18 +0000     2595 bytes  test/statements/switch-statement.js</tspan>
+<tspan x="10" y="13770">762.  2017-04-07 13:21:18 +0000     2915 bytes  test/statements/switch-with-default-statement.js</tspan>
+<tspan x="10" y="13786">763.  2017-04-07 13:21:18 +0000     1404 bytes  test/statements/throw-statement.js</tspan>
+<tspan x="10" y="13802">764.  2017-04-07 13:21:18 +0000     4264 bytes  test/statements/try-catch-statement.js</tspan>
+<tspan x="10" y="13818">765.  2017-04-07 13:21:18 +0000     2895 bytes  test/statements/try-finally-statement.js</tspan>
+<tspan x="10" y="13834">766.  2017-04-07 13:21:18 +0000    12389 bytes  test/statements/variable-declaration-statement.j\</tspan>
+<tspan x="10" y="13850">s</tspan>
+<tspan x="10" y="13866">767.  2017-04-07 13:21:18 +0000     2385 bytes  test/statements/while-statement.js</tspan>
+<tspan x="10" y="13882">768.  2017-04-07 13:21:18 +0000     1835 bytes  test/statements/with-statement.js</tspan>
+<tspan x="10" y="13898">769.  2017-04-07 13:21:18 +0000     1478 bytes  test/test_asi.js</tspan>
+<tspan x="10" y="13914">770.  2017-04-07 13:21:18 +0000      880 bytes  test/test_enforest.js</tspan>
+<tspan x="10" y="13930">771.  2017-04-07 13:21:18 +0000    13596 bytes  test/test_expression_parsing.js</tspan>
+<tspan x="10" y="13946">772.  2017-04-07 13:21:18 +0000     1150 bytes  test/test_hygiene.js</tspan>
+<tspan x="10" y="13962">773.  2017-04-07 13:21:18 +0000     4795 bytes  test/test_macro_context.js</tspan>
+<tspan x="10" y="13978">774.  2017-04-07 13:21:18 +0000     7749 bytes  test/test_macro_expansion.js</tspan>
+<tspan x="10" y="13994">775.  2017-04-07 13:21:18 +0000     2026 bytes  test/test_modules.js</tspan>
+<tspan x="10" y="14010">776.  2017-04-07 13:21:18 +0000    18587 bytes  test/test_reader.js</tspan>
+<tspan x="10" y="14026">777.  2017-04-07 13:21:18 +0000     7582 bytes  test/test_statement_parsing.js</tspan>
+<tspan x="10" y="14042">778.  2017-04-07 13:21:18 +0000      869 bytes  test/test_symbols.js</tspan>
+<tspan x="10" y="14058">779.  2017-04-07 13:21:18 +0000     5713 bytes  test/test_syntax.js</tspan>
+<tspan x="10" y="14074">780.  2017-04-07 13:21:18 +0000      174 bytes  webpack.config.js</tspan>
+</text>
+</svg>

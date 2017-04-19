@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/sweet-js/sweet.js#readme"
-
-    >sweet.js (v3.0.3)</a>
+    <a href="https://github.com/sweet-js/sweet.js#readme">sweet.js (v3.0.3)</a>
 </h1>
 <h4>Hygienic Macros for JavaScript</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.sweet.js">module sweet.js</a><ol>
 
@@ -2569,17 +2562,17 @@ export function parse(
  * MIT license http://www.opensource.org/licenses/mit-license.php/
  * @author Lea Verou http://lea.verou.me
  */(function(){var e=/\blang(?:uage)?-(?!\*)(\w+)\b/i,t=self.Prism={languages:{insertBefore:function(e,n,r,i){i=i||t.languages;var
- s=i[e],o={};for(var u in s)if(s.hasOwnProperty(u)){if(u==n)for(var a in r)r.hasOwnProperty(a)&#x26;&#x26;(o[a]=r[a]);o[u]=s[u]}
-return i[e]=o},DFS:function(e,n){for(var r in e){n.call(e,r,e[r]);Object.prototype.toString.call(e)===&#x22;[object Object]&#x22
-;&#x26;&#x26;t.languages.DFS(e[r],n)}}},highlightAll:function(e,n){var r=document.querySelectorAll(&#x27;code[class*=&#x22;language
--&#x22;], [class*=&#x22;language-&#x22;] code, code[class*=&#x22;lang-&#x22;], [class*=&#x22;lang-&#x22;] code&#x27;);for(var i=
-0,s;s=r[i++];)t.highlightElement(s,e===!0,n)},highlightElement:function(r,i,s){var o,u,a=r;while(a&#x26;&#x26;!e.test(a.className
-))a=a.parentNode;if(a){o=(a.className.match(e)||[,&#x22;&#x22;])[1];u=t.languages[o]}if(!u)return;r.className=r.className.replace
-(e,&#x22;&#x22;).replace(/\s+/g,&#x22; &#x22;)+&#x22; language-&#x22;+o;a=r.parentNode;/pre/i.test(a.nodeName)&#x26;&#x26;(a.className=a.className.replace(e,&#x22;&#x22;).replace(/\s+/g,&#x22; &#x22;)+&#x22; language-&#x22;+o);var f=r.textContent.trim();if(!f)return;f=f.replace(/&#x26;/g,&#x22;&#x26;amp;&#x22;).replace(/&#x3c;/g,&#x22;&#x26;lt;&#x22;).replace(/&#x3e;/g,&#x22;&#x26;gt;&#x22;).replace(/\u00a0/g,&#x22; &#x22;);var l={element:r,language:o,grammar:u,code:f};t.hooks.run(&#x22;before-highlight&#x22;,l);if(i&#x26;&#x26;self.Worker){var c=new Worker(t.filename);c.onmessage=function(e){l.highlightedCode=n.stringify(JSON.<span class="apidocCodeKeywordSpan">parse</span>(e.data));l.element.innerHTML=l.highlightedCode;s&#x26;&#x26;s.call(l.element);t.hooks.run(&#x22;after-highlight&#x22;,l)};c.postMessage(JSON.stringify({language:l.language,code:l.code}))}else{l.highlightedCode=t.highlight(l.code,l.grammar);l.element.innerHTML=l.highlightedCode;s&#x26;&#x26;s.call(r);t.hooks.run(&#x22;after-highlight&#x22;,l)}},highlight:function(e,r){return n.stringify(t.tokenize(e,r))},tokenize:function(e,n){var r=t.Token,i=[e],s=n.rest;if(s){for(var o in s)n[o]=s[o];delete n.rest}e:for(var o in n){if(!n.hasOwnProperty(o)||!n[o])continue;var u=n[o],a=u.inside,f=!!u.lookbehind||0;u=u.pattern||u;for(var l=0;l&#x3c;i.length;l++){var c=i[l];if(i.length&#x3e;e.length)break e;if(c instanceof r)continue;u.lastIndex=0;var h=u.exec(c);if(h){f&#x26;&#x26;(f=h[1].length);var p=h.index-1+f,h=h[0].slice(f),d=h.length,v=p+d,m=c.slice(0,p+1),g=c.slice(v+1),y=[l,1];m&#x26;&#x26;y.push(m);var b=new r(o,a?t.tokenize(h,a):h);y.push(b);g&#x26;&#x26;y.push(g);Array.prototype.splice.apply(i,y)}}}return i},hooks:{all:{},add:function(e,n){var r=t.hooks.all;r[e]=r[e]||[];r[e].push(n)},run:function(e,n){var r=t.hooks.all[e];if(!r||!r.length)return;for(var i=0,s;s=r[i++];)s(n)}}},n=t.Token=function(e,t){this.type=e;this.content=t};n.stringify=function(e){if(typeof e==&#x22;string&#x22;)return e;if(Object.prototype.toString.call(e)==&#x22;[object Array]&#x22;){for(var r=0;r&#x3c;e.length;r++)e[r]=n.stringify(e[r]);return e.join(&#x22;&#x22;)}var i={type:e.type,content:n.stringify(e.content),tag:&#x22;span&#x22;,classes:[&#x22;token&#x22;,e.type],attributes:{}};i.type==&#x22;comment&#x22;&#x26;&#x26;(i.attributes.spellcheck=&#x22;true&#x22;);t.hooks.run(&#x22;wrap&#x22;,i);var s=&#x22;&#x22;;for(var o in i.attributes)s+=o+&#x27;=&#x22;&#x27;+(i.attributes[o]||&#x22;&#x22;)+&#x27;&#x22;&#x27;;return&#x22;&#x3c;&#x22;+i.tag+&#x27; class=&#x22;&#x27;+i.classes.join(&#x22; &#x22;)+&#x27;&#x22; &#x27;+s+&#x22;&#x3e;&#x22;+i.content+&#x22;&#x3c;/&#x22;+i.tag+&#x22;&#x3e;&#x22;};if(!self.document){self.addEventListener(&#x22;message&#x22;,function(e){var n=JSON.parse(e.data),r=n.language,i=n.code;self.postMessage(JSON.stringify(t.tokenize(i,t.languages[r])));self.close()},!1);return}var r=document.getElementsByTagName(&#x22;script&#x22;);r=r[r.length-1];if(r){t.filename=r.src;document.addEventListener&#x26;&#x26;!r.hasAttribute(&#x22;data-manual&#x22;)&#x26;&#x26;document.addEventListener(&#x22;DOMContentLoaded&#x22;,t.highlightAll)}})();
-Prism.languages.markup={comment:/&#x26;lt;!--[\w\W]*?--(&#x26;gt;|&#x26;gt;)/g,prolog:/&#x26;lt;\?.+?\?&#x26;gt;/,doctype:/&#x26
-;lt;!DOCTYPE.+?&#x26;gt;/,cdata:/&#x26;lt;!\[CDATA\[[\w\W]+?]]&#x26;gt;/i,tag:{pattern:/&#x26;lt;\/?[\w:-]+\s*[\w\W]*?&#x26;gt;/gi,inside:{tag:{pattern:/^&#x26;lt;\/?[\w:-]+/i,inside:{punctuation:/^&#x26;lt;\/?/,namespace:/^[\w-]+?:/}},&#x22;attr-value&#x22;:{pattern:/=((&#x27;|&#x22;)[\w\W]*?(\2)|[^\s&#x3e;]+)/gi,inside:{punctuation:/=/g}},punctuation:/\/?&#x26;gt;/g,&#x22;attr-name&#x22;:{pattern:/[\w:-]+/g,inside:{namespace:/^[\w-]+?:/}}}},entity:/&#x26;amp;#?[\da-z]{1,8};/gi};Prism.hooks.add(&#x22;wrap&#x22;,function(e){e.type===&#x22;entity&#x22;&#x26;&#x26;(e.attributes.title=e.content.replace(/&#x26;amp;/,&#x22;&#x26;&#x22;))});
-Prism.languages.javascript={comment:{pattern:/(^|[^\\])(\/\*[\w\W]*?\*\/|\/\/.*?(\r?\n|$))/g,lookbehind:!0},string:/(&#x22;|&#x27
-;)(\\?.)*?\1/g,regex:{pattern:/(^|[^/])\/(?!\/)(\[.+?]|\\.|[^/\r\n])+\/[gim]{0,3}(?=\s*($|[\r\n,.;})]))/g,lookbehind:!0},keyword:/\b(var|let|if|else|while|do|for|return|in|instanceof|function|new|with|typeof|try|catch|finally|null|break|continue)\b/g,&#x22;boolean&#x22;:/\b(true|false)\b/g,number:/\b-?(0x)?\d*\.?\d+\b/g,operator:/[-+]{1,2}|!|=?&#x26;lt;|=?&#x26;gt;|={1,2}|(&#x26;amp;){1,2}|\|?\||\?|\*|\//g,ignore:/&#x26;(lt|gt|amp);/gi,punctuation:/[{}[\];(),.:]/g};Prism.languages.markup&#x26;&#x26;Prism.languages.insertBefore(&#x22;markup&#x22;,&#x22;tag&#x22;,{script:{pattern:/(&#x26;lt;|&#x3c;)script[\w\W]*?(&#x3e;|&#x26;gt;)[\w\W]*?(&#x26;lt;|&#x3c;)\/script(&#x3e;|&#x26;gt;)/ig,inside:{tag:{pattern:/(&#x26;lt;|&#x3c;)script[\w\W]*?(&#x3e;|&#x26;gt;)|(&#x26;lt;|&#x3c;)\/script(&#x3e;|&#x26;gt;)/ig,inside:Prism.languages.markup.tag.inside},rest:Prism.languages.javascript}}});
+ s=i[e],o={};for(var u in s)if(s.hasOwnProperty(u)){if(u==n)for(var a in r)r.hasOwnProperty(a)&amp;&amp;(o[a]=r[a]);o[u]=s[u]}
+return i[e]=o},DFS:function(e,n){for(var r in e){n.call(e,r,e[r]);Object.prototype.toString.call(e)==="[object Object]"
+;&amp;&amp;t.languages.DFS(e[r],n)}}},highlightAll:function(e,n){var r=document.querySelectorAll('code[class*="language
+-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code');for(var i=
+0,s;s=r[i++];)t.highlightElement(s,e===!0,n)},highlightElement:function(r,i,s){var o,u,a=r;while(a&amp;&amp;!e.test(a.className
+))a=a.parentNode;if(a){o=(a.className.match(e)||[,""])[1];u=t.languages[o]}if(!u)return;r.className=r.className.replace
+(e,"").replace(/\s+/g," ")+" language-"+o;a=r.parentNode;/pre/i.test(a.nodeName)&amp;&amp;(a.className=a.className.replace(e,"").replace(/\s+/g," ")+" language-"+o);var f=r.textContent.trim();if(!f)return;f=f.replace(/&amp;/g,"&amp;amp;").replace(/&lt;/g,"&amp;lt;").replace(/&gt;/g,"&amp;gt;").replace(/\u00a0/g," ");var l={element:r,language:o,grammar:u,code:f};t.hooks.run("before-highlight",l);if(i&amp;&amp;self.Worker){var c=new Worker(t.filename);c.onmessage=function(e){l.highlightedCode=n.stringify(JSON.<span class="apidocCodeKeywordSpan">parse</span>(e.data));l.element.innerHTML=l.highlightedCode;s&amp;&amp;s.call(l.element);t.hooks.run("after-highlight",l)};c.postMessage(JSON.stringify({language:l.language,code:l.code}))}else{l.highlightedCode=t.highlight(l.code,l.grammar);l.element.innerHTML=l.highlightedCode;s&amp;&amp;s.call(r);t.hooks.run("after-highlight",l)}},highlight:function(e,r){return n.stringify(t.tokenize(e,r))},tokenize:function(e,n){var r=t.Token,i=[e],s=n.rest;if(s){for(var o in s)n[o]=s[o];delete n.rest}e:for(var o in n){if(!n.hasOwnProperty(o)||!n[o])continue;var u=n[o],a=u.inside,f=!!u.lookbehind||0;u=u.pattern||u;for(var l=0;l&lt;i.length;l++){var c=i[l];if(i.length&gt;e.length)break e;if(c instanceof r)continue;u.lastIndex=0;var h=u.exec(c);if(h){f&amp;&amp;(f=h[1].length);var p=h.index-1+f,h=h[0].slice(f),d=h.length,v=p+d,m=c.slice(0,p+1),g=c.slice(v+1),y=[l,1];m&amp;&amp;y.push(m);var b=new r(o,a?t.tokenize(h,a):h);y.push(b);g&amp;&amp;y.push(g);Array.prototype.splice.apply(i,y)}}}return i},hooks:{all:{},add:function(e,n){var r=t.hooks.all;r[e]=r[e]||[];r[e].push(n)},run:function(e,n){var r=t.hooks.all[e];if(!r||!r.length)return;for(var i=0,s;s=r[i++];)s(n)}}},n=t.Token=function(e,t){this.type=e;this.content=t};n.stringify=function(e){if(typeof e=="string")return e;if(Object.prototype.toString.call(e)=="[object Array]"){for(var r=0;r&lt;e.length;r++)e[r]=n.stringify(e[r]);return e.join("")}var i={type:e.type,content:n.stringify(e.content),tag:"span",classes:["token",e.type],attributes:{}};i.type=="comment"&amp;&amp;(i.attributes.spellcheck="true");t.hooks.run("wrap",i);var s="";for(var o in i.attributes)s+=o+'="'+(i.attributes[o]||"")+'"';return"&lt;"+i.tag+' class="'+i.classes.join(" ")+'" '+s+"&gt;"+i.content+"&lt;/"+i.tag+"&gt;"};if(!self.document){self.addEventListener("message",function(e){var n=JSON.parse(e.data),r=n.language,i=n.code;self.postMessage(JSON.stringify(t.tokenize(i,t.languages[r])));self.close()},!1);return}var r=document.getElementsByTagName("script");r=r[r.length-1];if(r){t.filename=r.src;document.addEventListener&amp;&amp;!r.hasAttribute("data-manual")&amp;&amp;document.addEventListener("DOMContentLoaded",t.highlightAll)}})();
+Prism.languages.markup={comment:/&amp;lt;!--[\w\W]*?--(&amp;gt;|&amp;gt;)/g,prolog:/&amp;lt;\?.+?\?&amp;gt;/,doctype:/&amp;
+;lt;!DOCTYPE.+?&amp;gt;/,cdata:/&amp;lt;!\[CDATA\[[\w\W]+?]]&amp;gt;/i,tag:{pattern:/&amp;lt;\/?[\w:-]+\s*[\w\W]*?&amp;gt;/gi,inside:{tag:{pattern:/^&amp;lt;\/?[\w:-]+/i,inside:{punctuation:/^&amp;lt;\/?/,namespace:/^[\w-]+?:/}},"attr-value":{pattern:/=(('|")[\w\W]*?(\2)|[^\s&gt;]+)/gi,inside:{punctuation:/=/g}},punctuation:/\/?&amp;gt;/g,"attr-name":{pattern:/[\w:-]+/g,inside:{namespace:/^[\w-]+?:/}}}},entity:/&amp;amp;#?[\da-z]{1,8};/gi};Prism.hooks.add("wrap",function(e){e.type==="entity"&amp;&amp;(e.attributes.title=e.content.replace(/&amp;amp;/,"&amp;"))});
+Prism.languages.javascript={comment:{pattern:/(^|[^\\])(\/\*[\w\W]*?\*\/|\/\/.*?(\r?\n|$))/g,lookbehind:!0},string:/("|'
+;)(\\?.)*?\1/g,regex:{pattern:/(^|[^/])\/(?!\/)(\[.+?]|\\.|[^/\r\n])+\/[gim]{0,3}(?=\s*($|[\r\n,.;})]))/g,lookbehind:!0},keyword:/\b(var|let|if|else|while|do|for|return|in|instanceof|function|new|with|typeof|try|catch|finally|null|break|continue)\b/g,"boolean":/\b(true|false)\b/g,number:/\b-?(0x)?\d*\.?\d+\b/g,operator:/[-+]{1,2}|!|=?&amp;lt;|=?&amp;gt;|={1,2}|(&amp;amp;){1,2}|\|?\||\?|\*|\//g,ignore:/&amp;(lt|gt|amp);/gi,punctuation:/[{}[\];(),.:]/g};Prism.languages.markup&amp;&amp;Prism.languages.insertBefore("markup","tag",{script:{pattern:/(&amp;lt;|&lt;)script[\w\W]*?(&gt;|&amp;gt;)[\w\W]*?(&amp;lt;|&lt;)\/script(&gt;|&amp;gt;)/ig,inside:{tag:{pattern:/(&amp;lt;|&lt;)script[\w\W]*?(&gt;|&amp;gt;)|(&amp;lt;|&lt;)\/script(&gt;|&amp;gt;)/ig,inside:Prism.languages.markup.tag.inside},rest:Prism.languages.javascript}}});
 ...</pre></li>
     </ul>
 
@@ -2744,7 +2737,7 @@ return Rx.Observable.create(function (observer) {
     var disposable = Rx.Disposable.empty, resource, source;
     try {
         resource = resourceFactory();
-        resource &#x26;&#x26; (disposable = resource);
+        resource &amp;&amp; (disposable = resource);
         source = observableFactory(resource);
     } catch (exception) {
         return new Rx.<span class="apidocCodeKeywordSpan">CompositeDisposable</span>(Rx.Observable.throw(exception).subscribe(observer
@@ -2830,11 +2823,11 @@ windowResizeObs  = $(window).resizeAsObservable().startWith(true),
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function Observable(subscribe) {
-  if (Rx.config.longStackSupport &#x26;&#x26; hasStacks) {
+  if (Rx.config.longStackSupport &amp;&amp; hasStacks) {
     try {
       throw new Error();
     } catch (e) {
-      this.stack = e.stack.substring(e.stack.indexOf(&#x22;\n&#x22;) + 1);
+      this.stack = e.stack.substring(e.stack.indexOf("\n") + 1);
     }
 
     var self = this;
@@ -2997,15 +2990,15 @@ windowResizeObs  = $(window).resizeAsObservable().startWith(true),
     .clickAsObservable()
     .doAction(stepper.val.bind(stepper, 0))
     .publish(),
-lastCompileType     = &#x22;full&#x22;,
+lastCompileType     = "full",
 initialCompile      = editor.initialCompile,
 compileChangeSubj   = new Rx.<span class="apidocCodeKeywordSpan">Subject</span>(),
 compileChangeObs    = Rx.Observable.defer(function() {
     return autoCompile
         .changeAsObservable()
         // Select each change event into a Boolean that flips on each click.
-        .scan(autoCompile.is(&#x22;:checked&#x22;), Rx.helpers.not)
-        .startWith(autoCompile.is(&#x22;:checked&#x22;));
+        .scan(autoCompile.is(":checked"), Rx.helpers.not)
+        .startWith(autoCompile.is(":checked"));
 })
 ...</pre></li>
     </ul>
@@ -3070,28 +3063,28 @@ compileChangeObs    = Rx.Observable.defer(function() {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">after = function (times, func) {
   return function() {
-    if (--times &#x3c; 1) {
+    if (--times &lt; 1) {
       return func.apply(this, arguments);
     }
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-        mode: &#x22;javascript&#x22;
+        mode: "javascript"
     });
-    editor.setOption(&#x22;theme&#x22;, &#x22;sweetprism&#x22;);
+    editor.setOption("theme", "sweetprism");
     editors[nb] = editor;
 
     // add sweeten button and output div
     var $editorDiv = $(textarea).next();
-    $editorDiv.<span class="apidocCodeKeywordSpan">after</span>(&#x27;&#x3c;button onclick=&#x22;sweeten(&#x27;+ nb +&#x27;);&#x22
-;&#x3e;&#x27; +
-                  &#x27;Try it!&#x3c;/button&#x3e;&#x3c;pre id=&#x22;output-&#x27;+ nb +
-                  &#x27;&#x22; class=&#x22;cm-s-sweetprism console&#x22;&#x3e;&#x3c;/pre&#x3e;&#x27;)
+    $editorDiv.<span class="apidocCodeKeywordSpan">after</span>('&lt;button onclick="sweeten('+ nb +');"
+;&gt;' +
+                  'Try it!&lt;/button&gt;&lt;pre id="output-'+ nb +
+                  '" class="cm-s-sweetprism console"&gt;&lt;/pre&gt;')
 });
 
 return function (nb) {
-    var $console = $(&#x22;#output-&#x22; + nb);
-    $console.css(&#x22;display&#x22;, &#x22;block&#x22;);
+    var $console = $("#output-" + nb);
+    $console.css("display", "block");
 ...</pre></li>
     </ul>
 
@@ -3108,9 +3101,9 @@ return function (nb) {
   predicate || (predicate = _.identity);
   var result = true;
   if (obj == null) return result;
-  if (nativeEvery &#x26;&#x26; obj.every === nativeEvery) return obj.every(predicate, context);
+  if (nativeEvery &amp;&amp; obj.every === nativeEvery) return obj.every(predicate, context);
   each(obj, function(value, index, list) {
-    if (!(result = result &#x26;&#x26; predicate.call(context, value, index, list))) return breaker;
+    if (!(result = result &amp;&amp; predicate.call(context, value, index, list))) return breaker;
   });
   return !!result;
 }</pre></li>
@@ -3130,7 +3123,7 @@ return function (nb) {
   predicate || (predicate = _.identity);
   var result = false;
   if (obj == null) return result;
-  if (nativeSome &#x26;&#x26; obj.some === nativeSome) return obj.some(predicate, context);
+  if (nativeSome &amp;&amp; obj.some === nativeSome) return obj.some(predicate, context);
   each(obj, function(value, index, list) {
     if (result || (result = predicate.call(context, value, index, list))) return breaker;
   });
@@ -3146,12 +3139,12 @@ if(!!prev) {
 
 macro = _.<span class="apidocCodeKeywordSpan">any</span>(srcHighlights, function(x) {
     return (
-        mapping.originalLine &#x3e; x.start.line || (
-            mapping.originalLine === x.start.line &#x26;&#x26;
-            mapping.originalColumn &#x3e;= x.start.column)) &#x26;&#x26; (
-        mapping.originalLine &#x3c; x.end.line || (
-            mapping.originalLine === x.end.line &#x26;&#x26;
-            mapping.originalColumn &#x3c; x.end.column));
+        mapping.originalLine &gt; x.start.line || (
+            mapping.originalLine === x.start.line &amp;&amp;
+            mapping.originalColumn &gt;= x.start.column)) &amp;&amp; (
+        mapping.originalLine &lt; x.end.line || (
+            mapping.originalLine === x.end.line &amp;&amp;
+            mapping.originalColumn &lt; x.end.column));
 ...</pre></li>
     </ul>
 
@@ -3166,7 +3159,7 @@ macro = _.<span class="apidocCodeKeywordSpan">any</span>(srcHighlights, function
     <ul>
     <li>description and source-code<pre class="apidocCodePre">bind = function (func, context) {
   var args, bound;
-  if (nativeBind &#x26;&#x26; func.bind === nativeBind) return nativeBind.apply(func, slice.call(arguments, 1));
+  if (nativeBind &amp;&amp; func.bind === nativeBind) return nativeBind.apply(func, slice.call(arguments, 1));
   if (!_.isFunction(func)) throw new TypeError;
   args = slice.call(arguments, 2);
   return bound = function() {
@@ -3182,16 +3175,16 @@ macro = _.<span class="apidocCodeKeywordSpan">any</span>(srcHighlights, function
     <li>example usage<pre class="apidocCodePre">...
 
 initOutputObs = documentReadyObs
-    .map(_.partial($, &#x22;#output&#x22;, undefined))
+    .map(_.partial($, "#output", undefined))
     .map(_.partial(initEditor, getOutputOptions)),
 
 // Initialize both CodeMirror instances on document
 // ready, then select them into a list together.
 mirrors = initEditorObs.zip(initOutputObs, concat.<span class="apidocCodeKeywordSpan">bind</span>([])).publish(),
 
-keyMapSelector = _.partial(selectKeyMapClicks, $(&#x27;#btn-vim&#x27;), $(&#x27;#btn-emacs&#x27;), $(&#x27;#btn-default&#x27;)),
-mirrorDragSelector = _.partial(selectMirrorDrags, $(&#x22;#edit-box&#x22;)),
-commitResizes = _.partial(commitMirrorResizes, $(&#x22;#edit-box&#x22;), $(&#x22;#error-box&#x22;), $(&#x22;#output-box&#x22;)),
+keyMapSelector = _.partial(selectKeyMapClicks, $('#btn-vim'), $('#btn-emacs'), $('#btn-default')),
+mirrorDragSelector = _.partial(selectMirrorDrags, $("#edit-box")),
+commitResizes = _.partial(commitMirrorResizes, $("#edit-box"), $("#error-box"), $("#output-box")),
 
 errorRecoverySelector = _.partial(
     recoverFromError,
@@ -3209,7 +3202,7 @@ errorRecoverySelector = _.partial(
     <ul>
     <li>description and source-code<pre class="apidocCodePre">bindAll = function (obj) {
   var funcs = slice.call(arguments, 1);
-  if (funcs.length === 0) throw new Error(&#x27;bindAll must be passed function names&#x27;);
+  if (funcs.length === 0) throw new Error('bindAll must be passed function names');
   each(funcs, function(f) { obj[f] = _.bind(obj[f], obj); });
   return obj;
 }</pre></li>
@@ -3229,12 +3222,12 @@ errorRecoverySelector = _.partial(
   return _(obj).chain();
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  template.source = &#x27;function(&#x27; + (settings.variable || &#x27;obj&#x27;) + &#x27;){\n&#x27; + source + &#x27;}&#x27;;
+  template.source = 'function(' + (settings.variable || 'obj') + '){\n' + source + '}';
 
   return template;
 };
 
-// Add a &#x22;chain&#x22; function, which will delegate to the wrapper.
+// Add a "chain" function, which will delegate to the wrapper.
 _.chain = function(obj) {
   return _(obj).<span class="apidocCodeKeywordSpan">chain</span>();
 };
@@ -3262,16 +3255,16 @@ _.chain = function(obj) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 }
-return [editor, &#x22;candidate&#x22;, highlights];
+return [editor, "candidate", highlights];
 
 function useOriginalLoc(token) {
-    var props = [&#x27;lineStart&#x27;, &#x27;lineNumber&#x27;, &#x27;range&#x27;, &#x27;startLineStart&#x27;,
-        &#x27;startLineNumber&#x27;, &#x27;startRange&#x27;, &#x27;endLineStart&#x27;,
-        &#x27;endLineNumber&#x27;, &#x27;endRange&#x27;];
+    var props = ['lineStart', 'lineNumber', 'range', 'startLineStart',
+        'startLineNumber', 'startRange', 'endLineStart',
+        'endLineNumber', 'endRange'];
     var obj = _.<span class="apidocCodeKeywordSpan">clone</span>(token);
-    for (var i = 0; i &#x3c; props.length; i++) {
-        if (obj.hasOwnProperty(&#x27;sm_&#x27; + props[i])) {
-            obj[props[i]] = obj[&#x27;sm_&#x27; + props[i]];
+    for (var i = 0; i &lt; props.length; i++) {
+        if (obj.hasOwnProperty('sm_' + props[i])) {
+            obj[props[i]] = obj['sm_' + props[i]];
         }
     }
     return obj;
@@ -3291,7 +3284,7 @@ function useOriginalLoc(token) {
     <li>description and source-code<pre class="apidocCodePre">collect = function (obj, iterator, context) {
   var results = [];
   if (obj == null) return results;
-  if (nativeMap &#x26;&#x26; obj.map === nativeMap) return obj.map(iterator, context);
+  if (nativeMap &amp;&amp; obj.map === nativeMap) return obj.map(iterator, context);
   each(obj, function(value, index, list) {
     results.push(iterator.call(context, value, index, list));
   });
@@ -3344,7 +3337,7 @@ collectArrayBinding(term) {
   var funcs = arguments;
   return function() {
     var args = arguments;
-    for (var i = funcs.length - 1; i &#x3e;= 0; i--) {
+    for (var i = funcs.length - 1; i &gt;= 0; i--) {
       args = [funcs[i].apply(this, args)];
     }
     return args[0];
@@ -3381,7 +3374,7 @@ collectArrayBinding(term) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">contains = function (obj, target) {
   if (obj == null) return false;
-  if (nativeIndexOf &#x26;&#x26; obj.indexOf === nativeIndexOf) return obj.indexOf(target) != -1;
+  if (nativeIndexOf &amp;&amp; obj.indexOf === nativeIndexOf) return obj.indexOf(target) != -1;
   return any(obj, function(value) {
     return value === target;
   });
@@ -3391,11 +3384,11 @@ collectArrayBinding(term) {
 	contains = rnative.test( docElem.contains ) || docElem.compareDocumentPosition ?
 		function( a, b ) {
 			var adown = a.nodeType === 9 ? a.documentElement : a,
-				bup = b &#x26;&#x26; b.parentNode;
-			return a === bup || !!( bup &#x26;&#x26; bup.nodeType === 1 &#x26;&#x26; (
+				bup = b &amp;&amp; b.parentNode;
+			return a === bup || !!( bup &amp;&amp; bup.nodeType === 1 &amp;&amp; (
 				adown.contains ?
 					adown.<span class="apidocCodeKeywordSpan">contains</span>( bup ) :
-					a.compareDocumentPosition &#x26;&#x26; a.compareDocumentPosition( bup ) &#x26; 16
+					a.compareDocumentPosition &amp;&amp; a.compareDocumentPosition( bup ) &amp; 16
 			));
 		} :
 		function( a, b ) {
@@ -3440,7 +3433,7 @@ collectArrayBinding(term) {
 
   var later = function() {
     var last = _.now() - timestamp;
-    if (last &#x3c; wait) {
+    if (last &lt; wait) {
       timeout = setTimeout(later, wait - last);
     } else {
       timeout = null;
@@ -3455,7 +3448,7 @@ collectArrayBinding(term) {
     context = this;
     args = arguments;
     timestamp = _.now();
-    var callNow = immediate &#x26;&#x26; !timeout;
+    var callNow = immediate &amp;&amp; !timeout;
     if (!timeout) {
       timeout = setTimeout(later, wait);
     }
@@ -3474,7 +3467,7 @@ collectArrayBinding(term) {
         // stop listening to mousemoves when we receive a mouseup
         .takeUntil(upObs);
 })
-// don&#x27;t update the DOM between browser repaints
+// don't update the DOM between browser repaints
 .<span class="apidocCodeKeywordSpan">debounce</span>(0, Rx.Scheduler.requestAnimationFrameScheduler)
 .startWith(editBox.outerWidth())
 .map(function (codeAreaWidth) {
@@ -3506,9 +3499,9 @@ collectArrayBinding(term) {
   return obj;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  var escaper = /\\|&#x27;|\r|\n|\t|\u2028|\u2029/g;
+  var escaper = /\\|'|\r|\n|\t|\u2028|\u2029/g;
 
-  // JavaScript micro-templating, similar to John Resig&#x27;s implementation.
+  // JavaScript micro-templating, similar to John Resig's implementation.
   // Underscore templating handles arbitrary delimiters, preserves whitespace,
   // and correctly escapes quotes within interpolated code.
   _.template = function(text, data, settings) {
@@ -3520,7 +3513,7 @@ var matcher = new RegExp([
   (settings.escape || noMatch).source,
   (settings.interpolate || noMatch).source,
   (settings.evaluate || noMatch).source
-].join(&#x27;|&#x27;) + &#x27;|$&#x27;, &#x27;g&#x27;);
+].join('|') + '|$', 'g');
 ...</pre></li>
     </ul>
 
@@ -3541,15 +3534,15 @@ var matcher = new RegExp([
     .clickAsObservable()
     .doAction(stepper.val.bind(stepper, 0))
     .publish(),
-lastCompileType     = &#x22;full&#x22;,
+lastCompileType     = "full",
 initialCompile      = editor.initialCompile,
 compileChangeSubj   = new Rx.Subject(),
 compileChangeObs    = Rx.Observable.<span class="apidocCodeKeywordSpan">defer</span>(function() {
     return autoCompile
         .changeAsObservable()
         // Select each change event into a Boolean that flips on each click.
-        .scan(autoCompile.is(&#x22;:checked&#x22;), Rx.helpers.not)
-        .startWith(autoCompile.is(&#x22;:checked&#x22;));
+        .scan(autoCompile.is(":checked"), Rx.helpers.not)
+        .startWith(autoCompile.is(":checked"));
 })
 .multicast(compileChangeSubj).refCount(),
 ...</pre></li>
@@ -3668,15 +3661,15 @@ _.partition = function(array, predicate) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">each = function (obj, iterator, context) {
   if (obj == null) return obj;
-  if (nativeForEach &#x26;&#x26; obj.forEach === nativeForEach) {
+  if (nativeForEach &amp;&amp; obj.forEach === nativeForEach) {
     obj.forEach(iterator, context);
   } else if (obj.length === +obj.length) {
-    for (var i = 0, length = obj.length; i &#x3c; length; i++) {
+    for (var i = 0, length = obj.length; i &lt; length; i++) {
       if (iterator.call(context, obj[i], i, obj) === breaker) return;
     }
   } else {
     var keys = _.keys(obj);
-    for (var i = 0, length = keys.length; i &#x3c; length; i++) {
+    for (var i = 0, length = keys.length; i &lt; length; i++) {
       if (iterator.call(context, obj[keys[i]], keys[i], obj) === breaker) return;
     }
   }
@@ -3711,27 +3704,26 @@ _.partition = function(array, predicate) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">escape = function (string) {
-  if (string == null) return &#x27;&#x27;;
-  return (&#x27;&#x27; + string).replace(entityRegexes[method], function(match) {
+  if (string == null) return '';
+  return ('' + string).replace(entityRegexes[method], function(match) {
     return entityMap[method][match];
   });
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
     var index = 0;
-    var source = &#x22;__p+=&#x27;&#x22;;
+    var source = "__p+='";
     text.replace(matcher, function(match, escape, interpolate, evaluate, offset) {
 source += text.slice(index, offset)
-  .replace(escaper, function(match) { return &#x27;\\&#x27; + escapes[match]; });
+  .replace(escaper, function(match) { return '\\' + escapes[match]; });
 
 if (escape) {
-  source += &#x22;&#x27;+\n((__t=(&#x22; + escape + &#x22;))==null?&#x27;&#x27;:_.<span class="apidocCodeKeywordSpan">escape</span
->(__t))+\n&#x27;&#x22;;
+  source += "'+\n((__t=(" + escape + "))==null?'':_.<span class="apidocCodeKeywordSpan">escape</span>(__t))+\n'";
 }
 if (interpolate) {
-  source += &#x22;&#x27;+\n((__t=(&#x22; + interpolate + &#x22;))==null?&#x27;&#x27;:__t)+\n&#x27;&#x22;;
+  source += "'+\n((__t=(" + interpolate + "))==null?'':__t)+\n'";
 }
 if (evaluate) {
-  source += &#x22;&#x27;;\n&#x22; + evaluate + &#x22;\n__p+=&#x27;&#x22;;
+  source += "';\n" + evaluate + "\n__p+='";
 }
 ...</pre></li>
     </ul>
@@ -3749,9 +3741,9 @@ if (evaluate) {
   predicate || (predicate = _.identity);
   var result = true;
   if (obj == null) return result;
-  if (nativeEvery &#x26;&#x26; obj.every === nativeEvery) return obj.every(predicate, context);
+  if (nativeEvery &amp;&amp; obj.every === nativeEvery) return obj.every(predicate, context);
   each(obj, function(value, index, list) {
-    if (!(result = result &#x26;&#x26; predicate.call(context, value, index, list))) return breaker;
+    if (!(result = result &amp;&amp; predicate.call(context, value, index, list))) return breaker;
   });
   return !!result;
 }</pre></li>
@@ -3795,12 +3787,12 @@ function next(i) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 collectObjectBinding() {
-  // return term.properties.flatMap(prop =&#x3e; this.collect(prop));
+  // return term.properties.flatMap(prop =&gt; this.collect(prop));
   return List();
 }
 
 // registerVariableDeclaration(term) {
-//   let declarators = term.declarators.map(decl =&#x3e; {
+//   let declarators = term.declarators.map(decl =&gt; {
 //     return decl.<span class="apidocCodeKeywordSpan">extend</span>({
 //       binding: this.register(decl.binding)
 //     });
@@ -3824,7 +3816,7 @@ collectObjectBinding() {
     <li>description and source-code<pre class="apidocCodePre">filter = function (obj, predicate, context) {
   var results = [];
   if (obj == null) return results;
-  if (nativeFilter &#x26;&#x26; obj.filter === nativeFilter) return obj.filter(predicate, context);
+  if (nativeFilter &amp;&amp; obj.filter === nativeFilter) return obj.filter(predicate, context);
   each(obj, function(value, index, list) {
     if (predicate.call(context, value, index, list)) results.push(value);
   });
@@ -3836,9 +3828,9 @@ collectObjectBinding() {
   return f;
 }
 
-let passTest = mkTester(&#x27;pass&#x27;)
+let passTest = mkTester('pass')
 
-pass.<span class="apidocCodeKeywordSpan">filter</span>(f =&#x3e; !passExcluded.includes(f)).forEach(f =&#x3e; {
+pass.<span class="apidocCodeKeywordSpan">filter</span>(f =&gt; !passExcluded.includes(f)).forEach(f =&gt; {
   console.log(f);
   passTest(f);
 });
@@ -3865,7 +3857,7 @@ pass.<span class="apidocCodeKeywordSpan">filter</span>(f =&#x3e; !passExcluded.i
   return result;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  gutters.style.display = i ? &#x22;&#x22; : &#x22;none&#x22;;
+  gutters.style.display = i ? "" : "none";
 }
 
 function lineLength(doc, line) {
@@ -3910,7 +3902,7 @@ function lineLength(doc, line) {
     <li>description and source-code<pre class="apidocCodePre">first = function (array, n, guard) {
   if (array == null) return void 0;
   if ((n == null) || guard) return array[0];
-  if (n &#x3c; 0) return [];
+  if (n &lt; 0) return [];
   return slice.call(array, 0, n);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -3946,17 +3938,17 @@ export class Enforester {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 .slice(0, 20)
-.map(term =&#x3e; {
+.map(term =&gt; {
   if (term instanceof T.RawDelimiter) {
     return term.inner;
   }
   return List.of(term);
 })
 .<span class="apidocCodeKeywordSpan">flatten</span>()
-.map(s =&#x3e; {
+.map(s =&gt; {
   let sval = s instanceof T.RawSyntax ? s.value.val() : s.toString();
   if (s === offending) {
-    return &#x27;__&#x27; + sval + &#x27;__&#x27;;
+    return '__' + sval + '__';
   }
   return sval;
 })
@@ -3973,9 +3965,9 @@ export class Enforester {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">foldl = function (obj, iterator, memo, context) {
-  var initial = arguments.length &#x3e; 2;
+  var initial = arguments.length &gt; 2;
   if (obj == null) obj = [];
-  if (nativeReduce &#x26;&#x26; obj.reduce === nativeReduce) {
+  if (nativeReduce &amp;&amp; obj.reduce === nativeReduce) {
     if (context) iterator = _.bind(iterator, context);
     return initial ? obj.reduce(iterator, memo) : obj.reduce(iterator);
   }
@@ -4003,9 +3995,9 @@ export class Enforester {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">foldr = function (obj, iterator, memo, context) {
-  var initial = arguments.length &#x3e; 2;
+  var initial = arguments.length &gt; 2;
   if (obj == null) obj = [];
-  if (nativeReduceRight &#x26;&#x26; obj.reduceRight === nativeReduceRight) {
+  if (nativeReduceRight &amp;&amp; obj.reduceRight === nativeReduceRight) {
     if (context) iterator = _.bind(iterator, context);
     return initial ? obj.reduceRight(iterator, memo) : obj.reduceRight(iterator);
   }
@@ -4040,15 +4032,15 @@ export class Enforester {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">forEach = function (obj, iterator, context) {
   if (obj == null) return obj;
-  if (nativeForEach &#x26;&#x26; obj.forEach === nativeForEach) {
+  if (nativeForEach &amp;&amp; obj.forEach === nativeForEach) {
     obj.forEach(iterator, context);
   } else if (obj.length === +obj.length) {
-    for (var i = 0, length = obj.length; i &#x3c; length; i++) {
+    for (var i = 0, length = obj.length; i &lt; length; i++) {
       if (iterator.call(context, obj[i], i, obj) === breaker) return;
     }
   } else {
     var keys = _.keys(obj);
-    for (var i = 0, length = keys.length; i &#x3c; length; i++) {
+    for (var i = 0, length = keys.length; i &lt; length; i++) {
       if (iterator.call(context, obj[keys[i]], keys[i], obj) === breaker) return;
     }
   }
@@ -4060,9 +4052,9 @@ export class Enforester {
   return f;
 }
 
-let passTest = mkTester(&#x27;pass&#x27;)
+let passTest = mkTester('pass')
 
-pass.filter(f =&#x3e; !passExcluded.includes(f)).<span class="apidocCodeKeywordSpan">forEach</span>(f =&#x3e; {
+pass.filter(f =&gt; !passExcluded.includes(f)).<span class="apidocCodeKeywordSpan">forEach</span>(f =&gt; {
   console.log(f);
   passTest(f);
 });
@@ -4149,7 +4141,7 @@ let scopeset = stx.scopesets.phase.<span class="apidocCodeKeywordSpan">has</span
   ? stx.scopesets.phase.get(phase)
   : List();
 scopeset = allScopeset.concat(scopeset);
-assert(phase != null, &#x27;must provide a phase for binding add&#x27;);
+assert(phase != null, 'must provide a phase for binding add');
 
 let scopesetBindingList = this._map.get(stxName);
 if (scopesetBindingList) {
@@ -4168,7 +4160,7 @@ if (scopesetBindingList) {
     <li>description and source-code<pre class="apidocCodePre">head = function (array, n, guard) {
   if (array == null) return void 0;
   if ((n == null) || guard) return array[0];
-  if (n &#x3c; 0) return [];
+  if (n &lt; 0) return [];
   return slice.call(array, 0, n);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -4200,7 +4192,7 @@ if (scopesetBindingList) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">include = function (obj, target) {
   if (obj == null) return false;
-  if (nativeIndexOf &#x26;&#x26; obj.indexOf === nativeIndexOf) return obj.indexOf(target) != -1;
+  if (nativeIndexOf &amp;&amp; obj.indexOf === nativeIndexOf) return obj.indexOf(target) != -1;
   return any(obj, function(value) {
     return value === target;
   });
@@ -4242,33 +4234,33 @@ if (scopesetBindingList) {
   if (array == null) return -1;
   var i = 0, length = array.length;
   if (isSorted) {
-    if (typeof isSorted == &#x27;number&#x27;) {
-      i = (isSorted &#x3c; 0 ? Math.max(0, length + isSorted) : isSorted);
+    if (typeof isSorted == 'number') {
+      i = (isSorted &lt; 0 ? Math.max(0, length + isSorted) : isSorted);
     } else {
       i = _.sortedIndex(array, item);
       return array[i] === item ? i : -1;
     }
   }
-  if (nativeIndexOf &#x26;&#x26; array.indexOf === nativeIndexOf) return array.indexOf(item, isSorted);
-  for (; i &#x3c; length; i++) if (array[i] === item) return i;
+  if (nativeIndexOf &amp;&amp; array.indexOf === nativeIndexOf) return array.indexOf(item, isSorted);
+  for (; i &lt; length; i++) if (array[i] === item) return i;
   return -1;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  if (cm.options.onKeyEvent &#x26;&#x26; cm.options.onKeyEvent(cm, addStop(e))) return;
-  var keyCode = e_prop(e, &#x22;keyCode&#x22;), charCode = e_prop(e, &#x22;charCode&#x22;);
-  if (opera &#x26;&#x26; keyCode == lastStoppedKey) {lastStoppedKey = null; e_preventDefault(e); return;}
-  if (((opera &#x26;&#x26; (!e.which || e.which &#x3c; 10)) || khtml) &#x26;&#x26; handleKeyBinding(cm, e)) return;
+  if (cm.options.onKeyEvent &amp;&amp; cm.options.onKeyEvent(cm, addStop(e))) return;
+  var keyCode = e_prop(e, "keyCode"), charCode = e_prop(e, "charCode");
+  if (opera &amp;&amp; keyCode == lastStoppedKey) {lastStoppedKey = null; e_preventDefault(e); return;}
+  if (((opera &amp;&amp; (!e.which || e.which &lt; 10)) || khtml) &amp;&amp; handleKeyBinding(cm, e)) return;
   var ch = String.fromCharCode(charCode == null ? keyCode : charCode);
-  if (this.options.electricChars &#x26;&#x26; this.view.mode.electricChars &#x26;&#x26;
-      this.options.smartIndent &#x26;&#x26; !isReadOnly(this) &#x26;&#x26;
-      this.view.mode.electricChars.<span class="apidocCodeKeywordSpan">indexOf</span>(ch) &#x3e; -1)
-    setTimeout(operation(cm, function() {indentLine(cm, cm.view.sel.to.line, &#x22;smart&#x22;);}), 75);
+  if (this.options.electricChars &amp;&amp; this.view.mode.electricChars &amp;&amp;
+      this.options.smartIndent &amp;&amp; !isReadOnly(this) &amp;&amp;
+      this.view.mode.electricChars.<span class="apidocCodeKeywordSpan">indexOf</span>(ch) &gt; -1)
+    setTimeout(operation(cm, function() {indentLine(cm, cm.view.sel.to.line, "smart");}), 75);
   if (handleCharBinding(cm, e, ch)) return;
   fastPoll(cm);
 }
 
 function onFocus(cm) {
-  if (cm.options.readOnly == &#x22;nocursor&#x22;) return;
+  if (cm.options.readOnly == "nocursor") return;
 ...</pre></li>
     </ul>
 
@@ -4297,9 +4289,9 @@ function onFocus(cm) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">inject = function (obj, iterator, memo, context) {
-  var initial = arguments.length &#x3e; 2;
+  var initial = arguments.length &gt; 2;
   if (obj == null) obj = [];
-  if (nativeReduce &#x26;&#x26; obj.reduce === nativeReduce) {
+  if (nativeReduce &amp;&amp; obj.reduce === nativeReduce) {
     if (context) iterator = _.bind(iterator, context);
     return initial ? obj.reduce(iterator, memo) : obj.reduce(iterator);
   }
@@ -4349,25 +4341,25 @@ function onFocus(cm) {
     <li>description and source-code<pre class="apidocCodePre">invert = function (obj) {
   var result = {};
   var keys = _.keys(obj);
-  for (var i = 0, length = keys.length; i &#x3c; length; i++) {
+  for (var i = 0, length = keys.length; i &lt; length; i++) {
     result[obj[keys[i]]] = keys[i];
   }
   return result;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-    &#x27;&#x26;&#x27;: &#x27;&#x26;amp;&#x27;,
-    &#x27;&#x3c;&#x27;: &#x27;&#x26;lt;&#x27;,
-    &#x27;&#x3e;&#x27;: &#x27;&#x26;gt;&#x27;,
-    &#x27;&#x22;&#x27;: &#x27;&#x26;quot;&#x27;,
-    &#x22;&#x27;&#x22;: &#x27;&#x26;#x27;&#x27;
+    '&amp;': '&amp;amp;',
+    '&lt;': '&amp;lt;',
+    '&gt;': '&amp;gt;',
+    '"': '&amp;quot;',
+    "'": '&amp;#x27;'
   }
 };
 entityMap.unescape = _.<span class="apidocCodeKeywordSpan">invert</span>(entityMap.escape);
 
 // Regexes containing the keys and values listed immediately above.
 var entityRegexes = {
-  escape:   new RegExp(&#x27;[&#x27; + _.keys(entityMap.escape).join(&#x27;&#x27;) + &#x27;]&#x27;, &#x27;g&#x27;),
-  unescape: new RegExp(&#x27;(&#x27; + _.keys(entityMap.unescape).join(&#x27;|&#x27;) + &#x27;)&#x27;, &#x27;g&#x27;)
+  escape:   new RegExp('[' + _.keys(entityMap.escape).join('') + ']', 'g'),
+  unescape: new RegExp('(' + _.keys(entityMap.unescape).join('|') + ')', 'g')
 };
 ...</pre></li>
     </ul>
@@ -4393,12 +4385,12 @@ var entityRegexes = {
     let mod = this.context.loader.get(
       imp.moduleSpecifier.val(),
       phase + 1,
-      &#x27;&#x27;,
+      '',
     );
     this.visit(mod, phase + 1, store);
     this.<span class="apidocCodeKeywordSpan">invoke</span>(mod, phase + 1, store);
   } else {
-    let mod = this.context.loader.get(imp.moduleSpecifier.val(), phase, &#x27;&#x27;);
+    let mod = this.context.loader.get(imp.moduleSpecifier.val(), phase, '');
     this.visit(mod, phase, store);
   }
   bindImports(imp, mod, phase, this.context);
@@ -4417,13 +4409,13 @@ for (let term of mod.compiletimeItems()) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isArguments = function (obj) {
-  return toString.call(obj) == &#x27;[object &#x27; + name + &#x27;]&#x27;;
+  return toString.call(obj) == '[object ' + name + ']';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 
 // Internal implementation of a recursive `flatten` function.
 var flatten = function(input, shallow, output) {
-  if (shallow &#x26;&#x26; _.every(input, _.isArray)) {
+  if (shallow &amp;&amp; _.every(input, _.isArray)) {
     return concat.apply(output, input);
   }
   each(input, function(value) {
@@ -4462,7 +4454,7 @@ if (Array.<span class="apidocCodeKeywordSpan">isArray</span>(values)) {
   return values.map(sanitizeReplacementValues);
 } else if (values == null) {
   throw new Error(
-    &#x27;replacement values for syntax template must not be null or undefined&#x27;,
+    'replacement values for syntax template must not be null or undefined',
   );
 ...</pre></li>
     </ul>
@@ -4477,7 +4469,7 @@ if (Array.<span class="apidocCodeKeywordSpan">isArray</span>(values)) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isBoolean = function (obj) {
-  return obj === true || obj === false || toString.call(obj) == &#x27;[object Boolean]&#x27;;
+  return obj === true || obj === false || toString.call(obj) == '[object Boolean]';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4492,7 +4484,7 @@ if (Array.<span class="apidocCodeKeywordSpan">isArray</span>(values)) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isDate = function (obj) {
-  return toString.call(obj) == &#x27;[object &#x27; + name + &#x27;]&#x27;;
+  return toString.call(obj) == '[object ' + name + ']';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4507,7 +4499,7 @@ if (Array.<span class="apidocCodeKeywordSpan">isArray</span>(values)) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isElement = function (obj) {
-  return !!(obj &#x26;&#x26; obj.nodeType === 1);
+  return !!(obj &amp;&amp; obj.nodeType === 1);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4531,7 +4523,7 @@ if (Array.<span class="apidocCodeKeywordSpan">isArray</span>(values)) {
 const priv = privateData.get(this);
 let marker;
 
-// the idea here is that marking at the beginning shouldn&#x27;t happen more than once.
+// the idea here is that marking at the beginning shouldn't happen more than once.
 // We can reuse startMarker.
 if (priv.enf.rest === priv.markers.get(priv.startMarker).rest) {
   marker = priv.startMarker;
@@ -4540,7 +4532,7 @@ if (priv.enf.rest === priv.markers.get(priv.startMarker).rest) {
   if (!priv.endMarker) priv.endMarker = new Marker();
   marker = priv.endMarker;
 } else {
-  //TODO(optimization/dubious): check that there isn&#x27;t already a marker for this index?
+  //TODO(optimization/dubious): check that there isn't already a marker for this index?
   marker = new Marker();
 }
 ...</pre></li>
@@ -4571,7 +4563,7 @@ if (priv.enf.rest === priv.markers.get(priv.startMarker).rest) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isFinite = function (obj) {
-  return isFinite(obj) &#x26;&#x26; !isNaN(parseFloat(obj));
+  return isFinite(obj) &amp;&amp; !isNaN(parseFloat(obj));
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
     return { done: false, value: val };
@@ -4581,7 +4573,7 @@ if (priv.enf.rest === priv.markers.get(priv.startMarker).rest) {
 };
 
 function numberIsFinite(value) {
-  return typeof value === &#x27;number&#x27; &#x26;&#x26; root.<span class="apidocCodeKeywordSpan">isFinite</span>(value);
+  return typeof value === 'number' &amp;&amp; root.<span class="apidocCodeKeywordSpan">isFinite</span>(value);
 }
 
 function isNan(n) {
@@ -4602,14 +4594,14 @@ function getIterable(o) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isFunction = function (obj) {
-  return typeof obj === &#x27;function&#x27;;
+  return typeof obj === 'function';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 						true
 					) );
 
 					// HANDLE: $(html, props)
-					if ( rsingleTag.test( match[1] ) &#x26;&#x26; jQuery.isPlainObject( context ) ) {
+					if ( rsingleTag.test( match[1] ) &amp;&amp; jQuery.isPlainObject( context ) ) {
 						for ( match in context ) {
 							// Properties of context are called as methods if possible
 							if ( jQuery.<span class="apidocCodeKeywordSpan">isFunction</span>( this[ match ] ) ) {
@@ -4633,7 +4625,7 @@ function getIterable(o) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isNaN = function (obj) {
-  return _.isNumber(obj) &#x26;&#x26; obj != +obj;
+  return _.isNumber(obj) &amp;&amp; obj != +obj;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4663,22 +4655,22 @@ function getIterable(o) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isNumber = function (obj) {
-  return toString.call(obj) == &#x27;[object &#x27; + name + &#x27;]&#x27;;
+  return toString.call(obj) == '[object ' + name + ']';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 // Is a given object a finite number?
 _.isFinite = function(obj) {
-  return isFinite(obj) &#x26;&#x26; !isNaN(parseFloat(obj));
+  return isFinite(obj) &amp;&amp; !isNaN(parseFloat(obj));
 };
 
 // Is the given value `NaN`? (NaN is the only number which does not equal itself).
 _.isNaN = function(obj) {
-  return _.<span class="apidocCodeKeywordSpan">isNumber</span>(obj) &#x26;&#x26; obj != +obj;
+  return _.<span class="apidocCodeKeywordSpan">isNumber</span>(obj) &amp;&amp; obj != +obj;
 };
 
 // Is a given value a boolean?
 _.isBoolean = function(obj) {
-  return obj === true || obj === false || toString.call(obj) == &#x27;[object Boolean]&#x27;;
+  return obj === true || obj === false || toString.call(obj) == '[object Boolean]';
 };
 ...</pre></li>
     </ul>
@@ -4700,8 +4692,8 @@ _.isBoolean = function(obj) {
 // Object Functions
 // ----------------
 
-// Retrieve the names of an object&#x27;s properties.
-// Delegates to **ECMAScript 5**&#x27;s native `Object.keys`
+// Retrieve the names of an object's properties.
+// Delegates to **ECMAScript 5**'s native `Object.keys`
 _.keys = function(obj) {
   if (!_.<span class="apidocCodeKeywordSpan">isObject</span>(obj)) return [];
   if (nativeKeys) return nativeKeys(obj);
@@ -4710,7 +4702,7 @@ _.keys = function(obj) {
   return keys;
 };
 
-// Retrieve the values of an object&#x27;s properties.
+// Retrieve the values of an object's properties.
 ...</pre></li>
     </ul>
 
@@ -4724,7 +4716,7 @@ _.keys = function(obj) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isRegExp = function (obj) {
-  return toString.call(obj) == &#x27;[object &#x27; + name + &#x27;]&#x27;;
+  return toString.call(obj) == '[object ' + name + ']';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -4739,14 +4731,14 @@ _.keys = function(obj) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isString = function (obj) {
-  return toString.call(obj) == &#x27;[object &#x27; + name + &#x27;]&#x27;;
+  return toString.call(obj) == '[object ' + name + ']';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
   return eq(a, b, [], []);
 };
 
 // Is a given array, string, or object empty?
-// An &#x22;empty&#x22; object has no enumerable own-properties.
+// An "empty" object has no enumerable own-properties.
 _.isEmpty = function(obj) {
   if (obj == null) return true;
   if (_.isArray(obj) || _.<span class="apidocCodeKeywordSpan">isString</span>(obj)) return obj.length === 0;
@@ -4756,7 +4748,7 @@ _.isEmpty = function(obj) {
 
 // Is a given value a DOM element?
 _.isElement = function(obj) {
-  return !!(obj &#x26;&#x26; obj.nodeType === 1);
+  return !!(obj &amp;&amp; obj.nodeType === 1);
 ...</pre></li>
     </ul>
 
@@ -4800,7 +4792,7 @@ _.isElement = function(obj) {
 };
 
 let sandboxKeys = List(Object.<span class="apidocCodeKeywordSpan">keys</span>(sandbox));
-let sandboxVals = sandboxKeys.map(k =&#x3e; sandbox[k]).toArray();
+let sandboxVals = sandboxKeys.map(k =&gt; sandbox[k]).toArray();
 
 let parsed = new S.Module({
   directives: List(),
@@ -4828,9 +4820,9 @@ let parsed = new S.Module({
 
     do {
 let term = this.enforestAssignmentExpression();
-// no change means we&#x27;ve done as much enforesting as possible
+// no change means we've done as much enforesting as possible
 // if nothing changed, maybe we just need to pop the expr stack
-if (term === EXPR_LOOP_NO_CHANGE &#x26;&#x26; this.opCtx.stack.size &#x3e; 0) {
+if (term === EXPR_LOOP_NO_CHANGE &amp;&amp; this.opCtx.stack.size &gt; 0) {
   this.term = this.opCtx.combine(this.term);
   let { prec, combine } = this.opCtx.stack.<span class="apidocCodeKeywordSpan">last</span>();
   this.opCtx.prec = prec;
@@ -4855,7 +4847,7 @@ if (term === EXPR_LOOP_NO_CHANGE &#x26;&#x26; this.opCtx.stack.size &#x3e; 0) {
     <li>description and source-code<pre class="apidocCodePre">lastIndexOf = function (array, item, from) {
   if (array == null) return -1;
   var hasIndex = from != null;
-  if (nativeLastIndexOf &#x26;&#x26; array.lastIndexOf === nativeLastIndexOf) {
+  if (nativeLastIndexOf &amp;&amp; array.lastIndexOf === nativeLastIndexOf) {
     return hasIndex ? array.lastIndexOf(item, from) : array.lastIndexOf(item);
   }
   var i = (hasIndex ? from : array.length);
@@ -4870,7 +4862,7 @@ if (term === EXPR_LOOP_NO_CHANGE &#x26;&#x26; this.opCtx.stack.size &#x3e; 0) {
 enforestRegularExpressionLiteral() {
   let reStx = this.matchRawSyntax();
 
-  let lastSlash = reStx.token.value.<span class="apidocCodeKeywordSpan">lastIndexOf</span>(&#x27;/&#x27;);
+  let lastSlash = reStx.token.value.<span class="apidocCodeKeywordSpan">lastIndexOf</span>('/');
   let pattern = reStx.token.value.slice(1, lastSlash);
   let flags = reStx.token.value.slice(lastSlash + 1);
   return new T.LiteralRegExpExpression({
@@ -4893,7 +4885,7 @@ enforestRegularExpressionLiteral() {
     <li>description and source-code<pre class="apidocCodePre">map = function (obj, iterator, context) {
   var results = [];
   if (obj == null) return results;
-  if (nativeMap &#x26;&#x26; obj.map === nativeMap) return obj.map(iterator, context);
+  if (nativeMap &amp;&amp; obj.map === nativeMap) return obj.map(iterator, context);
   each(obj, function(value, index, list) {
     results.push(iterator.call(context, value, index, list));
   });
@@ -4907,7 +4899,7 @@ enforestRegularExpressionLiteral() {
       }),
     );
 
-    return tokenExpander.expand(stxl).<span class="apidocCodeKeywordSpan">map</span>(t =&#x3e; termExpander.expand(t));
+    return tokenExpander.expand(stxl).<span class="apidocCodeKeywordSpan">map</span>(t =&gt; termExpander.expand(t));
   }
 }
 ...</pre></li>
@@ -4935,10 +4927,10 @@ enforestRegularExpressionLiteral() {
     <li>example usage<pre class="apidocCodePre">...
 
 		if ( not ) {
-			expr = &#x22;:not(&#x22; + expr + &#x22;)&#x22;;
+			expr = ":not(" + expr + ")";
 		}
 
-		return elems.length === 1 &#x26;&#x26; elem.nodeType === 1 ?
+		return elems.length === 1 &amp;&amp; elem.nodeType === 1 ?
 			jQuery.find.matchesSelector( elem, expr ) ? [ elem ] : [] :
 			jQuery.find.<span class="apidocCodeKeywordSpan">matches</span>( expr, jQuery.grep( elems, function( elem ) {
 				return elem.nodeType === 1;
@@ -4961,13 +4953,13 @@ enforestRegularExpressionLiteral() {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">max = function (obj, iterator, context) {
-  if (!iterator &#x26;&#x26; _.isArray(obj) &#x26;&#x26; obj[0] === +obj[0] &#x26;&#x26; obj.length &#x3c; 65535) {
+  if (!iterator &amp;&amp; _.isArray(obj) &amp;&amp; obj[0] === +obj[0] &amp;&amp; obj.length &lt; 65535) {
     return Math.max.apply(Math, obj);
   }
   var result = -Infinity, lastComputed = -Infinity;
   each(obj, function(value, index, list) {
     var computed = iterator ? iterator.call(context, value, index, list) : value;
-    if (computed &#x3e; lastComputed) {
+    if (computed &gt; lastComputed) {
       result = value;
       lastComputed = computed;
     }
@@ -4981,15 +4973,15 @@ enforestRegularExpressionLiteral() {
 // content. Optionally force a scrollTop.
 function updateScrollbars(d /* display */, docHeight) {
   var totalHeight = docHeight + 2 * paddingTop(d);
-  d.sizer.style.minHeight = d.heightForcer.style.top = totalHeight + &#x22;px&#x22;;
+  d.sizer.style.minHeight = d.heightForcer.style.top = totalHeight + "px";
   var scrollHeight = Math.<span class="apidocCodeKeywordSpan">max</span>(totalHeight, d.scroller.scrollHeight);
-  var needsH = d.scroller.scrollWidth &#x3e; d.scroller.clientWidth;
-  var needsV = scrollHeight &#x3e; d.scroller.clientHeight;
+  var needsH = d.scroller.scrollWidth &gt; d.scroller.clientWidth;
+  var needsV = scrollHeight &gt; d.scroller.clientHeight;
   if (needsV) {
-    d.scrollbarV.style.display = &#x22;block&#x22;;
-    d.scrollbarV.style.bottom = needsH ? scrollbarWidth(d.measure) + &#x22;px&#x22; : &#x22;0&#x22;;
+    d.scrollbarV.style.display = "block";
+    d.scrollbarV.style.bottom = needsH ? scrollbarWidth(d.measure) + "px" : "0";
     d.scrollbarV.firstChild.style.height =
-      (scrollHeight - d.scroller.clientHeight + d.scrollbarV.clientHeight) + &#x22;px&#x22;;
+      (scrollHeight - d.scroller.clientHeight + d.scrollbarV.clientHeight) + "px";
 ...</pre></li>
     </ul>
 
@@ -5042,13 +5034,13 @@ function updateScrollbars(d /* display */, docHeight) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">min = function (obj, iterator, context) {
-  if (!iterator &#x26;&#x26; _.isArray(obj) &#x26;&#x26; obj[0] === +obj[0] &#x26;&#x26; obj.length &#x3c; 65535) {
+  if (!iterator &amp;&amp; _.isArray(obj) &amp;&amp; obj[0] === +obj[0] &amp;&amp; obj.length &lt; 65535) {
     return Math.min.apply(Math, obj);
   }
   var result = Infinity, lastComputed = Infinity;
   each(obj, function(value, index, list) {
     var computed = iterator ? iterator.call(context, value, index, list) : value;
-    if (computed &#x3c; lastComputed) {
+    if (computed &lt; lastComputed) {
       result = value;
       lastComputed = computed;
     }
@@ -5058,17 +5050,17 @@ function updateScrollbars(d /* display */, docHeight) {
     <li>example usage<pre class="apidocCodePre">...
 // Used to determine which lines need their line numbers updated
 var positionsChangedFrom = changes === true ? 0 : Infinity;
-if (cm.options.lineNumbers &#x26;&#x26; changes &#x26;&#x26; changes !== true)
-  for (var i = 0; i &#x3c; changes.length; ++i)
+if (cm.options.lineNumbers &amp;&amp; changes &amp;&amp; changes !== true)
+  for (var i = 0; i &lt; changes.length; ++i)
     if (changes[i].diff) { positionsChangedFrom = changes[i].from; break; }
 
 var from = Math.max(visible.from - cm.options.viewportMargin, 0);
 var to = Math.<span class="apidocCodeKeywordSpan">min</span>(doc.size, visible.to + cm.options.viewportMargin);
-if (display.showingFrom &#x3c; from &#x26;&#x26; from - display.showingFrom &#x3c; 20) from = display.showingFrom;
-if (display.showingTo &#x3e; to &#x26;&#x26; display.showingTo - to &#x3c; 20) to = Math.min(doc.size, display.showingTo);
+if (display.showingFrom &lt; from &amp;&amp; from - display.showingFrom &lt; 20) from = display.showingFrom;
+if (display.showingTo &gt; to &amp;&amp; display.showingTo - to &lt; 20) to = Math.min(doc.size, display.showingTo);
 if (sawCollapsedSpans) {
   from = lineNo(visualLine(doc, getLine(doc, from)));
-  while (to &#x3c; doc.size &#x26;&#x26; lineIsHidden(getLine(doc, to))) ++to;
+  while (to &lt; doc.size &amp;&amp; lineIsHidden(getLine(doc, to))) ++to;
 }
 ...</pre></li>
     </ul>
@@ -5103,8 +5095,8 @@ var result = function(obj) {
 _.<span class="apidocCodeKeywordSpan">mixin</span>(_);
 
 // Add all mutator Array functions to the wrapper.
-each([&#x27;pop&#x27;, &#x27;push&#x27;, &#x27;reverse&#x27;, &#x27;shift&#x27;, &#x27;sort&#x27;, &#x27;splice&#x27;, &#x27;unshift
-&#x27;], function(name) {
+each(['pop', 'push', 'reverse', 'shift', 'sort', 'splice', 'unshift
+'], function(name) {
   var method = ArrayProto[name];
   _.prototype[name] = function() {
     var obj = this._wrapped;
@@ -5139,19 +5131,19 @@ each([&#x27;pop&#x27;, &#x27;push&#x27;, &#x27;reverse&#x27;, &#x27;shift&#x27;,
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function now() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-var fs = require(&#x27;fs&#x27;);
-var path = require(&#x27;path&#x27;);
-var parse = require(&#x27;./build/src/sweet&#x27;).parse;
-var NodeLoader = require(&#x27;./build/src/node-loader&#x27;).default;
+var fs = require('fs');
+var path = require('path');
+var parse = require('./build/src/sweet').parse;
+var NodeLoader = require('./build/src/node-loader').default;
 
 function benchmarkParsing(fileName) {
   var loader = new NodeLoader(path.dirname(fs.realpathSync(__filename)));
   var start = Date.<span class="apidocCodeKeywordSpan">now</span>(), N = 100;
-  for (var i = 0; i &#x3c; N; i++) {
+  for (var i = 0; i &lt; N; i++) {
     parse(fileName, loader);
   }
   var time = Date.now() - start;
-  console.log((time / N).toFixed(2) + &#x22;ms&#x22;);
+  console.log((time / N).toFixed(2) + "ms");
 }
 ...</pre></li>
     </ul>
@@ -5168,7 +5160,7 @@ function benchmarkParsing(fileName) {
     <li>description and source-code<pre class="apidocCodePre">object = function (list, values) {
   if (list == null) return {};
   var result = {};
-  for (var i = 0, length = list.length; i &#x3c; length; i++) {
+  for (var i = 0, length = list.length; i &lt; length; i++) {
     if (values) {
       result[list[i]] = values[i];
     } else {
@@ -5235,7 +5227,7 @@ function benchmarkParsing(fileName) {
   var keys = _.keys(obj);
   var length = keys.length;
   var pairs = new Array(length);
-  for (var i = 0; i &#x3c; length; i++) {
+  for (var i = 0; i &lt; length; i++) {
     pairs[i] = [keys[i], obj[keys[i]]];
   }
   return pairs;
@@ -5257,10 +5249,10 @@ function benchmarkParsing(fileName) {
   return function() {
     var position = 0;
     var args = boundArgs.slice();
-    for (var i = 0, length = args.length; i &#x3c; length; i++) {
+    for (var i = 0, length = args.length; i &lt; length; i++) {
       if (args[i] === _) args[i] = arguments[position++];
     }
-    while (position &#x3c; arguments.length) args.push(arguments[position++]);
+    while (position &lt; arguments.length) args.push(arguments[position++]);
     return func.apply(this, args);
   };
 }</pre></li>
@@ -5272,12 +5264,12 @@ var documentReadyObs = $(window).readyAsObservable().take(1).publishLast(),
 windowResizeObs  = $(window).resizeAsObservable().startWith(true),
 
 initEditorObs = documentReadyObs
-    .map(_.<span class="apidocCodeKeywordSpan">partial</span>($, &#x22;#editor&#x22;, undefined))
+    .map(_.<span class="apidocCodeKeywordSpan">partial</span>($, "#editor", undefined))
     .map(_.partial(initEditor, getEditorOptions))
     .map(initEditorKeyMap),
 
 initOutputObs = documentReadyObs
-    .map(_.partial($, &#x22;#output&#x22;, undefined))
+    .map(_.partial($, "#output", undefined))
     .map(_.partial(initEditor, getOutputOptions)),
 ...</pre></li>
     </ul>
@@ -5338,7 +5330,7 @@ initOutputObs = documentReadyObs
   return _.property(value);
 };
 
-// Sort the object&#x27;s values by a criterion produced by an iterator.
+// Sort the object's values by a criterion produced by an iterator.
 _.sortBy = function(obj, iterator, context) {
   iterator = lookupIterator(iterator);
   return _.<span class="apidocCodeKeywordSpan">pluck</span>(_.map(obj, function(value, index, list) {
@@ -5409,15 +5401,15 @@ _.where = function(obj, attrs) {
 
 jQuery.extend({
 	// Unique for each copy of jQuery on the page
-	expando: &#x22;jQuery&#x22; + ( core_version + Math.<span class="apidocCodeKeywordSpan">random</span>() ).replace( /\D/g, &#x22
-;&#x22; ),
+	expando: "jQuery" + ( core_version + Math.<span class="apidocCodeKeywordSpan">random</span>() ).replace( /\D/g, "
+;" ),
 
 	noConflict: function( deep ) {
 		if ( window.$ === jQuery ) {
 			window.$ = _$;
 		}
 
-		if ( deep &#x26;&#x26; window.jQuery === jQuery ) {
+		if ( deep &amp;&amp; window.jQuery === jQuery ) {
 ...</pre></li>
     </ul>
 
@@ -5431,7 +5423,7 @@ jQuery.extend({
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">range = function (start, stop, step) {
-  if (arguments.length &#x3c;= 1) {
+  if (arguments.length &lt;= 1) {
     stop = start || 0;
     start = 0;
   }
@@ -5441,7 +5433,7 @@ jQuery.extend({
   var idx = 0;
   var range = new Array(length);
 
-  while(idx &#x3c; length) {
+  while(idx &lt; length) {
     range[idx++] = start;
     start += step;
   }
@@ -5478,9 +5470,9 @@ Observable.range = function (start, count, scheduler) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">reduce = function (obj, iterator, memo, context) {
-  var initial = arguments.length &#x3e; 2;
+  var initial = arguments.length &gt; 2;
   if (obj == null) obj = [];
-  if (nativeReduce &#x26;&#x26; obj.reduce === nativeReduce) {
+  if (nativeReduce &amp;&amp; obj.reduce === nativeReduce) {
     if (context) iterator = _.bind(iterator, context);
     return initial ? obj.reduce(iterator, memo) : obj.reduce(iterator);
   }
@@ -5499,7 +5491,7 @@ Observable.range = function (start, count, scheduler) {
   this.context.bindings,
   true,
 );
-result = result.map(terms =&#x3e; {
+result = result.map(terms =&gt; {
   if (terms instanceof Syntax) {
     return new T.RawSyntax({
       value: terms,
@@ -5507,7 +5499,7 @@ result = result.map(terms =&#x3e; {
   } else if (!(terms instanceof Term)) {
     throw this.createError(
       name,
-      &#x27;macro must return syntax objects or terms but got: &#x27; + terms,
+      'macro must return syntax objects or terms but got: ' + terms,
     );
   }
   return terms.reduce(scopeReducer);
@@ -5524,9 +5516,9 @@ result = result.map(terms =&#x3e; {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">reduceRight = function (obj, iterator, memo, context) {
-  var initial = arguments.length &#x3e; 2;
+  var initial = arguments.length &gt; 2;
   if (obj == null) obj = [];
-  if (nativeReduceRight &#x26;&#x26; obj.reduceRight === nativeReduceRight) {
+  if (nativeReduceRight &amp;&amp; obj.reduceRight === nativeReduceRight) {
     if (context) iterator = _.bind(iterator, context);
     return initial ? obj.reduceRight(iterator, memo) : obj.reduceRight(iterator);
   }
@@ -5549,11 +5541,11 @@ result = result.map(terms =&#x3e; {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 // The right-associative version of reduce, also known as `foldr`.
-// Delegates to **ECMAScript 5**&#x27;s native `reduceRight` if available.
+// Delegates to **ECMAScript 5**'s native `reduceRight` if available.
 _.reduceRight = _.foldr = function(obj, iterator, memo, context) {
-  var initial = arguments.length &#x3e; 2;
+  var initial = arguments.length &gt; 2;
   if (obj == null) obj = [];
-  if (nativeReduceRight &#x26;&#x26; obj.reduceRight === nativeReduceRight) {
+  if (nativeReduceRight &amp;&amp; obj.reduceRight === nativeReduceRight) {
     if (context) iterator = _.bind(iterator, context);
     return initial ? obj.<span class="apidocCodeKeywordSpan">reduceRight</span>(iterator, memo) : obj.reduceRight(iterator);
   }
@@ -5694,7 +5686,7 @@ var AnonymousObservable = Rx.AnonymousObservable = (function (__super__) {
     <li>description and source-code<pre class="apidocCodePre">select = function (obj, predicate, context) {
   var results = [];
   if (obj == null) return results;
-  if (nativeFilter &#x26;&#x26; obj.filter === nativeFilter) return obj.filter(predicate, context);
+  if (nativeFilter &amp;&amp; obj.filter === nativeFilter) return obj.filter(predicate, context);
   each(obj, function(value, index, list) {
     if (predicate.call(context, value, index, list)) results.push(value);
   });
@@ -5713,7 +5705,7 @@ function selectInput(node) {
 
 function indexOf(collection, elt) {
   if (collection.indexOf) return collection.indexOf(elt);
-  for (var i = 0, e = collection.length; i &#x3c; e; ++i)
+  for (var i = 0, e = collection.length; i &lt; e; ++i)
     if (collection[i] == elt) return i;
   return -1;
 ...</pre></li>
@@ -5787,7 +5779,7 @@ var lookupIterator = function(value) {
   predicate || (predicate = _.identity);
   var result = false;
   if (obj == null) return result;
-  if (nativeSome &#x26;&#x26; obj.some === nativeSome) return obj.some(predicate, context);
+  if (nativeSome &amp;&amp; obj.some === nativeSome) return obj.some(predicate, context);
   each(obj, function(value, index, list) {
     if (result || (result = predicate.call(context, value, index, list))) return breaker;
   });
@@ -5797,11 +5789,11 @@ var lookupIterator = function(value) {
   ? stx.scopesets.phase.get(phase)
   : List();
 scopeset = allScopeset.concat(scopeset);
-assert(phase != null, &#x27;must provide a phase for binding add&#x27;);
+assert(phase != null, 'must provide a phase for binding add');
 
 let scopesetBindingList = this._map.get(stxName);
 if (scopesetBindingList) {
-  if (skipDup &#x26;&#x26; scopesetBindingList.<span class="apidocCodeKeywordSpan">some</span>(s =&#x3e; s.scopes.equals(scopeset
+  if (skipDup &amp;&amp; scopesetBindingList.<span class="apidocCodeKeywordSpan">some</span>(s =&gt; s.scopes.equals(scopeset
 ))) {
     return;
   }
@@ -5834,11 +5826,11 @@ if (scopesetBindingList) {
     var a = left.criteria;
     var b = right.criteria;
     if (a !== b) {
-      if (a &#x3e; b || a === void 0) return 1;
-      if (a &#x3c; b || b === void 0) return -1;
+      if (a &gt; b || a === void 0) return 1;
+      if (a &lt; b || b === void 0) return -1;
     }
     return left.index - right.index;
-  }), &#x27;value&#x27;);
+  }), 'value');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -5856,9 +5848,9 @@ if (scopesetBindingList) {
   iterator = lookupIterator(iterator);
   var value = iterator.call(context, obj);
   var low = 0, high = array.length;
-  while (low &#x3c; high) {
-    var mid = (low + high) &#x3e;&#x3e;&#x3e; 1;
-    iterator.call(context, array[mid]) &#x3c; value ? low = mid + 1 : high = mid;
+  while (low &lt; high) {
+    var mid = (low + high) &gt;&gt;&gt; 1;
+    iterator.call(context, array[mid]) &lt; value ? low = mid + 1 : high = mid;
   }
   return low;
 }</pre></li>
@@ -5867,15 +5859,15 @@ _.indexOf = function(array, item, isSorted) {
   if (array == null) return -1;
   var i = 0, length = array.length;
   if (isSorted) {
-    if (typeof isSorted == &#x27;number&#x27;) {
-      i = (isSorted &#x3c; 0 ? Math.max(0, length + isSorted) : isSorted);
+    if (typeof isSorted == 'number') {
+      i = (isSorted &lt; 0 ? Math.max(0, length + isSorted) : isSorted);
     } else {
       i = _.<span class="apidocCodeKeywordSpan">sortedIndex</span>(array, item);
       return array[i] === item ? i : -1;
     }
   }
-  if (nativeIndexOf &#x26;&#x26; array.indexOf === nativeIndexOf) return array.indexOf(item, isSorted);
-  for (; i &#x3c; length; i++) if (array[i] === item) return i;
+  if (nativeIndexOf &amp;&amp; array.indexOf === nativeIndexOf) return array.indexOf(item, isSorted);
+  for (; i &lt; length; i++) if (array[i] === item) return i;
   return -1;
 };
 ...</pre></li>
@@ -5908,7 +5900,7 @@ _.indexOf = function(array, item, isSorted) {
     <li>description and source-code<pre class="apidocCodePre">take = function (array, n, guard) {
   if (array == null) return void 0;
   if ((n == null) || guard) return array[0];
-  if (n &#x3c; 0) return [];
+  if (n &lt; 0) return [];
   return slice.call(array, 0, n);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -5923,7 +5915,7 @@ var documentReadyObs = $(window).readyAsObservable().<span class="apidocCodeKeyw
 windowResizeObs  = $(window).resizeAsObservable().startWith(true),
 
 initEditorObs = documentReadyObs
-    .map(_.partial($, &#x22;#editor&#x22;, undefined))
+    .map(_.partial($, "#editor", undefined))
     .map(_.partial(initEditor, getEditorOptions))
     .map(initEditorKeyMap),
 ...</pre></li>
@@ -5951,7 +5943,7 @@ initEditorObs = documentReadyObs
  * @returns {Observable} The source sequence with the side-effecting behavior applied.
  */
 observableProto.doOnNext = observableProto.tapOnNext = function (onNext, thisArg) {
-  return this.<span class="apidocCodeKeywordSpan">tap</span>(typeof thisArg !== &#x27;undefined&#x27; ? function (x) { onNext.call
+  return this.<span class="apidocCodeKeywordSpan">tap</span>(typeof thisArg !== 'undefined' ? function (x) { onNext.call
 (thisArg, x); } : onNext);
 };
 
@@ -5982,38 +5974,38 @@ observableProto.doOnNext = observableProto.tapOnNext = function (onNext, thisArg
     (settings.escape || noMatch).source,
     (settings.interpolate || noMatch).source,
     (settings.evaluate || noMatch).source
-  ].join(&#x27;|&#x27;) + &#x27;|$&#x27;, &#x27;g&#x27;);
+  ].join('|') + '|$', 'g');
 
   // Compile the template source, escaping string literals appropriately.
   var index = 0;
-  var source = &#x22;__p+=&#x27;&#x22;;
+  var source = "__p+='";
   text.replace(matcher, function(match, escape, interpolate, evaluate, offset) {
     source += text.slice(index, offset)
-      .replace(escaper, function(match) { return &#x27;\\&#x27; + escapes[match]; });
+      .replace(escaper, function(match) { return '\\' + escapes[match]; });
 
     if (escape) {
-      source += &#x22;&#x27;+\n((__t=(&#x22; + escape + &#x22;))==null?&#x27;&#x27;:_.escape(__t))+\n&#x27;&#x22;;
+      source += "'+\n((__t=(" + escape + "))==null?'':_.escape(__t))+\n'";
     }
     if (interpolate) {
-      source += &#x22;&#x27;+\n((__t=(&#x22; + interpolate + &#x22;))==null?&#x27;&#x27;:__t)+\n&#x27;&#x22;;
+      source += "'+\n((__t=(" + interpolate + "))==null?'':__t)+\n'";
     }
     if (evaluate) {
-      source += &#x22;&#x27;;\n&#x22; + evaluate + &#x22;\n__p+=&#x27;&#x22;;
+      source += "';\n" + evaluate + "\n__p+='";
     }
     index = offset + match.length;
     return match;
   });
-  source += &#x22;&#x27;;\n&#x22;;
+  source += "';\n";
 
   // If a variable is not specified, place data values in local scope.
-  if (!settings.variable) source = &#x27;with(obj||{}){\n&#x27; + source + &#x27;}\n&#x27;;
+  if (!settings.variable) source = 'with(obj||{}){\n' + source + '}\n';
 
-  source = &#x22;var __t,__p=&#x27;&#x27;,__j=Array.prototype.join,&#x22; +
-    &#x22;print=function(){__p+=__j.call(arguments,&#x27;&#x27;);};\n&#x22; +
-    source + &#x22;return __p;\n&#x22;;
+  source = "var __t,__p='',__j=Array.prototype.join," +
+    "print=function(){__p+=__j.call(arguments,'');};\n" +
+    source + "return __p;\n";
 
   try {
-    render = new Function(settings.variable || &#x27;obj&#x27;, &#x27;_&#x27;, source);
+    render = new Function(settings.variable || 'obj', '_', source);
   } catch (e) {
     e.source = source;
     throw e;
@@ -6025,7 +6017,7 @@ observableProto.doOnNext = observableProto.tapOnNext = function (onNext, thisArg
   };
 
   // Provide the compiled function source as a convenience for precompilation.
-  template.source = &#x27;function(&#x27; + (settings.variable || &#x27;obj&#x27;) + &#x27;){\n&#x27; + source + &#x27;}&#x27;;
+  template.source = 'function(' + (settings.variable || 'obj') + '){\n' + source + '}';
 
   return template;
 }</pre></li>
@@ -6054,17 +6046,17 @@ observableProto.doOnNext = observableProto.tapOnNext = function (onNext, thisArg
   };
   return function() {
     var now = _.now();
-    if (!previous &#x26;&#x26; options.leading === false) previous = now;
+    if (!previous &amp;&amp; options.leading === false) previous = now;
     var remaining = wait - (now - previous);
     context = this;
     args = arguments;
-    if (remaining &#x3c;= 0) {
+    if (remaining &lt;= 0) {
       clearTimeout(timeout);
       timeout = null;
       previous = now;
       result = func.apply(context, args);
       context = args = null;
-    } else if (!timeout &#x26;&#x26; options.trailing !== false) {
+    } else if (!timeout &amp;&amp; options.trailing !== false) {
       timeout = setTimeout(later, remaining);
     }
     return result;
@@ -6084,7 +6076,7 @@ observableProto.doOnNext = observableProto.tapOnNext = function (onNext, thisArg
     <ul>
     <li>description and source-code<pre class="apidocCodePre">times = function (n, iterator, context) {
   var accum = Array(Math.max(0, n));
-  for (var i = 0; i &#x3c; n; i++) accum[i] = iterator.call(context, i);
+  for (var i = 0; i &lt; n; i++) accum[i] = iterator.call(context, i);
   return accum;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -6113,7 +6105,7 @@ observableProto.doOnNext = observableProto.tapOnNext = function (onNext, thisArg
 };
 
 let sandboxKeys = List(Object.keys(sandbox));
-let sandboxVals = sandboxKeys.map(k =&#x3e; sandbox[k]).<span class="apidocCodeKeywordSpan">toArray</span>();
+let sandboxVals = sandboxKeys.map(k =&gt; sandbox[k]).<span class="apidocCodeKeywordSpan">toArray</span>();
 
 let parsed = new S.Module({
   directives: List(),
@@ -6134,8 +6126,8 @@ let parsed = new S.Module({
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">unescape = function (string) {
-  if (string == null) return &#x27;&#x27;;
-  return (&#x27;&#x27; + string).replace(entityRegexes[method], function(match) {
+  if (string == null) return '';
+  return ('' + string).replace(entityRegexes[method], function(match) {
     return entityMap[method][match];
   });
 }</pre></li>
@@ -6231,13 +6223,13 @@ _.intersection = function(array) {
     <li>example usage<pre class="apidocCodePre">...
 		}
 
-		for ( i = 0; i &#x3c; len; i++ ) {
+		for ( i = 0; i &lt; len; i++ ) {
 			jQuery.find( selector, self[ i ], ret );
 		}
 
 		// Needed because $( selector, context ) becomes $( context ).find( selector )
-		ret = this.pushStack( len &#x3e; 1 ? jQuery.<span class="apidocCodeKeywordSpan">unique</span>( ret ) : ret );
-		ret.selector = this.selector ? this.selector + &#x22; &#x22; + selector : selector;
+		ret = this.pushStack( len &gt; 1 ? jQuery.<span class="apidocCodeKeywordSpan">unique</span>( ret ) : ret );
+		ret.selector = this.selector ? this.selector + " " + selector : selector;
 		return ret;
 	},
 
@@ -6257,7 +6249,7 @@ _.intersection = function(array) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">uniqueId = function (prefix) {
-  var id = ++idCounter + &#x27;&#x27;;
+  var id = ++idCounter + '';
   return prefix ? prefix + id : id;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -6276,7 +6268,7 @@ _.intersection = function(array) {
   var keys = _.keys(obj);
   var length = keys.length;
   var values = new Array(length);
-  for (var i = 0; i &#x3c; length; i++) {
+  for (var i = 0; i &lt; length; i++) {
     values[i] = obj[keys[i]];
   }
   return values;
@@ -6323,9 +6315,9 @@ isFunctionTerm,
 R.complement(R.<span class="apidocCodeKeywordSpan">where</span>({ name: R.isNil })),
 );
 export const isParenthesizedExpression = R.whereEq({
-type: &#x27;ParenthesizedExpression&#x27;,
+type: 'ParenthesizedExpression',
 });
-export const isExportSyntax = R.both(isExport, exp =&#x3e;
+export const isExportSyntax = R.both(isExport, exp =&gt;
 R.or(
   isSyntaxDeclaration(exp.declaration),
 ...</pre></li>
@@ -6371,26 +6363,26 @@ R.or(
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">zip = function () {
-  var length = _.max(_.pluck(arguments, &#x27;length&#x27;).concat(0));
+  var length = _.max(_.pluck(arguments, 'length').concat(0));
   var results = new Array(length);
-  for (var i = 0; i &#x3c; length; i++) {
-    results[i] = _.pluck(arguments, &#x27;&#x27; + i);
+  for (var i = 0; i &lt; length; i++) {
+    results[i] = _.pluck(arguments, '' + i);
   }
   return results;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 
 initOutputObs = documentReadyObs
-    .map(_.partial($, &#x22;#output&#x22;, undefined))
+    .map(_.partial($, "#output", undefined))
     .map(_.partial(initEditor, getOutputOptions)),
 
 // Initialize both CodeMirror instances on document
 // ready, then select them into a list together.
 mirrors = initEditorObs.<span class="apidocCodeKeywordSpan">zip</span>(initOutputObs, concat.bind([])).publish(),
 
-keyMapSelector = _.partial(selectKeyMapClicks, $(&#x27;#btn-vim&#x27;), $(&#x27;#btn-emacs&#x27;), $(&#x27;#btn-default&#x27;)),
-mirrorDragSelector = _.partial(selectMirrorDrags, $(&#x22;#edit-box&#x22;)),
-commitResizes = _.partial(commitMirrorResizes, $(&#x22;#edit-box&#x22;), $(&#x22;#error-box&#x22;), $(&#x22;#output-box&#x22;)),
+keyMapSelector = _.partial(selectKeyMapClicks, $('#btn-vim'), $('#btn-emacs'), $('#btn-default')),
+mirrorDragSelector = _.partial(selectMirrorDrags, $("#edit-box")),
+commitResizes = _.partial(commitMirrorResizes, $("#edit-box"), $("#error-box"), $("#output-box")),
 
 errorRecoverySelector = _.partial(
     recoverFromError,
@@ -6438,22 +6430,22 @@ errorRecoverySelector = _.partial(
   return result.call(this, func.apply(_, args));
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-        mode: &#x22;javascript&#x22;
+        mode: "javascript"
     });
-    editor.setOption(&#x22;theme&#x22;, &#x22;sweetprism&#x22;);
+    editor.setOption("theme", "sweetprism");
     editors[nb] = editor;
 
     // add sweeten button and output div
     var $editorDiv = $(textarea).next();
-    $editorDiv.<span class="apidocCodeKeywordSpan">after</span>(&#x27;&#x3c;button onclick=&#x22;sweeten(&#x27;+ nb +&#x27;);&#x22
-;&#x3e;&#x27; +
-                  &#x27;Try it!&#x3c;/button&#x3e;&#x3c;pre id=&#x22;output-&#x27;+ nb +
-                  &#x27;&#x22; class=&#x22;cm-s-sweetprism console&#x22;&#x3e;&#x3c;/pre&#x3e;&#x27;)
+    $editorDiv.<span class="apidocCodeKeywordSpan">after</span>('&lt;button onclick="sweeten('+ nb +');"
+;&gt;' +
+                  'Try it!&lt;/button&gt;&lt;pre id="output-'+ nb +
+                  '" class="cm-s-sweetprism console"&gt;&lt;/pre&gt;')
 });
 
 return function (nb) {
-    var $console = $(&#x22;#output-&#x22; + nb);
-    $console.css(&#x22;display&#x22;, &#x22;block&#x22;);
+    var $console = $("#output-" + nb);
+    $console.css("display", "block");
 ...</pre></li>
     </ul>
 
@@ -6498,12 +6490,12 @@ if(!!prev) {
 
 macro = _.<span class="apidocCodeKeywordSpan">any</span>(srcHighlights, function(x) {
     return (
-        mapping.originalLine &#x3e; x.start.line || (
-            mapping.originalLine === x.start.line &#x26;&#x26;
-            mapping.originalColumn &#x3e;= x.start.column)) &#x26;&#x26; (
-        mapping.originalLine &#x3c; x.end.line || (
-            mapping.originalLine === x.end.line &#x26;&#x26;
-            mapping.originalColumn &#x3c; x.end.column));
+        mapping.originalLine &gt; x.start.line || (
+            mapping.originalLine === x.start.line &amp;&amp;
+            mapping.originalColumn &gt;= x.start.column)) &amp;&amp; (
+        mapping.originalLine &lt; x.end.line || (
+            mapping.originalLine === x.end.line &amp;&amp;
+            mapping.originalColumn &lt; x.end.column));
 ...</pre></li>
     </ul>
 
@@ -6524,16 +6516,16 @@ macro = _.<span class="apidocCodeKeywordSpan">any</span>(srcHighlights, function
     <li>example usage<pre class="apidocCodePre">...
 
 initOutputObs = documentReadyObs
-    .map(_.partial($, &#x22;#output&#x22;, undefined))
+    .map(_.partial($, "#output", undefined))
     .map(_.partial(initEditor, getOutputOptions)),
 
 // Initialize both CodeMirror instances on document
 // ready, then select them into a list together.
 mirrors = initEditorObs.zip(initOutputObs, concat.<span class="apidocCodeKeywordSpan">bind</span>([])).publish(),
 
-keyMapSelector = _.partial(selectKeyMapClicks, $(&#x27;#btn-vim&#x27;), $(&#x27;#btn-emacs&#x27;), $(&#x27;#btn-default&#x27;)),
-mirrorDragSelector = _.partial(selectMirrorDrags, $(&#x22;#edit-box&#x22;)),
-commitResizes = _.partial(commitMirrorResizes, $(&#x22;#edit-box&#x22;), $(&#x22;#error-box&#x22;), $(&#x22;#output-box&#x22;)),
+keyMapSelector = _.partial(selectKeyMapClicks, $('#btn-vim'), $('#btn-emacs'), $('#btn-default')),
+mirrorDragSelector = _.partial(selectMirrorDrags, $("#edit-box")),
+commitResizes = _.partial(commitMirrorResizes, $("#edit-box"), $("#error-box"), $("#output-box")),
 
 errorRecoverySelector = _.partial(
     recoverFromError,
@@ -6571,12 +6563,12 @@ errorRecoverySelector = _.partial(
   return this;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  template.source = &#x27;function(&#x27; + (settings.variable || &#x27;obj&#x27;) + &#x27;){\n&#x27; + source + &#x27;}&#x27;;
+  template.source = 'function(' + (settings.variable || 'obj') + '){\n' + source + '}';
 
   return template;
 };
 
-// Add a &#x22;chain&#x22; function, which will delegate to the wrapper.
+// Add a "chain" function, which will delegate to the wrapper.
 _.chain = function(obj) {
   return _(obj).<span class="apidocCodeKeywordSpan">chain</span>();
 };
@@ -6605,16 +6597,16 @@ _.chain = function(obj) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 }
-return [editor, &#x22;candidate&#x22;, highlights];
+return [editor, "candidate", highlights];
 
 function useOriginalLoc(token) {
-    var props = [&#x27;lineStart&#x27;, &#x27;lineNumber&#x27;, &#x27;range&#x27;, &#x27;startLineStart&#x27;,
-        &#x27;startLineNumber&#x27;, &#x27;startRange&#x27;, &#x27;endLineStart&#x27;,
-        &#x27;endLineNumber&#x27;, &#x27;endRange&#x27;];
+    var props = ['lineStart', 'lineNumber', 'range', 'startLineStart',
+        'startLineNumber', 'startRange', 'endLineStart',
+        'endLineNumber', 'endRange'];
     var obj = _.<span class="apidocCodeKeywordSpan">clone</span>(token);
-    for (var i = 0; i &#x3c; props.length; i++) {
-        if (obj.hasOwnProperty(&#x27;sm_&#x27; + props[i])) {
-            obj[props[i]] = obj[&#x27;sm_&#x27; + props[i]];
+    for (var i = 0; i &lt; props.length; i++) {
+        if (obj.hasOwnProperty('sm_' + props[i])) {
+            obj[props[i]] = obj['sm_' + props[i]];
         }
     }
     return obj;
@@ -6756,11 +6748,11 @@ function startState(mode, a1, a2) {
 	contains = rnative.test( docElem.contains ) || docElem.compareDocumentPosition ?
 		function( a, b ) {
 			var adown = a.nodeType === 9 ? a.documentElement : a,
-				bup = b &#x26;&#x26; b.parentNode;
-			return a === bup || !!( bup &#x26;&#x26; bup.nodeType === 1 &#x26;&#x26; (
+				bup = b &amp;&amp; b.parentNode;
+			return a === bup || !!( bup &amp;&amp; bup.nodeType === 1 &amp;&amp; (
 				adown.contains ?
 					adown.<span class="apidocCodeKeywordSpan">contains</span>( bup ) :
-					a.compareDocumentPosition &#x26;&#x26; a.compareDocumentPosition( bup ) &#x26; 16
+					a.compareDocumentPosition &amp;&amp; a.compareDocumentPosition( bup ) &amp; 16
 			));
 		} :
 		function( a, b ) {
@@ -6808,7 +6800,7 @@ function startState(mode, a1, a2) {
         // stop listening to mousemoves when we receive a mouseup
         .takeUntil(upObs);
 })
-// don&#x27;t update the DOM between browser repaints
+// don't update the DOM between browser repaints
 .<span class="apidocCodeKeywordSpan">debounce</span>(0, Rx.Scheduler.requestAnimationFrameScheduler)
 .startWith(editBox.outerWidth())
 .map(function (codeAreaWidth) {
@@ -6835,9 +6827,9 @@ function startState(mode, a1, a2) {
   return result.call(this, func.apply(_, args));
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  var escaper = /\\|&#x27;|\r|\n|\t|\u2028|\u2029/g;
+  var escaper = /\\|'|\r|\n|\t|\u2028|\u2029/g;
 
-  // JavaScript micro-templating, similar to John Resig&#x27;s implementation.
+  // JavaScript micro-templating, similar to John Resig's implementation.
   // Underscore templating handles arbitrary delimiters, preserves whitespace,
   // and correctly escapes quotes within interpolated code.
   _.template = function(text, data, settings) {
@@ -6849,7 +6841,7 @@ var matcher = new RegExp([
   (settings.escape || noMatch).source,
   (settings.interpolate || noMatch).source,
   (settings.evaluate || noMatch).source
-].join(&#x27;|&#x27;) + &#x27;|$&#x27;, &#x27;g&#x27;);
+].join('|') + '|$', 'g');
 ...</pre></li>
     </ul>
 
@@ -6872,15 +6864,15 @@ var matcher = new RegExp([
     .clickAsObservable()
     .doAction(stepper.val.bind(stepper, 0))
     .publish(),
-lastCompileType     = &#x22;full&#x22;,
+lastCompileType     = "full",
 initialCompile      = editor.initialCompile,
 compileChangeSubj   = new Rx.Subject(),
 compileChangeObs    = Rx.Observable.<span class="apidocCodeKeywordSpan">defer</span>(function() {
     return autoCompile
         .changeAsObservable()
         // Select each change event into a Boolean that flips on each click.
-        .scan(autoCompile.is(&#x22;:checked&#x22;), Rx.helpers.not)
-        .startWith(autoCompile.is(&#x22;:checked&#x22;));
+        .scan(autoCompile.is(":checked"), Rx.helpers.not)
+        .startWith(autoCompile.is(":checked"));
 })
 .multicast(compileChangeSubj).refCount(),
 ...</pre></li>
@@ -7036,20 +7028,19 @@ _.partition = function(array, predicate) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
     var index = 0;
-    var source = &#x22;__p+=&#x27;&#x22;;
+    var source = "__p+='";
     text.replace(matcher, function(match, escape, interpolate, evaluate, offset) {
 source += text.slice(index, offset)
-  .replace(escaper, function(match) { return &#x27;\\&#x27; + escapes[match]; });
+  .replace(escaper, function(match) { return '\\' + escapes[match]; });
 
 if (escape) {
-  source += &#x22;&#x27;+\n((__t=(&#x22; + escape + &#x22;))==null?&#x27;&#x27;:_.<span class="apidocCodeKeywordSpan">escape</span
->(__t))+\n&#x27;&#x22;;
+  source += "'+\n((__t=(" + escape + "))==null?'':_.<span class="apidocCodeKeywordSpan">escape</span>(__t))+\n'";
 }
 if (interpolate) {
-  source += &#x22;&#x27;+\n((__t=(&#x22; + interpolate + &#x22;))==null?&#x27;&#x27;:__t)+\n&#x27;&#x22;;
+  source += "'+\n((__t=(" + interpolate + "))==null?'':__t)+\n'";
 }
 if (evaluate) {
-  source += &#x22;&#x27;;\n&#x22; + evaluate + &#x22;\n__p+=&#x27;&#x22;;
+  source += "';\n" + evaluate + "\n__p+='";
 }
 ...</pre></li>
     </ul>
@@ -7103,12 +7094,12 @@ function next(i) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 collectObjectBinding() {
-  // return term.properties.flatMap(prop =&#x3e; this.collect(prop));
+  // return term.properties.flatMap(prop =&gt; this.collect(prop));
   return List();
 }
 
 // registerVariableDeclaration(term) {
-//   let declarators = term.declarators.map(decl =&#x3e; {
+//   let declarators = term.declarators.map(decl =&gt; {
 //     return decl.<span class="apidocCodeKeywordSpan">extend</span>({
 //       binding: this.register(decl.binding)
 //     });
@@ -7140,9 +7131,9 @@ collectObjectBinding() {
   return f;
 }
 
-let passTest = mkTester(&#x27;pass&#x27;)
+let passTest = mkTester('pass')
 
-pass.<span class="apidocCodeKeywordSpan">filter</span>(f =&#x3e; !passExcluded.includes(f)).forEach(f =&#x3e; {
+pass.<span class="apidocCodeKeywordSpan">filter</span>(f =&gt; !passExcluded.includes(f)).forEach(f =&gt; {
   console.log(f);
   passTest(f);
 });
@@ -7164,7 +7155,7 @@ pass.<span class="apidocCodeKeywordSpan">filter</span>(f =&#x3e; !passExcluded.i
   return result.call(this, func.apply(_, args));
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  gutters.style.display = i ? &#x22;&#x22; : &#x22;none&#x22;;
+  gutters.style.display = i ? "" : "none";
 }
 
 function lineLength(doc, line) {
@@ -7248,17 +7239,17 @@ export class Enforester {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 .slice(0, 20)
-.map(term =&#x3e; {
+.map(term =&gt; {
   if (term instanceof T.RawDelimiter) {
     return term.inner;
   }
   return List.of(term);
 })
 .<span class="apidocCodeKeywordSpan">flatten</span>()
-.map(s =&#x3e; {
+.map(s =&gt; {
   let sval = s instanceof T.RawSyntax ? s.value.val() : s.toString();
   if (s === offending) {
-    return &#x27;__&#x27; + sval + &#x27;__&#x27;;
+    return '__' + sval + '__';
   }
   return sval;
 })
@@ -7319,9 +7310,9 @@ export class Enforester {
   return f;
 }
 
-let passTest = mkTester(&#x27;pass&#x27;)
+let passTest = mkTester('pass')
 
-pass.filter(f =&#x3e; !passExcluded.includes(f)).<span class="apidocCodeKeywordSpan">forEach</span>(f =&#x3e; {
+pass.filter(f =&gt; !passExcluded.includes(f)).<span class="apidocCodeKeywordSpan">forEach</span>(f =&gt; {
   console.log(f);
   passTest(f);
 });
@@ -7404,7 +7395,7 @@ let scopeset = stx.scopesets.phase.<span class="apidocCodeKeywordSpan">has</span
   ? stx.scopesets.phase.get(phase)
   : List();
 scopeset = allScopeset.concat(scopeset);
-assert(phase != null, &#x27;must provide a phase for binding add&#x27;);
+assert(phase != null, 'must provide a phase for binding add');
 
 let scopesetBindingList = this._map.get(stxName);
 if (scopesetBindingList) {
@@ -7494,21 +7485,21 @@ if (scopesetBindingList) {
   return result.call(this, func.apply(_, args));
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  if (cm.options.onKeyEvent &#x26;&#x26; cm.options.onKeyEvent(cm, addStop(e))) return;
-  var keyCode = e_prop(e, &#x22;keyCode&#x22;), charCode = e_prop(e, &#x22;charCode&#x22;);
-  if (opera &#x26;&#x26; keyCode == lastStoppedKey) {lastStoppedKey = null; e_preventDefault(e); return;}
-  if (((opera &#x26;&#x26; (!e.which || e.which &#x3c; 10)) || khtml) &#x26;&#x26; handleKeyBinding(cm, e)) return;
+  if (cm.options.onKeyEvent &amp;&amp; cm.options.onKeyEvent(cm, addStop(e))) return;
+  var keyCode = e_prop(e, "keyCode"), charCode = e_prop(e, "charCode");
+  if (opera &amp;&amp; keyCode == lastStoppedKey) {lastStoppedKey = null; e_preventDefault(e); return;}
+  if (((opera &amp;&amp; (!e.which || e.which &lt; 10)) || khtml) &amp;&amp; handleKeyBinding(cm, e)) return;
   var ch = String.fromCharCode(charCode == null ? keyCode : charCode);
-  if (this.options.electricChars &#x26;&#x26; this.view.mode.electricChars &#x26;&#x26;
-      this.options.smartIndent &#x26;&#x26; !isReadOnly(this) &#x26;&#x26;
-      this.view.mode.electricChars.<span class="apidocCodeKeywordSpan">indexOf</span>(ch) &#x3e; -1)
-    setTimeout(operation(cm, function() {indentLine(cm, cm.view.sel.to.line, &#x22;smart&#x22;);}), 75);
+  if (this.options.electricChars &amp;&amp; this.view.mode.electricChars &amp;&amp;
+      this.options.smartIndent &amp;&amp; !isReadOnly(this) &amp;&amp;
+      this.view.mode.electricChars.<span class="apidocCodeKeywordSpan">indexOf</span>(ch) &gt; -1)
+    setTimeout(operation(cm, function() {indentLine(cm, cm.view.sel.to.line, "smart");}), 75);
   if (handleCharBinding(cm, e, ch)) return;
   fastPoll(cm);
 }
 
 function onFocus(cm) {
-  if (cm.options.readOnly == &#x22;nocursor&#x22;) return;
+  if (cm.options.readOnly == "nocursor") return;
 ...</pre></li>
     </ul>
 
@@ -7578,19 +7569,19 @@ function onFocus(cm) {
   return result.call(this, func.apply(_, args));
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-    &#x27;&#x26;&#x27;: &#x27;&#x26;amp;&#x27;,
-    &#x27;&#x3c;&#x27;: &#x27;&#x26;lt;&#x27;,
-    &#x27;&#x3e;&#x27;: &#x27;&#x26;gt;&#x27;,
-    &#x27;&#x22;&#x27;: &#x27;&#x26;quot;&#x27;,
-    &#x22;&#x27;&#x22;: &#x27;&#x26;#x27;&#x27;
+    '&amp;': '&amp;amp;',
+    '&lt;': '&amp;lt;',
+    '&gt;': '&amp;gt;',
+    '"': '&amp;quot;',
+    "'": '&amp;#x27;'
   }
 };
 entityMap.unescape = _.<span class="apidocCodeKeywordSpan">invert</span>(entityMap.escape);
 
 // Regexes containing the keys and values listed immediately above.
 var entityRegexes = {
-  escape:   new RegExp(&#x27;[&#x27; + _.keys(entityMap.escape).join(&#x27;&#x27;) + &#x27;]&#x27;, &#x27;g&#x27;),
-  unescape: new RegExp(&#x27;(&#x27; + _.keys(entityMap.unescape).join(&#x27;|&#x27;) + &#x27;)&#x27;, &#x27;g&#x27;)
+  escape:   new RegExp('[' + _.keys(entityMap.escape).join('') + ']', 'g'),
+  unescape: new RegExp('(' + _.keys(entityMap.unescape).join('|') + ')', 'g')
 };
 ...</pre></li>
     </ul>
@@ -7614,12 +7605,12 @@ var entityRegexes = {
     let mod = this.context.loader.get(
       imp.moduleSpecifier.val(),
       phase + 1,
-      &#x27;&#x27;,
+      '',
     );
     this.visit(mod, phase + 1, store);
     this.<span class="apidocCodeKeywordSpan">invoke</span>(mod, phase + 1, store);
   } else {
-    let mod = this.context.loader.get(imp.moduleSpecifier.val(), phase, &#x27;&#x27;);
+    let mod = this.context.loader.get(imp.moduleSpecifier.val(), phase, '');
     this.visit(mod, phase, store);
   }
   bindImports(imp, mod, phase, this.context);
@@ -7646,7 +7637,7 @@ for (let term of mod.compiletimeItems()) {
 
 // Internal implementation of a recursive `flatten` function.
 var flatten = function(input, shallow, output) {
-  if (shallow &#x26;&#x26; _.every(input, _.isArray)) {
+  if (shallow &amp;&amp; _.every(input, _.isArray)) {
     return concat.apply(output, input);
   }
   each(input, function(value) {
@@ -7689,7 +7680,7 @@ if (Array.<span class="apidocCodeKeywordSpan">isArray</span>(values)) {
   return values.map(sanitizeReplacementValues);
 } else if (values == null) {
   throw new Error(
-    &#x27;replacement values for syntax template must not be null or undefined&#x27;,
+    'replacement values for syntax template must not be null or undefined',
   );
 ...</pre></li>
     </ul>
@@ -7763,7 +7754,7 @@ if (Array.<span class="apidocCodeKeywordSpan">isArray</span>(values)) {
 const priv = privateData.get(this);
 let marker;
 
-// the idea here is that marking at the beginning shouldn&#x27;t happen more than once.
+// the idea here is that marking at the beginning shouldn't happen more than once.
 // We can reuse startMarker.
 if (priv.enf.rest === priv.markers.get(priv.startMarker).rest) {
   marker = priv.startMarker;
@@ -7772,7 +7763,7 @@ if (priv.enf.rest === priv.markers.get(priv.startMarker).rest) {
   if (!priv.endMarker) priv.endMarker = new Marker();
   marker = priv.endMarker;
 } else {
-  //TODO(optimization/dubious): check that there isn&#x27;t already a marker for this index?
+  //TODO(optimization/dubious): check that there isn't already a marker for this index?
   marker = new Marker();
 }
 ...</pre></li>
@@ -7817,7 +7808,7 @@ if (priv.enf.rest === priv.markers.get(priv.startMarker).rest) {
 };
 
 function numberIsFinite(value) {
-  return typeof value === &#x27;number&#x27; &#x26;&#x26; root.<span class="apidocCodeKeywordSpan">isFinite</span>(value);
+  return typeof value === 'number' &amp;&amp; root.<span class="apidocCodeKeywordSpan">isFinite</span>(value);
 }
 
 function isNan(n) {
@@ -7847,7 +7838,7 @@ function getIterable(o) {
 					) );
 
 					// HANDLE: $(html, props)
-					if ( rsingleTag.test( match[1] ) &#x26;&#x26; jQuery.isPlainObject( context ) ) {
+					if ( rsingleTag.test( match[1] ) &amp;&amp; jQuery.isPlainObject( context ) ) {
 						for ( match in context ) {
 							// Properties of context are called as methods if possible
 							if ( jQuery.<span class="apidocCodeKeywordSpan">isFunction</span>( this[ match ] ) ) {
@@ -7912,17 +7903,17 @@ function getIterable(o) {
     <li>example usage<pre class="apidocCodePre">...
 // Is a given object a finite number?
 _.isFinite = function(obj) {
-  return isFinite(obj) &#x26;&#x26; !isNaN(parseFloat(obj));
+  return isFinite(obj) &amp;&amp; !isNaN(parseFloat(obj));
 };
 
 // Is the given value `NaN`? (NaN is the only number which does not equal itself).
 _.isNaN = function(obj) {
-  return _.<span class="apidocCodeKeywordSpan">isNumber</span>(obj) &#x26;&#x26; obj != +obj;
+  return _.<span class="apidocCodeKeywordSpan">isNumber</span>(obj) &amp;&amp; obj != +obj;
 };
 
 // Is a given value a boolean?
 _.isBoolean = function(obj) {
-  return obj === true || obj === false || toString.call(obj) == &#x27;[object Boolean]&#x27;;
+  return obj === true || obj === false || toString.call(obj) == '[object Boolean]';
 };
 ...</pre></li>
     </ul>
@@ -7946,8 +7937,8 @@ _.isBoolean = function(obj) {
 // Object Functions
 // ----------------
 
-// Retrieve the names of an object&#x27;s properties.
-// Delegates to **ECMAScript 5**&#x27;s native `Object.keys`
+// Retrieve the names of an object's properties.
+// Delegates to **ECMAScript 5**'s native `Object.keys`
 _.keys = function(obj) {
   if (!_.<span class="apidocCodeKeywordSpan">isObject</span>(obj)) return [];
   if (nativeKeys) return nativeKeys(obj);
@@ -7956,7 +7947,7 @@ _.keys = function(obj) {
   return keys;
 };
 
-// Retrieve the values of an object&#x27;s properties.
+// Retrieve the values of an object's properties.
 ...</pre></li>
     </ul>
 
@@ -7996,7 +7987,7 @@ _.keys = function(obj) {
 };
 
 // Is a given array, string, or object empty?
-// An &#x22;empty&#x22; object has no enumerable own-properties.
+// An "empty" object has no enumerable own-properties.
 _.isEmpty = function(obj) {
   if (obj == null) return true;
   if (_.isArray(obj) || _.<span class="apidocCodeKeywordSpan">isString</span>(obj)) return obj.length === 0;
@@ -8006,7 +7997,7 @@ _.isEmpty = function(obj) {
 
 // Is a given value a DOM element?
 _.isElement = function(obj) {
-  return !!(obj &#x26;&#x26; obj.nodeType === 1);
+  return !!(obj &amp;&amp; obj.nodeType === 1);
 ...</pre></li>
     </ul>
 
@@ -8048,17 +8039,17 @@ _.isElement = function(obj) {
  * MIT license http://www.opensource.org/licenses/mit-license.php/
  * @author Lea Verou http://lea.verou.me
  */(function(){var e=/\blang(?:uage)?-(?!\*)(\w+)\b/i,t=self.Prism={languages:{insertBefore:function(e,n,r,i){i=i||t.languages;var
- s=i[e],o={};for(var u in s)if(s.hasOwnProperty(u)){if(u==n)for(var a in r)r.hasOwnProperty(a)&#x26;&#x26;(o[a]=r[a]);o[u]=s[u]}
-return i[e]=o},DFS:function(e,n){for(var r in e){n.call(e,r,e[r]);Object.prototype.toString.call(e)===&#x22;[object Object]&#x22
-;&#x26;&#x26;t.languages.DFS(e[r],n)}}},highlightAll:function(e,n){var r=document.querySelectorAll(&#x27;code[class*=&#x22;language
--&#x22;], [class*=&#x22;language-&#x22;] code, code[class*=&#x22;lang-&#x22;], [class*=&#x22;lang-&#x22;] code&#x27;);for(var i=
-0,s;s=r[i++];)t.highlightElement(s,e===!0,n)},highlightElement:function(r,i,s){var o,u,a=r;while(a&#x26;&#x26;!e.test(a.className
-))a=a.parentNode;if(a){o=(a.className.match(e)||[,&#x22;&#x22;])[1];u=t.languages[o]}if(!u)return;r.className=r.className.replace
-(e,&#x22;&#x22;).replace(/\s+/g,&#x22; &#x22;)+&#x22; language-&#x22;+o;a=r.parentNode;/pre/i.test(a.nodeName)&#x26;&#x26;(a.className=a.className.replace(e,&#x22;&#x22;).replace(/\s+/g,&#x22; &#x22;)+&#x22; language-&#x22;+o);var f=r.textContent.trim();if(!f)return;f=f.replace(/&#x26;/g,&#x22;&#x26;amp;&#x22;).replace(/&#x3c;/g,&#x22;&#x26;lt;&#x22;).replace(/&#x3e;/g,&#x22;&#x26;gt;&#x22;).replace(/\u00a0/g,&#x22; &#x22;);var l={element:r,language:o,grammar:u,code:f};t.hooks.run(&#x22;before-highlight&#x22;,l);if(i&#x26;&#x26;self.Worker){var c=new Worker(t.filename);c.onmessage=function(e){l.highlightedCode=n.stringify(JSON.parse(e.data));l.element.innerHTML=l.highlightedCode;s&#x26;&#x26;s.call(l.element);t.hooks.run(&#x22;after-highlight&#x22;,l)};c.postMessage(JSON.stringify({language:l.language,code:l.code}))}else{l.highlightedCode=t.highlight(l.code,l.grammar);l.element.innerHTML=l.highlightedCode;s&#x26;&#x26;s.call(r);t.hooks.run(&#x22;after-highlight&#x22;,l)}},highlight:function(e,r){return n.stringify(t.tokenize(e,r))},tokenize:function(e,n){var r=t.Token,i=[e],s=n.rest;if(s){for(var o in s)n[o]=s[o];delete n.rest}e:for(var o in n){if(!n.hasOwnProperty(o)||!n[o])continue;var u=n[o],a=u.inside,f=!!u.lookbehind||0;u=u.pattern||u;for(var l=0;l&#x3c;i.length;l++){var c=i[l];if(i.length&#x3e;e.length)break e;if(c instanceof r)continue;u.lastIndex=0;var h=u.exec(c);if(h){f&#x26;&#x26;(f=h[1].length);var p=h.index-1+f,h=h[0].slice(f),d=h.length,v=p+d,m=c.slice(0,p+1),g=c.slice(v+1),y=[l,1];m&#x26;&#x26;y.push(m);var b=new r(o,a?t.tokenize(h,a):h);y.push(b);g&#x26;&#x26;y.push(g);Array.prototype.splice.apply(i,y)}}}return i},hooks:{all:{},add:function(e,n){var r=t.hooks.all;r[e]=r[e]||[];r[e].push(n)},run:function(e,n){var r=t.hooks.all[e];if(!r||!r.length)return;for(var i=0,s;s=r[i++];)s(n)}}},n=t.Token=function(e,t){this.type=e;this.content=t};n.stringify=function(e){if(typeof e==&#x22;string&#x22;)return e;if(Object.prototype.toString.call(e)==&#x22;[object Array]&#x22;){for(var r=0;r&#x3c;e.length;r++)e[r]=n.stringify(e[r]);return e.<span class="apidocCodeKeywordSpan">join</span>(&#x22;&#x22;)}var i={type:e.type,content:n.stringify(e.content),tag:&#x22;span&#x22;,classes:[&#x22;token&#x22;,e.type],attributes:{}};i.type==&#x22;comment&#x22;&#x26;&#x26;(i.attributes.spellcheck=&#x22;true&#x22;);t.hooks.run(&#x22;wrap&#x22;,i);var s=&#x22;&#x22;;for(var o in i.attributes)s+=o+&#x27;=&#x22;&#x27;+(i.attributes[o]||&#x22;&#x22;)+&#x27;&#x22;&#x27;;return&#x22;&#x3c;&#x22;+i.tag+&#x27; class=&#x22;&#x27;+i.classes.join(&#x22; &#x22;)+&#x27;&#x22; &#x27;+s+&#x22;&#x3e;&#x22;+i.content+&#x22;&#x3c;/&#x22;+i.tag+&#x22;&#x3e;&#x22;};if(!self.document){self.addEventListener(&#x22;message&#x22;,function(e){var n=JSON.parse(e.data),r=n.language,i=n.code;self.postMessage(JSON.stringify(t.tokenize(i,t.languages[r])));self.close()},!1);return}var r=document.getElementsByTagName(&#x22;script&#x22;);r=r[r.length-1];if(r){t.filename=r.src;document.addEventListener&#x26;&#x26;!r.hasAttribute(&#x22;data-manual&#x22;)&#x26;&#x26;document.addEventListener(&#x22;DOMContentLoaded&#x22;,t.highlightAll)}})();
-Prism.languages.markup={comment:/&#x26;lt;!--[\w\W]*?--(&#x26;gt;|&#x26;gt;)/g,prolog:/&#x26;lt;\?.+?\?&#x26;gt;/,doctype:/&#x26
-;lt;!DOCTYPE.+?&#x26;gt;/,cdata:/&#x26;lt;!\[CDATA\[[\w\W]+?]]&#x26;gt;/i,tag:{pattern:/&#x26;lt;\/?[\w:-]+\s*[\w\W]*?&#x26;gt;/gi,inside:{tag:{pattern:/^&#x26;lt;\/?[\w:-]+/i,inside:{punctuation:/^&#x26;lt;\/?/,namespace:/^[\w-]+?:/}},&#x22;attr-value&#x22;:{pattern:/=((&#x27;|&#x22;)[\w\W]*?(\2)|[^\s&#x3e;]+)/gi,inside:{punctuation:/=/g}},punctuation:/\/?&#x26;gt;/g,&#x22;attr-name&#x22;:{pattern:/[\w:-]+/g,inside:{namespace:/^[\w-]+?:/}}}},entity:/&#x26;amp;#?[\da-z]{1,8};/gi};Prism.hooks.add(&#x22;wrap&#x22;,function(e){e.type===&#x22;entity&#x22;&#x26;&#x26;(e.attributes.title=e.content.replace(/&#x26;amp;/,&#x22;&#x26;&#x22;))});
-Prism.languages.javascript={comment:{pattern:/(^|[^\\])(\/\*[\w\W]*?\*\/|\/\/.*?(\r?\n|$))/g,lookbehind:!0},string:/(&#x22;|&#x27
-;)(\\?.)*?\1/g,regex:{pattern:/(^|[^/])\/(?!\/)(\[.+?]|\\.|[^/\r\n])+\/[gim]{0,3}(?=\s*($|[\r\n,.;})]))/g,lookbehind:!0},keyword:/\b(var|let|if|else|while|do|for|return|in|instanceof|function|new|with|typeof|try|catch|finally|null|break|continue)\b/g,&#x22;boolean&#x22;:/\b(true|false)\b/g,number:/\b-?(0x)?\d*\.?\d+\b/g,operator:/[-+]{1,2}|!|=?&#x26;lt;|=?&#x26;gt;|={1,2}|(&#x26;amp;){1,2}|\|?\||\?|\*|\//g,ignore:/&#x26;(lt|gt|amp);/gi,punctuation:/[{}[\];(),.:]/g};Prism.languages.markup&#x26;&#x26;Prism.languages.insertBefore(&#x22;markup&#x22;,&#x22;tag&#x22;,{script:{pattern:/(&#x26;lt;|&#x3c;)script[\w\W]*?(&#x3e;|&#x26;gt;)[\w\W]*?(&#x26;lt;|&#x3c;)\/script(&#x3e;|&#x26;gt;)/ig,inside:{tag:{pattern:/(&#x26;lt;|&#x3c;)script[\w\W]*?(&#x3e;|&#x26;gt;)|(&#x26;lt;|&#x3c;)\/script(&#x3e;|&#x26;gt;)/ig,inside:Prism.languages.markup.tag.inside},rest:Prism.languages.javascript}}});
+ s=i[e],o={};for(var u in s)if(s.hasOwnProperty(u)){if(u==n)for(var a in r)r.hasOwnProperty(a)&amp;&amp;(o[a]=r[a]);o[u]=s[u]}
+return i[e]=o},DFS:function(e,n){for(var r in e){n.call(e,r,e[r]);Object.prototype.toString.call(e)==="[object Object]"
+;&amp;&amp;t.languages.DFS(e[r],n)}}},highlightAll:function(e,n){var r=document.querySelectorAll('code[class*="language
+-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code');for(var i=
+0,s;s=r[i++];)t.highlightElement(s,e===!0,n)},highlightElement:function(r,i,s){var o,u,a=r;while(a&amp;&amp;!e.test(a.className
+))a=a.parentNode;if(a){o=(a.className.match(e)||[,""])[1];u=t.languages[o]}if(!u)return;r.className=r.className.replace
+(e,"").replace(/\s+/g," ")+" language-"+o;a=r.parentNode;/pre/i.test(a.nodeName)&amp;&amp;(a.className=a.className.replace(e,"").replace(/\s+/g," ")+" language-"+o);var f=r.textContent.trim();if(!f)return;f=f.replace(/&amp;/g,"&amp;amp;").replace(/&lt;/g,"&amp;lt;").replace(/&gt;/g,"&amp;gt;").replace(/\u00a0/g," ");var l={element:r,language:o,grammar:u,code:f};t.hooks.run("before-highlight",l);if(i&amp;&amp;self.Worker){var c=new Worker(t.filename);c.onmessage=function(e){l.highlightedCode=n.stringify(JSON.parse(e.data));l.element.innerHTML=l.highlightedCode;s&amp;&amp;s.call(l.element);t.hooks.run("after-highlight",l)};c.postMessage(JSON.stringify({language:l.language,code:l.code}))}else{l.highlightedCode=t.highlight(l.code,l.grammar);l.element.innerHTML=l.highlightedCode;s&amp;&amp;s.call(r);t.hooks.run("after-highlight",l)}},highlight:function(e,r){return n.stringify(t.tokenize(e,r))},tokenize:function(e,n){var r=t.Token,i=[e],s=n.rest;if(s){for(var o in s)n[o]=s[o];delete n.rest}e:for(var o in n){if(!n.hasOwnProperty(o)||!n[o])continue;var u=n[o],a=u.inside,f=!!u.lookbehind||0;u=u.pattern||u;for(var l=0;l&lt;i.length;l++){var c=i[l];if(i.length&gt;e.length)break e;if(c instanceof r)continue;u.lastIndex=0;var h=u.exec(c);if(h){f&amp;&amp;(f=h[1].length);var p=h.index-1+f,h=h[0].slice(f),d=h.length,v=p+d,m=c.slice(0,p+1),g=c.slice(v+1),y=[l,1];m&amp;&amp;y.push(m);var b=new r(o,a?t.tokenize(h,a):h);y.push(b);g&amp;&amp;y.push(g);Array.prototype.splice.apply(i,y)}}}return i},hooks:{all:{},add:function(e,n){var r=t.hooks.all;r[e]=r[e]||[];r[e].push(n)},run:function(e,n){var r=t.hooks.all[e];if(!r||!r.length)return;for(var i=0,s;s=r[i++];)s(n)}}},n=t.Token=function(e,t){this.type=e;this.content=t};n.stringify=function(e){if(typeof e=="string")return e;if(Object.prototype.toString.call(e)=="[object Array]"){for(var r=0;r&lt;e.length;r++)e[r]=n.stringify(e[r]);return e.<span class="apidocCodeKeywordSpan">join</span>("")}var i={type:e.type,content:n.stringify(e.content),tag:"span",classes:["token",e.type],attributes:{}};i.type=="comment"&amp;&amp;(i.attributes.spellcheck="true");t.hooks.run("wrap",i);var s="";for(var o in i.attributes)s+=o+'="'+(i.attributes[o]||"")+'"';return"&lt;"+i.tag+' class="'+i.classes.join(" ")+'" '+s+"&gt;"+i.content+"&lt;/"+i.tag+"&gt;"};if(!self.document){self.addEventListener("message",function(e){var n=JSON.parse(e.data),r=n.language,i=n.code;self.postMessage(JSON.stringify(t.tokenize(i,t.languages[r])));self.close()},!1);return}var r=document.getElementsByTagName("script");r=r[r.length-1];if(r){t.filename=r.src;document.addEventListener&amp;&amp;!r.hasAttribute("data-manual")&amp;&amp;document.addEventListener("DOMContentLoaded",t.highlightAll)}})();
+Prism.languages.markup={comment:/&amp;lt;!--[\w\W]*?--(&amp;gt;|&amp;gt;)/g,prolog:/&amp;lt;\?.+?\?&amp;gt;/,doctype:/&amp;
+;lt;!DOCTYPE.+?&amp;gt;/,cdata:/&amp;lt;!\[CDATA\[[\w\W]+?]]&amp;gt;/i,tag:{pattern:/&amp;lt;\/?[\w:-]+\s*[\w\W]*?&amp;gt;/gi,inside:{tag:{pattern:/^&amp;lt;\/?[\w:-]+/i,inside:{punctuation:/^&amp;lt;\/?/,namespace:/^[\w-]+?:/}},"attr-value":{pattern:/=(('|")[\w\W]*?(\2)|[^\s&gt;]+)/gi,inside:{punctuation:/=/g}},punctuation:/\/?&amp;gt;/g,"attr-name":{pattern:/[\w:-]+/g,inside:{namespace:/^[\w-]+?:/}}}},entity:/&amp;amp;#?[\da-z]{1,8};/gi};Prism.hooks.add("wrap",function(e){e.type==="entity"&amp;&amp;(e.attributes.title=e.content.replace(/&amp;amp;/,"&amp;"))});
+Prism.languages.javascript={comment:{pattern:/(^|[^\\])(\/\*[\w\W]*?\*\/|\/\/.*?(\r?\n|$))/g,lookbehind:!0},string:/("|'
+;)(\\?.)*?\1/g,regex:{pattern:/(^|[^/])\/(?!\/)(\[.+?]|\\.|[^/\r\n])+\/[gim]{0,3}(?=\s*($|[\r\n,.;})]))/g,lookbehind:!0},keyword:/\b(var|let|if|else|while|do|for|return|in|instanceof|function|new|with|typeof|try|catch|finally|null|break|continue)\b/g,"boolean":/\b(true|false)\b/g,number:/\b-?(0x)?\d*\.?\d+\b/g,operator:/[-+]{1,2}|!|=?&amp;lt;|=?&amp;gt;|={1,2}|(&amp;amp;){1,2}|\|?\||\?|\*|\//g,ignore:/&amp;(lt|gt|amp);/gi,punctuation:/[{}[\];(),.:]/g};Prism.languages.markup&amp;&amp;Prism.languages.insertBefore("markup","tag",{script:{pattern:/(&amp;lt;|&lt;)script[\w\W]*?(&gt;|&amp;gt;)[\w\W]*?(&amp;lt;|&lt;)\/script(&gt;|&amp;gt;)/ig,inside:{tag:{pattern:/(&amp;lt;|&lt;)script[\w\W]*?(&gt;|&amp;gt;)|(&amp;lt;|&lt;)\/script(&gt;|&amp;gt;)/ig,inside:Prism.languages.markup.tag.inside},rest:Prism.languages.javascript}}});
 ...</pre></li>
     </ul>
 
@@ -8085,7 +8076,7 @@ Prism.languages.javascript={comment:{pattern:/(^|[^\\])(\/\*[\w\W]*?\*\/|\/\/.*?
 };
 
 let sandboxKeys = List(Object.<span class="apidocCodeKeywordSpan">keys</span>(sandbox));
-let sandboxVals = sandboxKeys.map(k =&#x3e; sandbox[k]).toArray();
+let sandboxVals = sandboxKeys.map(k =&gt; sandbox[k]).toArray();
 
 let parsed = new S.Module({
   directives: List(),
@@ -8113,9 +8104,9 @@ let parsed = new S.Module({
 
     do {
 let term = this.enforestAssignmentExpression();
-// no change means we&#x27;ve done as much enforesting as possible
+// no change means we've done as much enforesting as possible
 // if nothing changed, maybe we just need to pop the expr stack
-if (term === EXPR_LOOP_NO_CHANGE &#x26;&#x26; this.opCtx.stack.size &#x3e; 0) {
+if (term === EXPR_LOOP_NO_CHANGE &amp;&amp; this.opCtx.stack.size &gt; 0) {
   this.term = this.opCtx.combine(this.term);
   let { prec, combine } = this.opCtx.stack.<span class="apidocCodeKeywordSpan">last</span>();
   this.opCtx.prec = prec;
@@ -8150,7 +8141,7 @@ if (term === EXPR_LOOP_NO_CHANGE &#x26;&#x26; this.opCtx.stack.size &#x3e; 0) {
 enforestRegularExpressionLiteral() {
   let reStx = this.matchRawSyntax();
 
-  let lastSlash = reStx.token.value.<span class="apidocCodeKeywordSpan">lastIndexOf</span>(&#x27;/&#x27;);
+  let lastSlash = reStx.token.value.<span class="apidocCodeKeywordSpan">lastIndexOf</span>('/');
   let pattern = reStx.token.value.slice(1, lastSlash);
   let flags = reStx.token.value.slice(lastSlash + 1);
   return new T.LiteralRegExpExpression({
@@ -8183,7 +8174,7 @@ enforestRegularExpressionLiteral() {
       }),
     );
 
-    return tokenExpander.expand(stxl).<span class="apidocCodeKeywordSpan">map</span>(t =&#x3e; termExpander.expand(t));
+    return tokenExpander.expand(stxl).<span class="apidocCodeKeywordSpan">map</span>(t =&gt; termExpander.expand(t));
   }
 }
 ...</pre></li>
@@ -8206,10 +8197,10 @@ enforestRegularExpressionLiteral() {
     <li>example usage<pre class="apidocCodePre">...
 
 		if ( not ) {
-			expr = &#x22;:not(&#x22; + expr + &#x22;)&#x22;;
+			expr = ":not(" + expr + ")";
 		}
 
-		return elems.length === 1 &#x26;&#x26; elem.nodeType === 1 ?
+		return elems.length === 1 &amp;&amp; elem.nodeType === 1 ?
 			jQuery.find.matchesSelector( elem, expr ) ? [ elem ] : [] :
 			jQuery.find.<span class="apidocCodeKeywordSpan">matches</span>( expr, jQuery.grep( elems, function( elem ) {
 				return elem.nodeType === 1;
@@ -8243,15 +8234,15 @@ enforestRegularExpressionLiteral() {
 // content. Optionally force a scrollTop.
 function updateScrollbars(d /* display */, docHeight) {
   var totalHeight = docHeight + 2 * paddingTop(d);
-  d.sizer.style.minHeight = d.heightForcer.style.top = totalHeight + &#x22;px&#x22;;
+  d.sizer.style.minHeight = d.heightForcer.style.top = totalHeight + "px";
   var scrollHeight = Math.<span class="apidocCodeKeywordSpan">max</span>(totalHeight, d.scroller.scrollHeight);
-  var needsH = d.scroller.scrollWidth &#x3e; d.scroller.clientWidth;
-  var needsV = scrollHeight &#x3e; d.scroller.clientHeight;
+  var needsH = d.scroller.scrollWidth &gt; d.scroller.clientWidth;
+  var needsV = scrollHeight &gt; d.scroller.clientHeight;
   if (needsV) {
-    d.scrollbarV.style.display = &#x22;block&#x22;;
-    d.scrollbarV.style.bottom = needsH ? scrollbarWidth(d.measure) + &#x22;px&#x22; : &#x22;0&#x22;;
+    d.scrollbarV.style.display = "block";
+    d.scrollbarV.style.bottom = needsH ? scrollbarWidth(d.measure) + "px" : "0";
     d.scrollbarV.firstChild.style.height =
-      (scrollHeight - d.scroller.clientHeight + d.scrollbarV.clientHeight) + &#x22;px&#x22;;
+      (scrollHeight - d.scroller.clientHeight + d.scrollbarV.clientHeight) + "px";
 ...</pre></li>
     </ul>
 
@@ -8306,17 +8297,17 @@ function updateScrollbars(d /* display */, docHeight) {
     <li>example usage<pre class="apidocCodePre">...
 // Used to determine which lines need their line numbers updated
 var positionsChangedFrom = changes === true ? 0 : Infinity;
-if (cm.options.lineNumbers &#x26;&#x26; changes &#x26;&#x26; changes !== true)
-  for (var i = 0; i &#x3c; changes.length; ++i)
+if (cm.options.lineNumbers &amp;&amp; changes &amp;&amp; changes !== true)
+  for (var i = 0; i &lt; changes.length; ++i)
     if (changes[i].diff) { positionsChangedFrom = changes[i].from; break; }
 
 var from = Math.max(visible.from - cm.options.viewportMargin, 0);
 var to = Math.<span class="apidocCodeKeywordSpan">min</span>(doc.size, visible.to + cm.options.viewportMargin);
-if (display.showingFrom &#x3c; from &#x26;&#x26; from - display.showingFrom &#x3c; 20) from = display.showingFrom;
-if (display.showingTo &#x3e; to &#x26;&#x26; display.showingTo - to &#x3c; 20) to = Math.min(doc.size, display.showingTo);
+if (display.showingFrom &lt; from &amp;&amp; from - display.showingFrom &lt; 20) from = display.showingFrom;
+if (display.showingTo &gt; to &amp;&amp; display.showingTo - to &lt; 20) to = Math.min(doc.size, display.showingTo);
 if (sawCollapsedSpans) {
   from = lineNo(visualLine(doc, getLine(doc, from)));
-  while (to &#x3c; doc.size &#x26;&#x26; lineIsHidden(getLine(doc, to))) ++to;
+  while (to &lt; doc.size &amp;&amp; lineIsHidden(getLine(doc, to))) ++to;
 }
 ...</pre></li>
     </ul>
@@ -8346,8 +8337,8 @@ var result = function(obj) {
 _.<span class="apidocCodeKeywordSpan">mixin</span>(_);
 
 // Add all mutator Array functions to the wrapper.
-each([&#x27;pop&#x27;, &#x27;push&#x27;, &#x27;reverse&#x27;, &#x27;shift&#x27;, &#x27;sort&#x27;, &#x27;splice&#x27;, &#x27;unshift
-&#x27;], function(name) {
+each(['pop', 'push', 'reverse', 'shift', 'sort', 'splice', 'unshift
+'], function(name) {
   var method = ArrayProto[name];
   _.prototype[name] = function() {
     var obj = this._wrapped;
@@ -8387,19 +8378,19 @@ each([&#x27;pop&#x27;, &#x27;push&#x27;, &#x27;reverse&#x27;, &#x27;shift&#x27;,
   return result.call(this, func.apply(_, args));
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-var fs = require(&#x27;fs&#x27;);
-var path = require(&#x27;path&#x27;);
-var parse = require(&#x27;./build/src/sweet&#x27;).parse;
-var NodeLoader = require(&#x27;./build/src/node-loader&#x27;).default;
+var fs = require('fs');
+var path = require('path');
+var parse = require('./build/src/sweet').parse;
+var NodeLoader = require('./build/src/node-loader').default;
 
 function benchmarkParsing(fileName) {
   var loader = new NodeLoader(path.dirname(fs.realpathSync(__filename)));
   var start = Date.<span class="apidocCodeKeywordSpan">now</span>(), N = 100;
-  for (var i = 0; i &#x3c; N; i++) {
+  for (var i = 0; i &lt; N; i++) {
     parse(fileName, loader);
   }
   var time = Date.now() - start;
-  console.log((time / N).toFixed(2) + &#x22;ms&#x22;);
+  console.log((time / N).toFixed(2) + "ms");
 }
 ...</pre></li>
     </ul>
@@ -8494,12 +8485,12 @@ var documentReadyObs = $(window).readyAsObservable().take(1).publishLast(),
 windowResizeObs  = $(window).resizeAsObservable().startWith(true),
 
 initEditorObs = documentReadyObs
-    .map(_.<span class="apidocCodeKeywordSpan">partial</span>($, &#x22;#editor&#x22;, undefined))
+    .map(_.<span class="apidocCodeKeywordSpan">partial</span>($, "#editor", undefined))
     .map(_.partial(initEditor, getEditorOptions))
     .map(initEditorKeyMap),
 
 initOutputObs = documentReadyObs
-    .map(_.partial($, &#x22;#output&#x22;, undefined))
+    .map(_.partial($, "#output", undefined))
     .map(_.partial(initEditor, getOutputOptions)),
 ...</pre></li>
     </ul>
@@ -8557,7 +8548,7 @@ initOutputObs = documentReadyObs
   return _.property(value);
 };
 
-// Sort the object&#x27;s values by a criterion produced by an iterator.
+// Sort the object's values by a criterion produced by an iterator.
 _.sortBy = function(obj, iterator, context) {
   iterator = lookupIterator(iterator);
   return _.<span class="apidocCodeKeywordSpan">pluck</span>(_.map(obj, function(value, index, list) {
@@ -8583,7 +8574,7 @@ _.sortBy = function(obj, iterator, context) {
     <li>description and source-code<pre class="apidocCodePre">pop = function () {
   var obj = this._wrapped;
   method.apply(obj, arguments);
-  if ((name == &#x27;shift&#x27; || name == &#x27;splice&#x27;) &#x26;&#x26; obj.length === 0) delete obj[0];
+  if ((name == 'shift' || name == 'splice') &amp;&amp; obj.length === 0) delete obj[0];
   return result.call(this, obj);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -8594,12 +8585,12 @@ _.sortBy = function(obj, iterator, context) {
 
 function unredoHelper(cm, type) {
   var doc = cm.view.doc, hist = cm.view.history;
-  var set = (type == &#x22;undo&#x22; ? hist.done : hist.undone).<span class="apidocCodeKeywordSpan">pop</span>();
+  var set = (type == "undo" ? hist.done : hist.undone).<span class="apidocCodeKeywordSpan">pop</span>();
   if (!set) return;
   var anti = {events: [], fromBefore: set.fromAfter, toBefore: set.toAfter,
               fromAfter: set.fromBefore, toAfter: set.toBefore};
-  for (var i = set.events.length - 1; i &#x3e;= 0; i -= 1) {
-    hist.dirtyCounter += type == &#x22;undo&#x22; ? -1 : 1;
+  for (var i = set.events.length - 1; i &gt;= 0; i -= 1) {
+    hist.dirtyCounter += type == "undo" ? -1 : 1;
     var change = set.events[i];
     var replaced = [], end = change.start + change.added;
 ...</pre></li>
@@ -8650,7 +8641,7 @@ _.where = function(obj, attrs) {
     <li>description and source-code<pre class="apidocCodePre">push = function () {
   var obj = this._wrapped;
   method.apply(obj, arguments);
-  if ((name == &#x27;shift&#x27; || name == &#x27;splice&#x27;) &#x26;&#x26; obj.length === 0) delete obj[0];
+  if ((name == 'shift' || name == 'splice') &amp;&amp; obj.length === 0) delete obj[0];
   return result.call(this, obj);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -8662,17 +8653,17 @@ _.where = function(obj, attrs) {
  * MIT license http://www.opensource.org/licenses/mit-license.php/
  * @author Lea Verou http://lea.verou.me
  */(function(){var e=/\blang(?:uage)?-(?!\*)(\w+)\b/i,t=self.Prism={languages:{insertBefore:function(e,n,r,i){i=i||t.languages;var
- s=i[e],o={};for(var u in s)if(s.hasOwnProperty(u)){if(u==n)for(var a in r)r.hasOwnProperty(a)&#x26;&#x26;(o[a]=r[a]);o[u]=s[u]}
-return i[e]=o},DFS:function(e,n){for(var r in e){n.call(e,r,e[r]);Object.prototype.toString.call(e)===&#x22;[object Object]&#x22
-;&#x26;&#x26;t.languages.DFS(e[r],n)}}},highlightAll:function(e,n){var r=document.querySelectorAll(&#x27;code[class*=&#x22;language
--&#x22;], [class*=&#x22;language-&#x22;] code, code[class*=&#x22;lang-&#x22;], [class*=&#x22;lang-&#x22;] code&#x27;);for(var i=
-0,s;s=r[i++];)t.highlightElement(s,e===!0,n)},highlightElement:function(r,i,s){var o,u,a=r;while(a&#x26;&#x26;!e.test(a.className
-))a=a.parentNode;if(a){o=(a.className.match(e)||[,&#x22;&#x22;])[1];u=t.languages[o]}if(!u)return;r.className=r.className.replace
-(e,&#x22;&#x22;).replace(/\s+/g,&#x22; &#x22;)+&#x22; language-&#x22;+o;a=r.parentNode;/pre/i.test(a.nodeName)&#x26;&#x26;(a.className=a.className.replace(e,&#x22;&#x22;).replace(/\s+/g,&#x22; &#x22;)+&#x22; language-&#x22;+o);var f=r.textContent.trim();if(!f)return;f=f.replace(/&#x26;/g,&#x22;&#x26;amp;&#x22;).replace(/&#x3c;/g,&#x22;&#x26;lt;&#x22;).replace(/&#x3e;/g,&#x22;&#x26;gt;&#x22;).replace(/\u00a0/g,&#x22; &#x22;);var l={element:r,language:o,grammar:u,code:f};t.hooks.run(&#x22;before-highlight&#x22;,l);if(i&#x26;&#x26;self.Worker){var c=new Worker(t.filename);c.onmessage=function(e){l.highlightedCode=n.stringify(JSON.parse(e.data));l.element.innerHTML=l.highlightedCode;s&#x26;&#x26;s.call(l.element);t.hooks.run(&#x22;after-highlight&#x22;,l)};c.postMessage(JSON.stringify({language:l.language,code:l.code}))}else{l.highlightedCode=t.highlight(l.code,l.grammar);l.element.innerHTML=l.highlightedCode;s&#x26;&#x26;s.call(r);t.hooks.run(&#x22;after-highlight&#x22;,l)}},highlight:function(e,r){return n.stringify(t.tokenize(e,r))},tokenize:function(e,n){var r=t.Token,i=[e],s=n.rest;if(s){for(var o in s)n[o]=s[o];delete n.rest}e:for(var o in n){if(!n.hasOwnProperty(o)||!n[o])continue;var u=n[o],a=u.inside,f=!!u.lookbehind||0;u=u.pattern||u;for(var l=0;l&#x3c;i.length;l++){var c=i[l];if(i.length&#x3e;e.length)break e;if(c instanceof r)continue;u.lastIndex=0;var h=u.exec(c);if(h){f&#x26;&#x26;(f=h[1].length);var p=h.index-1+f,h=h[0].slice(f),d=h.length,v=p+d,m=c.slice(0,p+1),g=c.slice(v+1),y=[l,1];m&#x26;&#x26;y.<span class="apidocCodeKeywordSpan">push</span>(m);var b=new r(o,a?t.tokenize(h,a):h);y.push(b);g&#x26;&#x26;y.push(g);Array.prototype.splice.apply(i,y)}}}return i},hooks:{all:{},add:function(e,n){var r=t.hooks.all;r[e]=r[e]||[];r[e].push(n)},run:function(e,n){var r=t.hooks.all[e];if(!r||!r.length)return;for(var i=0,s;s=r[i++];)s(n)}}},n=t.Token=function(e,t){this.type=e;this.content=t};n.stringify=function(e){if(typeof e==&#x22;string&#x22;)return e;if(Object.prototype.toString.call(e)==&#x22;[object Array]&#x22;){for(var r=0;r&#x3c;e.length;r++)e[r]=n.stringify(e[r]);return e.join(&#x22;&#x22;)}var i={type:e.type,content:n.stringify(e.content),tag:&#x22;span&#x22;,classes:[&#x22;token&#x22;,e.type],attributes:{}};i.type==&#x22;comment&#x22;&#x26;&#x26;(i.attributes.spellcheck=&#x22;true&#x22;);t.hooks.run(&#x22;wrap&#x22;,i);var s=&#x22;&#x22;;for(var o in i.attributes)s+=o+&#x27;=&#x22;&#x27;+(i.attributes[o]||&#x22;&#x22;)+&#x27;&#x22;&#x27;;return&#x22;&#x3c;&#x22;+i.tag+&#x27; class=&#x22;&#x27;+i.classes.join(&#x22; &#x22;)+&#x27;&#x22; &#x27;+s+&#x22;&#x3e;&#x22;+i.content+&#x22;&#x3c;/&#x22;+i.tag+&#x22;&#x3e;&#x22;};if(!self.document){self.addEventListener(&#x22;message&#x22;,function(e){var n=JSON.parse(e.data),r=n.language,i=n.code;self.postMessage(JSON.stringify(t.tokenize(i,t.languages[r])));self.close()},!1);return}var r=document.getElementsByTagName(&#x22;script&#x22;);r=r[r.length-1];if(r){t.filename=r.src;document.addEventListener&#x26;&#x26;!r.hasAttribute(&#x22;data-manual&#x22;)&#x26;&#x26;document.addEventListener(&#x22;DOMContentLoaded&#x22;,t.highlightAll)}})();
-Prism.languages.markup={comment:/&#x26;lt;!--[\w\W]*?--(&#x26;gt;|&#x26;gt;)/g,prolog:/&#x26;lt;\?.+?\?&#x26;gt;/,doctype:/&#x26
-;lt;!DOCTYPE.+?&#x26;gt;/,cdata:/&#x26;lt;!\[CDATA\[[\w\W]+?]]&#x26;gt;/i,tag:{pattern:/&#x26;lt;\/?[\w:-]+\s*[\w\W]*?&#x26;gt;/gi,inside:{tag:{pattern:/^&#x26;lt;\/?[\w:-]+/i,inside:{punctuation:/^&#x26;lt;\/?/,namespace:/^[\w-]+?:/}},&#x22;attr-value&#x22;:{pattern:/=((&#x27;|&#x22;)[\w\W]*?(\2)|[^\s&#x3e;]+)/gi,inside:{punctuation:/=/g}},punctuation:/\/?&#x26;gt;/g,&#x22;attr-name&#x22;:{pattern:/[\w:-]+/g,inside:{namespace:/^[\w-]+?:/}}}},entity:/&#x26;amp;#?[\da-z]{1,8};/gi};Prism.hooks.add(&#x22;wrap&#x22;,function(e){e.type===&#x22;entity&#x22;&#x26;&#x26;(e.attributes.title=e.content.replace(/&#x26;amp;/,&#x22;&#x26;&#x22;))});
-Prism.languages.javascript={comment:{pattern:/(^|[^\\])(\/\*[\w\W]*?\*\/|\/\/.*?(\r?\n|$))/g,lookbehind:!0},string:/(&#x22;|&#x27
-;)(\\?.)*?\1/g,regex:{pattern:/(^|[^/])\/(?!\/)(\[.+?]|\\.|[^/\r\n])+\/[gim]{0,3}(?=\s*($|[\r\n,.;})]))/g,lookbehind:!0},keyword:/\b(var|let|if|else|while|do|for|return|in|instanceof|function|new|with|typeof|try|catch|finally|null|break|continue)\b/g,&#x22;boolean&#x22;:/\b(true|false)\b/g,number:/\b-?(0x)?\d*\.?\d+\b/g,operator:/[-+]{1,2}|!|=?&#x26;lt;|=?&#x26;gt;|={1,2}|(&#x26;amp;){1,2}|\|?\||\?|\*|\//g,ignore:/&#x26;(lt|gt|amp);/gi,punctuation:/[{}[\];(),.:]/g};Prism.languages.markup&#x26;&#x26;Prism.languages.insertBefore(&#x22;markup&#x22;,&#x22;tag&#x22;,{script:{pattern:/(&#x26;lt;|&#x3c;)script[\w\W]*?(&#x3e;|&#x26;gt;)[\w\W]*?(&#x26;lt;|&#x3c;)\/script(&#x3e;|&#x26;gt;)/ig,inside:{tag:{pattern:/(&#x26;lt;|&#x3c;)script[\w\W]*?(&#x3e;|&#x26;gt;)|(&#x26;lt;|&#x3c;)\/script(&#x3e;|&#x26;gt;)/ig,inside:Prism.languages.markup.tag.inside},rest:Prism.languages.javascript}}});
+ s=i[e],o={};for(var u in s)if(s.hasOwnProperty(u)){if(u==n)for(var a in r)r.hasOwnProperty(a)&amp;&amp;(o[a]=r[a]);o[u]=s[u]}
+return i[e]=o},DFS:function(e,n){for(var r in e){n.call(e,r,e[r]);Object.prototype.toString.call(e)==="[object Object]"
+;&amp;&amp;t.languages.DFS(e[r],n)}}},highlightAll:function(e,n){var r=document.querySelectorAll('code[class*="language
+-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code');for(var i=
+0,s;s=r[i++];)t.highlightElement(s,e===!0,n)},highlightElement:function(r,i,s){var o,u,a=r;while(a&amp;&amp;!e.test(a.className
+))a=a.parentNode;if(a){o=(a.className.match(e)||[,""])[1];u=t.languages[o]}if(!u)return;r.className=r.className.replace
+(e,"").replace(/\s+/g," ")+" language-"+o;a=r.parentNode;/pre/i.test(a.nodeName)&amp;&amp;(a.className=a.className.replace(e,"").replace(/\s+/g," ")+" language-"+o);var f=r.textContent.trim();if(!f)return;f=f.replace(/&amp;/g,"&amp;amp;").replace(/&lt;/g,"&amp;lt;").replace(/&gt;/g,"&amp;gt;").replace(/\u00a0/g," ");var l={element:r,language:o,grammar:u,code:f};t.hooks.run("before-highlight",l);if(i&amp;&amp;self.Worker){var c=new Worker(t.filename);c.onmessage=function(e){l.highlightedCode=n.stringify(JSON.parse(e.data));l.element.innerHTML=l.highlightedCode;s&amp;&amp;s.call(l.element);t.hooks.run("after-highlight",l)};c.postMessage(JSON.stringify({language:l.language,code:l.code}))}else{l.highlightedCode=t.highlight(l.code,l.grammar);l.element.innerHTML=l.highlightedCode;s&amp;&amp;s.call(r);t.hooks.run("after-highlight",l)}},highlight:function(e,r){return n.stringify(t.tokenize(e,r))},tokenize:function(e,n){var r=t.Token,i=[e],s=n.rest;if(s){for(var o in s)n[o]=s[o];delete n.rest}e:for(var o in n){if(!n.hasOwnProperty(o)||!n[o])continue;var u=n[o],a=u.inside,f=!!u.lookbehind||0;u=u.pattern||u;for(var l=0;l&lt;i.length;l++){var c=i[l];if(i.length&gt;e.length)break e;if(c instanceof r)continue;u.lastIndex=0;var h=u.exec(c);if(h){f&amp;&amp;(f=h[1].length);var p=h.index-1+f,h=h[0].slice(f),d=h.length,v=p+d,m=c.slice(0,p+1),g=c.slice(v+1),y=[l,1];m&amp;&amp;y.<span class="apidocCodeKeywordSpan">push</span>(m);var b=new r(o,a?t.tokenize(h,a):h);y.push(b);g&amp;&amp;y.push(g);Array.prototype.splice.apply(i,y)}}}return i},hooks:{all:{},add:function(e,n){var r=t.hooks.all;r[e]=r[e]||[];r[e].push(n)},run:function(e,n){var r=t.hooks.all[e];if(!r||!r.length)return;for(var i=0,s;s=r[i++];)s(n)}}},n=t.Token=function(e,t){this.type=e;this.content=t};n.stringify=function(e){if(typeof e=="string")return e;if(Object.prototype.toString.call(e)=="[object Array]"){for(var r=0;r&lt;e.length;r++)e[r]=n.stringify(e[r]);return e.join("")}var i={type:e.type,content:n.stringify(e.content),tag:"span",classes:["token",e.type],attributes:{}};i.type=="comment"&amp;&amp;(i.attributes.spellcheck="true");t.hooks.run("wrap",i);var s="";for(var o in i.attributes)s+=o+'="'+(i.attributes[o]||"")+'"';return"&lt;"+i.tag+' class="'+i.classes.join(" ")+'" '+s+"&gt;"+i.content+"&lt;/"+i.tag+"&gt;"};if(!self.document){self.addEventListener("message",function(e){var n=JSON.parse(e.data),r=n.language,i=n.code;self.postMessage(JSON.stringify(t.tokenize(i,t.languages[r])));self.close()},!1);return}var r=document.getElementsByTagName("script");r=r[r.length-1];if(r){t.filename=r.src;document.addEventListener&amp;&amp;!r.hasAttribute("data-manual")&amp;&amp;document.addEventListener("DOMContentLoaded",t.highlightAll)}})();
+Prism.languages.markup={comment:/&amp;lt;!--[\w\W]*?--(&amp;gt;|&amp;gt;)/g,prolog:/&amp;lt;\?.+?\?&amp;gt;/,doctype:/&amp;
+;lt;!DOCTYPE.+?&amp;gt;/,cdata:/&amp;lt;!\[CDATA\[[\w\W]+?]]&amp;gt;/i,tag:{pattern:/&amp;lt;\/?[\w:-]+\s*[\w\W]*?&amp;gt;/gi,inside:{tag:{pattern:/^&amp;lt;\/?[\w:-]+/i,inside:{punctuation:/^&amp;lt;\/?/,namespace:/^[\w-]+?:/}},"attr-value":{pattern:/=(('|")[\w\W]*?(\2)|[^\s&gt;]+)/gi,inside:{punctuation:/=/g}},punctuation:/\/?&amp;gt;/g,"attr-name":{pattern:/[\w:-]+/g,inside:{namespace:/^[\w-]+?:/}}}},entity:/&amp;amp;#?[\da-z]{1,8};/gi};Prism.hooks.add("wrap",function(e){e.type==="entity"&amp;&amp;(e.attributes.title=e.content.replace(/&amp;amp;/,"&amp;"))});
+Prism.languages.javascript={comment:{pattern:/(^|[^\\])(\/\*[\w\W]*?\*\/|\/\/.*?(\r?\n|$))/g,lookbehind:!0},string:/("|'
+;)(\\?.)*?\1/g,regex:{pattern:/(^|[^/])\/(?!\/)(\[.+?]|\\.|[^/\r\n])+\/[gim]{0,3}(?=\s*($|[\r\n,.;})]))/g,lookbehind:!0},keyword:/\b(var|let|if|else|while|do|for|return|in|instanceof|function|new|with|typeof|try|catch|finally|null|break|continue)\b/g,"boolean":/\b(true|false)\b/g,number:/\b-?(0x)?\d*\.?\d+\b/g,operator:/[-+]{1,2}|!|=?&amp;lt;|=?&amp;gt;|={1,2}|(&amp;amp;){1,2}|\|?\||\?|\*|\//g,ignore:/&amp;(lt|gt|amp);/gi,punctuation:/[{}[\];(),.:]/g};Prism.languages.markup&amp;&amp;Prism.languages.insertBefore("markup","tag",{script:{pattern:/(&amp;lt;|&lt;)script[\w\W]*?(&gt;|&amp;gt;)[\w\W]*?(&amp;lt;|&lt;)\/script(&gt;|&amp;gt;)/ig,inside:{tag:{pattern:/(&amp;lt;|&lt;)script[\w\W]*?(&gt;|&amp;gt;)|(&amp;lt;|&lt;)\/script(&gt;|&amp;gt;)/ig,inside:Prism.languages.markup.tag.inside},rest:Prism.languages.javascript}}});
 ...</pre></li>
     </ul>
 
@@ -8698,15 +8689,15 @@ Prism.languages.javascript={comment:{pattern:/(^|[^\\])(\/\*[\w\W]*?\*\/|\/\/.*?
 
 jQuery.extend({
 	// Unique for each copy of jQuery on the page
-	expando: &#x22;jQuery&#x22; + ( core_version + Math.<span class="apidocCodeKeywordSpan">random</span>() ).replace( /\D/g, &#x22
-;&#x22; ),
+	expando: "jQuery" + ( core_version + Math.<span class="apidocCodeKeywordSpan">random</span>() ).replace( /\D/g, "
+;" ),
 
 	noConflict: function( deep ) {
 		if ( window.$ === jQuery ) {
 			window.$ = _$;
 		}
 
-		if ( deep &#x26;&#x26; window.jQuery === jQuery ) {
+		if ( deep &amp;&amp; window.jQuery === jQuery ) {
 ...</pre></li>
     </ul>
 
@@ -8762,7 +8753,7 @@ Observable.range = function (start, count, scheduler) {
   this.context.bindings,
   true,
 );
-result = result.map(terms =&#x3e; {
+result = result.map(terms =&gt; {
   if (terms instanceof Syntax) {
     return new T.RawSyntax({
       value: terms,
@@ -8770,7 +8761,7 @@ result = result.map(terms =&#x3e; {
   } else if (!(terms instanceof Term)) {
     throw this.createError(
       name,
-      &#x27;macro must return syntax objects or terms but got: &#x27; + terms,
+      'macro must return syntax objects or terms but got: ' + terms,
     );
   }
   return terms.reduce(scopeReducer);
@@ -8793,11 +8784,11 @@ result = result.map(terms =&#x3e; {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 // The right-associative version of reduce, also known as `foldr`.
-// Delegates to **ECMAScript 5**&#x27;s native `reduceRight` if available.
+// Delegates to **ECMAScript 5**'s native `reduceRight` if available.
 _.reduceRight = _.foldr = function(obj, iterator, memo, context) {
-  var initial = arguments.length &#x3e; 2;
+  var initial = arguments.length &gt; 2;
   if (obj == null) obj = [];
-  if (nativeReduceRight &#x26;&#x26; obj.reduceRight === nativeReduceRight) {
+  if (nativeReduceRight &amp;&amp; obj.reduceRight === nativeReduceRight) {
     if (context) iterator = _.bind(iterator, context);
     return initial ? obj.<span class="apidocCodeKeywordSpan">reduceRight</span>(iterator, memo) : obj.reduceRight(iterator);
   }
@@ -8904,7 +8895,7 @@ var AnonymousObservable = Rx.AnonymousObservable = (function (__super__) {
     <li>description and source-code<pre class="apidocCodePre">reverse = function () {
   var obj = this._wrapped;
   method.apply(obj, arguments);
-  if ((name == &#x27;shift&#x27; || name == &#x27;splice&#x27;) &#x26;&#x26; obj.length === 0) delete obj[0];
+  if ((name == 'shift' || name == 'splice') &amp;&amp; obj.length === 0) delete obj[0];
   return result.call(this, obj);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -8986,7 +8977,7 @@ function selectInput(node) {
 
 function indexOf(collection, elt) {
   if (collection.indexOf) return collection.indexOf(elt);
-  for (var i = 0, e = collection.length; i &#x3c; e; ++i)
+  for (var i = 0, e = collection.length; i &lt; e; ++i)
     if (collection[i] == elt) return i;
   return -1;
 ...</pre></li>
@@ -9004,7 +8995,7 @@ function indexOf(collection, elt) {
     <li>description and source-code<pre class="apidocCodePre">shift = function () {
   var obj = this._wrapped;
   method.apply(obj, arguments);
-  if ((name == &#x27;shift&#x27; || name == &#x27;splice&#x27;) &#x26;&#x26; obj.length === 0) delete obj[0];
+  if ((name == 'shift' || name == 'splice') &amp;&amp; obj.length === 0) delete obj[0];
   return result.call(this, obj);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -9017,10 +9008,10 @@ function indexOf(collection, elt) {
 
 var nextIntact = intact.<span class="apidocCodeKeywordSpan">shift</span>(), lineNo = from;
 cm.view.doc.iter(from, to, function(line) {
-  if (nextIntact &#x26;&#x26; nextIntact.to == lineNo) nextIntact = intact.shift();
+  if (nextIntact &amp;&amp; nextIntact.to == lineNo) nextIntact = intact.shift();
   if (lineIsHidden(line)) {
     if (line.height != 0) updateLineHeight(line, 0);
-  } else if (nextIntact &#x26;&#x26; nextIntact.from &#x3c;= lineNo &#x26;&#x26; nextIntact.to &#x3e; lineNo) {
+  } else if (nextIntact &amp;&amp; nextIntact.from &lt;= lineNo &amp;&amp; nextIntact.to &gt; lineNo) {
     // This line is intact. Skip to the actual node. Update its
     // line number if needed.
 ...</pre></li>
@@ -9097,17 +9088,17 @@ var lookupIterator = function(value) {
  * MIT license http://www.opensource.org/licenses/mit-license.php/
  * @author Lea Verou http://lea.verou.me
  */(function(){var e=/\blang(?:uage)?-(?!\*)(\w+)\b/i,t=self.Prism={languages:{insertBefore:function(e,n,r,i){i=i||t.languages;var
- s=i[e],o={};for(var u in s)if(s.hasOwnProperty(u)){if(u==n)for(var a in r)r.hasOwnProperty(a)&#x26;&#x26;(o[a]=r[a]);o[u]=s[u]}
-return i[e]=o},DFS:function(e,n){for(var r in e){n.call(e,r,e[r]);Object.prototype.toString.call(e)===&#x22;[object Object]&#x22
-;&#x26;&#x26;t.languages.DFS(e[r],n)}}},highlightAll:function(e,n){var r=document.querySelectorAll(&#x27;code[class*=&#x22;language
--&#x22;], [class*=&#x22;language-&#x22;] code, code[class*=&#x22;lang-&#x22;], [class*=&#x22;lang-&#x22;] code&#x27;);for(var i=
-0,s;s=r[i++];)t.highlightElement(s,e===!0,n)},highlightElement:function(r,i,s){var o,u,a=r;while(a&#x26;&#x26;!e.test(a.className
-))a=a.parentNode;if(a){o=(a.className.match(e)||[,&#x22;&#x22;])[1];u=t.languages[o]}if(!u)return;r.className=r.className.replace
-(e,&#x22;&#x22;).replace(/\s+/g,&#x22; &#x22;)+&#x22; language-&#x22;+o;a=r.parentNode;/pre/i.test(a.nodeName)&#x26;&#x26;(a.className=a.className.replace(e,&#x22;&#x22;).replace(/\s+/g,&#x22; &#x22;)+&#x22; language-&#x22;+o);var f=r.textContent.trim();if(!f)return;f=f.replace(/&#x26;/g,&#x22;&#x26;amp;&#x22;).replace(/&#x3c;/g,&#x22;&#x26;lt;&#x22;).replace(/&#x3e;/g,&#x22;&#x26;gt;&#x22;).replace(/\u00a0/g,&#x22; &#x22;);var l={element:r,language:o,grammar:u,code:f};t.hooks.run(&#x22;before-highlight&#x22;,l);if(i&#x26;&#x26;self.Worker){var c=new Worker(t.filename);c.onmessage=function(e){l.highlightedCode=n.stringify(JSON.parse(e.data));l.element.innerHTML=l.highlightedCode;s&#x26;&#x26;s.call(l.element);t.hooks.run(&#x22;after-highlight&#x22;,l)};c.postMessage(JSON.stringify({language:l.language,code:l.code}))}else{l.highlightedCode=t.highlight(l.code,l.grammar);l.element.innerHTML=l.highlightedCode;s&#x26;&#x26;s.call(r);t.hooks.run(&#x22;after-highlight&#x22;,l)}},highlight:function(e,r){return n.stringify(t.tokenize(e,r))},tokenize:function(e,n){var r=t.Token,i=[e],s=n.rest;if(s){for(var o in s)n[o]=s[o];delete n.rest}e:for(var o in n){if(!n.hasOwnProperty(o)||!n[o])continue;var u=n[o],a=u.inside,f=!!u.lookbehind||0;u=u.pattern||u;for(var l=0;l&#x3c;i.length;l++){var c=i[l];if(i.length&#x3e;e.length)break e;if(c instanceof r)continue;u.lastIndex=0;var h=u.exec(c);if(h){f&#x26;&#x26;(f=h[1].length);var p=h.index-1+f,h=h[0].<span class="apidocCodeKeywordSpan">slice</span>(f),d=h.length,v=p+d,m=c.slice(0,p+1),g=c.slice(v+1),y=[l,1];m&#x26;&#x26;y.push(m);var b=new r(o,a?t.tokenize(h,a):h);y.push(b);g&#x26;&#x26;y.push(g);Array.prototype.splice.apply(i,y)}}}return i},hooks:{all:{},add:function(e,n){var r=t.hooks.all;r[e]=r[e]||[];r[e].push(n)},run:function(e,n){var r=t.hooks.all[e];if(!r||!r.length)return;for(var i=0,s;s=r[i++];)s(n)}}},n=t.Token=function(e,t){this.type=e;this.content=t};n.stringify=function(e){if(typeof e==&#x22;string&#x22;)return e;if(Object.prototype.toString.call(e)==&#x22;[object Array]&#x22;){for(var r=0;r&#x3c;e.length;r++)e[r]=n.stringify(e[r]);return e.join(&#x22;&#x22;)}var i={type:e.type,content:n.stringify(e.content),tag:&#x22;span&#x22;,classes:[&#x22;token&#x22;,e.type],attributes:{}};i.type==&#x22;comment&#x22;&#x26;&#x26;(i.attributes.spellcheck=&#x22;true&#x22;);t.hooks.run(&#x22;wrap&#x22;,i);var s=&#x22;&#x22;;for(var o in i.attributes)s+=o+&#x27;=&#x22;&#x27;+(i.attributes[o]||&#x22;&#x22;)+&#x27;&#x22;&#x27;;return&#x22;&#x3c;&#x22;+i.tag+&#x27; class=&#x22;&#x27;+i.classes.join(&#x22; &#x22;)+&#x27;&#x22; &#x27;+s+&#x22;&#x3e;&#x22;+i.content+&#x22;&#x3c;/&#x22;+i.tag+&#x22;&#x3e;&#x22;};if(!self.document){self.addEventListener(&#x22;message&#x22;,function(e){var n=JSON.parse(e.data),r=n.language,i=n.code;self.postMessage(JSON.stringify(t.tokenize(i,t.languages[r])));self.close()},!1);return}var r=document.getElementsByTagName(&#x22;script&#x22;);r=r[r.length-1];if(r){t.filename=r.src;document.addEventListener&#x26;&#x26;!r.hasAttribute(&#x22;data-manual&#x22;)&#x26;&#x26;document.addEventListener(&#x22;DOMContentLoaded&#x22;,t.highlightAll)}})();
-Prism.languages.markup={comment:/&#x26;lt;!--[\w\W]*?--(&#x26;gt;|&#x26;gt;)/g,prolog:/&#x26;lt;\?.+?\?&#x26;gt;/,doctype:/&#x26
-;lt;!DOCTYPE.+?&#x26;gt;/,cdata:/&#x26;lt;!\[CDATA\[[\w\W]+?]]&#x26;gt;/i,tag:{pattern:/&#x26;lt;\/?[\w:-]+\s*[\w\W]*?&#x26;gt;/gi,inside:{tag:{pattern:/^&#x26;lt;\/?[\w:-]+/i,inside:{punctuation:/^&#x26;lt;\/?/,namespace:/^[\w-]+?:/}},&#x22;attr-value&#x22;:{pattern:/=((&#x27;|&#x22;)[\w\W]*?(\2)|[^\s&#x3e;]+)/gi,inside:{punctuation:/=/g}},punctuation:/\/?&#x26;gt;/g,&#x22;attr-name&#x22;:{pattern:/[\w:-]+/g,inside:{namespace:/^[\w-]+?:/}}}},entity:/&#x26;amp;#?[\da-z]{1,8};/gi};Prism.hooks.add(&#x22;wrap&#x22;,function(e){e.type===&#x22;entity&#x22;&#x26;&#x26;(e.attributes.title=e.content.replace(/&#x26;amp;/,&#x22;&#x26;&#x22;))});
-Prism.languages.javascript={comment:{pattern:/(^|[^\\])(\/\*[\w\W]*?\*\/|\/\/.*?(\r?\n|$))/g,lookbehind:!0},string:/(&#x22;|&#x27
-;)(\\?.)*?\1/g,regex:{pattern:/(^|[^/])\/(?!\/)(\[.+?]|\\.|[^/\r\n])+\/[gim]{0,3}(?=\s*($|[\r\n,.;})]))/g,lookbehind:!0},keyword:/\b(var|let|if|else|while|do|for|return|in|instanceof|function|new|with|typeof|try|catch|finally|null|break|continue)\b/g,&#x22;boolean&#x22;:/\b(true|false)\b/g,number:/\b-?(0x)?\d*\.?\d+\b/g,operator:/[-+]{1,2}|!|=?&#x26;lt;|=?&#x26;gt;|={1,2}|(&#x26;amp;){1,2}|\|?\||\?|\*|\//g,ignore:/&#x26;(lt|gt|amp);/gi,punctuation:/[{}[\];(),.:]/g};Prism.languages.markup&#x26;&#x26;Prism.languages.insertBefore(&#x22;markup&#x22;,&#x22;tag&#x22;,{script:{pattern:/(&#x26;lt;|&#x3c;)script[\w\W]*?(&#x3e;|&#x26;gt;)[\w\W]*?(&#x26;lt;|&#x3c;)\/script(&#x3e;|&#x26;gt;)/ig,inside:{tag:{pattern:/(&#x26;lt;|&#x3c;)script[\w\W]*?(&#x3e;|&#x26;gt;)|(&#x26;lt;|&#x3c;)\/script(&#x3e;|&#x26;gt;)/ig,inside:Prism.languages.markup.tag.inside},rest:Prism.languages.javascript}}});
+ s=i[e],o={};for(var u in s)if(s.hasOwnProperty(u)){if(u==n)for(var a in r)r.hasOwnProperty(a)&amp;&amp;(o[a]=r[a]);o[u]=s[u]}
+return i[e]=o},DFS:function(e,n){for(var r in e){n.call(e,r,e[r]);Object.prototype.toString.call(e)==="[object Object]"
+;&amp;&amp;t.languages.DFS(e[r],n)}}},highlightAll:function(e,n){var r=document.querySelectorAll('code[class*="language
+-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code');for(var i=
+0,s;s=r[i++];)t.highlightElement(s,e===!0,n)},highlightElement:function(r,i,s){var o,u,a=r;while(a&amp;&amp;!e.test(a.className
+))a=a.parentNode;if(a){o=(a.className.match(e)||[,""])[1];u=t.languages[o]}if(!u)return;r.className=r.className.replace
+(e,"").replace(/\s+/g," ")+" language-"+o;a=r.parentNode;/pre/i.test(a.nodeName)&amp;&amp;(a.className=a.className.replace(e,"").replace(/\s+/g," ")+" language-"+o);var f=r.textContent.trim();if(!f)return;f=f.replace(/&amp;/g,"&amp;amp;").replace(/&lt;/g,"&amp;lt;").replace(/&gt;/g,"&amp;gt;").replace(/\u00a0/g," ");var l={element:r,language:o,grammar:u,code:f};t.hooks.run("before-highlight",l);if(i&amp;&amp;self.Worker){var c=new Worker(t.filename);c.onmessage=function(e){l.highlightedCode=n.stringify(JSON.parse(e.data));l.element.innerHTML=l.highlightedCode;s&amp;&amp;s.call(l.element);t.hooks.run("after-highlight",l)};c.postMessage(JSON.stringify({language:l.language,code:l.code}))}else{l.highlightedCode=t.highlight(l.code,l.grammar);l.element.innerHTML=l.highlightedCode;s&amp;&amp;s.call(r);t.hooks.run("after-highlight",l)}},highlight:function(e,r){return n.stringify(t.tokenize(e,r))},tokenize:function(e,n){var r=t.Token,i=[e],s=n.rest;if(s){for(var o in s)n[o]=s[o];delete n.rest}e:for(var o in n){if(!n.hasOwnProperty(o)||!n[o])continue;var u=n[o],a=u.inside,f=!!u.lookbehind||0;u=u.pattern||u;for(var l=0;l&lt;i.length;l++){var c=i[l];if(i.length&gt;e.length)break e;if(c instanceof r)continue;u.lastIndex=0;var h=u.exec(c);if(h){f&amp;&amp;(f=h[1].length);var p=h.index-1+f,h=h[0].<span class="apidocCodeKeywordSpan">slice</span>(f),d=h.length,v=p+d,m=c.slice(0,p+1),g=c.slice(v+1),y=[l,1];m&amp;&amp;y.push(m);var b=new r(o,a?t.tokenize(h,a):h);y.push(b);g&amp;&amp;y.push(g);Array.prototype.splice.apply(i,y)}}}return i},hooks:{all:{},add:function(e,n){var r=t.hooks.all;r[e]=r[e]||[];r[e].push(n)},run:function(e,n){var r=t.hooks.all[e];if(!r||!r.length)return;for(var i=0,s;s=r[i++];)s(n)}}},n=t.Token=function(e,t){this.type=e;this.content=t};n.stringify=function(e){if(typeof e=="string")return e;if(Object.prototype.toString.call(e)=="[object Array]"){for(var r=0;r&lt;e.length;r++)e[r]=n.stringify(e[r]);return e.join("")}var i={type:e.type,content:n.stringify(e.content),tag:"span",classes:["token",e.type],attributes:{}};i.type=="comment"&amp;&amp;(i.attributes.spellcheck="true");t.hooks.run("wrap",i);var s="";for(var o in i.attributes)s+=o+'="'+(i.attributes[o]||"")+'"';return"&lt;"+i.tag+' class="'+i.classes.join(" ")+'" '+s+"&gt;"+i.content+"&lt;/"+i.tag+"&gt;"};if(!self.document){self.addEventListener("message",function(e){var n=JSON.parse(e.data),r=n.language,i=n.code;self.postMessage(JSON.stringify(t.tokenize(i,t.languages[r])));self.close()},!1);return}var r=document.getElementsByTagName("script");r=r[r.length-1];if(r){t.filename=r.src;document.addEventListener&amp;&amp;!r.hasAttribute("data-manual")&amp;&amp;document.addEventListener("DOMContentLoaded",t.highlightAll)}})();
+Prism.languages.markup={comment:/&amp;lt;!--[\w\W]*?--(&amp;gt;|&amp;gt;)/g,prolog:/&amp;lt;\?.+?\?&amp;gt;/,doctype:/&amp;
+;lt;!DOCTYPE.+?&amp;gt;/,cdata:/&amp;lt;!\[CDATA\[[\w\W]+?]]&amp;gt;/i,tag:{pattern:/&amp;lt;\/?[\w:-]+\s*[\w\W]*?&amp;gt;/gi,inside:{tag:{pattern:/^&amp;lt;\/?[\w:-]+/i,inside:{punctuation:/^&amp;lt;\/?/,namespace:/^[\w-]+?:/}},"attr-value":{pattern:/=(('|")[\w\W]*?(\2)|[^\s&gt;]+)/gi,inside:{punctuation:/=/g}},punctuation:/\/?&amp;gt;/g,"attr-name":{pattern:/[\w:-]+/g,inside:{namespace:/^[\w-]+?:/}}}},entity:/&amp;amp;#?[\da-z]{1,8};/gi};Prism.hooks.add("wrap",function(e){e.type==="entity"&amp;&amp;(e.attributes.title=e.content.replace(/&amp;amp;/,"&amp;"))});
+Prism.languages.javascript={comment:{pattern:/(^|[^\\])(\/\*[\w\W]*?\*\/|\/\/.*?(\r?\n|$))/g,lookbehind:!0},string:/("|'
+;)(\\?.)*?\1/g,regex:{pattern:/(^|[^/])\/(?!\/)(\[.+?]|\\.|[^/\r\n])+\/[gim]{0,3}(?=\s*($|[\r\n,.;})]))/g,lookbehind:!0},keyword:/\b(var|let|if|else|while|do|for|return|in|instanceof|function|new|with|typeof|try|catch|finally|null|break|continue)\b/g,"boolean":/\b(true|false)\b/g,number:/\b-?(0x)?\d*\.?\d+\b/g,operator:/[-+]{1,2}|!|=?&amp;lt;|=?&amp;gt;|={1,2}|(&amp;amp;){1,2}|\|?\||\?|\*|\//g,ignore:/&amp;(lt|gt|amp);/gi,punctuation:/[{}[\];(),.:]/g};Prism.languages.markup&amp;&amp;Prism.languages.insertBefore("markup","tag",{script:{pattern:/(&amp;lt;|&lt;)script[\w\W]*?(&gt;|&amp;gt;)[\w\W]*?(&amp;lt;|&lt;)\/script(&gt;|&amp;gt;)/ig,inside:{tag:{pattern:/(&amp;lt;|&lt;)script[\w\W]*?(&gt;|&amp;gt;)|(&amp;lt;|&lt;)\/script(&gt;|&amp;gt;)/ig,inside:Prism.languages.markup.tag.inside},rest:Prism.languages.javascript}}});
 ...</pre></li>
     </ul>
 
@@ -9129,11 +9120,11 @@ Prism.languages.javascript={comment:{pattern:/(^|[^\\])(\/\*[\w\W]*?\*\/|\/\/.*?
   ? stx.scopesets.phase.get(phase)
   : List();
 scopeset = allScopeset.concat(scopeset);
-assert(phase != null, &#x27;must provide a phase for binding add&#x27;);
+assert(phase != null, 'must provide a phase for binding add');
 
 let scopesetBindingList = this._map.get(stxName);
 if (scopesetBindingList) {
-  if (skipDup &#x26;&#x26; scopesetBindingList.<span class="apidocCodeKeywordSpan">some</span>(s =&#x3e; s.scopes.equals(scopeset
+  if (skipDup &amp;&amp; scopesetBindingList.<span class="apidocCodeKeywordSpan">some</span>(s =&gt; s.scopes.equals(scopeset
 ))) {
     return;
   }
@@ -9157,22 +9148,22 @@ if (scopesetBindingList) {
     <li>description and source-code<pre class="apidocCodePre">sort = function () {
   var obj = this._wrapped;
   method.apply(obj, arguments);
-  if ((name == &#x27;shift&#x27; || name == &#x27;splice&#x27;) &#x26;&#x26; obj.length === 0) delete obj[0];
+  if ((name == 'shift' || name == 'splice') &amp;&amp; obj.length === 0) delete obj[0];
   return result.call(this, obj);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  if (range.from &#x3c; from) range.from = from;
-  if (range.to &#x3e; to) range.to = to;
-  if (range.from &#x3e;= range.to) intact.splice(i--, 1);
+  if (range.from &lt; from) range.from = from;
+  if (range.to &gt; to) range.to = to;
+  if (range.from &gt;= range.to) intact.splice(i--, 1);
   else intactLines += range.to - range.from;
 }
-if (intactLines == to - from &#x26;&#x26; from == display.showingFrom &#x26;&#x26; to == display.showingTo)
+if (intactLines == to - from &amp;&amp; from == display.showingFrom &amp;&amp; to == display.showingTo)
   return;
 intact.<span class="apidocCodeKeywordSpan">sort</span>(function(a, b) {return a.from - b.from;});
 
-if (intactLines &#x3c; (to - from) * .7) display.lineDiv.style.display = &#x22;none&#x22;;
+if (intactLines &lt; (to - from) * .7) display.lineDiv.style.display = "none";
 patchDisplay(cm, from, to, intact, positionsChangedFrom);
-display.lineDiv.style.display = &#x22;&#x22;;
+display.lineDiv.style.display = "";
 
 var different = from != display.showingFrom || to != display.showingTo ||
   display.lastSizeC != display.wrapper.clientHeight;
@@ -9215,15 +9206,15 @@ _.indexOf = function(array, item, isSorted) {
   if (array == null) return -1;
   var i = 0, length = array.length;
   if (isSorted) {
-    if (typeof isSorted == &#x27;number&#x27;) {
-      i = (isSorted &#x3c; 0 ? Math.max(0, length + isSorted) : isSorted);
+    if (typeof isSorted == 'number') {
+      i = (isSorted &lt; 0 ? Math.max(0, length + isSorted) : isSorted);
     } else {
       i = _.<span class="apidocCodeKeywordSpan">sortedIndex</span>(array, item);
       return array[i] === item ? i : -1;
     }
   }
-  if (nativeIndexOf &#x26;&#x26; array.indexOf === nativeIndexOf) return array.indexOf(item, isSorted);
-  for (; i &#x3c; length; i++) if (array[i] === item) return i;
+  if (nativeIndexOf &amp;&amp; array.indexOf === nativeIndexOf) return array.indexOf(item, isSorted);
+  for (; i &lt; length; i++) if (array[i] === item) return i;
   return -1;
 };
 ...</pre></li>
@@ -9241,22 +9232,22 @@ _.indexOf = function(array, item, isSorted) {
     <li>description and source-code<pre class="apidocCodePre">splice = function () {
   var obj = this._wrapped;
   method.apply(obj, arguments);
-  if ((name == &#x27;shift&#x27; || name == &#x27;splice&#x27;) &#x26;&#x26; obj.length === 0) delete obj[0];
+  if ((name == 'shift' || name == 'splice') &amp;&amp; obj.length === 0) delete obj[0];
   return result.call(this, obj);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 // Make sure the gutters options contains the element
-// &#x22;CodeMirror-linenumbers&#x22; when the lineNumbers option is true.
+// "CodeMirror-linenumbers" when the lineNumbers option is true.
 function setGuttersForLineNumbers(options) {
   var found = false;
-  for (var i = 0; i &#x3c; options.gutters.length; ++i) {
-    if (options.gutters[i] == &#x22;CodeMirror-linenumbers&#x22;) {
+  for (var i = 0; i &lt; options.gutters.length; ++i) {
+    if (options.gutters[i] == "CodeMirror-linenumbers") {
       if (options.lineNumbers) found = true;
       else options.gutters.<span class="apidocCodeKeywordSpan">splice</span>(i--, 1);
     }
   }
-  if (!found &#x26;&#x26; options.lineNumbers)
-    options.gutters.push(&#x22;CodeMirror-linenumbers&#x22;);
+  if (!found &amp;&amp; options.lineNumbers)
+    options.gutters.push("CodeMirror-linenumbers");
 }
 
 // SCROLLBARS
@@ -9306,7 +9297,7 @@ var documentReadyObs = $(window).readyAsObservable().<span class="apidocCodeKeyw
 windowResizeObs  = $(window).resizeAsObservable().startWith(true),
 
 initEditorObs = documentReadyObs
-    .map(_.partial($, &#x22;#editor&#x22;, undefined))
+    .map(_.partial($, "#editor", undefined))
     .map(_.partial(initEditor, getEditorOptions))
     .map(initEditorKeyMap),
 ...</pre></li>
@@ -9335,7 +9326,7 @@ initEditorObs = documentReadyObs
  * @returns {Observable} The source sequence with the side-effecting behavior applied.
  */
 observableProto.doOnNext = observableProto.tapOnNext = function (onNext, thisArg) {
-  return this.<span class="apidocCodeKeywordSpan">tap</span>(typeof thisArg !== &#x27;undefined&#x27; ? function (x) { onNext.call
+  return this.<span class="apidocCodeKeywordSpan">tap</span>(typeof thisArg !== 'undefined' ? function (x) { onNext.call
 (thisArg, x); } : onNext);
 };
 
@@ -9421,7 +9412,7 @@ observableProto.doOnNext = observableProto.tapOnNext = function (onNext, thisArg
 };
 
 let sandboxKeys = List(Object.keys(sandbox));
-let sandboxVals = sandboxKeys.map(k =&#x3e; sandbox[k]).<span class="apidocCodeKeywordSpan">toArray</span>();
+let sandboxVals = sandboxKeys.map(k =&gt; sandbox[k]).<span class="apidocCodeKeywordSpan">toArray</span>();
 
 let parsed = new S.Module({
   directives: List(),
@@ -9516,13 +9507,13 @@ _.intersection = function(array) {
     <li>example usage<pre class="apidocCodePre">...
 		}
 
-		for ( i = 0; i &#x3c; len; i++ ) {
+		for ( i = 0; i &lt; len; i++ ) {
 			jQuery.find( selector, self[ i ], ret );
 		}
 
 		// Needed because $( selector, context ) becomes $( context ).find( selector )
-		ret = this.pushStack( len &#x3e; 1 ? jQuery.<span class="apidocCodeKeywordSpan">unique</span>( ret ) : ret );
-		ret.selector = this.selector ? this.selector + &#x22; &#x22; + selector : selector;
+		ret = this.pushStack( len &gt; 1 ? jQuery.<span class="apidocCodeKeywordSpan">unique</span>( ret ) : ret );
+		ret.selector = this.selector ? this.selector + " " + selector : selector;
 		return ret;
 	},
 
@@ -9561,7 +9552,7 @@ _.intersection = function(array) {
     <li>description and source-code<pre class="apidocCodePre">unshift = function () {
   var obj = this._wrapped;
   method.apply(obj, arguments);
-  if ((name == &#x27;shift&#x27; || name == &#x27;splice&#x27;) &#x26;&#x26; obj.length === 0) delete obj[0];
+  if ((name == 'shift' || name == 'splice') &amp;&amp; obj.length === 0) delete obj[0];
   return result.call(this, obj);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -9656,9 +9647,9 @@ isFunctionTerm,
 R.complement(R.<span class="apidocCodeKeywordSpan">where</span>({ name: R.isNil })),
 );
 export const isParenthesizedExpression = R.whereEq({
-type: &#x27;ParenthesizedExpression&#x27;,
+type: 'ParenthesizedExpression',
 });
-export const isExportSyntax = R.both(isExport, exp =&#x3e;
+export const isExportSyntax = R.both(isExport, exp =&gt;
 R.or(
   isSyntaxDeclaration(exp.declaration),
 ...</pre></li>
@@ -9715,16 +9706,16 @@ R.or(
     <li>example usage<pre class="apidocCodePre">...
 
 initOutputObs = documentReadyObs
-    .map(_.partial($, &#x22;#output&#x22;, undefined))
+    .map(_.partial($, "#output", undefined))
     .map(_.partial(initEditor, getOutputOptions)),
 
 // Initialize both CodeMirror instances on document
 // ready, then select them into a list together.
 mirrors = initEditorObs.<span class="apidocCodeKeywordSpan">zip</span>(initOutputObs, concat.bind([])).publish(),
 
-keyMapSelector = _.partial(selectKeyMapClicks, $(&#x27;#btn-vim&#x27;), $(&#x27;#btn-emacs&#x27;), $(&#x27;#btn-default&#x27;)),
-mirrorDragSelector = _.partial(selectMirrorDrags, $(&#x22;#edit-box&#x22;)),
-commitResizes = _.partial(commitMirrorResizes, $(&#x22;#edit-box&#x22;), $(&#x22;#error-box&#x22;), $(&#x22;#output-box&#x22;)),
+keyMapSelector = _.partial(selectKeyMapClicks, $('#btn-vim'), $('#btn-emacs'), $('#btn-default')),
+mirrorDragSelector = _.partial(selectMirrorDrags, $("#edit-box")),
+commitResizes = _.partial(commitMirrorResizes, $("#edit-box"), $("#error-box"), $("#output-box")),
 
 errorRecoverySelector = _.partial(
     recoverFromError,
@@ -9740,3 +9731,4 @@ errorRecoverySelector = _.partial(
     ]
 </div>
 </div>
+</body></html>
